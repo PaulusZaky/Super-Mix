@@ -1,0 +1,49 @@
+.heading {
+  font-family: var(--font-mobile-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.body-text {
+  font-family: var(--font-mobile-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.button--primary,
+.button--secondary {
+  font-family: var(--font-mobile-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: var(buttons-background-secondary);
+}
+
+@media screen and (min-width: 750px) {
+  .heading {
+    font-family: var(--font-heading-family);
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 67.2px;
+  }
+
+  .body-text {
+    font-family: var(--font-body-family);
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .button--primary {
+    background-color: var(buttons-background-primary);
+  }
+
+  .button--secondary {
+    background-color: var(buttons-background-secondary);
+  }
+}
+
+@media screen and (min-width: 750px) {}
+
+@media screen and (min-width: 750px) {}
