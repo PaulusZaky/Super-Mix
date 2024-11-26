@@ -1,5 +1,51 @@
 {
   "sections": {
+    "image_with_text_w6JjBw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mnhk7H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designer One Day.Fashionista the Next.",
+            "heading_size": "h1"
+          }
+        },
+        "text_RKwaR8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Supermix Gift Card is 2-Gifts-in-1. Let your child explore their creativity by designing their own clothes. And then watch them show off their creation to family and friends.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_xdDy9i": {
+          "type": "button",
+          "settings": {
+            "button_label": "20% Off Supermix Gift Card",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mnhk7H",
+        "text_RKwaR8",
+        "button_xdDy9i"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -31,9 +77,9 @@
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
-        "image_behavior": "none",
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -50,12 +96,11 @@
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -63,12 +108,14 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "image_with_text_w6JjBw",
     "image_banner",
     "featured_collection"
   ]

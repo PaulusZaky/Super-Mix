@@ -18,7 +18,21 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  background-color: var(buttons-background-secondary);
+  background-color: var(--buttons-background-secondary) !important;
+  opacity: 1 !important;
+  border: none !important;
+  padding: 12px 24px;
+  border-radius: 0;
+}
+
+.button--primary {
+  border-radius: 30px;
+  background-color: var(--buttons-background-secondary) !important;
+}
+
+.button--primary::after,
+.button--secondary::after {
+  display: none;
 }
 
 @media screen and (min-width: 750px) {
@@ -36,11 +50,11 @@
   }
 
   .button--primary {
-    background-color: var(buttons-background-primary);
+    background-color: var(--buttons-background-primary) !important;
   }
 
   .button--secondary {
-    background-color: var(buttons-background-secondary);
+    background-color: var(--buttons-background-secondary) !important;
   }
 }
 
