@@ -139,7 +139,6 @@
       or page_title == 'Listicle3'
       or page_title == 'Listicle4'
       or page_title == 'Gift Card Black Friday'
-      or page_title == 'Holiday Sale'
     %}
       <style>
         .a-bar,
@@ -148,7 +147,7 @@
         }
       </style>
     {% endif %}
-    {% if page_title == 'Gift Card Black Friday' or page_title == 'Holiday Sale' %}
+    {% if page_title == 'Gift Card Black Friday'%}
       <style>
         .rainbow-border {
           display: none !important;
@@ -231,7 +230,7 @@
         {%- include 'hidden-collections.require-authorization' %}
       </main>
 
-      {% if page_title == 'Gift Card Black Friday' or page_title == 'Holiday Sale' %}
+      {% if page_title == 'Gift Card Black Friday'%}
         {% section 'footer-custom' %}
       {% else %}
         {% section 'footer' %}

@@ -12,7 +12,7 @@
     {% assign footer_item_width = 'col-md-3 col-sm-12' %}
 {% endcase %}
 
-<footer data-wetheme-section-type="footer" data-wetheme-section-id="{{ section.id }}" class="custom-footer">
+<footer data-wetheme-section-type="footer" data-wetheme-section-id="{{ section.id }}" class='custom-footer'>
   <div class="f-logo-container">
     <a href="{{ routes.route_url }}">
       <img
@@ -58,7 +58,11 @@
 {% schema %}
 {
   "name": {
-    "en": "Custom Footer"
+    "en": "Footer",
+    "de": "Fußzeile",
+    "es": "Pie de página",
+    "fr": "Pied de page",
+    "pt-PT": "Rodapé"
   },
   "max_blocks": 4,
   "settings": [
@@ -430,35 +434,30 @@
       ]
     }
   ],
-  "presets": [
-    {
-      "name": {
-        "en": "Custom Footer"
-      },
-      "blocks": [
-        {
-          "type": "text",
-          "settings": {
-            "title": "Contact us",
-            "richtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-          }
-        },
-        {
-          "type": "menu",
-          "settings": {
-            "menu_title": "Links",
-            "footer_linklist": "main-menu"
-          }
-        },
-        {
-          "type": "newsletter",
-          "settings": {
-            "menu_title": "Join our Mailing List",
-            "footer_newsletter_description": ""
-          }
+  "default": {
+    "blocks": [
+      {
+        "type": "text",
+        "settings": {
+          "title": "Contact us",
+          "richtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "type": "menu",
+        "settings": {
+          "menu_title": "Links",
+          "footer_linklist": "main-menu"
+        }
+      },
+      {
+        "type": "newsletter",
+        "settings": {
+          "menu_title": "Join our Mailing List",
+          "footer_newsletter_description": ""
+        }
+      }
+    ]
+  }
 }
 {% endschema %}

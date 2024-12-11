@@ -211,6 +211,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "footer-1": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Links",
+              "footer_linklist": "two-store-footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-1"
+        ],
         "settings": {
           "show_methods_of_payment": false,
           "alignment": "center",
@@ -297,16 +309,6 @@
           "left_text": "Custom Shop",
           "right_text": "Design Studio"
         }
-      },
-      "footer-custom": {
-        "type": "footer-custom",
-        "settings": {
-          "show_methods_of_payment": true,
-          "alignment": "center",
-          "enable_country_selector": true,
-          "enable_locale_selector": true,
-          "blog": "shopify:\/\/blogs\/supermix-blog"
-        }
       }
     },
     "content_for_index": [],
@@ -374,6 +376,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "12855036574018961682": {
+        "type": "shopify:\/\/apps\/givy\/blocks\/index\/7e8263d6-6c9a-4d94-9b94-612e9cb257e3",
+        "disabled": false,
+        "settings": {}
       }
     }
   },

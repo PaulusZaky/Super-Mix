@@ -76,10 +76,6 @@
     height: 100%;
   }
   @media screen and (min-width: 768px) {
-    #shopify-section-{{section.id}} .heading {
-      font-size:40px !important;
-    }
-    
     #product-box {
       flex-direction: row-reverse !important;
     }
@@ -183,21 +179,13 @@
       <section class="product-description-main-wrapper wow fadeInUp {% if settings.enable_store_pickup %}store-pickup-enabled{% endif %}">
 
         {% if product == empty %}
-          {% if section.settings.product_title != blank %}
-            <div class="homepage-headline-text__link">
-              <h2 class="heading">{{ section.settings.product_title }}</h2>
-            </div>
-          {% endif %}
+          <div class="homepage-headline-text__link">
+            <h2 class="heading">20% OFF Supermix Gift Card</h2>
+          </div>
         {% else %}
-          {% if section.settings.product_title != blank %}
-            <a class="homepage-headline-text__link" href="{{ product.url }}">
-              <h2 class="heading">{{ section.settings.product_title }}</h2>
-            </a>
-          {% else %}
-            <a class="homepage-headline-text__link" href="{{ product.url }}">
-              <h2 class="heading">{{ product.title }}</h2>
-            </a>
-          {% endif %}
+          <a class="homepage-headline-text__link" href="{{ product.url }}">
+            <h2 class="heading">20% OFF Supermix Gift Card</h2>
+          </a>
         {% endif %}
 
         {% unless product == empty %}
@@ -207,19 +195,15 @@
             {% form 'product', product, id: "add-to-cart-form" %}
               <input type="hidden" id="cart-link" value="{{ routes.cart_url }}" />
               <div class="discount-mark">
-                {%- if section.settings.discount_percent != blank -%}
-                  <div class="discount-amount text-body">{{ section.settings.discount_percent }}</div>
-                {% endif %}
-                {%- if section.settings.discount_goal != blank -%}
-                  <div class="text-body discount-goal">{{ section.settings.discount_goal }}</div>
-                {% endif %}
+                <div class="discount-amount text-body">20% OFF</div>
+                <div class="text-body discount-goal">Black Friday Deal</div>
               </div>
               <ul class="text-body product-page--pricing{% unless section.settings.show_discount == 'hide' %} discount-badge{% endunless %}">
                 {% render 'product-pricing', current_variant: current_variant %}
                 {% render 'unit-price-measurement-variant', current_variant: current_variant %}
               </ul>
 
-              {%- if section.settings.product_note != blank -%}
+              {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <div class="text-body product-page__policies rte">
                   {% comment %} {%- if shop.taxes_included -%}
                     {{ 'products.product.include_taxes' | t }}
@@ -227,7 +211,7 @@
                   {%- if shop.shipping_policy.body != blank -%}
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- endif -%} {% endcomment %}
-                  {{ section.settings.product_note }}
+                  SUPER20 auto-applied at checkout
                 </div>
               {%- endif -%}
 
@@ -637,30 +621,6 @@
           "label": {
             "en": "Product Image"
           }
-        },
-        {
-          "type": "text",
-          "id": "product_title",
-          "label": {
-            "en": "Product Title",
-          }
-        },
-        {
-          "type": "text",
-          "id": "discount_percent",
-          "label": {
-            "en": "Discount Percent",
-          }
-        },
-        {
-          "type": "text",
-          "id": "discount_goal",
-          "label": "Discount Goal"
-        },
-        {
-          "type": "text",
-          "id": "product_note",
-          "label": "Note"
         },
         {
           "type": "color",
