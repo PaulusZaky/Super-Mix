@@ -231,6 +231,10 @@
         "title": "",
         "featured_product": "75-gift-card",
         "image": "shopify:\/\/shop_images\/Gift_Card_1660x1050-29.png",
+        "product_title": "20% OFF Supermix Gift Card",
+        "discount_percent": "20% OFF",
+        "discount_goal": "Black Friday Deal",
+        "product_note": "SUPER20 auto-applied at checkout",
         "background": "#017db9",
         "mark_background": "#ecda6e",
         "text_color": "#ffffff",
@@ -414,6 +418,10 @@
         "title": "",
         "featured_product": "75-gift-card",
         "image": "shopify:\/\/shop_images\/Gift_Card_1660x1050-29.png",
+        "product_title": "20% OFF Supermix Gift Card",
+        "discount_percent": "20% OFF",
+        "discount_goal": "Black Friday Deal",
+        "product_note": "SUPER20 auto-applied at checkout",
         "background": "#ecda6e",
         "mark_background": "#21a95d",
         "text_color": "#130606",
@@ -594,6 +602,7 @@
             "title_color": "",
             "alignment": "center",
             "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
