@@ -6,6 +6,9 @@
       top: 0;
       z-index: 10;
     }
+    .custom-header-wapper {
+      padding: 0px 20px !important;
+    }
   {% endstyle %}
 {% endif %}
 
@@ -195,7 +198,7 @@
 
   {% comment %}If main logo but no overlay logo{% endcomment %}
 	{% if section.settings.logo and section.settings.overlay_logo == blank %}
-		<a href="/pages/gift_card_black_friday" itemprop="url" class="site-header__logo-image">
+		<a href="" itemprop="url" class="site-header__logo-image">
 			{% capture alt %}{{ section.settings.logo.alt | default: shop.name }}{% endcapture %}
 			{% render 'responsive-image' with section.settings.logo, alt: alt, props: props %}
 		</a>
@@ -205,7 +208,7 @@
     {% capture overlayAlt %}{{ section.settings.overlay_logo.alt | default: shop.name }}{% endcapture %}
 
     {% if template == 'index' and section.settings.overlay_header %}
-      <a href="/pages/gift_card_black_friday" itemprop="url" class="site-header__logo-image">
+      <a href="" itemprop="url" class="site-header__logo-image">
         {% render 'responsive-image' with section.settings.overlay_logo, alt: overlayAlt, props: props, class: "overlay-logo-image" %}
       </a>
       <a class="site-header__logo-link alt-focus header-link custom-font overlay-logo-image--sticky" href="{{ routes.root_url }}" itemprop="url">{{ shop.name }}</a>
@@ -215,7 +218,7 @@
 
   {% comment %}If both logos are enabled{% endcomment %}
   {% elsif section.settings.overlay_logo and section.settings.logo %}
-    <a href="/pages/gift_card_black_friday" itemprop="url" class="site-header__logo-image">
+    <a href="" itemprop="url" class="site-header__logo-image">
       {% capture alt %}{{ section.settings.logo.alt | default: shop.name }}{% endcapture %}
       {% capture overlayAlt %}{{ section.settings.overlay_logo.alt | default: shop.name }}{% endcapture %}
 
@@ -235,7 +238,11 @@
 {% endcapture %}
 {% endif %}
 
-<div class="header-wrapper js custom-header-wapper" data-wetheme-section-type="header" data-wetheme-section-id="{{ section.id }}">
+<div
+  class="header-wrapper js custom-header-wapper"
+  data-wetheme-section-type="header"
+  data-wetheme-section-id="{{ section.id }}"
+>
   <div class="header-logo-wrapper" data-section-id="{{ section.id }}" data-section-type="header-section">
     <nav
       id="theme-menu"
@@ -397,29 +404,27 @@
 
   <div class="header-menu-wrapper d-none d-lg-block">
     {% if section.settings.main_linklist != '' %}
-      <div class="main-navigation-wrapper-main">
-        <div
-          id="main-navigation-wrapper"
-          class="main-navigation-wrapper{% if section.blocks.size > 0 %} mega-menu-wrapper{% endif %} flex-header"
-        >
-          <div id="logo-menu-wrap">
-            <div class="logo-nav-wrapper">
-              {{ header_logo }}
-              {% if section.settings.button_link != blank and section.settings.button_label != blank %}
-                <a href="{{ section.settings.button_link }}" class="btn button--primary">
-                  {{ section.settings.button_label }}
-                </a>
-              {% endif %}
-            </div>
+      <div
+        id="main-navigation-wrapper"
+        class="main-navigation-wrapper{% if section.blocks.size > 0 %} mega-menu-wrapper{% endif %} flex-header"
+      >
+        <div id="logo-menu-wrap">
+          <div class="logo-nav-wrapper">
+            {{ header_logo }}
+            {% if section.settings.button_link != blank and section.settings.button_label != blank %}
+              <a href="{{ section.settings.button_link }}" class="btn button--primary">
+                {{ section.settings.button_label }}
+              </a>
+            {% endif %}
           </div>
-          {% comment %} <div class="icons-header"> {% endcomment %}
-          {% comment %}
-            Remove Search Temporarily
-            {% render 'search-bar-header' %}
-          {% endcomment %}
-          {% comment %} {{ main_icons_locale }} {% endcomment %}
-          {% comment %} </div> {% endcomment %}
         </div>
+        {% comment %} <div class="icons-header"> {% endcomment %}
+        {% comment %}
+          Remove Search Temporarily
+          {% render 'search-bar-header' %}
+        {% endcomment %}
+        {% comment %} {{ main_icons_locale }} {% endcomment %}
+        {% comment %} </div> {% endcomment %}
       </div>
     {% endif %}
   </div>

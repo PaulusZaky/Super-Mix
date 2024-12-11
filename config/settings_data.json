@@ -211,18 +211,6 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "footer-1": {
-            "type": "menu",
-            "settings": {
-              "menu_title": "Links",
-              "footer_linklist": "two-store-footer"
-            }
-          }
-        },
-        "block_order": [
-          "footer-1"
-        ],
         "settings": {
           "show_methods_of_payment": false,
           "alignment": "center",
@@ -308,6 +296,16 @@
         "settings": {
           "left_text": "Custom Shop",
           "right_text": "Design Studio"
+        }
+      },
+      "footer-custom": {
+        "type": "footer-custom",
+        "settings": {
+          "show_methods_of_payment": true,
+          "alignment": "center",
+          "enable_country_selector": true,
+          "enable_locale_selector": true,
+          "blog": "shopify:\/\/blogs\/supermix-blog"
         }
       }
     },

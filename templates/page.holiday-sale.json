@@ -231,6 +231,10 @@
         "title": "",
         "featured_product": "130-gift-card-copy",
         "image": "shopify:\/\/shop_images\/Gift_Card_1660x1050-29.png",
+        "product_title": "",
+        "discount_percent": "$99",
+        "discount_goal": "Holiday Sale",
+        "product_note": "Add to Cart - add the $130 gift card directly to cart",
         "background": "#017db9",
         "mark_background": "#ecda6e",
         "text_color": "#ffffff",
@@ -414,6 +418,10 @@
         "title": "",
         "featured_product": "130-gift-card-copy",
         "image": "shopify:\/\/shop_images\/Gift_Card_1660x1050-29.png",
+        "product_title": "",
+        "discount_percent": "$99",
+        "discount_goal": "Holiday Sale",
+        "product_note": "Add to Cart - add the $130 gift card directly to cart",
         "background": "#ecda6e",
         "mark_background": "#21a95d",
         "text_color": "#130606",
@@ -440,6 +448,12 @@
             "text": "Boutique Quality"
           }
         },
+        "attribute_UC7HjQ": {
+          "type": "attribute",
+          "settings": {
+            "text": ""
+          }
+        },
         "attribute_Eythxy": {
           "type": "attribute",
           "settings": {
@@ -464,6 +478,7 @@
       },
       "block_order": [
         "attribute_cVDwCP",
+        "attribute_UC7HjQ",
         "attribute_Eythxy",
         "attribute_gUEnmx",
         "attribute_iVRQjA"
@@ -529,31 +544,33 @@
         "show-slide-controls": false
       }
     },
-    "collection_featured_collection_EaJ4QG": {
+    "collection_featured_collection_wdR3wm": {
       "type": "collection--featured-collection",
       "blocks": {
-        "grid_card_title_mAWGcW": {
+        "grid_card_title_WcFfjW": {
           "type": "grid-card-title",
           "settings": {}
         },
-        "grid_card_price_biJqY4": {
+        "grid_card_price_xdVr88": {
           "type": "grid-card-price",
           "settings": {}
         },
-        "grid_card_cta_AMRqqa": {
+        "grid_card_swatches_JNKfqt": {
+          "type": "grid-card-swatches",
+          "settings": {}
+        },
+        "grid_card_cta_kW6iML": {
           "type": "grid-card-cta",
           "settings": {
-            "cta_text": "Add to cart"
+            "cta_text": "Add To Cart"
           }
         }
       },
       "block_order": [
-        "grid_card_title_mAWGcW",
-        "grid_card_price_biJqY4",
-        "grid_card_cta_AMRqqa"
-      ],
-      "custom_css": [
-        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
+        "grid_card_title_WcFfjW",
+        "grid_card_price_xdVr88",
+        "grid_card_swatches_JNKfqt",
+        "grid_card_cta_kW6iML"
       ],
       "settings": {
         "colors": "white",
@@ -584,29 +601,6 @@
         "include_margins": true
       }
     },
-    "16565992964d572c45": {
-      "type": "apps",
-      "blocks": {
-        "5daac673-87a8-49f2-950e-2b391c63cbcf": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "alignment": "center",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "5daac673-87a8-49f2-950e-2b391c63cbcf"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
-      }
-    },
     "custom_footer": {
       "type": "image--gallery",
       "disabled": true,
@@ -629,9 +623,8 @@
     "featured_gift_card_7ABx3q",
     "attr_list_EaTgdB",
     "text_testimonials_gKGUHf",
-    "collection_featured_collection_EaJ4QG",
+    "collection_featured_collection_wdR3wm",
     "16595646277a31b7b2",
-    "16565992964d572c45",
     "custom_footer"
   ]
 }
