@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "4337ad2d-8c3b-4757-b287-5d722cd6d1e5": {
+      "type": "image--slideshow",
+      "blocks": {
+        "template--15041840414743__4337ad2d-8c3b-4757-b287-5d722cd6d1e5-1673016242865bd072-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01277_1500X800_fac0a199-a31e-40bd-a4e5-8145c215ef31.jpg",
+            "subheading": "",
+            "title": "Spread Joy",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Promote a Brand Your Kids Love.<br>\n• Super Fun & Easy to Share.<br>\n• Special Savings for All Affiliates.",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-affiliate-app",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "b37d6818-cd16-4b13-a70c-4a32b274360a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00968_1500x800_e8b194ee-2289-476a-bde5-fdd8943ed1e4.jpg",
+            "subheading": "",
+            "title": "Share & Earn",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Easy to Share Online & IRL.<br>• Earn 10% Commissions.<br>• We provide all marketing assets.",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-affiliate-app",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "template--15041840414743__4337ad2d-8c3b-4757-b287-5d722cd6d1e5-1673016242865bd072-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00801_1500x800_b4aeb3d3-69e9-491a-abb1-bc761dce5d09.jpg",
+            "subheading": "",
+            "title": "Three Steps",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Complete Application.<br>\n• Wait for Approval<br>\n• Start Sharing Supermix.<br>",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-affiliate-app",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--15041840414743__4337ad2d-8c3b-4757-b287-5d722cd6d1e5-1673016242865bd072-0",
+        "b37d6818-cd16-4b13-a70c-4a32b274360a",
+        "template--15041840414743__4337ad2d-8c3b-4757-b287-5d722cd6d1e5-1673016242865bd072-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    },
+    "1d752250-78f0-4fbd-9bef-4f9e67b3b1c9": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058111528983__1d752250-78f0-4fbd-9bef-4f9e67b3b1c9-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Apply_Now_Slide_01_d13a3a7e-0924-4315-873a-fbd9c75ea331.png",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058111528983__1d752250-78f0-4fbd-9bef-4f9e67b3b1c9-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "da1626bf-55bb-4897-8014-19a17244c59a": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058111528983__da1626bf-55bb-4897-8014-19a17244c59a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Apply_Now_Slide_02.png",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058111528983__da1626bf-55bb-4897-8014-19a17244c59a-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "453a00e5-3e35-4150-a209-e3887cd0c434": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058111528983__453a00e5-3e35-4150-a209-e3887cd0c434-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Apply_Now_Slide_03.png",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058111528983__453a00e5-3e35-4150-a209-e3887cd0c434-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4337ad2d-8c3b-4757-b287-5d722cd6d1e5",
+    "1d752250-78f0-4fbd-9bef-4f9e67b3b1c9",
+    "da1626bf-55bb-4897-8014-19a17244c59a",
+    "453a00e5-3e35-4150-a209-e3887cd0c434"
+  ]
+}

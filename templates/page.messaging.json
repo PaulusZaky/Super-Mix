@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16521970811bad5fe7": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "1652197081bfd0be9a-0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/VOIC0006.png",
+            "patch_link": "shopify:\/\/collections\/voice-1",
+            "patch_title": "Voice"
+          }
+        },
+        "4970d87f-8489-42df-adc2-10a3a12faa9c": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/PRID0003.png",
+            "patch_link": "shopify:\/\/collections\/pride",
+            "patch_title": "Pride"
+          }
+        },
+        "9b83afae-fd0c-4622-aed9-6f1e31f16965": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/PLAN0002.png",
+            "patch_link": "shopify:\/\/collections\/planet-positive",
+            "patch_title": "Planet Positive"
+          }
+        },
+        "83cbe388-308c-4dd4-8eaa-aa8b3a71766c": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/EQUA0004.png",
+            "patch_link": "shopify:\/\/collections\/equality",
+            "patch_title": "Equality"
+          }
+        }
+      },
+      "block_order": [
+        "1652197081bfd0be9a-0",
+        "4970d87f-8489-42df-adc2-10a3a12faa9c",
+        "9b83afae-fd0c-4622-aed9-6f1e31f16965",
+        "83cbe388-308c-4dd4-8eaa-aa8b3a71766c"
+      ],
+      "settings": {
+        "patch_heading": "Messaging"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16521970811bad5fe7"
+  ]
+}

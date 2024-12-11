@@ -1,0 +1,102 @@
+{
+  "wrapper": "div.collection-apparel-wrapper",
+  "sections": {
+    "e73534dd-7b2c-4602-afea-aa2c4117e774": {
+      "type": "acdc-inspiration-section",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title_text": "Denim Jackets for Kids",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "4425be36-cbcb-450f-b9fe-0ec429034fa7": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15118353072151__4425be36-cbcb-450f-b9fe-0ec429034fa7-16867786084ad95ad1-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\">\n<h4>Custom Denim for Kids<\/h4>\n<h5>The coolest custom gift with just a click!<\/h5>\n<\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15118353072151__4425be36-cbcb-450f-b9fe-0ec429034fa7-16867786084ad95ad1-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "shop-by-color": {
+      "type": "shop-by-color",
+      "settings": {
+        "show_filter": true
+      }
+    },
+    "main-apparel": {
+      "type": "template--collection-apparel-acdc",
+      "blocks": {
+        "grid-card-title": {
+          "type": "grid-card-title",
+          "settings": {}
+        },
+        "59b7c283-eb7a-4f2a-aac6-a30170ccc2e1": {
+          "type": "grid-card-points",
+          "settings": {}
+        },
+        "grid-card-price": {
+          "type": "grid-card-price",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "grid-card-title",
+        "59b7c283-eb7a-4f2a-aac6-a30170ccc2e1",
+        "grid-card-price"
+      ],
+      "settings": {
+        "text_color_1": "#ffffff",
+        "text_color_2": "#ffffff",
+        "grid": 4,
+        "rows": 3,
+        "pagination_type": "paged_navigation"
+      }
+    },
+    "2b1bf1ac-a9b1-4efa-83f9-910173bca07b": {
+      "type": "product--featured-product",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "subheading": "",
+        "title": "Featured product",
+        "featured_product": "supermix-smiley-best-seller-1",
+        "show_discount": "hide",
+        "show_quantity_selector": false,
+        "show_smart_checkout": false,
+        "show_product_description": false,
+        "pick_an_option": false,
+        "hide_out_of_stock": false,
+        "enable_video_loop": false,
+        "size_guide_link": "",
+        "size_guide_message": "What's my size?",
+        "size_guide_variant": "Size"
+      }
+    },
+    "5981907b-855b-4570-9b23-d22af00f38a0": {
+      "type": "advanced-layout--custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"loox-default-carousel\"><div class=\"loox-v2-carousel-container\" id=\"LOOX-V2_CAROUSEL-card\" data-slide-type=\"card\" > <\/div><\/div>"
+      }
+    }
+  },
+  "order": [
+    "e73534dd-7b2c-4602-afea-aa2c4117e774",
+    "4425be36-cbcb-450f-b9fe-0ec429034fa7",
+    "shop-by-color",
+    "main-apparel",
+    "2b1bf1ac-a9b1-4efa-83f9-910173bca07b",
+    "5981907b-855b-4570-9b23-d22af00f38a0"
+  ]
+}

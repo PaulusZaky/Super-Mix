@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <meta name="referrer" content="origin">
+
+    <title>{{ page_title }}</title>
+<script>
+var head = document.head;
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = "https://192097.t.hyros.com/v1/lst/universal-script?ph=2554b96ca8b883339e027c40a7f81e042dcf26cd4ab4a01a32e116a459291feb&tag=!clicked&origin=SHOPIFY&ref_url=" + encodeURI(document.URL) ;
+head.appendChild(script);
+</script>
+    
+    {{ content_for_header }}
+
+    {{ checkout_stylesheets }}
+    {{ checkout_scripts }}
+    <style>
+      .checkout-button-link {
+        display: flex;
+        background: black;
+        padding: 10px 23px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    {{ skip_to_content_link }}
+
+    <header class="banner" data-header role="banner">
+      <div class="wrap">
+        <a href="{{ routes.root_url }}">
+          <img alt="Supermix Studio" class="logo__image logo__image--medium" src="//cdn.shopify.com/s/files/1/0563/2737/2823/files/supermix-logo.png?14859">
+        </a>
+      </div>
+    </header>
+
+    {{ order_summary_toggle }}
+    <div class="content" data-content>
+      <div class="wrap">
+        <div class="main">
+          <header class="main__header" role="banner">
+            <span class="logo logo--left">
+              <a href="{{ routes.root_url }}">
+                <img alt="Supermix Studio" class="logo__image logo__image--medium" src="//cdn.shopify.com/s/files/1/0563/2737/2823/files/supermix-logo.png?14859">
+              </a>
+            </span>
+            {{ breadcrumb }}
+            {{ alternative_payment_methods }}
+          </header>
+          <main class="main__content" role="main">
+            {{ content_for_layout }}
+          </main>
+          <footer class="main__footer" role="contentinfo">
+            {{ content_for_footer }}
+          </footer>
+        </div>
+        <aside class="sidebar" role="complementary">
+          <div class="sidebar__header">
+            {{ content_for_logo }}
+          </div>
+          <div class="sidebar__content">
+            <div style="display: flex; margin-bottom: 20px; gap: 20px;">
+            {% if checkout.attributes %}
+              {% if checkout.attributes._customerId and order.id == nil %}
+                {% assign encoded = checkout.attributes._customerId | base64_encode %}
+                <a href="https://customizer.supermixstudio.com/cart?c={{ encoded }}" class="checkout-button-link">Edit Cart and Preview Design</a>
+              {% endif %}
+                {% comment %}{% if checkout.line_items %}{% endcomment %}
+                {% comment %}<a href="{{ checkout.line_items[0].properties._previewURL }}" class="checkout-button-link" target="_blank">Preview Design</a>{% endcomment %}
+                {% comment %}{% endif %} {% endcomment %}
+            {% endif %}
+            </div>
+            {{ content_for_order_summary }}
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    {{ tracking_code }}
+  <!-- protect user personal data -->
+  <script src="{{ 'protect-user-info.js' | asset_url }}" defer="defer"></script>
+  <!-- KIOSK MODE: make autocomplete inputs one-time-code -->
+  <script src="{{ "kiosk-mode.js" | asset_url }}" defer="defer"></script>
+  <!-- END KIOSK MODE -->
+  </body>
+</html>

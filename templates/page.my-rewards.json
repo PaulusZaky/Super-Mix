@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-15.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "Meet our Founder",
+        "text_block": "<p>Supermix Founder and CEO Jennifer Stein-Bischoff’s passion for design and fashion started as soon as she could pick out her own clothes. After launching her first collection influenced by the music and nighlife of South Beach, Miami, she moved to New York. In her two decades as a top design and merchandising executive, Jennifer has worked with celebrities, fashion icons, and some of the most recognizable retailers to build powerful brands. Now, Supermix Studio allows her to share her talent with the world in a way never before possible. Inspired by Jennifer’s own love of creating with her kids, Supermix Studios’ first-of-its-kind design platform empowers the next generation to create boutique quality fashion using their own authentic voice.<\/p>",
+        "text_block_2": "<p><strong>Welcome to Supermix Studio.<\/strong><\/p>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": "Global Button"
+      }
+    },
+    "1655487353d90e2bc0": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-16.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "Everyone is different.  We believe in celebrating that.",
+        "text_block": "<p>The Supermix story started when Founder Jennifer Bischoff was a little girl.  She was always embellishing her clothes, looking for ways to make them her own. She brings this dream to life by empowering people to hyper-personalize the things they already love to wear.  With the Supermix platform, it’s easy to design something that lets them wear their heart and originality on their sleeves, or wherever they want to place a patch of their favorite thing.<\/p>",
+        "text_block_2": "<p><strong>So what are you waiting for? Go ahead. Patch it Up!<\/strong><\/p>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "shopify:\/\/pages\/acdc-test-page",
+        "button_label": "Customize Now"
+      }
+    },
+    "16554874783097384f": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "about_us",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-12_a43b84c3-f29d-4107-b2da-258e8438e24f.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "Is Supermix Eco-Friendly?",
+        "text_block": "<p><strong>Absolutely!<\/strong> We make thoughtful, sustainable decisions across our entire product development, manufacturing, and supply chain.<\/p>",
+        "text_block_2": "<p>• We use BCI cotton, the world’s leading sustainability initiative for cotton.<br\/><br\/>• Our backpacks are made from 100% recycled polyester. <br\/><br\/>• Our packaging is made with recovered trash and printed using algae ink.<\/p>",
+        "text_block_3": "<p><strong>We're not perfect, but we do the best we can for the planet.<\/strong><\/p>",
+        "text_block_4": "<p><em>\"Being a responsible company and looking out for the only home our kids have is an integral part of the Supermix ethos and mission.\"<\/em> <strong>- Founder Jennifer Stein Bischoff<\/strong><\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837087df136a77": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-06_5010fcb1-932d-42f4-9f92-3a7ca3341a75.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "Supermix Give",
+        "text_block": "<p><strong>Making a Difference One Student at a time.<br\/><br\/><\/strong>Every student deserves a fair chance. Supermix Give serves underprivileged children in economically challenged communities across the country. We pledge 1% of our yearly net profits toward providing backpacks loaded with awesome Supermix school supplies, amongst other philanthropic initiatives.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "166300862872eb074c": {
+      "type": "apps",
+      "blocks": {
+        "3009ee15-cb3a-4bb9-89c6-c8991762f40e": {
+          "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/rewards-module-app-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+          "settings": {
+            "instance_placeholder_id": "168287"
+          }
+        }
+      },
+      "block_order": [
+        "3009ee15-cb3a-4bb9-89c6-c8991762f40e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "166365234409931c5e": {
+      "type": "rewards-custom-css",
+      "settings": {}
+    }
+  },
+  "order": [
+    "1655486041452a8d68",
+    "1655487353d90e2bc0",
+    "16554874783097384f",
+    "main",
+    "1655837087df136a77",
+    "1655837578319b3390",
+    "166300862872eb074c",
+    "166365234409931c5e"
+  ]
+}

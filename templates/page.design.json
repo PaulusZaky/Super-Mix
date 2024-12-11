@@ -1,0 +1,476 @@
+{
+  "sections": {
+    "1658243346febcd268": {
+      "type": "video-acdc-fullwidth",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f0dccb29a7e7452db0a3421fa0f0fc96.mp4",
+        "button_link": "",
+        "button_label": "",
+        "button_location": "right"
+      }
+    },
+    "patch-login": {
+      "type": "patch-login-hero",
+      "disabled": true,
+      "settings": {
+        "display_image": true,
+        "image": "shopify:\/\/shop_images\/patch-pts-hero.png",
+        "layout": "left",
+        "title": "Earn 20 Points Just For Joining.",
+        "button_link_1": "shopify:\/\/collections",
+        "button_link_2": "shopify:\/\/collections",
+        "button_label_1": "Log In",
+        "button_label_2": "Sign Up"
+      }
+    },
+    "1657719650ca5e9773": {
+      "type": "video--video-with-text-overlay-acdc",
+      "disabled": true,
+      "settings": {
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5675973fde634196aa1ab307699cf695.mp4",
+        "desktopHeight": "fullscreen",
+        "mobileHeight": "fullscreen",
+        "subheading": "",
+        "title": "",
+        "text": "",
+        "textAlignment": "center",
+        "textColor": "#000000",
+        "textShadow": false,
+        "subheading--text-size": 14,
+        "heading--text-size": 50,
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "165219480957174d6d": {
+      "type": "image--slideshow",
+      "blocks": {
+        "165219480942fb9787-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HOW-TO-SUPERMIX-1400-rev.gif",
+            "mobile_image": "shopify:\/\/shop_images\/HOW-TO-SUPERMIX-MOBILE_91ec193f-a266-4019-a637-1647121967af.gif",
+            "subheading": "",
+            "title": "",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "165219480942fb9787-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": false,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": false,
+        "show-slide-controls": false,
+        "slider-navigation--color": "#ffffff",
+        "overlay": false
+      }
+    },
+    "1661792369d68cd264": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1661792369bd0dd0ea-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Choose Your Style<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1661792369bd0dd0ea-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "16617923038578d5b3": {
+      "type": "image--gallery",
+      "blocks": {
+        "1661792303a99babcc-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_IG_5148cdf1-793f-4c93-a6ea-d6730b018a21.jpg",
+            "link": "shopify:\/\/collections\/kids-sweats",
+            "title": "<p>Custom <strong>Sweats<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "1661792303a99babcc-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC02316_copy_3.jpg",
+            "link": "shopify:\/\/collections\/kids-denim",
+            "title": "<p>Custom <strong>Denim<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "1661792303a99babcc-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03934-2_copy_2_4d2222c1-96c4-428d-9c03-341a0457baa3.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Custom<strong> Backpacks<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "5ffc62cb-1417-4924-a152-a8ae035d9318": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC04318_copy_f255b681-57f4-4bf8-9c7e-a1041b8fd9b3.jpg",
+            "link": "shopify:\/\/collections\/hats",
+            "title": "<p>Custom <strong>Hats<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661792303a99babcc-0",
+        "1661792303a99babcc-1",
+        "1661792303a99babcc-2",
+        "5ffc62cb-1417-4924-a152-a8ae035d9318"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1649772108f3f4f11a": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "1649772108c44e0fe7-0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/SMIL0004_2.png",
+            "patch_link": "shopify:\/\/collections\/patches",
+            "patch_title": "All Patches"
+          }
+        },
+        "1649772108c44e0fe7-1": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RETMULABC.png",
+            "patch_link": "shopify:\/\/pages\/letters-numbers-patches",
+            "patch_title": "Letters & Numbers"
+          }
+        },
+        "1649772108c44e0fe7-2": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/UNIC006.png",
+            "patch_link": "shopify:\/\/pages\/icon-patches",
+            "patch_title": "Icons"
+          }
+        },
+        "1649772108c44e0fe7-3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/VOIC0010_0102ac7b-6ca9-47bc-8206-6369b4937dc2.png",
+            "patch_link": "shopify:\/\/pages\/messaging-patches",
+            "patch_title": "Messaging"
+          }
+        },
+        "af71b265-72bb-4058-a4cb-ee789a45949e": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/ANML0004.png",
+            "patch_link": "shopify:\/\/collections\/super-size",
+            "patch_title": "Super Size"
+          }
+        },
+        "0a2afda9-6138-40e4-af1d-81c974bd1438": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RBOW0001.png",
+            "patch_link": "shopify:\/\/collections\/sequins",
+            "patch_title": "Sequin"
+          }
+        },
+        "60b3b305-ee0f-48dc-a390-0124ac10eca6": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/0003_PATCH-PACKS.png",
+            "patch_link": "",
+            "patch_title": "Super Packs"
+          }
+        },
+        "1e79d9dc-b188-4345-84c7-9260761f103b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RBOW003K.png",
+            "patch_link": "",
+            "patch_title": "Limited Edition"
+          }
+        }
+      },
+      "block_order": [
+        "1649772108c44e0fe7-0",
+        "1649772108c44e0fe7-1",
+        "1649772108c44e0fe7-2",
+        "1649772108c44e0fe7-3",
+        "af71b265-72bb-4058-a4cb-ee789a45949e",
+        "0a2afda9-6138-40e4-af1d-81c974bd1438",
+        "60b3b305-ee0f-48dc-a390-0124ac10eca6",
+        "1e79d9dc-b188-4345-84c7-9260761f103b"
+      ],
+      "settings": {
+        "patch_heading": "Explore Patches",
+        "grid_number": "3"
+      }
+    },
+    "16497721237807624c": {
+      "type": "patch-packs-acdc",
+      "settings": {
+        "section_id": "patch_point_packs",
+        "header_image": "shopify:\/\/shop_images\/PATCH_POINT_PACKS_HEADER_2_f550e5dc-f4cf-49b5-9c5b-fa55b815db0a.jpg"
+      }
+    },
+    "1659710047ca670bca": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "16597100477c06032c-0": {
+          "type": "html",
+          "settings": {
+            "code": "",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "16597100477c06032c-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1650488929aa9ec134": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1650488929ca56ab6a-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Design Inspiration Gallery<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1650488929ca56ab6a-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "16630972120511c5b8": {
+      "type": "acdc-inspiration-section",
+      "blocks": {
+        "4326376f-bac6-44b9-854a-1d2f0ea0d6cc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05943-4_zoom.jpg"
+          }
+        },
+        "8903b5a9-eb2a-4feb-adfe-d7298e7af937": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00978_zoom.jpg"
+          }
+        },
+        "869a843b-db2b-4238-a22e-bde1e250cb2a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05706_ZOOM.jpg"
+          }
+        },
+        "91478d89-871a-4b5f-871d-dc51a4ffc581": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09642_ZOOM.jpg"
+          }
+        },
+        "5a26755f-6e55-489b-afde-beee9a067f51": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05451-2_ZOOM.jpg"
+          }
+        },
+        "3b7e72dd-2779-45a7-ab3d-ff3477de0d6e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09809_ZOOM.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "4326376f-bac6-44b9-854a-1d2f0ea0d6cc",
+        "8903b5a9-eb2a-4feb-adfe-d7298e7af937",
+        "869a843b-db2b-4238-a22e-bde1e250cb2a",
+        "91478d89-871a-4b5f-871d-dc51a4ffc581",
+        "5a26755f-6e55-489b-afde-beee9a067f51",
+        "3b7e72dd-2779-45a7-ab3d-ff3477de0d6e"
+      ],
+      "settings": {
+        "title_text": "Design Inspiration",
+        "title_url": "shopify:\/\/pages\/design-inspiration",
+        "title_color": "#000000"
+      }
+    },
+    "166310950969003874": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "",
+        "subheading": "So many patches, so little time. With over 500 patches, 8 colors of sweats, denim jackets and accessories, there is not limit to what you can create. Check out our gallery for some fun inspiration.",
+        "button_url": "shopify:\/\/pages\/design-inspiration",
+        "button_text": "Get Inspired"
+      }
+    },
+    "1652199879b27d72d3": {
+      "type": "image--gallery",
+      "blocks": {
+        "1652199879948c3b36-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05710_2-3_2.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1652199879948c3b36-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC02294_copy.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1652199879948c3b36-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06815_2-3.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "c12a9ac7-5dcd-4e9b-9736-86f5609003d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00353_SITE.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652199879948c3b36-0",
+        "1652199879948c3b36-1",
+        "1652199879948c3b36-2",
+        "c12a9ac7-5dcd-4e9b-9736-86f5609003d5"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1653494193e8aa782f": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1653494193b1dac9a4-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/100patchpoints4ways-2_dddbe35b-b280-4bdd-93de-37baa147f3d2.gif",
+            "subheading": "",
+            "title": "",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "1653494193b1dac9a4-0"
+      ],
+      "settings": {
+        "slider-animation": "fade",
+        "slider-width": "fixed",
+        "show-slide-full-screen": false,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": false
+      }
+    },
+    "1653494372c5877ead": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "16534943728e3d9cba-0": {
+          "type": "html",
+          "settings": {
+            "code": "<br>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "16534943728e3d9cba-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    }
+  },
+  "order": [
+    "1658243346febcd268",
+    "patch-login",
+    "1657719650ca5e9773",
+    "165219480957174d6d",
+    "1661792369d68cd264",
+    "16617923038578d5b3",
+    "1649772108f3f4f11a",
+    "16497721237807624c",
+    "1659710047ca670bca",
+    "1650488929aa9ec134",
+    "16630972120511c5b8",
+    "166310950969003874",
+    "1652199879b27d72d3",
+    "1653494193e8aa782f",
+    "1653494372c5877ead"
+  ]
+}

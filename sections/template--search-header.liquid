@@ -1,0 +1,26 @@
+<section
+id="search_results" 
+data-wetheme-section-type="template--search-header"
+data-wetheme-section-id="{{ section.id }}"
+>
+  <header id="search_header">
+    {% if settings.enable-article-results %}
+        {% assign article_search = "article," %}
+    {% else %}
+        {% assign article_search = "" %}
+    {% endif %}
+    {% if settings.enable-product-results %}
+        {% assign product_search = "product," %}
+    {% else %}
+        {% assign product_search = "" %}
+    {% endif %}
+    {% if settings.enable-page-results %}
+        {% assign page_search = "page," %}
+    {% else %}
+        {% assign page_search = "" %}
+    {% endif %}
+        <div class="title-bar custom-font">
+            <h2>{{ 'general.search.search_results' | t }}</h2>
+        </div>
+  </header>
+</section>

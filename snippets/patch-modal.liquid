@@ -1,0 +1,272 @@
+{% style %}
+a.btn-inactive {
+  background: #666 !important;
+  color: #999 !important;
+  pointer-events: none !important;
+}
+.patch-modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 600;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,.5);
+  backdrop-filter: blur(10px);
+}
+.rainbow-wrapper {
+  max-width: 720px;
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(204, 48, 69) 0%, rgb(234, 96, 165) 20%, rgb(245, 225, 124) 40%, rgb(79, 173, 91) 60%, rgb(50, 152, 196) 80%, rgb(175, 145, 189) 100%);
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,.5);
+}
+.patch-modal-container {
+  position: relative;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 15px;
+  overflow: auto;
+}
+.patch-modal-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.patch-modal-container::-webkit-scrollbar {
+  display: none;
+}
+.patch-modal-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 20px;
+  width: 20px;
+  background: url('https://cdn.shopify.com/s/files/1/0563/2737/2823/files/close-svg.svg?v=1661295015');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+h3.patch-modal-title {
+  font-family: 'KansasNew', sans-serif !important;
+  font-size: 36px !important;
+}
+p.patch-modal-message {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+  margin-bottom: 0;
+}
+p.patch-modal-price {
+  font-size: 38px !important;
+  font-weight: 700 !important;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0,0,0,.2);
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+[data-atc-container] {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px;
+}
+.rainbow-button-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(204, 48, 69) 0%, rgb(234, 96, 165) 20%, rgb(245, 225, 124) 40%, rgb(79, 173, 91) 60%, rgb(50, 152, 196) 80%, rgb(175, 145, 189) 100%);
+  border-radius: 30px;
+}
+a.data-button {
+  font-size: 15px !important;
+  padding: 15px 40px;
+  transition: all .3s ease;
+  border-radius: 30px;
+  cursor: pointer;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+[data-atc-btn] {
+  background: #000;
+  color: #fff;
+}
+[data-atc-btn]:hover {
+  background: #333;
+}
+
+/* Radio Styles */
+.patch-modal-radio-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px 10px;
+  max-width: 430px;
+  margin: 10px auto;
+  justify-items: center;
+}
+span[data-patch-input] {
+  position: relative;
+  width: 7vw;
+  height: 7vw;
+  background: linear-gradient(90deg, rgb(204, 48, 69) 0%, rgb(234, 96, 165) 20%, rgb(245, 225, 124) 40%, rgb(79, 173, 91) 60%, rgb(50, 152, 196) 80%, rgb(175, 145, 189) 100%);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 991px) {
+  span[data-patch-input] {
+    width: 100px;
+    height: 100px;
+  }
+}
+span[data-patch-input] input {
+  appearance: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  background: red;
+  border: 3px solid #000;
+  border-radius: 50%;
+  visibility: visible;
+  cursor: pointer;
+}
+span[data-patch-input] input:checked {
+  border: 3px solid #fff;
+}
+span[data-patch-input] img {
+  position: relative;
+  width: 4.5vw;
+  visibility: visible;
+  pointer-events: none;
+}
+@media screen and (min-width: 991px) {
+  span[data-patch-input] img {
+    width: 65px;
+  }
+}
+label.patch-radio-label {
+  font-family: 'KansasNew', sans-serif;
+  font-size: 1.3vw !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  position: relative;
+  visibility: visible;
+  color: #000 !important;
+  margin-top: -10px;
+}
+@media screen and (min-width: 991px) {
+  label.patch-radio-label {
+    font-size: 18px !important;
+  }
+}
+span[data-patch-input]:nth-child(1) input {
+  background: rgb(177, 148, 189);
+}
+span[data-patch-input]:nth-child(2) input {
+  background: rgb(235, 80, 162);
+}
+span[data-patch-input]:nth-child(3) input {
+  background: rgb(236, 221, 131);
+}
+span[data-patch-input]:nth-child(4) input {
+  background: rgb(165, 220, 226);
+}
+span[data-patch-input]:nth-child(5) input {
+  background: rgb(235, 80, 162);
+}
+span[data-patch-input]:nth-child(6) input {
+  background: rgb(57, 130, 184);
+}
+span[data-patch-input]:nth-child(7) input {
+  background: rgb(165, 220, 226);
+}
+span[data-patch-input]:nth-child(8) input {
+  background: rgb(236, 221, 131);
+}
+
+@media screen and (max-width: 990px) { /* Media query for Tablet */
+  span[data-patch-input] {
+    width: 100px;
+    height: 100px;
+  }
+  span[data-patch-input] img {
+    width: 65px;
+  }
+  label.patch-radio-label {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .rainbow-wrapper {
+    max-width: 95vw;
+  }
+  .patch-modal-container {
+    padding: 40px 20px;
+  }
+}
+@media screen and (max-width: 569px) {
+  .rainbow-wrapper {
+    max-height: 95vh;
+  }
+  .patch-modal-radio-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .rainbow-button-wrapper {
+    width: 100%;
+  }
+  .patch-modal-close {
+    top: 20px;
+    right: 20px;
+  }
+}
+{% endstyle %}
+
+{%- assign product = all_products['patch-points'] -%}
+{%- assign patchDefaultId = product.selected_or_first_available_variant.id -%}
+
+<div class="patch-modal-wrapper" style="display:none">
+  <div class="rainbow-wrapper">
+    <div class="patch-modal-container"><div class="patch-modal-close" onclick="closePopup()"></div>
+      <h3 class="patch-modal-title">Patch Point Packs</h3>
+      <p class="patch-modal-message">Buy Extra Patch Points to Boost Your Design</p>
+      {% form 'product', product, id: "add-to-cart-form" %}
+          <input type="hidden" id="cart-link" value="{{ routes.cart_url }}" />
+        <div class="patch-modal-radio-container">
+          {% for variant in product.variants %}
+            <span data-patch-input style="visibility: hidden">
+              <input type="radio" id="patch-{{ variant.id }}" name="patch-product-radio" value="{{ variant.id }}" class="patch-radio-input" data-id="{{ variant.id }}" {% if variant.metafields.custom.patch_points == 100 %}data-default-choice{% endif %} data-price="{{ variant.price | money }}" />
+              <img src="{{ variant.featured_image | img_url: 'master' }}" alt="{{ variant.featured_image.alt }}">
+              <label class="patch-radio-label" for="patch-{{ variant.id }}" data-id="{{ variant.id }}">{{ variant.price | money }}</label>
+            </span>
+          {% endfor %}
+        </div>
+        <p class="patch-modal-price">{{ product.selected_or_first_available_variant.price | money }}</p>
+        <div data-atc-container>
+          <div class="rainbow-button-wrapper button">
+            <a class="data-button" href="" data-atc-btn>Add To Cart</a>
+          </div>
+        </div>
+      {% endform %}
+    </div>
+  </div>
+</div>

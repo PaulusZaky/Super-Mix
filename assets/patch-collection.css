@@ -1,0 +1,160 @@
+ul.patch-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  gap: 10px;
+  row-gap: 40px;
+  justify-items: stretch;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 80px;
+}
+.patch-grid-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 80px;
+  gap: 10px;
+  height: 100%;
+}
+.patch-img-container {
+  position: relative;
+  background: #ececec;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.patch-img-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.patch-details-wrapper p {
+  margin: 0;
+  margin-bottom: 2px;
+  font-weight: 700 !important;
+}
+p.patch-points-price {
+  color: #0085BC !important;
+  font-weight: 400 !important;
+}
+.patch-block-container-footer {
+  gap: 40px;
+}
+h1.patch-block-header {
+  font-size: 6.4vw !important;
+  text-align: center;
+  margin: 0;
+}
+h4.patch-block-footer-header {
+  text-align: center;
+  margin: 0;
+}
+/* li.patch-grid-item.has-second-img > img.patch-secondary-img {
+  display: none;
+}
+li.patch-grid-item.has-second-img:hover > img.patch-secondary-img {
+  display: block;
+}
+li.patch-grid-item.has-second-img:hover > img.patch-first-img {
+  display: none;
+} */
+.rem-decoration:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) {
+  h1.patch-block-header {
+    font-size: 92px !important;
+  }
+}
+@media screen and (max-width: 968px) {
+  ul.patch-grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h1.patch-block-header {
+    font-size: 48px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  ul.patch-grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .patch-details-wrapper p {
+    font-size: 14px !important;
+    margin-bottom: 0;
+  }
+  .patch-grid-item {
+    grid-template-rows: 1fr 60px;
+  }
+}
+
+/* Patch Size Logic CSS */
+.ppad-100 {
+  padding: 7vw;
+}
+.ppad-80 {
+  padding: 5vw;
+}
+.ppad-60 {
+  padding: 4vw;
+}
+.ppad-40 {
+  padding: 2vw;
+}
+.ppad-20 {
+  padding: 0.5vw;
+}
+.ppad-0 {
+  padding: 0.1vw;
+}
+@media screen and (min-width: 1440px) {
+  .ppad-100 {
+    padding: 100px;
+  }
+  .ppad-80 {
+    padding: 80px;
+  }
+  .ppad-60 {
+    padding: 60px;
+  }
+  .ppad-40 {
+    padding: 40px;
+  }
+  .ppad-20 {
+    padding: 20px;
+  }
+  .ppad-0 {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .ppad-100 {
+    padding: 14vw;
+  }
+  .ppad-80 {
+    padding: 10vw;
+  }
+  .ppad-60 {
+    padding: 8vw;
+  }
+  .ppad-40 {
+    padding: 4vw;
+  }
+  .ppad-20 {
+    padding: 1vw;
+  }
+  .ppad-0 {
+    padding: 0.25vw;
+  }
+}
+
+.patch-block-container-footer {
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<script>
+  $( document ).ready(function() {
+
+    // Activate rainbow border on input + set price + buy button when product chosen, set the href with proper variant, scroll to bottom
+    $('span[data-patch-input] input').on('change', function() {
+      $('span[data-patch-input]').css('visibility', 'hidden')
+      $(this).parent().css('visibility', 'visible')
+
+      // console.log($(this).data('price'))
+      let price = $(this).data('price')
+      $('p.patch-modal-price').text(`${price}`)
+      addHref()
+      $('.patch-modal-container').scrollTop($('.patch-modal-container')[0].scrollHeight);
+      
+    })
+
+  });
+
+  function openPopup() {
+    // console.log('clicked')
+    $('.patch-modal-wrapper').show()
+    $('body, html').css('overflow', 'hidden')
+    $('[data-default-choice]').prop('checked', true)
+    $('[data-default-choice]').parent().css('visibility', 'visible')
+    let price = $('[data-default-choice]').data('price')
+    $('p.patch-modal-price').text(`${price}`)
+    addHref()
+  }
+  function closePopup() {
+    $('.patch-modal-wrapper').hide()
+    $('span[data-patch-input]').css('visibility', 'hidden')
+    $('span[data-patch-input] input:checked').prop('checked', false)
+    $('body, html').css('overflow', 'auto')
+  }
+  function addHref() {
+    let inputId = $('span[data-patch-input] input:checked').val()
+    $('[data-atc-btn]').attr('href', `/cart/add/${inputId}`)
+  }
+</script>

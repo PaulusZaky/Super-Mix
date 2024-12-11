@@ -1,54 +1,151 @@
 {
-  "name": "t:sections.header.name",
   "type": "header",
+  "name": "Header Group",
   "sections": {
     "header": {
       "type": "header",
-      "settings": {
-        "logo_position": "middle-center",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "none",
-        "enable_header_icons": false,
-        "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "enable_customer_avatar": false,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "announcement-bar": {
-      "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
+        "26a8a26c-b793-4e13-93ba-509837b05c35": {
+          "type": "content",
+          "disabled": true,
           "settings": {
-            "text": "Supermix BLACK FRIDAY FLASH Sale is Happening Now!",
-            "link": ""
+            "mega-menu": "Design",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03814_350x250_1.jpg",
+            "mega_image_header_1": "How to Supermix",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/pages\/design",
+            "mega_image_2": "shopify:\/\/shop_images\/Screen_Shot_2022-07-18_at_4.02.11_PM.png",
+            "mega_image_header_2": "Design Party",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/pages\/party",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        },
+        "8f90baea-c375-485c-90af-31ac6142a036": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Baby",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03404_2-3.jpg",
+            "mega_image_header_1": "Baby Sweats",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/collections\/baby-sweats",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC03991_2-3.jpg",
+            "mega_image_header_2": "Baby Denim",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/collections\/baby-denim",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        },
+        "7943a7c1-a57c-4bbf-bace-9874faf35e17": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Kids",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC05710-2_350x250_44a73439-58d5-47fe-8475-c255089cca8b.jpg",
+            "mega_image_header_1": "Kids' Sweats",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/pages\/sweat-styles",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC02316_350x250_f8abc678-2fe3-43d2-9924-b081b9c954d9.jpg",
+            "mega_image_header_2": "Kids' Denim",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/collections\/kids-denim",
+            "mega_image_header_3": "Team Sweats",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        },
+        "40080dcd-595a-4f7f-911f-95b2db70fb18": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Women",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03460_2-3.jpg",
+            "mega_image_header_1": "Women's Sweats",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/collections\/womens-sweats",
+            "mega_image_2": "shopify:\/\/shop_images\/Screen_Shot_2022-07-18_at_3.48.02_PM_d86bd7ea-fd5b-45e7-99a7-0211c22adf5d.png",
+            "mega_image_header_2": "Mom + Me Sweats",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/collections\/mom-me-sweats",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        },
+        "e633e8a0-90ac-48da-aa1b-de70a60ea37a": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Accessories",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC06844_350x250_701d8915-40ea-4d7c-af7e-53d0615a99ad.jpg",
+            "mega_image_header_1": "Backpacks",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/collections\/backpacks",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC01956_350X250_a5d23098-cac7-4886-b33d-8b622e27844d.jpg",
+            "mega_image_header_2": "Hats",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/collections\/hats",
+            "mega_image_3": "shopify:\/\/shop_images\/IMG_8808_BLUEBG.jpg",
+            "mega_image_header_3": "Pencil Cases",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": "shopify:\/\/products\/recycled-pencil-case"
+          }
+        },
+        "5b9f651f-1fd4-4b8f-80fd-af6b39701132": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Patches",
+            "mega_image_1": "shopify:\/\/shop_images\/FULL_COLLAGE_350X250_d4ff7366-0e62-419f-a4db-38208ecdcad4.jpg",
+            "mega_image_header_1": "Patch Points",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/pages\/patch-landing",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC00444_350x250_a769fac4-3fb2-43b6-beea-d9d14395bf16.jpg",
+            "mega_image_header_2": "Rewards",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/pages\/my-rewards",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "26a8a26c-b793-4e13-93ba-509837b05c35",
+        "8f90baea-c375-485c-90af-31ac6142a036",
+        "7943a7c1-a57c-4bbf-bace-9874faf35e17",
+        "40080dcd-595a-4f7f-911f-95b2db70fb18",
+        "e633e8a0-90ac-48da-aa1b-de70a60ea37a",
+        "5b9f651f-1fd4-4b8f-80fd-af6b39701132"
       ],
+      "custom_css": [],
       "settings": {
-        "color_scheme": "scheme-1",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "sticky_header": true,
+        "overlay_header": false,
+        "logo": "shopify:\/\/shop_images\/supermix-logo.png",
+        "design_logo": "shopify:\/\/shop_images\/supermix-logo_1.png",
+        "logo_max_width": 220,
+        "logo-placement": "within-header",
+        "sticky_header_logo": true,
+        "search-enable": false,
+        "label-enable": false,
+        "icon-size": "20",
+        "cart-style": "shopping-cart",
+        "cart-number": "none",
+        "enable_country_selector": true,
+        "enable_locale_selector": true,
+        "main_linklist": "supermix-custom-shop",
+        "design_linklist": "supermix-design-studio-navigation",
+        "top_bar_linklist": ""
       }
     }
   },
   "order": [
-    "header",
-    "announcement-bar"
+    "header"
   ]
 }

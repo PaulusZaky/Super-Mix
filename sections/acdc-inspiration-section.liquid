@@ -1,0 +1,164 @@
+{% style %}
+.inspirationh2 a {
+  color: {{ section.settings.title_color }} !important;
+}
+.inspiration-gallery-wrapper {
+  position: relative;
+}
+.inspiration-gallery-container {
+  display: flex;
+}
+.slick-track {
+  display: flex !important;
+}
+.slick-slide {
+  height: inherit !important;
+}
+.slick-list {
+  margin: 0 20px;
+}
+.slick-arrow {
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 15px;
+  background-color: #transparent !important;
+  border: none;
+  box-shadow: none;
+  z-index: 2;
+}
+button.slick-prev.slick-arrow {
+  background: url('{{ 'left-arrow-icon.svg' | asset_url }}');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 0;
+}
+button.slick-next.slick-arrow {
+  background: url('{{ 'right-arrow-icon.svg' | asset_url }}');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0;
+}
+.inspiration-img-wrapper {
+  margin: 0 10px;
+}
+.inspiration-img-wrapper img {
+  height: 100%;
+  object-fit: cover;
+}
+.inspiration-arrow-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+body button:not([id^=wetheme-dropdown]):not(.secondary-button):not(.alt-focus):focus {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 767px) {
+  .slick-list {
+    margin: 0;
+  }
+  .inspiration-gallery-container {
+    margin-top: 40px;
+  }
+}
+{% endstyle %}
+
+<section class="homepage-sections-wrapper-pad20">
+  <div class="section-container">
+    <div id="inspiration-section-anchor"></div>
+
+    {% if section.settings.title_text != blank %}
+      <h2 class="titleh2 inspirationh2">
+        <a href="{{ section.settings.title_url }}">{{ section.settings.title_text }}</a>
+      </h2>
+    {% endif %}
+
+    <div class="inspiration-gallery-wrapper">
+      <div class="inspiration-arrow-container"></div>
+      <div class="inspiration-gallery-container">
+        {% for block in section.blocks %}
+          <div class="inspiration-img-wrapper">
+            <img src="{{ block.settings.image | img_url: "master" }}" class="inspiration-img">
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  $(document).ready(() => {
+    $('.inspiration-gallery-container').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: true,
+      appendArrows: $('.inspiration-arrow-container'),
+      dots: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            centerMode: true,
+            arrows: false
+          }
+        }
+      ]
+    });
+  })
+</script>
+
+{% schema %}
+
+{
+  "name": "ACDC Inspiration Carousel",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title_text",
+      "label": "Title Text",
+      "default": "Design Inspiration"
+    },
+    {
+      "type": "url",
+      "id": "title_url",
+      "label": "Title URL"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#000000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "ACDC Inspiration Carousel"
+    }
+  ]
+}
+
+{% endschema %}

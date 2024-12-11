@@ -1,13 +1,31 @@
 {
   "sections": {
     "main": {
-      "type": "main-list-collections",
+      "type": "template--collections-list",
+      "blocks": {
+        "grid-card-title": {
+          "type": "grid-card-title",
+          "settings": {}
+        },
+        "grid-card-price": {
+          "type": "grid-card-price",
+          "disabled": true,
+          "settings": {}
+        },
+        "grid-card-swatches": {
+          "type": "grid-card-swatches",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "grid-card-title",
+        "grid-card-price",
+        "grid-card-swatches"
+      ],
       "settings": {
-        "title": "Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "columns_mobile": "2"
+        "images-per-row": 4,
+        "collections_per_page": 10,
+        "layout": "grid"
       }
     }
   },

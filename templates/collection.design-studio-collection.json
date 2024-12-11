@@ -1,0 +1,56 @@
+{
+  "wrapper": "div.collection-apparel-wrapper",
+  "sections": {
+    "shop-by-color": {
+      "type": "shop-by-color",
+      "settings": {
+        "show_filter": true
+      }
+    },
+    "main-apparel": {
+      "type": "template--collection-apparel-acdc",
+      "blocks": {
+        "grid-card-title": {
+          "type": "grid-card-title",
+          "settings": {}
+        },
+        "59b7c283-eb7a-4f2a-aac6-a30170ccc2e1": {
+          "type": "grid-card-points",
+          "settings": {}
+        },
+        "b87a9355-9ba3-4d5c-8fa1-614968b68c6f": {
+          "type": "grid-card-color",
+          "settings": {}
+        },
+        "grid-card-price": {
+          "type": "grid-card-price",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "grid-card-title",
+        "59b7c283-eb7a-4f2a-aac6-a30170ccc2e1",
+        "b87a9355-9ba3-4d5c-8fa1-614968b68c6f",
+        "grid-card-price"
+      ],
+      "settings": {
+        "text_color_1": "#ffffff",
+        "text_color_2": "#ffffff",
+        "grid": 4,
+        "rows": 3,
+        "pagination_type": "paged_navigation"
+      }
+    },
+    "8409cbd4-1bd6-4335-9e89-f8b5f8e64783": {
+      "type": "advanced-layout--custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"loox-default-carousel\"><div class=\"loox-v2-carousel-container\" id=\"LOOX-V2_CAROUSEL-card\" data-slide-type=\"card\" > <\/div><\/div>"
+      }
+    }
+  },
+  "order": [
+    "shop-by-color",
+    "main-apparel",
+    "8409cbd4-1bd6-4335-9e89-f8b5f8e64783"
+  ]
+}

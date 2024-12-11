@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "165844345719e9c455": {
+      "type": "video--video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "url": "",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--100"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1655837578319b3390",
+    "165844345719e9c455"
+  ]
+}

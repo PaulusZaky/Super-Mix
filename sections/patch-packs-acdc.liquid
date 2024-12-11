@@ -1,0 +1,171 @@
+{% style %}
+.patch-pack-wrapper {
+  margin-bottom: 40px;
+}
+.border-wrapper {
+  width: 100%;
+  border: 10px solid #000;
+  margin: 0 auto;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.patch-pack-header {
+  width: 40%;
+}
+.patch-pack-grid {
+  display: flex;
+  width: 60%;
+  gap: 10px;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.patch-pack-card {
+  height: 9vw;
+  width: 9vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #000;
+  border-radius: 50%;
+  padding: 10px;
+}
+span.pack-price {
+  font-family: 'KansasNew', serif !important;
+  font-weight: 700;
+  font-size: 15px !important;
+  color: #000;
+  margin-top: -15px;
+}
+.patch-pack-card:nth-child(1) {
+  background: #DEB5B5;
+}
+.patch-pack-card:nth-child(2), .patch-pack-card:nth-child(7){
+  background: #FF40A3;
+}
+.patch-pack-card:nth-child(3), .patch-pack-card:nth-child(8){
+  background: #EEDB75;
+}
+.patch-pack-card:nth-child(4), .patch-pack-card:nth-child(6){
+  background: #94DEE2;
+}
+.patch-pack-card:nth-child(5) {
+  background: #0085BC;
+}
+@media screen and (min-width: 1200px) {
+  .patch-pack-card {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .patch-pack-card {
+    width: 11vw;
+    height: 11vw;
+  }
+}
+@media screen and (max-width: 974px) {
+  .patch-pack-card {
+    width: 10vw;
+    height: 10vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .border-wrapper {
+    flex-direction: column;
+    border-right: 0;
+    border-left: 0;
+    padding: 40px 20px;
+  }
+  .patch-pack-header {
+    margin: 0;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .patch-pack-card {
+    width: 115px;
+    height: 115px;
+  }
+  .patch-pack-grid {
+    width: 80%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 651px) {
+  .patch-pack-grid {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 564px) {
+  .patch-pack-card {
+    width: 115px;
+    height: 115px;
+  }
+}
+@media screen and (max-width: 504px) {
+  .patch-pack-grid {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 417px) {
+  .patch-pack-grid {
+    width: 100%;
+  }
+}
+{% endstyle %}
+
+
+<div id="{{section.settings.section_id}} "class="section-container patch-pack-wrapper" style="">
+  <div class="border-wrapper" onclick="openPopup()" style="cursor:pointer">
+    <div class="patch-pack-header">
+      {% if section.settings.header_image %}
+        {% render 'responsive-image' with section.settings.header_image, alt: section.settings.header_image.alt %}
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+      {% endif %}
+    </div>
+    <div class="patch-pack-grid">
+      {% assign product = all_products['patch-points'] %}
+      {% for variant in product.variants %}
+        {% if variant.featured_image %}
+          <div class="patch-pack-card">
+            <img src="{{ variant.featured_image | img_url: 'master' }}" alt="{{ variant.featured_image.alt }}">
+            <span class="pack-price">{{ variant.price | money }}</span>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Patch Packs ACDC",
+  "class": "homepage-section--patch-packs-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Unique section id",
+      "info": "Avoid using spaces and instead utilize '_' instead of a space",
+      "default": "unique_id"
+    },
+    {
+      "type": "image_picker",
+      "id": "header_image",
+      "label": "Title Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Patch Packs ACDC"
+    }
+  ]
+}
+
+{% endschema %}

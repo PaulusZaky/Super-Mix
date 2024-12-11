@@ -1,0 +1,249 @@
+{
+  "sections": {
+    "one_image_top_2_BPcdBf": {
+      "type": "one--image-top-2",
+      "blocks": {
+        "tab_content_YqTEhD": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How does Supermix work?",
+            "text": "<p>It's so easy to design with Supermix! It's like a video game. Simply choose your style, drag-n-drop 500+ patches and place them anywhere you like on sweats, denim and accessories. Then, we bring your style to life. It will look just like you designed it on screen, but even better!<\/p>"
+          }
+        },
+        "tab_content_ERNmwh": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is Supermix Eco-Friendly?",
+            "text": "<p>Yes! We make responsible decisions at each point of our manufacturing process. We use BCI cotton, the most sustainably farmed cotton in the world. Our backpacks are made of recycled plastic bottles and are super strong and kid-proof. Our packaging is made of 100% recovered trash, but you'd never know it by how beautiful it is! We are working hard to continue to find ways to build a brand that's kind to our kids and our planet.<\/p>"
+          }
+        },
+        "tab_content_GKcMcm": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long to receive my order?",
+            "text": "<p>We bring your vision to life in just 5 business days...or less! Sit back and wait for your happy mail coming directly from our studio in upstate, New York. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_YqTEhD",
+        "tab_content_ERNmwh",
+        "tab_content_GKcMcm"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Girl-01.png",
+        "mobile": "shopify:\/\/shop_images\/New_Mobile_v2-landing_page_New__Headlines-01.png",
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "accordion_ds_listicle_F9GJLi": {
+      "type": "accordion-ds-listicle",
+      "blocks": {
+        "tab_content_xUBExY": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How does Supermix work?",
+            "text": "<p>It's so easy to design with Supermix! It's like a video game. Simply choose your style, drag-n-drop 500+ patches and place them anywhere you like on sweats, denim and accessories. Then, we bring your style to life. It will look just like you designed it on screen, but even better! <\/p>"
+          }
+        },
+        "tab_content_cNJ39b": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is Supermix Eco-Friendly?",
+            "text": "<p>Yes! We make responsible decisions at each point of our manufacturing process. We use BCI cotton, the most sustainably farmed cotton in the world. Our backpacks are made of recycled plastic bottles and are super strong and kid-proof. Our packaging is made of 100% recovered trash, but you'd never know it by how beautiful it is! We are working hard to continue to find ways to build a brand that's kind to our kids and our planet. <\/p>"
+          }
+        },
+        "tab_content_CgGgwN": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long to receive my order?",
+            "text": "<p>We bring your vision to life in just 5 business days...or less! Sit back and wait for your happy mail coming directly from our studio in New York.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_xUBExY",
+        "tab_content_cNJ39b",
+        "tab_content_CgGgwN"
+      ],
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "video_video_UTMTcr": {
+      "type": "video--video",
+      "settings": {
+        "subheading": "",
+        "title": "We got a deal from 🦈 🦈's on \"Shark Tank\"!",
+        "url": "https:\/\/vimeo.com\/926355937",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--75"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "text_rich_text_8GbDxe": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "width": "medium",
+        "subheading": "",
+        "title": "5 Reasons Why Children Need Supermix Studio Now",
+        "text": "<h5>Discover the fashion maven behind Supermix Studio and unlock a world of creativity for your child.<\/h5>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "one_image_RHz6qR": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New_Web_Graphics_v3-03_722ce7a6-09e6-48fb-b75f-a7b5d0142199.png",
+        "mobile": "shopify:\/\/shop_images\/New_Mobile_v2-03.png"
+      }
+    },
+    "one_image_KEUFmW": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New_Web_Graphics_v3-04_b7da6dbe-869a-408f-aa85-25455b00ebe0.png",
+        "mobile": "shopify:\/\/shop_images\/New_Mobile_v2-04.png"
+      }
+    },
+    "one_image_RJCWbM": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New_Web_Graphics_v3-05.png",
+        "mobile": "shopify:\/\/shop_images\/New_Mobile_v1-06.png"
+      }
+    },
+    "one_video_wLpQ7q": {
+      "type": "one--video",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New_Web_3Crafted_with_Care-01_4c73fc66-c638-4e2a-a086-156c967d2893.png",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3f2e14282d4c499da37a8fac75a740e7.mp4"
+      }
+    },
+    "one_image_PpharJ": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New_Web_Graphics_v3-07.png",
+        "mobile": "shopify:\/\/shop_images\/New_Mobile_v2-07.png"
+      }
+    },
+    "one_image_JBQkmi": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New_Web_Graphics_v3-08_8997ed30-bf61-4307-9e31-c2ec0a1ec3ca.png",
+        "mobile": "shopify:\/\/shop_images\/New_Mobile_v2-08_7a0a1a89-f522-4f33-8ba2-c9b2fba7cd43.png"
+      }
+    },
+    "text_rich_text_8EVnTj": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "white",
+        "width": "small",
+        "subheading": "",
+        "title": "What Our Customers are Saying.",
+        "text": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "kids-zip-hoodie"
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "two_product_card_JMgytc": {
+      "type": "two-product-card",
+      "blocks": {
+        "image_ypfp9p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Web_Graphics_1x1-03_964b12fb-cc01-4493-ada3-5559f9f72fb8.png",
+            "link": "shopify:\/\/pages\/kids-styles",
+            "button_text": "Design Now",
+            "button_color": "pink"
+          }
+        },
+        "image_tMiYfk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Web_Graphics_1x1-04_dd19d5ef-2399-4cca-81d3-4a92e7c18c72.png",
+            "link": "shopify:\/\/collections\/gift-cards",
+            "button_text": "Gift the Supermix Experience",
+            "button_color": "pink"
+          }
+        }
+      },
+      "block_order": [
+        "image_ypfp9p",
+        "image_tMiYfk"
+      ],
+      "custom_css": [
+        ".two-product-card-section-template--21050140098583__two_product_card_JMgytc {margin-bottom: 5rem;}"
+      ],
+      "settings": {
+        "heading-text": "Join us at Supermix Studio and watch as your child's creativity soars to new heights, one patch at a time!",
+        "image_size": 70
+      }
+    }
+  },
+  "order": [
+    "one_image_top_2_BPcdBf",
+    "accordion_ds_listicle_F9GJLi",
+    "video_video_UTMTcr",
+    "main",
+    "text_rich_text_8GbDxe",
+    "one_image_RHz6qR",
+    "one_image_KEUFmW",
+    "one_image_RJCWbM",
+    "one_video_wLpQ7q",
+    "one_image_PpharJ",
+    "one_image_JBQkmi",
+    "text_rich_text_8EVnTj",
+    "1687536272c0a363d0",
+    "two_product_card_JMgytc"
+  ]
+}

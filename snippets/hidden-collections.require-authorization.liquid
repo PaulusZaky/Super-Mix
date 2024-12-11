@@ -1,0 +1,90 @@
+{% comment %}
+======================================================
+Managed by Hidden Collections app - Do not modify.
+To remove please click "Remove from store" in our app.
+======================================================
+{% endcomment %}
+
+
+{% include 'hidden-collections.settings' %}
+{% assign should_render = false %}
+
+{% assign _json_product_id = nil %}
+{% assign _json_collection_id = nil %}
+{% assign _json_secure_token = nil %}
+
+
+{% if product %}
+  {% assign is_protected = false %}
+  {% for _collection in product.collections %}
+    {% assign _collection_id = _collection.id | append: "" %}
+    {% if protected_collection_ids contains _collection_id %}
+      {% assign is_protected = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if is_protected %}
+      {% for _collection in product.collections %}
+          {% assign _collection_id = _collection.id | append: "" %}
+          {% for _collection_entry in protected_collection_db %}
+              {% if _collection_entry contains _collection_id %}
+                  {% assign _id_and_token = _collection_entry | split: ":" %}
+                  {% assign _token = _id_and_token[1] %}
+                  {% if cart.attributes[_token] %}
+                      {% assign _json_collection_id = _collection.id %}
+                      {% assign _json_secure_token = _token %}
+                      {% assign _json_product_id = product.id %}
+                      {% assign should_render = true %}
+                  {% endif %}
+              {% endif %}
+          {% endfor %}
+      {% endfor %}
+  {% else %}
+    {% assign should_render = true %}
+  {% endif %}
+{% elsif collection %}
+  {% assign is_protected = false %}
+    {% assign _collection_id = collection.id | append: "" %}
+    {% if protected_collection_ids contains _collection_id %}
+      {% assign is_protected = true %}
+    {% endif %}
+
+  {% if is_protected %}
+      {% for _collection_entry in protected_collection_db %}
+        {% if _collection_entry contains _collection_id %}
+          {% assign _id_and_token = _collection_entry | split: ":" %}
+          {% assign _token = _id_and_token[1] %}
+          {% if cart.attributes[_token] %}
+              {% assign _json_collection_id = collection.id %}
+              {% assign _json_secure_token = _token %}
+              {% assign should_render = true %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+  {% else %}
+    {% assign should_render = true %}
+  {% endif %}
+{% else %}
+  {% assign should_render = true %}
+{% endif %}
+
+{%- if should_render -%}
+  <script type="application/json" id="hidden-collections-data">
+  {
+    "productId": {{ _json_product_id | json }}
+    , "collectionId": {{ _json_collection_id | json }}
+    , "secureToken": {{ _json_secure_token | json }}
+  }
+  </script>
+  {{ hidden_page_unless_authorized }}
+{%- else  -%}
+  {% include 'hidden-collections.access-denied' %}
+{%- endif -%}
+
+
+{% comment %}
+======================================================
+End of managed code.
+To remove please click "Remove from store" in our app.
+======================================================
+{% endcomment %}

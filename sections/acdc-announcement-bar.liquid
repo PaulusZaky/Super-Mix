@@ -1,0 +1,312 @@
+{% assign isDesignSite = false %}
+{% assign isCustomerPage = false %}
+
+{% if template contains 'customer' %}
+  {% assign isCustomerPage = true %}
+{% endif %}
+
+{% if template == 'index' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if template == 'product' and template.suffix == blank %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if page.handle == 'design-studio' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if template.suffix == 'apparel' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if template.suffix == 'accessories' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if template.suffix == 'choose-your-style' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if template.suffix == 'custom-shop-denim' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if template.suffix == 'to-design-studio' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if template.suffix == 'how-to-supermix' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+{% if template.suffix contains 'DS_' or template.suffix contains 'ds_' %}
+  {% assign isDesignSite = true %}
+{% endif %}
+
+{% comment %}
+{%- assign page_url = content_for_header | split:'"pageurl":"' | last | split:'"' | first | split: request.host | last | replace:'\/','/' | replace:'%20',' ' | replace:'\u0026','&'  -%}
+
+{%- for i in (1..1) -%}
+  {%- unless page_url contains "?" -%}{% break %}{%- endunless -%}
+  {%- assign query_string = page_url | split:'?' | last -%}
+  {%- assign qry_parts= query_string | split:'&' -%}
+
+  {%- for part in qry_parts -%}
+    {%- assign key_and_value = part | split:'=' -%}
+    {%- if key_and_value.size > 1 -%}
+      {% if key_and_value[0] == 'type' and key_and_value[1] == 'design-studio' %}
+        {% assign isDesignSite = true %}
+      {% endif %}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{% endcomment %}
+
+{% if isDesignSite %}
+  {% style %}
+    .a-bar-container[data-col="right"] {
+      pointer-events: none;
+    }
+  {% endstyle %}
+{% else %}
+  {% style %}
+    .a-bar-container[data-col="left"] {
+      pointer-events: none;
+    }
+  {% endstyle %}
+{% endif %}
+
+{% style %}
+.a-bar-wrapper {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  padding-left: 60px;
+  background: #000000;
+}
+.a-bar-container {
+  position: relative;
+  width: fit-content;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  font-family: 'TT Commons', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  padding: 20px 30px 10px;
+  cursor: pointer;
+  margin: 0;
+  text-decoration: underline;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.a-bar-container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: transparent;
+}
+
+{% if isCustomerPage %}
+  .active-site {
+    background: #000000;
+    color: #ffffff !important;
+    text-decoration: none;
+    transition: none !important;
+  }
+  .active-site:hover {
+    background: #ffffff;
+    color: #000000 !important;
+  }
+  .active-site:hover:after {
+    background: linear-gradient(90deg, rgb(204, 48, 69) 0%, rgb(234, 96, 165) 20%, rgb(245, 225, 124) 40%, rgb(79, 173, 91) 60%, rgb(50, 152, 196) 80%, rgb(175, 145, 189) 100%);
+  }
+{% else %}
+  .active-site {
+    background: #ffffff;
+    color: #000000 !important;
+    text-decoration: none;
+  }
+  .active-site:after {
+    background: linear-gradient(90deg, rgb(204, 48, 69) 0%, rgb(234, 96, 165) 20%, rgb(245, 225, 124) 40%, rgb(79, 173, 91) 60%, rgb(50, 152, 196) 80%, rgb(175, 145, 189) 100%);
+  }
+{% endif %}
+
+@media screen and (max-width: 767px) {
+  .a-bar-wrapper {
+    padding: 0;
+  }
+  .a-bar-container {
+    width: 50%;
+    font-size: 15px !important;
+  }
+}
+{% endstyle %}
+
+{% style %}
+.a-bar-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 600;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,.5);
+  backdrop-filter: blur(10px);
+}
+.a-bar-modal-wrapper {
+  max-width: 700px;
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(204, 48, 69) 0%, rgb(234, 96, 165) 20%, rgb(245, 225, 124) 40%, rgb(79, 173, 91) 60%, rgb(50, 152, 196) 80%, rgb(175, 145, 189) 100%);
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,.5);
+}
+.a-bar-modal-content {
+  position: relative;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 15px;
+  overflow: auto;
+}
+.a-bar-modal-content p {
+  font-weight: 600 !important;
+  text-align: left;
+  max-width: 90%;
+  margin: 0 auto 10px;
+}
+.a-bar-modal-content h4 {
+  max-width: 90%;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+.a-bar-modal-close, .a-bar-modal-return {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  background: url('https://cdn.shopify.com/s/files/1/0563/2737/2823/files/close-svg.svg?v=1661295015');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.a-bar-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+p.return-text, a.return-text {
+  text-align: center;
+  color: #00aaff !important;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .a-bar-modal-wrapper {
+    max-width: 90vw;
+    max-height: 60vh;
+  }
+  .a-bar-modal-content p, .a-bar-modal-content h4 {
+    max-width: none;
+  }
+  .a-bar-modal-content {
+    padding: 60px 20px 20px;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .a-bar-modal-wrapper {
+    max-height: 70vh;
+  }
+}
+{% if template.suffix == 'ds_gift-card-listicle' %}
+  section.a-bar {
+    display: none;
+  }
+{% endif %}
+{% endstyle %}
+
+<section class="a-bar">
+  <div class="a-bar-wrapper">
+    {% if isCustomerPage %}
+      <a href="{{ routes.root_url }}" data-col="right{% if isCustomerPage %}-customer{% endif %}" class="a-bar-container active-site">Return to {{ section.settings.right_text }}</a>
+      <a href="/pages/custom-shop" data-col="left{% if isCustomerPage %}-customer{% endif %}" class="a-bar-container active-site">Return to {{ section.settings.left_text }}</a>
+    {% else %}
+      <p data-col="right" class="a-bar-container {% if isDesignSite %}active-site{% endif %}">{{ section.settings.right_text }}</p>
+      <p data-col="left" class="a-bar-container {% unless isDesignSite %}active-site{% endunless %}">{{ section.settings.left_text }}</p>
+    {% endif %}
+  </div>
+
+  <div data-travel="design" class="a-bar-modal" style="display:none">
+    <div class="a-bar-modal-wrapper">
+      <div class="a-bar-modal-content">
+        <div class="a-bar-modal-close"></div>
+        <h4>You are moving from the Custom Shop to the Design Studio.</h4>
+        <p>Drag+Drop over 500+ exclusive patches and place anywhere you want on denim, sweats, and accessories.</p>
+        <div class="a-bar-button">
+          <a href="{{ routes.root_url }}" class="btn">Proceed to Design Studio</a>
+          <p class="return-text">Return to the Custom Shop</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-travel="design-mobile" class="a-bar-modal" style="display:none">
+    <div class="a-bar-modal-wrapper">
+      <div class="a-bar-modal-content">
+        <a href="{{ routes.root_url }}">
+          <div class="a-bar-modal-return"></div>
+        </a>
+        <h4>Head over to desktop or tablet to use the Design Studio!</h4>
+        <p>Use code: <b>UNLIMITED</b></p>
+        <p>For unlimited patches on your first design.</p>
+        <p>Studio Design and Custom Products are not available together.</p>
+        <div class="a-bar-button">
+          <a href="{{ routes.root_url }}" class="return-text">Return to the Custom Shop</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-travel="shop" class="a-bar-modal" style="display:none">
+    <div class="a-bar-modal-wrapper">
+      <div class="a-bar-modal-content">
+        <div class="a-bar-modal-close"></div>
+        <h4>You are moving from the Design Studio to the Custom Shop.</h4>
+        <p>Add-Your-Name Best Sellers and Gift Cards are available on this site.</p>
+        <div class="a-bar-button">
+          <a href="/pages/custom-shop" class="btn">Proceed to Custom Shop</a>
+          <p class="return-text">Return to the Design Studio</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "a-bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "left_text",
+      "label": "Left Text",
+      "default": "Custom Shop"
+    },
+    {
+      "type": "text",
+      "id": "right_text",
+      "label": "Right Text",
+      "default": "Design Studio"
+    }
+  ]
+}
+{% endschema %}

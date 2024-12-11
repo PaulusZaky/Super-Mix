@@ -1,0 +1,310 @@
+{
+  "sections": {
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "8c85b070-8119-4f28-a6d6-b24f6bb99202": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/11_34e001b7-a436-4efd-af19-09b260450d48.png",
+        "layout": "left",
+        "subheading": "Zigazoo",
+        "title": "",
+        "text_block": "<h4>Creator Club Swag<\/h4>",
+        "text_block_2": "<h4>Exclusive swag designed for Zigazoo's talented club of creators who inspire millions of kids!<\/h4>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZIGAZOO_HOODIE.jpg",
+            "link": "shopify:\/\/products\/zigazoo-creator-club-hoodie",
+            "title": "<p><strong>Creator Club Hoodie<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.png",
+            "link": "shopify:\/\/products\/copy-of-adult-zip-hoodie",
+            "title": "<p><strong>Creator Club Zip Hoodie - Juniors<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zigazoo_5.png",
+            "link": "shopify:\/\/products\/creator-club-denim-jacket",
+            "title": "<p><strong>Creator Denim Jacket<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zigazoo_3.png",
+            "link": "shopify:\/\/products\/zigazoo-hat",
+            "title": "<p><strong>Zigazoo Hat<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-0",
+        "1663889670f9ac60af-1",
+        "1663889670f9ac60af-2"
+      ],
+      "settings": {}
+    },
+    "dd3ae945-4618-42b4-8462-e65c14a02f0c": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "template--20550238011415__dd3ae945-4618-42b4-8462-e65c14a02f0c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PENCIL_CASES_1x1_ALL_v1.jpg",
+            "link": "shopify:\/\/products\/zigazoo-stuff-case",
+            "title": "<p><strong>Zigazoo Case<\/strong><\/p>"
+          }
+        },
+        "template--20550238011415__dd3ae945-4618-42b4-8462-e65c14a02f0c-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FBDC3D771x1pink1.jpg",
+            "link": "shopify:\/\/products\/zigazoo-backpack",
+            "title": "<p><strong>Zigazoo Backpack<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20550238011415__dd3ae945-4618-42b4-8462-e65c14a02f0c-image-1",
+        "template--20550238011415__dd3ae945-4618-42b4-8462-e65c14a02f0c-image-2"
+      ],
+      "settings": {}
+    },
+    "9117660c-7535-45ea-b17a-290d5b3a3e63": {
+      "type": "acdc-inspiration-section",
+      "blocks": {
+        "9e0e7a02-695d-41d3-bb64-066be3bcc2f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/file-1_1.jpg"
+          }
+        },
+        "03ee33a1-b181-4f08-bae9-bfe353908a22": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4531.jpg"
+          }
+        },
+        "3f0eec86-ccdb-4ed8-869c-db6df2ff2fe2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4527.jpg"
+          }
+        },
+        "b3dbaa36-85d5-47ae-8359-cfe394941cb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_1358.jpg"
+          }
+        },
+        "cb21be77-9395-48f5-bde6-efb91af6a45b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4526.jpg"
+          }
+        },
+        "71119693-64f8-4470-9ec9-0def9a63d070": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4536.jpg"
+          }
+        },
+        "71d0f385-3718-4e55-8526-fc481572d8e3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4533.jpg"
+          }
+        },
+        "a0249823-a46a-4c6b-8a72-17b82a114950": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4524.jpg"
+          }
+        },
+        "a838adeb-baec-4b4b-b81b-ad5d70733fff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4540.jpg"
+          }
+        },
+        "62f53e2c-8576-40a4-8d05-6b91c0243589": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4539.jpg"
+          }
+        },
+        "47d1acf4-6839-4a06-9b48-eeb828b7d0f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4530.jpg"
+          }
+        },
+        "1b3d58e0-dd68-42e2-85cb-69cf98a97d97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4535.jpg"
+          }
+        },
+        "f7fa6462-83e9-4cd3-a8d8-57a8a9ca5778": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-27_at_8.20.39_AM.png"
+          }
+        },
+        "f587bce2-5e53-44b2-b181-080d5a450cbe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/file-1.jpg"
+          }
+        },
+        "4cd55fea-a5aa-47dd-8081-1fa313361d4a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zigazoo_7.png"
+          }
+        },
+        "5cbca36a-d9e1-4ab0-a0a8-2ce882ea48b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-27_at_8.21.34_AM.png"
+          }
+        },
+        "149041b3-c978-4d80-a259-61d1addede6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/file.jpg"
+          }
+        },
+        "2e82a3c1-ef01-45fb-a8bd-631ed6e845b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/file-2.jpg"
+          }
+        },
+        "371694a9-b881-4f0f-9f6e-b0b30f1be81a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/file-1_9e78088b-2930-4aef-adf5-8858f9ab401a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "9e0e7a02-695d-41d3-bb64-066be3bcc2f0",
+        "03ee33a1-b181-4f08-bae9-bfe353908a22",
+        "3f0eec86-ccdb-4ed8-869c-db6df2ff2fe2",
+        "b3dbaa36-85d5-47ae-8359-cfe394941cb9",
+        "cb21be77-9395-48f5-bde6-efb91af6a45b",
+        "71119693-64f8-4470-9ec9-0def9a63d070",
+        "71d0f385-3718-4e55-8526-fc481572d8e3",
+        "a0249823-a46a-4c6b-8a72-17b82a114950",
+        "a838adeb-baec-4b4b-b81b-ad5d70733fff",
+        "62f53e2c-8576-40a4-8d05-6b91c0243589",
+        "47d1acf4-6839-4a06-9b48-eeb828b7d0f0",
+        "1b3d58e0-dd68-42e2-85cb-69cf98a97d97",
+        "f7fa6462-83e9-4cd3-a8d8-57a8a9ca5778",
+        "f587bce2-5e53-44b2-b181-080d5a450cbe",
+        "4cd55fea-a5aa-47dd-8081-1fa313361d4a",
+        "5cbca36a-d9e1-4ab0-a0a8-2ce882ea48b7",
+        "149041b3-c978-4d80-a259-61d1addede6a",
+        "2e82a3c1-ef01-45fb-a8bd-631ed6e845b2",
+        "371694a9-b881-4f0f-9f6e-b0b30f1be81a"
+      ],
+      "settings": {
+        "title_text": "Creators",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "168753640681637d6d": {
+      "type": "apps",
+      "blocks": {
+        "9da22b61-fb60-413d-8fef-5f4c069c33e7": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "9da22b61-fb60-413d-8fef-5f4c069c33e7"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "1663953168c5f33ca1",
+    "8c85b070-8119-4f28-a6d6-b24f6bb99202",
+    "1663889671ddd533ac",
+    "dd3ae945-4618-42b4-8462-e65c14a02f0c",
+    "9117660c-7535-45ea-b17a-290d5b3a3e63",
+    "main",
+    "1655837578319b3390",
+    "168753640681637d6d"
+  ]
+}

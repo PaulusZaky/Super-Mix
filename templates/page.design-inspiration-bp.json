@@ -1,0 +1,335 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "166264920661c898a9": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "1662649205bce37811-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_34959a18-3425-4acb-aee1-95900a8256be.png",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>So many letters to choose from!<\/p>"
+          }
+        },
+        "1662649205bce37811-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/39025651-4678-476C-816D-51D25312D59C_f38d8194-1819-43b9-a06e-870b7ada610d.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Each bag is unique!<\/p>"
+          }
+        },
+        "1662649205bce37811-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_Kids_1.png",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Dinos and baseball!<\/p>"
+          }
+        },
+        "527a840a-524b-47fd-9d30-13f35866fe72": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5999_jpg_2-3_v2.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>So many fun ideas here!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1662649205bce37811-0",
+        "1662649205bce37811-1",
+        "1662649205bce37811-2",
+        "527a840a-524b-47fd-9d30-13f35866fe72"
+      ],
+      "settings": {}
+    },
+    "1662032661dbb4a879": {
+      "type": "image--gallery",
+      "blocks": {
+        "1662032661a14fd0b7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1JRJ2WHtk_orig.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1662032661a14fd0b7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A45D59DA-0D31-4605-89BA-CBE9AA7A0CDF.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1662032661a14fd0b7-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EF22871F-C069-402D-AC7F-A7D1BDBE66B7_1.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "",
+            "description": ""
+          }
+        },
+        "f59778a2-7e1d-4e8f-9f1e-a72b47ee7e89": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FBDC3D77-B41F-4590-A2F9-52CAF5CCEAC9_2.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662032661a14fd0b7-0",
+        "1662032661a14fd0b7-1",
+        "1662032661a14fd0b7-2",
+        "f59778a2-7e1d-4e8f-9f1e-a72b47ee7e89"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "16614571308c8235bf": {
+      "type": "image--gallery",
+      "blocks": {
+        "1661457130247d1c02-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D5583FC5-9BC7-40D6-B179-49AED7775D20_3.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1661457130247d1c02-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify:\/\/products\/recycled-backpack",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1661457130247d1c02-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9556.jpg",
+            "link": "shopify:\/\/products\/recycled-backpack",
+            "title": "",
+            "description": ""
+          }
+        },
+        "a9b275f4-6975-4408-86b1-8111a31bbf1d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify:\/\/products\/recycled-backpack",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661457130247d1c02-0",
+        "1661457130247d1c02-1",
+        "1661457130247d1c02-2",
+        "a9b275f4-6975-4408-86b1-8111a31bbf1d"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1661519831b46a428f": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "16615198316fcc737d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image3.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>All her favorite things!<\/p>"
+          }
+        },
+        "16615198316fcc737d-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/82AAA066-06EA-49D5-8920-849AC85643C6.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Celebrate what they love!<\/p>"
+          }
+        },
+        "16615198316fcc737d-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_Kids.png",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Love the blue letters on the grey backpack!<\/p>"
+          }
+        },
+        "5b44718c-b27a-44e1-8ad9-4bc75c41dd43": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_Kids_1_488c2b81-0f81-4a33-9b84-e173b9ac2b65.png",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Such a fun idea to mix white and blue varsity letters!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16615198316fcc737d-0",
+        "16615198316fcc737d-1",
+        "16615198316fcc737d-2",
+        "5b44718c-b27a-44e1-8ad9-4bc75c41dd43"
+      ],
+      "settings": {}
+    },
+    "1661521386d5cd77eb": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "b3b90be1-1a59-410a-940f-c18625106065": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-chenille-yellowcream"
+          }
+        },
+        "485634cd-f735-4ff2-a628-a7c405d588a1": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbowlg"
+          }
+        },
+        "68dd9c1d-1291-4cf6-b203-3915e826f15f": {
+          "type": "product",
+          "settings": {
+            "product": "peace-chenille"
+          }
+        },
+        "0b02fbe8-87fd-4d2f-87d4-fb131365c6a1": {
+          "type": "product",
+          "settings": {
+            "product": "star-chenille-electricpink"
+          }
+        }
+      },
+      "block_order": [
+        "b3b90be1-1a59-410a-940f-c18625106065",
+        "485634cd-f735-4ff2-a628-a7c405d588a1",
+        "68dd9c1d-1291-4cf6-b203-3915e826f15f",
+        "0b02fbe8-87fd-4d2f-87d4-fb131365c6a1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "title_mobile": "",
+        "image": "shopify:\/\/shop_images\/Black_Smiley_Web-Dimensions_1cec3c74-4a73-40d2-8cb3-bf5596b9b04c.gif",
+        "image_background_color": "#ffffff",
+        "button_link": "shopify:\/\/products\/kids-zip-hoodie",
+        "button_text": "Design Zip Hoodie"
+      }
+    },
+    "1662475883bca2d668": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "16624758839b52927b-0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/11_Kids_2.png",
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        },
+        "16624758839b52927b-2": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/11_Kids_4.png",
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        },
+        "16624758839b52927b-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/11_Kids_3.png",
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        },
+        "f3ce2b8d-640e-4c91-9ea5-86a5b3288244": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/WEB7830506-1512CD88-025C-0711-EBF6-D9FEA06BD327.png",
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        },
+        "16624758839b52927b-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "patch_link": "shopify:\/\/products\/kids-zip-hoodie",
+            "patch_title": ""
+          }
+        },
+        "650232a3-179f-44e5-ab4e-a55fe8c26cb4": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "16624758839b52927b-0",
+        "16624758839b52927b-2",
+        "16624758839b52927b-1",
+        "f3ce2b8d-640e-4c91-9ea5-86a5b3288244",
+        "16624758839b52927b-3",
+        "650232a3-179f-44e5-ab4e-a55fe8c26cb4"
+      ],
+      "settings": {
+        "patch_heading": "Soooo Many Patches, Sooo Little Time",
+        "grid_number": "3"
+      }
+    },
+    "advanced_layout_custom_html_JDP66g": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "html_FETRtk": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Check Out These Awesome Backpacks!<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "html_FETRtk"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_layout_custom_html_JDP66g",
+    "166264920661c898a9",
+    "1662032661dbb4a879",
+    "16614571308c8235bf",
+    "1661519831b46a428f",
+    "1661521386d5cd77eb",
+    "1662475883bca2d668"
+  ]
+}

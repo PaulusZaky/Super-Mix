@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "166395454880329158": {
+      "type": "video--video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "url": "https:\/\/vimeo.com\/754899601",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--100"
+      }
+    },
+    "1663956841c0d9c718": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-02.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "Everyone is different.   We believe in celebrating that.",
+        "text_block": "<p><strong>The Supermix story started when Founder Jennifer Bischoff was a little girl.<\/strong><\/p><p>She was always embellishing her clothes, looking for ways to make them her own. She brings this dream to life by empowering people to hyper-personalize the things they already love to wear.  <\/p><p>With the Supermix platform, it’s easy to design something that lets them wear their heart and originality on their sleeves, or wherever they want to place a patch of their favorite thing.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "16639558483934a485": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-15_8f4124bf-7cd3-4777-a3ed-cbfe549a36c0.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "Meet Our Founder",
+        "text_block": "<p><strong>Supermix Founder and CEO Jennifer Stein-Bischoff’s passion for design and fashion started as soon as she could pick out her own clothes. <\/strong><\/p><p>After launching her first collection influenced by the music and nightlife of South Beach, Miami, she moved to New York. In her two decades as a top design and merchandising executive, Jennifer has worked with celebrities, fashion icons, and some of the most recognizable retailers to build powerful brands. <br\/><br\/>Now, Supermix Studio allows her to share her talent with the world in a way never before possible. Inspired by Jennifer’s own love of creating with her kids, Supermix Studios’ first-of-its-kind design platform empowers the next generation to create boutique quality fashion using their own authentic voice.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "16607732684ba856dc": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-12.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "Supermix is Eco-Friendly",
+        "text_block": "<p><strong>We make thoughtful, sustainable decisions across our entire product development, manufacturing, and supply chain. <\/strong><\/p>",
+        "text_block_2": "<p>•We use BCI cotton, the world’s leading sustainability initiative for cotton.<br\/>•Our backpacks are made from 100% recycled polyester. <br\/>•Our packaging is made with recovered trash and printed using algae ink.<\/p>",
+        "text_block_3": "<p><strong>We believe that style and sustainability go hand in hand.<\/strong><\/p>",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1663954436fafede9a": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/vimeo.com\/751860988",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663957225b490c589": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-06_ef85e1cd-9508-437b-916f-378cd14d726d.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix Give Program",
+        "text_block": "<p><strong>Making a Difference One Student at a time. <\/strong>Every student deserves a fair chance. Supermix Give serves underprivileged children in economically challenged communities across the country. We pledge 1% of our yearly net profits toward providing backpacks loaded with awesome Supermix school supplies, amongst other philanthropic initiatives.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    }
+  },
+  "order": [
+    "166395454880329158",
+    "1663956841c0d9c718",
+    "16639558483934a485",
+    "16607732684ba856dc",
+    "main",
+    "1663954436fafede9a",
+    "1663957225b490c589"
+  ]
+}

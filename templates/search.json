@@ -1,26 +1,42 @@
 {
+  "wrapper": "div.collection-wrapper",
   "sections": {
+    "search_header": {
+      "type": "template--search-header",
+      "settings": {}
+    },
     "main": {
-      "type": "main-search",
+      "type": "template--search",
+      "blocks": {
+        "grid-card-title": {
+          "type": "grid-card-title",
+          "settings": {}
+        },
+        "grid-card-price": {
+          "type": "grid-card-price",
+          "disabled": true,
+          "settings": {}
+        },
+        "grid-card-swatches": {
+          "type": "grid-card-swatches",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "grid-card-title",
+        "grid-card-price",
+        "grid-card-swatches"
+      ],
       "settings": {
-        "columns_desktop": 4,
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
+        "article-hover-effect": "none",
+        "desktop_position": "topbar",
         "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "article_show_date": true,
-        "article_show_author": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "enable_sorting": false
       }
     }
   },
   "order": [
+    "search_header",
     "main"
   ]
 }

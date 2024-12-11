@@ -1,0 +1,138 @@
+{
+  "sections": {
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7": {
+      "type": "video-acdc-fullwidth",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/be34c73ac34648fabc9b0afc38ce1f83.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "15878dea-f50a-41ca-8b25-8b7906f023a0": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9616466df264868a70afb49441731d0.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Just Add-Your-Name<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_SITE_d151fbd1-da7d-42c0-b7e1-e3abc2feb042.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-hoodie",
+            "title": "<p><strong>Add-Your-Name Hoodie<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03134_copy_e14ffcc0-ba6b-4129-9b8b-e5459d430c36.jpg",
+            "link": "shopify:\/\/collections\/sweat-sets",
+            "title": "<p><strong>Add-Your-Name Sweat Set<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05769_copy_1.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-joggers",
+            "title": "<p><strong>Add-Your-Name Jogger<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06882_CHLOE_CROP_2-3_1_7ab5258c-97eb-490d-a447-c12a1dc61d92.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-team-sweats",
+            "title": "<p><strong>Add-Your-Name Teams<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-1",
+        "1663889670f9ac60af-0",
+        "1663889670f9ac60af-2"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COLLAGE-BLOCK-1500X800-BLKBG-v2b_1_f030472e-5eb8-40c8-bc73-ff90ac0d2771.gif",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7",
+    "15878dea-f50a-41ca-8b25-8b7906f023a0",
+    "1663953168c5f33ca1",
+    "1663889671ddd533ac",
+    "main",
+    "1655837578319b3390",
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4"
+  ]
+}

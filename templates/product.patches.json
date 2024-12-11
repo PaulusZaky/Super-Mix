@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--product-patches",
+      "blocks": {
+        "product-title": {
+          "type": "product-title",
+          "settings": {}
+        },
+        "product-price": {
+          "type": "product-price",
+          "settings": {
+            "show_discount": "hide",
+            "tax_included": true,
+            "shipping_policy": true
+          }
+        },
+        "f553f857-5b8b-4608-9a0a-bffe29140673": {
+          "type": "custom-product-message",
+          "settings": {
+            "custom_message": "Shop all of Supermix Clothing and Accessories to customize with patches!"
+          }
+        },
+        "customize-button": {
+          "type": "customize-button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product-title",
+        "product-price",
+        "f553f857-5b8b-4608-9a0a-bffe29140673",
+        "customize-button"
+      ],
+      "settings": {
+        "show_out_of_stock_email": true,
+        "form_position": "below-details",
+        "size_guide_link": "",
+        "size_guide_message": "What's my size?",
+        "size_guide_variant": "Size",
+        "image_size": "small",
+        "thumbnail_position": "below",
+        "enable_zoom": false,
+        "enable_video_loop": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,247 @@
+{% style %}
+.hiw-flex-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.hiw-content-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f3f3f3;
+  padding: 40px 0;
+}
+.hiw-content-container {
+  max-width: 22vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.hiw-icon-wrapper {
+  width: 4vw;
+  margin-bottom: 10px;
+}
+.hiw-img-wrapper {
+  position: relative;
+  width: 50%;
+  background: #000;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hiw-img-wrapper button {
+  position: absolute;
+  bottom: 9vw;
+  right: 7vw;
+}
+.hiw-button-icon {
+  background-image: url('{{ section.settings.button_icon | img_url: "master" }}');
+  height: 1.1vw;
+  width: 1.1vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 5px;
+}
+h3.hiw-heading {
+  font-size: 2.6vw !important;
+}
+.hiw-content-container p {
+  line-height: 1.3em !important;
+}
+
+@media screen and (max-width: 968px) {
+  .hiw-content-container {
+    max-width: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hiw-flex-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .hiw-content-wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .hiw-icon-wrapper {
+    width: 50px;
+  }
+  h3.hiw-heading {
+    font-size: 32px !important;
+    margin-bottom: 0;
+  }
+  .hiw-content-container p {
+    margin: 0;
+  }
+  .hiw-img-wrapper {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .hiw-img-wrapper button {
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .hiw-button-icon {
+    height: 16px;
+    width: 16px;
+  }
+}
+{% endstyle %}
+
+<section class="homepage-sections-wrapper-pad10">
+  <div class="section-container">
+    <div class="hiw-flex-wrapper">
+
+      <div class="hiw-content-wrapper">
+        <div class="hiw-content-container">
+          {% if section.settings.step_1_icon != blank %}
+            <div class="hiw-icon-wrapper">
+              <img class="hiw-step-icon" src="{{ section.settings.step_1_icon | img_url: 'master' }}">
+            </div>
+          {% endif %}
+          {% if section.settings.step_1_heading != blank %}
+            <h3 class="hiw-heading">{{ section.settings.step_1_heading }}</h3>
+          {% endif %}
+          {% if section.settings.step_1_description != blank %}
+            {{ section.settings.step_1_description }}
+          {% endif %}
+        </div>
+        <div class="hiw-content-container">
+          {% if section.settings.step_2_icon != blank %}
+            <div class="hiw-icon-wrapper">
+              <img class="hiw-step-icon" src="{{ section.settings.step_2_icon | img_url: 'master' }}">
+            </div>
+          {% endif %}
+          {% if section.settings.step_2_heading != blank %}
+            <h3 class="hiw-heading">{{ section.settings.step_2_heading }}</h3>
+          {% endif %}
+          {% if section.settings.step_2_description != blank %}
+            {{ section.settings.step_2_description }}
+          {% endif %}
+        </div>
+        <div class="hiw-content-container">
+          {% if section.settings.step_3_icon != blank %}
+            <div class="hiw-icon-wrapper">
+              <img class="hiw-step-icon" src="{{ section.settings.step_3_icon | img_url: 'master' }}">
+            </div>
+          {% endif %}
+          {% if section.settings.step_3_heading != blank %}
+            <h3 class="hiw-heading">{{ section.settings.step_3_heading }}</h3>
+          {% endif %}
+          {% if section.settings.step_3_description != blank %}
+            {{ section.settings.step_3_description }}
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="hiw-img-wrapper">
+        {% if section.settings.main_image != blank %}
+          <img class="hiw-main-img" src="{{ section.settings.main_image | img_url: 'master' }}">
+        {% endif %}
+        {% if section.settings.button_link != blank and section.settings.button_text != blank %}
+          <button href="{{ section.settings.button_link }}" class="button-outline">
+            {{ section.settings.button_text }}
+            {% if section.settings.button_icon != blank and section.settings.button_icon_check != false %}
+              <span class="hiw-button-icon"></span>
+            {% endif %}
+          </button>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "How It Works Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "step_1_icon",
+      "label": "Icon for Step 1"
+    },
+    {
+      "type": "text",
+      "id": "step_1_heading",
+      "label": "Step 1 Heading",
+      "default": "Choose a Style"
+    },
+    {
+      "type": "richtext",
+      "id": "step_1_description",
+      "label": "Step 1 Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "step_2_icon",
+      "label": "Icon for Step 2"
+    },
+    {
+      "type": "text",
+      "id": "step_2_heading",
+      "label": "Step 2 Heading",
+      "default": "Start Designing"
+    },
+    {
+      "type": "richtext",
+      "id": "step_2_description",
+      "label": "Step 2 Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "step_3_icon",
+      "label": "Icon for Step 3"
+    },
+    {
+      "type": "text",
+      "id": "step_3_heading",
+      "label": "Step 3 Heading",
+      "default": "Extra Points"
+    },
+    {
+      "type": "richtext",
+      "id": "step_3_description",
+      "label": "Step 3 Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Select Main Image"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Watch"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_icon_check",
+      "label": "Hide or Show Icon in Button",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "button_icon",
+      "label": "Choose the icon"
+    }
+  ],
+  "presets": [
+    {
+      "name": "How It Works Section"
+    }
+  ]
+}
+{% endschema %}

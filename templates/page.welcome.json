@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Welcome to the Squad!<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "4fdd036d-a9f7-48db-9bfb-9c0d3e872491": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--14977577123863__4fdd036d-a9f7-48db-9bfb-9c0d3e872491-1665073736c0b7ff13-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"251023\"><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--14977577123863__4fdd036d-a9f7-48db-9bfb-9c0d3e872491-1665073736c0b7ff13-0"
+      ],
+      "settings": {
+        "section_id": ""
+      }
+    }
+  },
+  "order": [
+    "1663953168c5f33ca1",
+    "main",
+    "4fdd036d-a9f7-48db-9bfb-9c0d3e872491"
+  ]
+}

@@ -1,0 +1,228 @@
+
+{% comment %}
+This is a customized main nav created by ACDC. Use this and not nav--main.liquid
+{% endcomment %}
+
+{{ 'section-megamenu.css' | asset_url | stylesheet_tag }}
+
+<ul class="nav js {{ class }}">
+  {% for link in linklists[nav--main-custom].links %}
+    {% if link.links != blank %}
+      {% assign link-title = link.title | strip %}
+
+      {% assign is-mega-menu = false %}
+      {% assign lastMenu = false %}
+      {% if section.blocks.size > 0 %}
+        {% for block in section.blocks %}
+          {% assign block-title = block.settings.mega-menu | strip %}
+          {% if block-title == link-title  %}
+            {% assign is-mega-menu = true %}
+            {% assign mega-menu-block = block %}
+
+            {% if block.last %}
+              {% assign lastMenu = true %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      <li class="dropdown{% if is-mega-menu %} mega-menu{% endif %}">
+        <div class="mega-menu--dropdown-wrapper">
+          <a
+            class="dropdown-envy-toggle alt-focus header-link mainlink {% if link.child_active or link.active %}active-link{% endif %}"
+            data-delay="200"
+            href="{{ link.url }}"
+            aria-expanded="false"
+          >
+            <span class="nav-label">{{ link.title | escape }}</span>
+          </a>
+
+          <ul class="dropdown-menu{% if is-mega-menu %} dropdown-menu--mega{% else %} dropdown-menu--standard{% endif %}{% if lastMenu %} last-mega-menu{% endif %}">
+            {% if is-mega-menu %}
+              <div>
+                {% assign block = mega-menu-block %}
+
+                <div class="mega-menu-block" data-mega-menu-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+                  {% assign mega = block.settings.mega-menu %}
+                  {% assign mega_nav_column_count = 5 %}
+                  {% assign mega_column_width = link.links.size %}
+                  {% if block.settings.mega_image_1 %}
+                    {% assign mega_nav_column_count = mega_nav_column_count | minus: 1 %}
+                    {% assign mega_column_width = mega_column_width | plus: 1 %}
+                  {% endif %}
+
+                  {% if block.settings.mega_image_2 %}
+                    {% assign mega_nav_column_count = mega_nav_column_count | minus: 1 %}
+                    {% assign mega_column_width = mega_column_width | plus: 1 %}
+                  {% endif %}
+
+                  {% if block.settings.mega_image_3 %}
+                    {% assign mega_nav_column_count = mega_nav_column_count | minus: 1 %}
+                    {% assign mega_column_width = mega_column_width | plus: 1 %}
+                  {% endif %}
+
+                  {% assign mega_column_width = mega_column_width | limit: 5 %}
+
+                  {% if block.settings.mega_image_1 %}
+                    <li class="dropdown-submenu">
+                      <div class="inner mega-menu--image-wrapper">
+                        <div class="mega-menu--image">
+                          {% if block.settings.mega_image_link_1 %}
+                            <a href="{{ block.settings.mega_image_link_1 }}">
+                          {% endif %}
+                            {% render 'responsive-image' with block.settings.mega_image_1, default_size: '335x500' %}
+                          {% if block.settings.mega_image_link_1 %}
+                            </a>
+                          {% endif %}
+
+                          {% if block.settings.mega_image_header_1 %}
+                            <p class="h4 mega-menu--image-title">
+                              {% if block.settings.mega_image_link_1 %}
+                                <a href="{{ block.settings.mega_image_link_1 }}" >
+                              {% endif %}
+                              {{ block.settings.mega_image_header_1 }}
+                              {% if block.settings.mega_image_link_1 %}
+                                </a>
+                              {% endif %}
+                            </p>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </li>
+                  {% endif %}
+
+                  {% if block.settings.mega_image_2 %}
+                    <li class="dropdown-submenu {{ grid_item_width }}">
+                      <div class="inner mega-menu--image-wrapper">
+                        <div class="mega-menu--image">
+                          {% if block.settings.mega_image_link_2 %}
+                            <a href="{{ block.settings.mega_image_link_2 }}" >
+                          {% endif %}
+                            {% render 'responsive-image' with block.settings.mega_image_2, default_size: '335x500' %}
+                          {% if block.settings.mega_image_link_2 %}
+                            </a>
+                          {% endif %}
+                          {% if block.settings.mega_image_header_2 %}
+                            <p class="h4 mega-menu--image-title">
+                              {% if block.settings.mega_image_link_2 %}
+                                <a href="{{ block.settings.mega_image_link_2 }}" >
+                              {% endif %}
+                                {{ block.settings.mega_image_header_2 }}
+                              {% if block.settings.mega_image_link_2 %}
+                                </a>
+                              {% endif %}
+                            </p>
+                          {% endif %}
+                          {% if block.settings.mega_image_subheader_2 %}
+                            <p class="h5">
+                              {% if block.settings.mega_image_link_2 %}
+                                <a href="{{ block.settings.mega_image_link_2 }}" >
+                              {% endif %}
+                                {{ block.settings.mega_image_subheader_2 }}
+                              {% if block.settings.mega_image_link_2 %}
+                                </a>
+                              {% endif %}
+                            </p>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </li>
+                  {% endif %}
+
+                  {% if block.settings.mega_image_3 %}
+                    <li class="dropdown-submenu {{ grid_item_width }}">
+                      <div class="inner mega-menu--image-wrapper">
+                        <div class="mega-menu--image">
+                          {% if block.settings.mega_image_link_3 %}
+                            <a href="{{ block.settings.mega_image_link_3 }}" >
+                          {% endif %}
+                            {% render 'responsive-image' with block.settings.mega_image_3, default_size: '335x500' %}
+                          {% if block.settings.mega_image_link_3 %}
+                            </a>
+                          {% endif %}
+                          {% if block.settings.mega_image_header_3 %}
+                            <p class="h4 mega-menu--image-title">
+                              {% if block.settings.mega_image_link_3 %}
+                                <a href="{{ block.settings.mega_image_link_3 }}" >
+                              {% endif %}
+                                {{ block.settings.mega_image_header_3 }}
+                              {% if block.settings.mega_image_link_3 %}
+                                </a>
+                              {% endif %}
+                            </p>
+                          {% endif %}
+                          {% if block.settings.mega_image_subheader_3 %}
+                            <p class="h5">
+                              {% if block.settings.mega_image_link_3 %}
+                                <a href="{{ block.settings.mega_image_link_3 }}" >
+                              {% endif %}
+                                {{ block.settings.mega_image_subheader_3 }}
+                              {% if block.settings.mega_image_link_3 %}
+                                </a>
+                              {% endif %}
+                            </p>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </li>
+                  {% endif %}
+
+                </div>
+
+              </div>
+
+            {% else %}
+
+              {% for sub_link in link.links %}
+                {% if sub_link.levels > 0 %}
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-submenu__link"
+                      href="{{ sub_link.url }}"
+                      aria-expanded="false"
+                    >
+                      {{ sub_link.title | escape }}
+                      <svg class="feather feather-chevron-right" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </a>
+                    <ul class="dropdown-menu">
+                      {% for sub_sub_link in sub_link.links %}
+                        <li>
+                          <a 
+                            class="dropdown-submenu__link" 
+                            href="{{ sub_sub_link.url }}"
+                          >
+                            {{ sub_sub_link.title | escape }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% else %}
+                  <li>
+                    <a
+                      class="dropdown-submenu__link" 
+                      href="{{ sub_link.url }}"
+                    >
+                      {{ sub_link.title | escape }}
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+
+            {% endif %}
+          </ul>
+
+        </div>
+
+      </li>
+
+    {% else %}
+
+      <li {% if link.child_active or link.active %}class="site-nav--active"{% endif %}>
+        <a href="{{ link.url }}" class="header-link alt-focus mainlink {% if link.child_active or link.active %}active-link{% endif %}" >{{ link.title }}</a>
+      </li>
+
+    {% endif %}
+
+  {% endfor %}
+</ul>

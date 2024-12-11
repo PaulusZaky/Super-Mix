@@ -1,0 +1,186 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16521970811bad5fe7": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "7dc507d0-95b4-4e0f-882e-ea5effbadaa5": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/SMIL0001.png",
+            "patch_link": "shopify:\/\/collections\/smileys",
+            "patch_title": "Smileys"
+          }
+        },
+        "c3631477-6f83-4ba8-8ce6-be33f96a0cfb": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/HRTS005K.png",
+            "patch_link": "shopify:\/\/collections\/hearts",
+            "patch_title": "Hearts"
+          }
+        },
+        "fb961c47-651b-4e0f-88f2-c993e6a8c238": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/STAR004K.png",
+            "patch_link": "shopify:\/\/collections\/stars",
+            "patch_title": "Stars"
+          }
+        },
+        "b8c405ab-a945-4da1-9fbc-c916d4f32574": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RBOW0005.png",
+            "patch_link": "shopify:\/\/collections\/rainbows",
+            "patch_title": "Rainbow"
+          }
+        },
+        "3672ab20-2c9d-4f33-b8d4-5807e57fe2a3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/PEAC0002.png",
+            "patch_link": "shopify:\/\/collections\/peace",
+            "patch_title": "Peace"
+          }
+        },
+        "ccc2d565-2f96-41d9-a032-52b84f6764da": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/UNIC001.png",
+            "patch_link": "shopify:\/\/collections\/unicorn",
+            "patch_title": "Unicorns"
+          }
+        },
+        "1652197081bfd0be9a-3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/DINO0005.png",
+            "patch_link": "shopify:\/\/collections\/dinos",
+            "patch_title": "Dinos"
+          }
+        },
+        "1652197081bfd0be9a-0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/ANML0002.png",
+            "patch_link": "shopify:\/\/collections\/animals",
+            "patch_title": "Animals"
+          }
+        },
+        "0568b4b2-6514-45e9-b376-0fe00222062a": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/SKAT0002.png",
+            "patch_link": "shopify:\/\/collections\/skate",
+            "patch_title": "Skate"
+          }
+        },
+        "b7a4b3ee-7f77-4ab5-8137-6b0b44c83e5f": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/FOOD0001.png",
+            "patch_link": "shopify:\/\/collections\/food",
+            "patch_title": "Food"
+          }
+        },
+        "9ca0a627-fa4d-4bc7-987d-31ea752e2e77": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/GAME0003_ea120891-de4c-48eb-a07b-7834e77c3ca4.png",
+            "patch_link": "shopify:\/\/collections\/gamer",
+            "patch_title": "Gamer"
+          }
+        },
+        "1652197081bfd0be9a-1": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/MUS00003.png",
+            "patch_link": "shopify:\/\/collections\/music",
+            "patch_title": "Music"
+          }
+        },
+        "c69010be-8f58-455a-9e62-6ac3fb6772f0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/BTC00002_554ef864-3dfb-41af-9200-e58dd2d8388e.png",
+            "patch_link": "shopify:\/\/collections\/crypto",
+            "patch_title": "Crypto"
+          }
+        },
+        "49381f21-c854-4bad-9262-a57dcfa7e32a": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/SPTS0008.png",
+            "patch_link": "shopify:\/\/collections\/sports",
+            "patch_title": "Sports"
+          }
+        },
+        "1652197081bfd0be9a-2": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/CHER0004.png",
+            "patch_link": "shopify:\/\/collections\/cheer",
+            "patch_title": "Cheer"
+          }
+        },
+        "a96a502d-2e69-4216-b6dd-12ff05951635": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/SPAC0005.png",
+            "patch_link": "shopify:\/\/collections\/space",
+            "patch_title": "Space"
+          }
+        },
+        "8f82ed62-51b3-4c24-a1ba-88dc864a343d": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/VEHI0002.png",
+            "patch_link": "shopify:\/\/collections\/vehicles",
+            "patch_title": "Vehicles"
+          }
+        },
+        "47070dba-a989-41a0-be20-5a4ddd656d99": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/LOGO0004.png",
+            "patch_link": "shopify:\/\/collections\/logo",
+            "patch_title": "Logo"
+          }
+        }
+      },
+      "block_order": [
+        "7dc507d0-95b4-4e0f-882e-ea5effbadaa5",
+        "c3631477-6f83-4ba8-8ce6-be33f96a0cfb",
+        "fb961c47-651b-4e0f-88f2-c993e6a8c238",
+        "b8c405ab-a945-4da1-9fbc-c916d4f32574",
+        "3672ab20-2c9d-4f33-b8d4-5807e57fe2a3",
+        "ccc2d565-2f96-41d9-a032-52b84f6764da",
+        "1652197081bfd0be9a-3",
+        "1652197081bfd0be9a-0",
+        "0568b4b2-6514-45e9-b376-0fe00222062a",
+        "b7a4b3ee-7f77-4ab5-8137-6b0b44c83e5f",
+        "9ca0a627-fa4d-4bc7-987d-31ea752e2e77",
+        "1652197081bfd0be9a-1",
+        "c69010be-8f58-455a-9e62-6ac3fb6772f0",
+        "49381f21-c854-4bad-9262-a57dcfa7e32a",
+        "1652197081bfd0be9a-2",
+        "a96a502d-2e69-4216-b6dd-12ff05951635",
+        "8f82ed62-51b3-4c24-a1ba-88dc864a343d",
+        "47070dba-a989-41a0-be20-5a4ddd656d99"
+      ],
+      "settings": {
+        "patch_heading": "Icons",
+        "grid_number": "3"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16521970811bad5fe7"
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "166264920661c898a9": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "1662649205bce37811-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B20064A0-432D-4E85-8C66-4F188A713720_dc5c7a89-a2b7-4cca-9ded-91943ae3299d.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p>We call this a masterpiece! <\/p>"
+          }
+        },
+        "1662649205bce37811-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E704BD88-006F-448B-824A-F1644FD4DA7C.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p>Such a fun way to place a name.<\/p>"
+          }
+        },
+        "1662649205bce37811-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00018.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p>Unicorns and rainbows!<\/p>"
+          }
+        },
+        "527a840a-524b-47fd-9d30-13f35866fe72": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00028_3d4aec47-9bd5-4a74-82de-904461385909.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p>All his favorite things!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1662649205bce37811-0",
+        "1662649205bce37811-1",
+        "1662649205bce37811-2",
+        "527a840a-524b-47fd-9d30-13f35866fe72"
+      ],
+      "settings": {}
+    },
+    "1662032661dbb4a879": {
+      "type": "image--gallery",
+      "blocks": {
+        "1662032661a14fd0b7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6BF7A770-A302-4C9E-8B61-7DFC676BCA75.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1662032661a14fd0b7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8BF90B03-8F22-473B-BA5B-BCE5E3DBA0C9.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1662032661a14fd0b7-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5C9B7AF5-4A7B-473D-97D8-E0E83577CC46.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "",
+            "description": ""
+          }
+        },
+        "f59778a2-7e1d-4e8f-9f1e-a72b47ee7e89": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unknown-12.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662032661a14fd0b7-0",
+        "1662032661a14fd0b7-1",
+        "1662032661a14fd0b7-2",
+        "f59778a2-7e1d-4e8f-9f1e-a72b47ee7e89"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "16614571308c8235bf": {
+      "type": "image--gallery",
+      "blocks": {
+        "1661457130247d1c02-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8924.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1661457130247d1c02-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E828DC25-DF39-4017-99FE-6597A2D8AE0A.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1661457130247d1c02-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D9903149-0E0A-453A-8EB6-E7509501FE11.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "",
+            "description": ""
+          }
+        },
+        "a9b275f4-6975-4408-86b1-8111a31bbf1d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A5527DD2-079E-4423-943B-25304243D060.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661457130247d1c02-0",
+        "1661457130247d1c02-1",
+        "1661457130247d1c02-2",
+        "a9b275f4-6975-4408-86b1-8111a31bbf1d"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1661519831b46a428f": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "16615198316fcc737d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/58120DD9-CB0C-491E-83AC-CFAE4301BCE8_ef1d0c6e-a799-4ace-b68a-a48af4f6cc97.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p>Every design is 100% original.<\/p>"
+          }
+        },
+        "16615198316fcc737d-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5B68DFC7-5D63-4831-9B89-48A92C4B50A2_e95a9f16-47b4-41a1-861e-5de93004e3d9.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p>Have you seen all our cheer patches?<\/p>"
+          }
+        },
+        "16615198316fcc737d-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D884E110-6F54-4A3C-ABA4-F7FCA3FD74AC.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p>So much sass!<\/p>"
+          }
+        },
+        "5b44718c-b27a-44e1-8ad9-4bc75c41dd43": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00078_3.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p>Our Electric Pink pullover is a fave!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16615198316fcc737d-0",
+        "16615198316fcc737d-1",
+        "16615198316fcc737d-2",
+        "5b44718c-b27a-44e1-8ad9-4bc75c41dd43"
+      ],
+      "settings": {}
+    },
+    "1661521386d5cd77eb": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "b3b90be1-1a59-410a-940f-c18625106065": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-chenille-yellowcream"
+          }
+        },
+        "485634cd-f735-4ff2-a628-a7c405d588a1": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbowlg"
+          }
+        },
+        "68dd9c1d-1291-4cf6-b203-3915e826f15f": {
+          "type": "product",
+          "settings": {
+            "product": "peace-chenille"
+          }
+        },
+        "0b02fbe8-87fd-4d2f-87d4-fb131365c6a1": {
+          "type": "product",
+          "settings": {
+            "product": "star-chenille-electricpink"
+          }
+        }
+      },
+      "block_order": [
+        "b3b90be1-1a59-410a-940f-c18625106065",
+        "485634cd-f735-4ff2-a628-a7c405d588a1",
+        "68dd9c1d-1291-4cf6-b203-3915e826f15f",
+        "0b02fbe8-87fd-4d2f-87d4-fb131365c6a1"
+      ],
+      "settings": {
+        "title": "",
+        "title_mobile": "",
+        "image": "shopify:\/\/shop_images\/Black_Smiley_Web-Dimensions_1cec3c74-4a73-40d2-8cb3-bf5596b9b04c.gif",
+        "image_background_color": "#ffffff",
+        "button_link": "shopify:\/\/products\/kids-zip-hoodie",
+        "button_text": "Design Zip Hoodie"
+      }
+    },
+    "1662475883bca2d668": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "16624758839b52927b-1": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00050.jpg",
+            "patch_link": "shopify:\/\/products\/kids-zip-hoodie",
+            "patch_title": ""
+          }
+        },
+        "16624758839b52927b-2": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/E3AD6CB1-019F-4F05-93CC-01B02E049038.jpg",
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        },
+        "16624758839b52927b-3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00006.jpg",
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        },
+        "image_4tW4Ap": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00009.jpg",
+            "patch_link": "shopify:\/\/products\/kids-zip-hoodie",
+            "patch_title": ""
+          }
+        },
+        "image_A4fgeH": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00022.jpg",
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        },
+        "650232a3-179f-44e5-ab4e-a55fe8c26cb4": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00024.jpg",
+            "patch_link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "patch_title": ""
+          }
+        },
+        "image_xeTNHg": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00044.jpg",
+            "patch_link": "shopify:\/\/products\/kids-zip-hoodie",
+            "patch_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "16624758839b52927b-1",
+        "16624758839b52927b-2",
+        "16624758839b52927b-3",
+        "image_4tW4Ap",
+        "image_A4fgeH",
+        "650232a3-179f-44e5-ab4e-a55fe8c26cb4",
+        "image_xeTNHg"
+      ],
+      "settings": {
+        "patch_heading": "Soooo Many Patches, Sooo Little Time",
+        "grid_number": "3"
+      }
+    },
+    "advanced_layout_custom_html_agKAEA": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "html_7kmn3k": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Check Out the Hoodies Kids are Designing!<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "html_7kmn3k"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_layout_custom_html_agKAEA",
+    "166264920661c898a9",
+    "1662032661dbb4a879",
+    "16614571308c8235bf",
+    "1661519831b46a428f",
+    "1661521386d5cd77eb",
+    "1662475883bca2d668"
+  ]
+}

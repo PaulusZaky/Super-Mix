@@ -1,0 +1,285 @@
+{{ 'section-image-with-text.min.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+.flex-section {
+  display: flex;
+  background-color: #000;
+  padding: 5vw 10vw !important;
+  justify-content: center;
+}
+.img-wrap {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.patch-login-img {
+  width: 23vw;
+}
+.button-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  width: 100%;
+}
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+h1.patch-login-h1 {
+  color: #fff !important;
+  text-align: center;
+  font-size: 4vw !important;
+  margin-bottom: 40px;
+}
+.flex-section-image img {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-section {
+    padding: 0 !important;
+  }
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px !important;
+  }
+  .content-wrap {
+    width: 100%;
+  }
+  img.patch-login-img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  h1.patch-login-h1 {
+    font-size: 48px !important;
+  }
+}
+{% endstyle %}
+
+{% if section.settings.display_image == false %}
+  <div class="flex-section">
+    <div class="flex-container">
+      <div class="img-wrap">
+        {% if section.settings.image != blank %}
+          <img class="patch-login-img" src="{{ section.settings.image | img_url: 'master' }}">
+        {% else %}
+          {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+        {% endif %}
+      </div>
+      <div class="content-wrap">
+        {% if section.settings.title != blank %}
+          <h1 class="patch-login-h1">{{ section.settings.title | escape }}</h1>
+        {% endif %}
+
+        <div class="button-wrapper">
+          {% if section.settings.button_label_1 != blank and section.settings.button_link_1 != blank %}
+          <a href="{{ section.settings.button_link_1 }}" class="button-outline">
+            {{ section.settings.button_label_1 }}
+          </a>
+        {% endif %}
+        {% if section.settings.button_label_2 != blank and section.settings.button_link_2 != blank %}
+          <a href="{{ section.settings.button_link_2 }}" class="button-rainbow">
+            <span>
+              {{ section.settings.button_label_2 }}
+            </span>
+          </a>
+        {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% else %}
+  <div class="flex-section-image">
+    <img src="{{ section.settings.header_image | img_url: 'master' }}" alt="{{ section.settings.header_image.alt }}" data-popup-trigger onclick="openPopup()">
+  </div>
+{% endif %}
+
+{% render 'patch-modal' %}
+{% render 'popup-modal-js' %}
+
+{% schema %}
+{
+    "name": {
+        "en": "Patch Login Hero"
+    },
+    "class": "homepage-section--patch-login-wrapper",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "display_image",
+        "label": "Display Image instead of Section.",
+        "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "header_image",
+        "label": "Header Image",
+        "info": "Select the Image to cover the section."
+      },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": {
+                "en": "Image",
+                "de": "Bild",
+                "es": "Imagen",
+                "fr": "Image",
+                "pt-PT": "Imagem"
+            },
+            "info": {
+                "en": "600 x 600px recommended",
+                "de": "600 x 600 px empfohlen",
+                "es": "Recomendado 600 x 600 px",
+                "fr": "600 x 600 px recommandé",
+                "pt-PT": "600 x 600px, recomendado"
+            }
+        },
+        {
+            "type": "select",
+            "id": "layout",
+            "label": {
+                "en": "Layout",
+                "de": "Layout",
+                "es": "Diseño",
+                "fr": "Mise en page",
+                "pt-PT": "Apresentação"
+            },
+            "default": "left",
+            "options": [
+                {
+                    "value": "left",
+                    "label": {
+                        "en": "Image on left",
+                        "de": "Bild links",
+                        "es": "Imagen a la izquierda",
+                        "fr": "Image à gauche",
+                        "pt-PT": "Imagem à esquerda"
+                    }
+                },
+                {
+                    "value": "right",
+                    "label": {
+                        "en": "Image on right",
+                        "de": "Bild rechts",
+                        "es": "Imagen a la derecha",
+                        "fr": "Image à droite",
+                        "pt-PT": "Imagem à direita"
+                    }
+                }
+            ]
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": {
+            "en": "Heading",
+            "de": "Überschrift",
+            "es": "Encabezado",
+            "fr": "Rubrique",
+            "pt-PT": "Título"
+          },
+          "default": {
+            "en": "Share brand or product details",
+            "de": "Marken- oder Produktdetails teilen",
+            "es": "Compartir marca o detalles del producto",
+            "fr": "Partager les infos sur la marque ou le produit",
+            "pt-PT": "Partilhar detalhes da marca ou produto"
+          }
+        },
+        {
+            "type": "url",
+            "id": "button_link_1",
+            "label": {
+                "en": "Button 1 link",
+                "de": "Buttonlink",
+                "es": "Enlace del botón",
+                "fr": "Lien du bouton",
+                "pt-PT": "Ligação do botão"
+            },
+            "info": {
+                "en": "Required to show the button",
+                "de": "Notwendig, den Button zu zeigen",
+                "es": "Es necesario mostrar el botón",
+                "fr": "Requis pour afficher le bouton",
+                "pt-PT": "Necessário para exibir o botão"
+            }
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": {
+              "en": "Button 2 link",
+              "de": "Buttonlink",
+              "es": "Enlace del botón",
+              "fr": "Lien du bouton",
+              "pt-PT": "Ligação do botão"
+          },
+          "info": {
+              "en": "Required to show the button",
+              "de": "Notwendig, den Button zu zeigen",
+              "es": "Es necesario mostrar el botón",
+              "fr": "Requis pour afficher le bouton",
+              "pt-PT": "Necessário para exibir o botão"
+          }
+      },
+        {
+            "type": "text",
+            "id": "button_label_1",
+            "label": {
+                "en": "Button 1 label",
+                "de": "Button-Bezeichnung",
+                "es": "Etiqueta del botón",
+                "fr": "Étiquette du bouton",
+                "pt-PT": "Etiqueta do botão"
+            }
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": {
+              "en": "Button 2 label",
+              "de": "Button-Bezeichnung",
+              "es": "Etiqueta del botón",
+              "fr": "Étiquette du bouton",
+              "pt-PT": "Etiqueta do botão"
+          }
+      }
+    ],
+    "presets": [
+        {
+            "name": {
+                "en": "Patch Login Hero"
+            },
+            "category": {
+                "en": "Text",
+                "de": "Text",
+                "es": "Texto",
+                "fr": "Texte",
+                "pt-PT": "Texto"
+            }
+        }
+    ],
+    "templates": [
+        "index",
+        "collection",
+        "list-collections",
+        "blog",
+        "article",
+        "page",
+        "password",
+        "404",
+        "cart",
+        "search",
+        "product"
+    ]
+}
+{% endschema %}

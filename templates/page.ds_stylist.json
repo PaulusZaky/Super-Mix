@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "4c2badbb-ac6a-42dc-b7ef-4023aa83a0b6": {
+      "type": "image--slideshow",
+      "blocks": {
+        "template--15040331186199__4c2badbb-ac6a-42dc-b7ef-4023aa83a0b6-167301613564b0600e-0": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "template--15040331186199__4c2badbb-ac6a-42dc-b7ef-4023aa83a0b6-167301613564b0600e-1": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "77f50193-1e2f-44d9-abc0-7f125d512a54": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--15040331186199__4c2badbb-ac6a-42dc-b7ef-4023aa83a0b6-167301613564b0600e-0",
+        "template--15040331186199__4c2badbb-ac6a-42dc-b7ef-4023aa83a0b6-167301613564b0600e-1",
+        "77f50193-1e2f-44d9-abc0-7f125d512a54"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4c2badbb-ac6a-42dc-b7ef-4023aa83a0b6"
+  ]
+}

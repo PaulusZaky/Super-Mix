@@ -1,23 +1,12 @@
-<style type="text/css">
-  .template-404 .title + * {
-    margin-top: 1rem;
-  }
+<article id="notfound" class="page container">
 
-  @media screen and (min-width: 750px) {
-    .template-404 .title + * {
-      margin-top: 2rem;
-    }
-  }
-</style>
-
-<div class="template-404 page-width page-margin center">
-  <p>
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  <h1 class="title">
-    {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
-    {{ 'general.continue_shopping' | t }}
-  </a>
-</div>
+  <div class="title-bar custom-font">
+    <h2>{{ 'general.404.title' | t }}</h2>
+    <div class="clear"></div>
+  </div>
+  
+  <section>
+    <p class="missing-page__message">{{ 'general.404.subtext_html' | t }}</p>
+  </section>
+  
+  </article>  

@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "00a4c226-b90e-4d41-865c-87066b05960d": {
+      "type": "info-block-acdc",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/TITLE_PG_PINK_1920x1080_2d6e5271-30d5-447c-bf5c-4791b5b2ef91.jpg",
+        "mobile_background": "shopify:\/\/shop_images\/DSC00444_350x250_1.jpg",
+        "mobile_bg_color": "rgba(0,0,0,0)",
+        "txt_color": "#000000",
+        "horizontal_alignment": "left",
+        "header": "Custom Shop",
+        "subheading_text": "<p>Just Add-Your-Name to our best sellers.<\/p><p>One click to custom.<\/p>",
+        "main_text": "<p>In our custom shop you can add-your-name to our best sellers and purchase gift cards. All products selected in the custom shop must be purchased separately from items designed in the Design Studio customizer.<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn_bg_color": "#000000",
+        "btn_txt_color": "#ffffff",
+        "hover_btn_bg_color": "#666666",
+        "hover_btn_txt_color": "#ffffff"
+      }
+    },
+    "e813c5b3-4026-4c64-9939-1fc4a3976f68": {
+      "type": "collection--collection-list",
+      "blocks": {
+        "template--15021046202391__e813c5b3-4026-4c64-9939-1fc4a3976f68-16698294170907989e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "add-your-name-hoodie"
+          }
+        },
+        "template--15021046202391__e813c5b3-4026-4c64-9939-1fc4a3976f68-16698294170907989e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "custom-denim"
+          }
+        }
+      },
+      "block_order": [
+        "template--15021046202391__e813c5b3-4026-4c64-9939-1fc4a3976f68-16698294170907989e-0",
+        "template--15021046202391__e813c5b3-4026-4c64-9939-1fc4a3976f68-16698294170907989e-1"
+      ],
+      "settings": {
+        "colors": "white",
+        "subheading": "",
+        "title": ""
+      }
+    },
+    "7a2085a3-5723-46dd-982e-396d39271bfe": {
+      "type": "collection--featured-collection",
+      "blocks": {
+        "template--15021046202391__7a2085a3-5723-46dd-982e-396d39271bfe-166978219874e84c07-0": {
+          "type": "grid-card-title",
+          "settings": {}
+        },
+        "template--15021046202391__7a2085a3-5723-46dd-982e-396d39271bfe-166978219874e84c07-1": {
+          "type": "grid-card-price",
+          "settings": {}
+        },
+        "template--15021046202391__7a2085a3-5723-46dd-982e-396d39271bfe-166978219874e84c07-2": {
+          "type": "grid-card-swatches",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--15021046202391__7a2085a3-5723-46dd-982e-396d39271bfe-166978219874e84c07-0",
+        "template--15021046202391__7a2085a3-5723-46dd-982e-396d39271bfe-166978219874e84c07-1",
+        "template--15021046202391__7a2085a3-5723-46dd-982e-396d39271bfe-166978219874e84c07-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "subheading": "Team Sweats",
+        "title": "The Coolest Personalized Team Gear Anywhere!",
+        "collection": "add-your-name-team-sweats",
+        "grid": 4,
+        "rows": 1,
+        "show_view_all": false
+      }
+    },
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/85bfbe2d11e84f6dad25ef7c9d56308e.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "15878dea-f50a-41ca-8b25-8b7906f023a0": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9616466df264868a70afb49441731d0.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Just Add-Your-Name<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_SITE_d151fbd1-da7d-42c0-b7e1-e3abc2feb042.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-hoodie",
+            "title": "<p><strong>Add-Your-Name Hoodie<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03134_copy_e14ffcc0-ba6b-4129-9b8b-e5459d430c36.jpg",
+            "link": "shopify:\/\/collections\/sweat-sets",
+            "title": "<p><strong>Add-Your-Name Sweat Set<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05769_copy_1.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-joggers",
+            "title": "<p><strong>Add-Your-Name Jogger<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06882_CHLOE_CROP_2-3_1_7ab5258c-97eb-490d-a447-c12a1dc61d92.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-team-sweats",
+            "title": "<p><strong>Add-Your-Name Teams<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-1",
+        "1663889670f9ac60af-0",
+        "1663889670f9ac60af-2"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COLLAGE-BLOCK-1500X800-BLKBG-v2b_1_f030472e-5eb8-40c8-bc73-ff90ac0d2771.gif",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "af39ab3a-c056-4ab1-8414-9fa51f9ad0c0": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "So Fast and Easy",
+        "subheading": "",
+        "button_url": "",
+        "button_text": "Add-Your-Name Now"
+      }
+    },
+    "d8d51dc0-5ff8-42d9-9c02-8cef05eb3d26": {
+      "type": "acdc-slideshow",
+      "settings": {
+        "slider-animation": "slide",
+        "slider-slide-time": 8,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "00a4c226-b90e-4d41-865c-87066b05960d",
+    "e813c5b3-4026-4c64-9939-1fc4a3976f68",
+    "7a2085a3-5723-46dd-982e-396d39271bfe",
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7",
+    "15878dea-f50a-41ca-8b25-8b7906f023a0",
+    "1663953168c5f33ca1",
+    "1663889671ddd533ac",
+    "main",
+    "1655837578319b3390",
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4",
+    "af39ab3a-c056-4ab1-8414-9fa51f9ad0c0",
+    "d8d51dc0-5ff8-42d9-9c02-8cef05eb3d26"
+  ]
+}

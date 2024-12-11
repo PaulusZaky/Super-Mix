@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "a0b1af76-c501-4d5b-894a-acae61b429ab": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058109693975__a0b1af76-c501-4d5b-894a-acae61b429ab-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TITLEb.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058109693975__a0b1af76-c501-4d5b-894a-acae61b429ab-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "acdc_inspiration_section_BwRatX": {
+      "type": "acdc-inspiration-section",
+      "settings": {
+        "title_text": "Design Your Own Girl Scouts",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Just Add-Your-Name<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05792_gs_1x1_e1133e9a-26b8-4107-a43b-a54d6210f93f.jpg",
+            "link": "shopify:\/\/pages\/girl-scouts-hoodies",
+            "title": "<p><strong>Design Your Own Hoodie<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06153_1x1_1f3c2f92-f56a-4540-a624-52ae5db3107a.jpg",
+            "link": "shopify:\/\/products\/kids-jogger",
+            "title": "<p><strong>Design Your Own Jogger<\/strong><\/p>"
+          }
+        },
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06815_1x1_c0dcee3f-67fb-4a0c-9a24-a3d20f8b6093.jpg",
+            "link": "shopify:\/\/collections\/accessories",
+            "title": "<p><strong>Design Your Own Accessories<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HATS_blue_1x1_4ba7962f-73a6-47fa-bcc0-2a46674ba568.jpg",
+            "link": "shopify:\/\/products\/kids-trucker-hat",
+            "title": "<p><strong>Design Your Own Hat<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663889670f9ac60af-0",
+        "1663889670f9ac60af-2",
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-1"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COLLAGE-BLOCK-1500X800-BLKBG-v2b_1_f030472e-5eb8-40c8-bc73-ff90ac0d2771.gif",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "a0b1af76-c501-4d5b-894a-acae61b429ab",
+    "acdc_inspiration_section_BwRatX",
+    "1663953168c5f33ca1",
+    "1663889671ddd533ac",
+    "main",
+    "1655837578319b3390",
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4",
+    "1687536272c0a363d0"
+  ]
+}

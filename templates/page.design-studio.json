@@ -1,0 +1,297 @@
+{
+  "sections": {
+    "fa84632a-4958-4f69-b790-ccefd710228b": {
+      "type": "video--video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "url": "https:\/\/vimeo.com\/770246083",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--100"
+      }
+    },
+    "403beadf-972a-4d4f-92d6-69911c4f3ef3": {
+      "type": "video-acdc-fullwidth",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dfa3e1444af54defb85fcf3420334751.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">How to Supermix<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "6f15a492-7f94-4e3a-8486-803f86196941": {
+      "type": "video--video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "url": "https:\/\/vimeo.com\/745011994",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--100"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "e3c58d28-9aaa-4a21-9c75-9bf422da3fa2": {
+      "type": "video--video-with-text-overlay-acdc",
+      "disabled": true,
+      "settings": {
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/648eb2c645c44814a77fbb3b6ea30167.mp4",
+        "desktopHeight": "fullscreen",
+        "mobileHeight": "fullscreen",
+        "subheading": "",
+        "title": "",
+        "text": "",
+        "textAlignment": "bottom-right",
+        "textColor": "#000000",
+        "textShadow": false,
+        "subheading--text-size": 14,
+        "heading--text-size": 50,
+        "button_link": "shopify:\/\/pages\/choose-your-style",
+        "button_label": "Design Now"
+      }
+    },
+    "ab000dfc-87de-416a-b9cc-83c874d8306b": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004822339607__ab000dfc-87de-416a-b9cc-83c874d8306b-1668731531944f0dca-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEPSV2-02_35412ac6-c1fe-4326-9bb4-50733a6356bf.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15004822339607__ab000dfc-87de-416a-b9cc-83c874d8306b-1668731531944f0dca-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEPSV2-04_f243245a-2360-4fe7-9162-015bfcf9ddd9.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15004822339607__ab000dfc-87de-416a-b9cc-83c874d8306b-1668731531944f0dca-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEPSV2-06_f5084b7f-e2d2-4f6f-9575-5baaf17f5912.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822339607__ab000dfc-87de-416a-b9cc-83c874d8306b-1668731531944f0dca-0",
+        "template--15004822339607__ab000dfc-87de-416a-b9cc-83c874d8306b-1668731531944f0dca-1",
+        "template--15004822339607__ab000dfc-87de-416a-b9cc-83c874d8306b-1668731531944f0dca-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "8712501a-e8c9-43af-b7e7-cb6a40e60ff2": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15004822339607__8712501a-e8c9-43af-b7e7-cb6a40e60ff2-16687319630aef1b51-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Choose Your Style<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822339607__8712501a-e8c9-43af-b7e7-cb6a40e60ff2-16687319630aef1b51-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "96aca1fd-6123-4bc3-9ee2-bc56b78908ce": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004822339607__96aca1fd-6123-4bc3-9ee2-bc56b78908ce-1667592065d904bf3c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_IG_3.jpg",
+            "link": "shopify:\/\/pages\/choose-your-sweats",
+            "title": "<p>Custom <strong>Sweats<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15004822339607__96aca1fd-6123-4bc3-9ee2-bc56b78908ce-1667592065d904bf3c-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00547_copy_3.jpg",
+            "link": "shopify:\/\/collections\/kids-denim",
+            "title": "<p>Custom <strong>Denim<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15004822339607__96aca1fd-6123-4bc3-9ee2-bc56b78908ce-1667592065d904bf3c-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03970-2_copy_1.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Custom <strong>Backpacks<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "6b3a3f63-20d1-498d-958d-0ea59acbeed9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC04318-2_copy.webp",
+            "link": "shopify:\/\/collections\/hats",
+            "title": "<p>Custom <strong>Hats<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822339607__96aca1fd-6123-4bc3-9ee2-bc56b78908ce-1667592065d904bf3c-0",
+        "template--15004822339607__96aca1fd-6123-4bc3-9ee2-bc56b78908ce-1667592065d904bf3c-1",
+        "template--15004822339607__96aca1fd-6123-4bc3-9ee2-bc56b78908ce-1667592065d904bf3c-2",
+        "6b3a3f63-20d1-498d-958d-0ea59acbeed9"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "166759239475521a75": {
+      "type": "apps",
+      "blocks": {
+        "1b427b8c-eb28-48ee-a596-6281b5f9b9a2": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-WeYFE3\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1b427b8c-eb28-48ee-a596-6281b5f9b9a2"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "24725ea2-e652-445d-abdd-3ccf902b5600": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15004822339607__24725ea2-e652-445d-abdd-3ccf902b5600-166759206770573909-0": {
+          "type": "html",
+          "settings": {
+            "code": "<br>\n<br>\n<br>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822339607__24725ea2-e652-445d-abdd-3ccf902b5600-166759206770573909-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "87a72548-4c10-4eec-8a81-4e7e37f02019": {
+      "type": "video--video-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/99f2a7b4174e4459ab83962c96483a62.mp4",
+        "desktopHeight": "fullscreen",
+        "mobileHeight": "fullscreen",
+        "subheading": "",
+        "title": "Kids' Clothes, Reimagined.",
+        "text": "Design-Your-Own Clothing. Drag-n-Drop 500+ Exclusive Patches anywhere you want on Hoodies, Joggers, & Denim Jackets.",
+        "textAlignment": "center-left",
+        "textColor": "#ffffff",
+        "textShadow": false,
+        "subheading--text-size": 14,
+        "heading--text-size": 50,
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "f5a97c80-3b38-4a97-9b96-64a245b2aeb6": {
+      "type": "video--video-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/99f2a7b4174e4459ab83962c96483a62.mp4",
+        "desktopHeight": "fullscreen",
+        "mobileHeight": "fullscreen",
+        "subheading": "Kids' Clothes, Reimagined.",
+        "title": "Design-Your-Own Clothing.",
+        "text": "Drag-n-Drop 500+ Exclusive Patches anywhere you want on Hoodies, Joggers, & Denim Jackets.",
+        "textAlignment": "center-left",
+        "textColor": "#ffffff",
+        "textShadow": false,
+        "subheading--text-size": 12,
+        "heading--text-size": 56,
+        "button_link": "",
+        "button_label": ""
+      }
+    }
+  },
+  "order": [
+    "fa84632a-4958-4f69-b790-ccefd710228b",
+    "403beadf-972a-4d4f-92d6-69911c4f3ef3",
+    "1663953168c5f33ca1",
+    "6f15a492-7f94-4e3a-8486-803f86196941",
+    "main",
+    "1655837578319b3390",
+    "e3c58d28-9aaa-4a21-9c75-9bf422da3fa2",
+    "ab000dfc-87de-416a-b9cc-83c874d8306b",
+    "8712501a-e8c9-43af-b7e7-cb6a40e60ff2",
+    "96aca1fd-6123-4bc3-9ee2-bc56b78908ce",
+    "166759239475521a75",
+    "24725ea2-e652-445d-abdd-3ccf902b5600",
+    "87a72548-4c10-4eec-8a81-4e7e37f02019",
+    "f5a97c80-3b38-4a97-9b96-64a245b2aeb6"
+  ]
+}

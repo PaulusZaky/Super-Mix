@@ -1,0 +1,61 @@
+{% assign crop_setting = settings.product-grid %}
+{% assign image_crop = nil %}
+{% if crop_setting == "square" %}
+    {% assign image_crop = "aspect-ratio--square" %}
+{% elsif crop_setting == "tall" %}
+    {% assign image_crop = "aspect-ratio--tall" %}
+{% elsif crop_setting == "wide" %}
+    {% assign image_crop = "aspect-ratio--wide" %}
+{% endif %}
+
+<article class="indiv-product small-grid">
+
+  <script type="application/json" id="product-grid-{{ liquidObject.id }}" class="product-grid-json">
+    {{ liquidObject | json }}
+  </script>
+  <a class="card-link-wrapper" href="{{ productObject.url }}?variant={{ liquidObject.id }}" title="{{ liquidObject.title | escape }}" tabindex="-1">
+    <div class="variant-image-wrapper">
+      <img loading="lazy"
+      class="variant-image"
+      {% if liquidObject.metafields.my_fields.variant_plp_image %}
+        src="{{ liquidObject.metafields.my_fields.variant_plp_image }}"
+      {% else %}
+        src="{{ liquidObject.featured_image | img_url: 'master' }}"
+      {% endif %}
+      alt="{{ liquidObject.image.alt }}">
+    </div>
+
+      <div class="hp-title">
+        {% for block in section.blocks %}
+          {% case block.type %}
+
+            {% when 'grid-card-title' %}
+              <div {{ block.shopify_attributes }}>
+                <p class="indiv-product-title-text">{{ productObject.title | escape }}</p>
+              </div>
+        <div class="loox-rating" data-id="{{ productObject.id }}" data-rating="{{ productObject.metafields.loox.avg_rating }}" data-raters="{{ productObject.metafields.loox.num_reviews }}" style="font-size: 13px"></div>
+
+            {% when 'grid-card-points' %}
+              {% if productObject.metafields.my_fields.product_patch_points > 0 %}
+                <p class="points-value">Includes {{ productObject.metafields.my_fields.product_patch_points | escape }} Patch Points</p>
+              {% endif %}
+
+            {% when 'grid-card-color' %}
+            <p class="color-name">{{ liquidObject.metafields.my_fields.product_color | metafield_text }}</p>
+
+            {% when 'grid-card-price' %}
+            <p class="money">{% if productObject.price_varies %}Starting at {% endif %}{{ productObject.price_min | money }}</p>      
+
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </a>
+
+  {% if liquidObject.available %}
+    {% if liquidObject.compare_at_price_max > liquidObject.price and settings.sale_badge %}
+      <div class="envy-badge sale-badge">{{ 'products.general.sale' | t }}</div>
+    {% endif %}
+  {% elsif settings.sold_out_badge %}
+    <div class="envy-badge sold-out-badge">{{ 'products.product.sold_out' | t }}</div>
+  {% endif %}
+</article>

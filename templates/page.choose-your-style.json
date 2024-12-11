@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Choose Your Sweats<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06996_IG_72672d8c-4985-4177-ba44-5825f4686095.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p>Custom<strong> Zip Hoodie<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05710_IG_2_b38e2583-2da5-4c53-aa55-cad39c79a65a.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p>Custom <strong>Pullover<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03134_IG.jpg",
+            "link": "shopify:\/\/products\/kids-jogger",
+            "title": "<p>Custom<strong> Jogger<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-10-17_at_2.29.31_PM.png",
+            "link": "shopify:\/\/products\/hoodie-and-jogger-set-baby",
+            "title": "<p>Custom <strong>Baby <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-0",
+        "1663889670f9ac60af-1",
+        "1663889670f9ac60af-2"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "04ff7eeb-1f8c-4a62-b09e-15e0984217f6": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15058110677015__04ff7eeb-1f8c-4a62-b09e-15e0984217f6-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Custom Team Sweats<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058110677015__04ff7eeb-1f8c-4a62-b09e-15e0984217f6-html-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "ba6e8436-8ec9-45fa-b985-e07d677431e1": {
+      "type": "acdc-inspiration-section",
+      "disabled": true,
+      "settings": {
+        "title_text": "Team Sweats",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "b7ee8af7-0c0b-4536-a00b-f2ac4aaa7368": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058110677015__b7ee8af7-0c0b-4536-a00b-f2ac4aaa7368-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEAM_Sweats_1x1_01.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058110677015__b7ee8af7-0c0b-4536-a00b-f2ac4aaa7368-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEAM_Sweats_1x1_02.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058110677015__b7ee8af7-0c0b-4536-a00b-f2ac4aaa7368-image-1",
+        "template--15058110677015__b7ee8af7-0c0b-4536-a00b-f2ac4aaa7368-image-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "b483868e-b4f2-4998-a5d0-a0e1531d5219": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "Custom Team Sweats",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/contact",
+        "button_text": "Drop us an email to get started"
+      }
+    }
+  },
+  "order": [
+    "1663953168c5f33ca1",
+    "1663889671ddd533ac",
+    "main",
+    "1655837578319b3390",
+    "04ff7eeb-1f8c-4a62-b09e-15e0984217f6",
+    "ba6e8436-8ec9-45fa-b985-e07d677431e1",
+    "b7ee8af7-0c0b-4536-a00b-f2ac4aaa7368",
+    "b483868e-b4f2-4998-a5d0-a0e1531d5219"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a9308d41d0284108897afe2b06ecf1fb.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "15878dea-f50a-41ca-8b25-8b7906f023a0": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9616466df264868a70afb49441731d0.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COLLAGE-BLOCK-1500X800-BLKBG-v2b_1_f030472e-5eb8-40c8-bc73-ff90ac0d2771.gif",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "60b9b885-161d-4c75-8c58-d1977a271276": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15180276006935__60b9b885-161d-4c75-8c58-d1977a271276-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEAM_Sweats_1080p_01_2f05e35c-5b2e-440d-b3f5-46008e062cdd.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15180276006935__60b9b885-161d-4c75-8c58-d1977a271276-image-3"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "47a9e80f-10b6-4d4a-93c5-99f407faff5b": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15180276006935__47a9e80f-10b6-4d4a-93c5-99f407faff5b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEAM_Sweats_1080p_02_d21c2bcf-f121-4815-9a76-5ee01ee3baa8.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15180276006935__47a9e80f-10b6-4d4a-93c5-99f407faff5b-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "d354896b-3b1f-4610-8bde-95782331577d": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/20.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "Design Your Own Premium Sweats for Your Team!",
+        "text_block": "<h5>Perfect for practice, competition, school and just kicking around the house!<\/h5>",
+        "text_block_2": "<h5><strong>⭐️ 8 Vibrant Colors<\/strong><\/h5><h5><strong>⭐️ Super-soft, Eco-friendly Fleece<\/strong><\/h5><h5><strong>⭐️500+ Patches <\/strong><\/h5><h5><strong>⭐️No Minimums<\/strong><\/h5><h5><strong>⭐️Group Discounts<\/strong><\/h5>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "854a67e2-5409-42ed-a62e-1e9a12ddec20": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/21.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "We Bring Your Vision to Life!",
+        "text_block": "<h5><strong>Love this idea, but not sure what you want? We can help! We'll jump in on your project as much or as little as you need. 💪<\/strong><\/h5>",
+        "text_block_2": "<h5><strong>Let's discuss all the ways we can partner. So. Much. Fun! 💖<\/strong><\/h5>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "41115920-3074-4e75-a2ff-25c88f959d46": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "Drop us an email to get started!",
+        "subheading": "",
+        "button_url": "",
+        "button_text": "Team Sweats Now"
+      }
+    }
+  },
+  "order": [
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7",
+    "15878dea-f50a-41ca-8b25-8b7906f023a0",
+    "1663953168c5f33ca1",
+    "main",
+    "1655837578319b3390",
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4",
+    "60b9b885-161d-4c75-8c58-d1977a271276",
+    "47a9e80f-10b6-4d4a-93c5-99f407faff5b",
+    "d354896b-3b1f-4610-8bde-95782331577d",
+    "854a67e2-5409-42ed-a62e-1e9a12ddec20",
+    "41115920-3074-4e75-a2ff-25c88f959d46"
+  ]
+}

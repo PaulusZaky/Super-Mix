@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "cd5f633a-aa88-4259-8bc0-02d083aa5501": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15058112315415__cd5f633a-aa88-4259-8bc0-02d083aa5501-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\">\n<h2>DRAGONWING x Supermix Collab<\/h2>Supermix Partners with Dragonwing to create Limited Edition Custom Gear.<\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__cd5f633a-aa88-4259-8bc0-02d083aa5501-html-1"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112315415__ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-08-17_at_10.51.51_AM_fc46d324-ef76-4732-abab-b2203e320525.png",
+            "link": "",
+            "title": "<h5>Dragonwing Ambassadors will represent the Dragonwing community, and inspire girls everywhere to dream big, break barriers, and embrace their own unique beauty!<\/h5>",
+            "description": ""
+          }
+        },
+        "template--15058112315415__ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06882_CHLOE_DRAGONFLY_v1_dd7dbd98-f087-4983-943d-5a59036dcd95.jpg",
+            "link": "shopify:\/\/products\/copy-of-dragonwing-nyfw-hoodie",
+            "title": "<p><strong>Limited Edition Custom Swag. Pre-order while they last!<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb-image-1",
+        "template--15058112315415__ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb-image-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "large",
+        "image": "shopify:\/\/shop_images\/DSC03489.jpg",
+        "layout": "left",
+        "subheading": "",
+        "title": "NOLA ART FEST x Supermix Collab",
+        "text_block": "<p><strong>Supermix celebrates the First Annual NOLA Art Fest with Limited Edition Custom Swag. Pre-order while they last!<\/strong><\/p><p><br\/><strong><br\/><br\/><br\/><\/strong><\/p>",
+        "text_block_2": "<p><\/p><p><\/p>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1663706533ce6c99fc": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "16637065330b703b05-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"226233\"><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "16637065330b703b05-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "16584980020167f3a8": {
+      "type": "image--gallery",
+      "blocks": {
+        "4372943c-9c47-4288-bcc8-c31025fb6562": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07161_CHLOE_DRAGONFLY_V2_copy.jpg",
+            "link": "shopify:\/\/products\/copy-of-dragonwing-nyfw-hoodie",
+            "title": "<p><strong>LIMITED EDITION! NYFW Ambassador Hoodie<\/strong><\/p>",
+            "description": "<p>Now Available for Pre-Order<\/p>"
+          }
+        },
+        "1658498002a47af847-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03474_DRAGONWING_FRONT.jpg",
+            "link": "shopify:\/\/products\/dragonwing-nyfw-hoodie",
+            "title": "<p><strong>LIMITED EDITION! NYFW Hoodie for Mom!<\/strong><\/p>",
+            "description": "<p>Now Available for Pre-Order<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4372943c-9c47-4288-bcc8-c31025fb6562",
+        "1658498002a47af847-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "165849839097b90399": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbg"
+          }
+        },
+        "21dc3157-8062-4a22-b04e-068021b15bd0": {
+          "type": "product",
+          "settings": {
+            "product": "heart-rbg"
+          }
+        }
+      },
+      "block_order": [
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857",
+        "21dc3157-8062-4a22-b04e-068021b15bd0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Stylist Exclusive Patches",
+        "title_mobile": "<p>Stylist Exclusive Patches<\/p>",
+        "image": "shopify:\/\/shop_images\/Rylan_Lt-Denim_instagram.gif",
+        "image_background_color": "#93dde2",
+        "button_link": "shopify:\/\/collections\/sequin-multi",
+        "button_text": "Shop Exclusives"
+      }
+    },
+    "2fa58c29-ce1a-45b8-ab3d-d17f275b46e1": {
+      "type": "product--featured-product",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "subheading": "",
+        "title": "Get in on the Fun!",
+        "featured_product": "dragonwing-nyfw-hoodie",
+        "show_discount": "hide",
+        "show_quantity_selector": true,
+        "show_smart_checkout": true,
+        "show_product_description": true,
+        "pick_an_option": false,
+        "hide_out_of_stock": false,
+        "enable_video_loop": false,
+        "size_guide_link": "",
+        "size_guide_message": "What's my size?",
+        "size_guide_variant": "Size"
+      }
+    }
+  },
+  "order": [
+    "cd5f633a-aa88-4259-8bc0-02d083aa5501",
+    "ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb",
+    "1655486041452a8d68",
+    "main",
+    "1663706533ce6c99fc",
+    "16584980020167f3a8",
+    "165849839097b90399",
+    "2fa58c29-ce1a-45b8-ab3d-d17f275b46e1"
+  ]
+}

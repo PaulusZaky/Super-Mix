@@ -1,0 +1,640 @@
+{% capture plus_icon %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x plus-icon" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+{% endcapture %}
+
+{% capture minus_icon %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x minus-icon" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line></svg>
+{% endcapture %}
+
+{% capture chevron_down %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+{% endcapture %}
+
+{% capture chevron_up %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down chevron-up"><polyline points="6 9 12 15 18 9"></polyline></svg>
+{% endcapture %}
+
+<style>
+  .top-homepage-section--image-gallery-wrapper {
+    margin-bottom: 70px;
+  }
+  .top-image-bar--single-image {
+    text-align: center;
+  }
+  
+  .top-image-bar--single-image .img-responsive {
+    display: inline-block;
+  }
+  
+  .show-ds-mobile {
+    display: none;
+  }
+  .show-ds-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+  
+  @media screen and (max-width: 767px) {
+    .show-ds-mobile {
+      display: block;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .show-ds-desktop {
+      align-items: center;
+      display: none;
+    }
+  }
+  
+  .top-homepage-section--image-gallery-wrapper .icon--placeholder {
+    max-height: 200px;
+  }
+  .top-image__content img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .top-image__content {
+    width: 100% !important;
+  }
+
+  .top-homepage-sections-wrapper-pad40 {
+    padding: 0 !important;
+  }
+
+  .section-container {
+    max-width: 100% !important;
+    padding: 0;
+  }
+
+  .ds-top-accordion--faq-wrapper {
+    color: {{ section.settings.text-color }};
+    background-color: {{ section.settings.background-color }};
+  }
+
+  .ds-top-accordion-container .title-bar {
+    text-align: left;
+    margin-bottom: 10px;
+    text-transform: none;
+    font-family: var(--body-font-stack);
+    font-size: 1.2rem;
+  }
+
+  .ds-top-accordion-container .title-bar p {
+    margin-bottom: 0;
+  }
+
+  .ds-top-accordion-content summary {
+    font-weight: 600;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ds-top-accordion-content a {
+    text-decoration: underline;
+  }
+
+  .ds-top-accordion-content a:hover {
+    text-decoration: none;
+  }
+
+  .feather-x {
+    transform: rotate(45deg);
+  }
+
+  .ds-top-accordion--faq-wrapper .chevron-up {
+    transform: rotate(180deg);
+  }
+
+  .ds-top-accordion--faq-wrapper .feather-x,
+  .ds-top-accordion--faq-wrapper .feather-chevron-down {
+    width: var(--body-font-size);
+    height: var(--body-font-size);
+    color: {{ section.settings.text-color }};
+  }
+
+  .ds-top-accordion--faq-wrapper details summary .minus-icon,
+  .ds-top-accordion--faq-wrapper details summary .chevron-up {
+    display: none;
+  }
+
+  .ds-top-accordion--faq-wrapper details[open] summary .plus-icon,
+  .ds-top-accordion--faq-wrapper details[open] summary .chevron-down {
+    display: none;
+  }
+
+  .ds-top-accordion--faq-wrapper details[open] summary .minus-icon,
+  .ds-top-accordion--faq-wrapper details[open] summary .chevron-up {
+    display: block;
+  }
+
+  @media screen and (max-width: 767px) {
+    .ds-top-accordion-container {
+      display: none !important;
+    }
+  }
+
+  .ds-top-accordion--faq-wrapper {
+    background-color: transparent;
+    width: 100% !important;
+    padding-top: 20px !important;
+  }
+
+  .ds-top-query {
+    padding: 0 !important;
+  }
+  
+  .ds-top-accordion-content p {
+    margin-bottom: 0 !important;
+    text-align: left;
+  }
+
+  .ds-top-accordion-content {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 575px;
+  }
+  
+  .ds-announce_bar {
+    width: 100%;
+    background-color: #E94184;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 9999998;
+  }
+
+  .ds-logo {
+    width: 100%;
+    display:flex;
+    align-items: start;
+    margin-top: -15px;
+    z-index: 9999999;
+  }
+
+  .ds-logo-content {
+    width: 15%;
+    align-items: end;
+  }
+
+  .ds-announce_text {
+    color: white !important;
+    margin: 0;
+    font-weight: 600 !important;
+  }
+
+  .ds-main-content {
+    display: flex;
+    width: 104%;
+    background: linear-gradient(105.45deg, rgba(44, 154, 198, 0.2) 3.63%, rgba(193, 57, 66, 0.2) 9.7%, rgba(233, 65, 132, 0.2) 16.56%, rgba(238, 210, 109, 0.2) 32.57%, rgba(83, 177, 92, 0.2) 44.01%, rgba(44, 154, 198, 0.2) 53.16%, rgba(215, 133, 179, 0.2) 59.46%);
+    border-bottom: 10px solid #008FBE;
+    margin-top: -10%;
+    margin-bottom: 20px;
+    transform: rotate(3.76deg);
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+  }
+
+  .ds-image {
+    width: 40%;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .ds-content {
+    width: 60%;
+    transform: rotate(-3.76deg);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: -3%;
+    margin-bottom: 3%;
+    padding-left: 1%;
+    gap: 5px;
+  }
+
+  .ds-round-image {
+    background-color: #99d8df;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: -7%;
+  }
+
+  .ds-ratings {
+    max-width: 20%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ds-title1-text {
+    font-size: 34px !important;
+    font-weight: bold !important;
+    color: #0484bd !important;
+    font-family: 'TT Commons Bold', sans-serif !important;
+    margin-bottom: 0;
+  }
+
+  .ds-title2-text {
+    font-size: 52px !important;
+    font-weight: bold !important;
+    color: #E94184 !important;
+    font-family: 'KansasNew', serif !important;
+    margin-bottom: 0;
+  }
+
+  .ds-description {
+    max-width: 575px;
+  }
+
+  .ds-description-text {
+    font-family: 'TT Commons Bold', sans-serif !important;
+    font-size: 24px !important;
+    color: #2bae65 !important;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 1055px) {
+    .ds-title1-text {
+      font-size: 32px !important; 
+    }
+    .ds-title2-text {
+      font-size: 48px !important; 
+    }
+    .ds-description-text {
+      font-size: 23px !important; 
+    }
+  }
+
+  @media screen and (max-width: 975px) {
+    .ds-title1-text {
+      font-size: 30px !important; 
+    }
+    .ds-title2-text {
+      font-size: 45px !important; 
+    }
+    .ds-description-text {
+      font-size: 23px !important; 
+    }
+  }
+
+  @media screen and (max-width: 915px) {
+    .ds-title1-text {
+      font-size: 28px !important; 
+    }
+    .ds-title2-text {
+      font-size: 42px !important; 
+    }
+    .ds-description-text {
+      font-size: 21px !important; 
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .ds-title1-text {
+      font-size: 26px !important; 
+    }
+    .ds-title2-text {
+      font-size: 39px !important; 
+    } 
+    .ds-description-text {
+      font-size: 20px !important; 
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .ds-title1-text {
+      font-size: 24px !important; 
+    }
+    .ds-title2-text {
+      font-size: 36px !important; 
+    } 
+    .ds-description-text {
+      font-size: 19px !important; 
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    .ds-title1-text {
+      font-size: 22px !important; 
+    }
+    .ds-title2-text {
+      font-size: 33px !important; 
+    }
+    .ds-description-text {
+      font-size: 18px !important; 
+    }
+  }
+
+  @media screen and (max-width: 672px) {
+    .ds-title1-text {
+      font-size: 20px !important; 
+    }
+    .ds-title2-text {
+      font-size: 30px !important; 
+    }
+    .ds-description-text {
+      font-size: 15px !important; 
+    }
+    .ds-description-text {
+      font-size: 17px !important; 
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .ds-title1-text {
+      font-size: 18px !important; 
+    }
+    .ds-title2-text {
+      font-size: 27px !important; 
+    } 
+    .ds-description-text {
+      font-size: 16px !important; 
+    }
+  }
+
+</style>
+
+<section class="top-homepage-sections-wrapper-pad40 {% if template == 'index' %}btm-pad10{% endif %}">
+  <div class="section-container">
+    <div class="row top-image-bar">
+      {%- assign column_size = 'col-sm-12 col-md-12 top-image-bar--single-image image-bar--single-column-mobile' -%}
+
+      <div
+        class="
+          grid__item {{ column_size }}
+
+          wow fadeInUp {% cycle 'animDelay': '', 'delay-1', 'delay-2', 'delay-3' %}
+        "
+        {{ section.shopify_attributes }}
+      >
+        <div class="top-image__content">
+          {% if section.settings.image == blank or section.settings.mobile == blank %}
+            {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+          {% else %}
+            <div class="show-ds-desktop">
+              <div class="ds-announce_bar">
+                <p class="ds-announce_text">AS SEEN ON SHARK TANK</p>
+              </div>
+              <div class="ds-logo">
+                <div class="ds-logo-content">
+                  <img src="https://cdn.shopify.com/s/files/1/0563/2737/2823/files/supermix-logo.png?v=1647034023" alt="Logo">
+                </div>
+              </div>
+              <div class="ds-main-content">
+                <div class="ds-image">
+                  <div class="ds-round-image">
+                    {% if section.settings.image %}
+                      <img src="{{ section.settings.image | img_url: 'master' }}" alt="Image">
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="ds-content">
+                  <div class="ds-ratings">
+                    <img src="https://cdn.shopify.com/s/files/1/0563/2737/2823/files/New_Project.png?v=1714252257" alt="Image">
+                    <img src="https://cdn.shopify.com/s/files/1/0563/2737/2823/files/New_Project.png?v=1714252257" alt="Image">
+                    <img src="https://cdn.shopify.com/s/files/1/0563/2737/2823/files/New_Project.png?v=1714252257" alt="Image">
+                    <img src="https://cdn.shopify.com/s/files/1/0563/2737/2823/files/New_Project.png?v=1714252257" alt="Image">
+                    <img src="https://cdn.shopify.com/s/files/1/0563/2737/2823/files/New_Project.png?v=1714252257" alt="Image">
+                  </div>
+                  <div class="ds-title1">
+                    <p class="ds-title1-text">5 REASONS WHY CHILDREN NEED</p>
+                  </div>
+                  <div class="ds-title2">
+                    <p class="ds-title2-text">Supermix Studio Now</p>
+                  </div>
+                  <div class="ds-description">
+                    <p class="ds-description-text">Discover the fashion maven behind supermix studio and unlock a world of creativity for your child.</p>
+                  </div>
+                  <div class="ds-top-accordion--faq-wrapper">
+                    <div class="ds-top-accordion-container">
+                      {% unless section.settings.title == blank %}
+                        <div class="title-bar custom-font">
+                          <p>{{ section.settings.title }}</p>
+                        </div>
+                      {% endunless %}
+                      
+                      {% for block in section.blocks %}
+                        {% unless block.settings.text == blank and block.settings.question == blank %}
+                          <details class="ds-top-accordion-content">
+                            <summary role="button" aria-expanded="false" tabindex="0" class="ds-top-query">
+                              {{ block.settings.question }}<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
+                            </summary>
+                            {{ block.settings.text }}
+                          </details>
+                        {% endunless %}
+                  
+                        <style>
+                          {% if section.settings.title == blank %}
+                            .ds-top-accordion--faq-wrapper details:first-of-type summary {
+                              padding-top: 0;
+                            }
+                          {% endif %}
+                        </style>
+                        
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="show-ds-mobile">
+              {% render 'responsive-mobile-image' with section.settings.mobile, alt: section.settings.mobile.alt %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+{% schema %}
+{
+  "name": {
+    "en": "One Image For Top",
+    "de": "Galerie",
+    "es": "Galería",
+    "fr": "Galerie",
+    "pt-PT": "Galeria"
+  },
+  "class": "top-homepage-section--image-gallery-wrapper",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": {
+        "en": "Desktop Image",
+        "de": "Desktop-Bild",
+        "es": "Imagen de escritorio",
+        "fr": "Image de bureau",
+        "pt-PT": "Imagem de desktop"
+      },
+      "info": {
+        "en": "1000 x 525px recommended",
+        "de": "1000 x 525 px empfohlen",
+        "es": "Recomendado 1000 x 525 px",
+        "fr": "1000 x 525 px recommandé",
+        "pt-PT": "1000 x 525px, recomendado"
+      }
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile",
+      "label": {
+        "en": "Mobile Image",
+        "de": "Mobiles Bild",
+        "es": "Imagen móvil",
+        "fr": "Image mobile",
+        "pt-PT": "Imagem móvel"
+      }
+    },
+    {
+      "type": "color",
+      "id": "background-color",
+      "label": {
+          "en": "Background",
+          "de": "Hintergrund",
+          "es": "Fondo",
+          "fr": "Contexte général",
+          "pt-PT": "Fundo"
+      },
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text-color",
+      "label": {
+          "en": "Text",
+          "de": "Text",
+          "es": "Texto",
+          "fr": "Texte",
+          "pt-PT": "Texto"
+      },
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+          "en": "Heading",
+          "de": "Überschrift",
+          "es": "Encabezado",
+          "fr": "Rubrique",
+          "pt-PT": "Título"
+      },
+      "default": {
+          "en": "Frequently asked questions"
+      }
+    },
+    {
+      "type": "radio",
+      "id": "faq_icon",
+      "label": {
+          "en": "Icon style"
+      },
+      "options": [
+          {
+              "value": "plus_minus",
+              "label": {
+                  "en": "Plus/minus"
+              }
+          },
+          {
+              "value": "caret",
+              "label": {
+                  "en": "Caret"
+              }
+          }
+      ],
+      "default": "plus_minus"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab_content",
+      "name": {
+          "en": "Tab content"
+      },
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": {
+              "en": "Heading",
+              "de": "Überschrift",
+              "es": "Encabezado",
+              "fr": "Rubrique",
+              "pt-PT": "Título"
+          },
+          "default": {
+              "en": "Place your question or heading here"
+          }
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": {
+              "en": "Text",
+              "de": "Text",
+              "es": "Texto",
+              "fr": "Texte",
+              "pt-PT": "Texto"
+          },
+          "default": {
+              "en": "<p>Here you can place an explanation or answer to the question.</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "en": "One Image For Top",
+        "de": "Galerie",
+        "es": "Galería",
+        "fr": "Galerie",
+        "pt-PT": "Galeria"
+      },
+      "blocks": [
+        {
+          "type": "tab_content"
+        },
+        {
+          "type": "tab_content"
+        },
+        {
+          "type": "tab_content"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    "index",
+    "collection",
+    "list-collections",
+    "blog",
+    "article",
+    "page",
+    "password",
+    "404",
+    "cart",
+    "search",
+    "product"
+  ]
+}
+{% endschema %}

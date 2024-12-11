@@ -1,0 +1,41 @@
+{
+  "wrapper": "div.collection-main--wrapper",
+  "sections": {
+    "collection_featured_collection_EaJ4QG": {
+      "type": "collection--featured-collection",
+      "blocks": {
+        "grid_card_title_mAWGcW": {
+          "type": "grid-card-title",
+          "settings": {}
+        },
+        "grid_card_price_biJqY4": {
+          "type": "grid-card-price",
+          "settings": {}
+        },
+        "grid_card_cta_AMRqqa": {
+          "type": "grid-card-cta",
+          "settings": {
+            "cta_text": "Add to cart"
+          }
+        }
+      },
+      "block_order": [
+        "grid_card_title_mAWGcW",
+        "grid_card_price_biJqY4",
+        "grid_card_cta_AMRqqa"
+      ],
+      "settings": {
+        "colors": "white",
+        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "title": "Supermix Gift Cards",
+        "collection": "gift-cards-black-friday",
+        "grid": 3,
+        "rows": 1,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "collection_featured_collection_EaJ4QG"
+  ]
+}

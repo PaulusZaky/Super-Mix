@@ -1,0 +1,459 @@
+{
+  "sections": {
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "57e4354a-cf03-448c-a026-dcdbc25f48c2": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "Visit us on Desktop or Tablet to Design",
+        "subheading": "",
+        "button_url": "",
+        "button_text": ""
+      }
+    },
+    "05a517ad-697c-4618-9f38-0f11222e213f": {
+      "type": "video-acdc-fullwidth",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5d863ce263ed4fa0ab43945b26fdcc96.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "e4f6985c-18aa-4888-90fa-5d3120f50559": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15013524504599__e4f6985c-18aa-4888-90fa-5d3120f50559-1670887571df68b727-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"klaviyo-form-T4QiCR\"><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15013524504599__e4f6985c-18aa-4888-90fa-5d3120f50559-1670887571df68b727-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "59d37aab-f9a6-465f-bbf9-5765c13bcdb8": {
+      "type": "acdc-slideshow",
+      "blocks": {
+        "template--15013524504599__59d37aab-f9a6-465f-bbf9-5765c13bcdb8-166922838738bcd3b9-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DESIGN_STUDIO_1800X1500STILL_copy.jpg",
+            "title": "Supermix Sleepover Party Pack",
+            "subheading": "4 Hoodies",
+            "plus_symbol": "+",
+            "subheading2": "200 bonus patch points",
+            "price": "$199",
+            "retail_value": "RETAIL VALUE $262",
+            "button_link": "",
+            "button_label": "Get Started"
+          }
+        },
+        "template--15013524504599__59d37aab-f9a6-465f-bbf9-5765c13bcdb8-166922838738bcd3b9-1": {
+          "type": "slide",
+          "settings": {
+            "title": "Supermix Sleepover Party Pack",
+            "subheading": "4 Hoodies",
+            "plus_symbol": "+",
+            "subheading2": "200 bonus patch points",
+            "price": "$199",
+            "retail_value": "RETAIL VALUE $262",
+            "button_link": "",
+            "button_label": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "template--15013524504599__59d37aab-f9a6-465f-bbf9-5765c13bcdb8-166922838738bcd3b9-0",
+        "template--15013524504599__59d37aab-f9a6-465f-bbf9-5765c13bcdb8-166922838738bcd3b9-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-slide-time": 8,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff"
+      }
+    },
+    "7530c7cc-5cc1-4d93-a432-ec025955a959": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15013524504599__7530c7cc-5cc1-4d93-a432-ec025955a959-1669230371ff0dee60-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DESIGN_STUDIO_1800X1500STILL_copy_fce841ef-7427-480a-a4cc-2519915fed45.jpg",
+            "link": "",
+            "title": "<p><\/p>",
+            "description": "<p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15013524504599__7530c7cc-5cc1-4d93-a432-ec025955a959-1669230371ff0dee60-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "16742427957ae15c9f": {
+      "type": "apps",
+      "blocks": {
+        "048d5349-6aef-457c-8141-e7e1f8a0697a": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "kids-zip-hoodie"
+          }
+        }
+      },
+      "block_order": [
+        "048d5349-6aef-457c-8141-e7e1f8a0697a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "cddca01f-20e0-4fb2-8c58-50194ef43d84": {
+      "type": "acdc-inspiration-section",
+      "blocks": {
+        "47e82ddd-92f1-4b68-bbe9-9a2bf7b8e402": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/121D03E7-9DCD-4080-BBB6-735E476BA91C.jpg"
+          }
+        },
+        "2773d9f4-f492-423d-8f87-06ade0e932a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20221106_113430.jpg"
+          }
+        },
+        "3255be63-72e2-466c-9069-b6a4884da37d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/694F0498-B0B0-4954-A2EF-1B3CC8464A6B.jpg"
+          }
+        },
+        "c38b0da4-e587-4c76-a5ce-eed09c858375": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1742.jpg"
+          }
+        },
+        "f6a58432-2424-4889-a526-12a9eee0391b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DB1FF6F4-CDF4-48A3-B1C2-4B0C53AF5367.jpg"
+          }
+        },
+        "2a93cd93-0014-4057-9ec7-92287ffeb84b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_Nov_09_2022_4_03_26_PM_1.jpg"
+          }
+        },
+        "55256bfd-1fad-4f84-b6a0-d7b9ac189e92": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10D9A961-E557-4FC4-AD95-4C1063258F64.jpg"
+          }
+        },
+        "1d5aa953-d965-4b4f-b581-3e60f6695d63": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/285D972E-5E7A-4CDD-938E-CAC00FBF8BE6.jpg"
+          }
+        },
+        "16047aa5-9853-44b0-9fee-fb40edcd460d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/58120DD9-CB0C-491E-83AC-CFAE4301BCE8.jpg"
+          }
+        },
+        "15326667-6d5b-471b-a666-e390e44bf896": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B51E821A-8DAF-46F6-A6C9-535110EFFD6F.jpg"
+          }
+        },
+        "5fcdf113-67d5-4bd5-9120-cde47025b605": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0050_00c0ca2f-047a-4140-a9b7-2f186d192764.jpg"
+          }
+        },
+        "a529c9df-cbeb-4067-8ef3-e002b3c16963": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0057.jpg"
+          }
+        },
+        "c110a7e5-783d-46c7-9165-dd652b9fe85e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/34C435DD-C4A9-4DD2-90C5-4047874EA434.jpg"
+          }
+        },
+        "1d8143f0-264c-46d1-bd26-591fbb3bfce1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E7548B90-6D24-4D5A-B81B-599FC68AC58C.jpg"
+          }
+        },
+        "df914606-2054-466a-9702-11148d92df39": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C49E825F-C854-4D4A-86B6-D15F214A2C05.jpg"
+          }
+        },
+        "0eaa359a-7d84-4428-9cf4-99b1da7ea419": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4032.jpg"
+          }
+        },
+        "31380c1b-f866-4326-a6f4-507f65aa76ea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/49A07879-447C-422A-AE8B-C241B5DE14AF.jpg"
+          }
+        },
+        "ec0d3c59-468c-45de-ab05-2aa4fa3dd39a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/31DA37FB-F8B6-4361-B6A5-62609619815D.jpg"
+          }
+        },
+        "55fdafc0-6a68-495c-b641-a4e35f8aa0aa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A19EB513-D335-4975-9506-D80514D42E8B.jpg"
+          }
+        },
+        "26f15a1c-3bcf-4a5f-a423-5ff4d66f381b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/393C58D6-896A-44C7-B1CD-BA2CE0BEAF33.jpg"
+          }
+        },
+        "b93dc268-8565-4ccd-920d-0dbff1912adf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B2801C9C-6107-4434-9027-302A062992D1.jpg"
+          }
+        },
+        "6a44bb56-11ea-420d-b292-cc822c5a470d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/318772596_674961984417803_6843215194176165335_n.jpg"
+          }
+        },
+        "9834e9e2-a12e-42bb-a288-78e33abc8499": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F2E24794-0C8A-40A4-B3BD-7FD71D01DBCB.jpg"
+          }
+        },
+        "e5acaae0-9622-4e45-a27c-66766ee6e4e5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5A6329EA-82E3-47AF-A268-E4FC9970DC52.jpg"
+          }
+        },
+        "b0f39e6f-5205-45f5-9a23-0546a38de6d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/33C7E11E-AD58-4C8E-8A22-292713AAB147.jpg"
+          }
+        },
+        "f25af4d1-92d5-4c80-acee-c57f1bc57cec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/60350A63-390A-438D-8155-E435F6334820.jpg"
+          }
+        },
+        "dc01a69e-eaa3-456b-8faa-deb2d1b7313e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8FD44C2C-AF98-4B37-AFBC-0B7638859ACC.jpg"
+          }
+        },
+        "95f55250-ff4d-4599-8aa5-0f27f291cb27": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C90BE02B-4F71-47CB-9256-8FE6EED4245A.jpg"
+          }
+        },
+        "09f71e46-69ea-4622-a669-31863929b6f6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F7E4B536-91B5-43E1-B2C4-0FCE2DCBA692.jpg"
+          }
+        },
+        "19d02301-f168-455d-a95a-051147c6cce4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20706DD6-5EA9-436C-9A32-5D66924C22A4.jpg"
+          }
+        },
+        "13e13e9c-3297-482b-933b-a0347f51b0be": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/318571578_551127133183632_8885935176141526279_n.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "47e82ddd-92f1-4b68-bbe9-9a2bf7b8e402",
+        "2773d9f4-f492-423d-8f87-06ade0e932a2",
+        "3255be63-72e2-466c-9069-b6a4884da37d",
+        "c38b0da4-e587-4c76-a5ce-eed09c858375",
+        "f6a58432-2424-4889-a526-12a9eee0391b",
+        "2a93cd93-0014-4057-9ec7-92287ffeb84b",
+        "55256bfd-1fad-4f84-b6a0-d7b9ac189e92",
+        "1d5aa953-d965-4b4f-b581-3e60f6695d63",
+        "16047aa5-9853-44b0-9fee-fb40edcd460d",
+        "15326667-6d5b-471b-a666-e390e44bf896",
+        "5fcdf113-67d5-4bd5-9120-cde47025b605",
+        "a529c9df-cbeb-4067-8ef3-e002b3c16963",
+        "c110a7e5-783d-46c7-9165-dd652b9fe85e",
+        "1d8143f0-264c-46d1-bd26-591fbb3bfce1",
+        "df914606-2054-466a-9702-11148d92df39",
+        "0eaa359a-7d84-4428-9cf4-99b1da7ea419",
+        "31380c1b-f866-4326-a6f4-507f65aa76ea",
+        "ec0d3c59-468c-45de-ab05-2aa4fa3dd39a",
+        "55fdafc0-6a68-495c-b641-a4e35f8aa0aa",
+        "26f15a1c-3bcf-4a5f-a423-5ff4d66f381b",
+        "b93dc268-8565-4ccd-920d-0dbff1912adf",
+        "6a44bb56-11ea-420d-b292-cc822c5a470d",
+        "9834e9e2-a12e-42bb-a288-78e33abc8499",
+        "e5acaae0-9622-4e45-a27c-66766ee6e4e5",
+        "b0f39e6f-5205-45f5-9a23-0546a38de6d1",
+        "f25af4d1-92d5-4c80-acee-c57f1bc57cec",
+        "dc01a69e-eaa3-456b-8faa-deb2d1b7313e",
+        "95f55250-ff4d-4599-8aa5-0f27f291cb27",
+        "09f71e46-69ea-4622-a669-31863929b6f6",
+        "19d02301-f168-455d-a95a-051147c6cce4",
+        "13e13e9c-3297-482b-933b-a0347f51b0be"
+      ],
+      "settings": {
+        "title_text": "Supermix Squad",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "14400439-6d0e-4fe9-a092-0912663ce9e6": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/be34c73ac34648fabc9b0afc38ce1f83.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "2807fe96-0631-4bdb-b7cf-d4dea7f08cd9": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15013524504599__2807fe96-0631-4bdb-b7cf-d4dea7f08cd9-1670900252de93d960-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9EEEF2ED-CE83-412A-A489-82E71060D98B.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p><strong>Super Blue Zip Hoodie<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "fd59a82a-828f-49ec-8b44-cd374ed8dd9a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2778DCC2-C263-40AE-9BA9-DB5313C523D6_1.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p><strong>Pullover Hoodie<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15013524504599__2807fe96-0631-4bdb-b7cf-d4dea7f08cd9-1670900252de93d960-0",
+        "fd59a82a-828f-49ec-8b44-cd374ed8dd9a"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "16730646-b0ce-4e11-bfaf-7331ae85dbb9": {
+      "type": "image--gallery",
+      "blocks": {
+        "b3500a45-7d47-4542-a412-3d960b906615": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0053_1_1.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p><strong>Oversized Classic Denim Jacket<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15013524504599__16730646-b0ce-4e11-bfaf-7331ae85dbb9-1670900252de93d960-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F2E24794-0C8A-40A4-B3BD-7FD71D01DBCB.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-joggers",
+            "title": "<p><strong>Add-Your-Name Joggers<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "b3500a45-7d47-4542-a412-3d960b906615",
+        "template--15013524504599__16730646-b0ce-4e11-bfaf-7331ae85dbb9-1670900252de93d960-0"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "1663953168c5f33ca1",
+    "57e4354a-cf03-448c-a026-dcdbc25f48c2",
+    "05a517ad-697c-4618-9f38-0f11222e213f",
+    "e4f6985c-18aa-4888-90fa-5d3120f50559",
+    "main",
+    "59d37aab-f9a6-465f-bbf9-5765c13bcdb8",
+    "7530c7cc-5cc1-4d93-a432-ec025955a959",
+    "16742427957ae15c9f",
+    "cddca01f-20e0-4fb2-8c58-50194ef43d84",
+    "14400439-6d0e-4fe9-a092-0912663ce9e6",
+    "2807fe96-0631-4bdb-b7cf-d4dea7f08cd9",
+    "16730646-b0ce-4e11-bfaf-7331ae85dbb9"
+  ]
+}

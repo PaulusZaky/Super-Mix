@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "advanced_layout_custom_liquid_Yfzt6E": {
+      "type": "advanced-layout--custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u21797\">Loading store locator<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>\n<!-- End Stockist.co widget -->"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_layout_custom_liquid_Yfzt6E"
+  ]
+}

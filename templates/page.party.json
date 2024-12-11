@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-14.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix Online Design Party",
+        "text_block": "<p><strong>You're Invited! <\/strong>Be amongst the very first to learn more about Supermix Studio from Supermix Founder & CEO Jennifer Stein-Bischoff herself.<br\/><br\/>• How she came up with the Supermix brand and idea.<br\/><br\/>• What makes Supermix so unique in the marketplace. <br\/><br\/>• How Supermix is giving kids a platform to wear their cause on their sleeve.<br\/><br\/>• Design Tips & Tricks for that perfect custom piece.<br\/><strong><br\/><\/strong>• Receive 50 patch points just for attending ($10 Value!)<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "https:\/\/www.eventbrite.com\/e\/supermix-design-party-tickets-400524588827",
+        "button_label": "REGISTER HERE NOW"
+      }
+    },
+    "1655487353d90e2bc0": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-13.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "TIPS & TRICKS",
+        "text_block": "<p><strong>The Supermix story started when Founder CEO Jennifer Stein-Bischoff was a little girl. <\/strong> She was always embellishing her clothes, looking for ways to make them her own. <\/p>",
+        "text_block_2": "<p>• She brings this dream to life by empowering people to hyper-personalize the things they already love to wear.  <\/p>",
+        "text_block_3": "<p>• With the Supermix platform, it’s easy to design something that lets anyone wear their heart and originality on their sleeves, or wherever they want to place a patch of their favorite thing.<\/p>",
+        "text_block_4": "",
+        "button_link": "https:\/\/www.eventbrite.com\/e\/supermix-design-party-tickets-400524588827",
+        "button_label": "REGISTER FOR ZOOM NOW"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "16630157438f9a3bb4": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1663015743ab4cadd6-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/ROUND_IMAGES-14_dbb9b694-ef1a-4d45-a01e-421e1e37d600.png",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "fb6ad404-6ec4-4d05-ae31-e1ac3fae980e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2994.jpg",
+            "subheading": "",
+            "title": "Supermix Party",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Virtual Party with CEO & Founder.<br>• AMA (Ask me Anything).<br>• Uplifting Guests Each Time.",
+            "button_text": "Register Now",
+            "link": "https:\/\/www.eventbrite.com\/e\/supermix-design-party-ama-with-founder-jennifer-stein-tickets-431420088097",
+            "caption-background": "#ffffff",
+            "caption-text": "#130606",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "bottom"
+          }
+        },
+        "fb0e7ee8-6115-4edb-b5d2-509a2c5e859f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01279_1500x800_c7c594d3-54d3-4c9c-b78e-22d3c4893b4a.jpg",
+            "subheading": "",
+            "title": "Free Design Session",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Supermix Design Tips & Tricks.<br>• Fun Activity for the Entire Family.<br>• FREE Patch Points for Attending.",
+            "button_text": "Register Now",
+            "link": "https:\/\/www.eventbrite.com\/e\/supermix-design-party-ama-with-founder-jennifer-stein-tickets-431420088097",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "bottom"
+          }
+        },
+        "1663015743ab4cadd6-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00476_1500x800v3_10478e9a-ba8d-48c5-ae6c-7b49895b30ff.jpg",
+            "subheading": "",
+            "title": "Our First Live Event",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Join Us Friday, October 14th.<br>\n• Our Very First Virtual Broadcast.<br>\n• Live From Our Studio in New York.",
+            "button_text": "Register Now",
+            "link": "https:\/\/www.eventbrite.com\/e\/supermix-design-party-ama-with-founder-jennifer-stein-tickets-431420088097",
+            "caption-background": "#ffffff",
+            "caption-text": "#130606",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "1663015743ab4cadd6-0",
+        "fb6ad404-6ec4-4d05-ae31-e1ac3fae980e",
+        "fb0e7ee8-6115-4edb-b5d2-509a2c5e859f",
+        "1663015743ab4cadd6-1"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 5,
+        "show-slide-dots": true,
+        "show-slide-arrows": true,
+        "show-slide-controls": false,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    },
+    "1663183403850ecf58": {
+      "type": "video--video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "url": "https:\/\/player.vimeo.com\/video\/745000446?h=09b18418d1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--100"
+      }
+    }
+  },
+  "order": [
+    "1655486041452a8d68",
+    "1655487353d90e2bc0",
+    "main",
+    "1655837578319b3390",
+    "16630157438f9a3bb4",
+    "1663183403850ecf58"
+  ]
+}

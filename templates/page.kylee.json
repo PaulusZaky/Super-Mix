@@ -1,0 +1,264 @@
+{
+  "sections": {
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "large",
+        "image": "shopify:\/\/shop_images\/IMG_6539.jpg",
+        "layout": "left",
+        "subheading": "",
+        "title": "Hi, I'm Kylee and these are my kids.",
+        "text_block": "<p>CEO of the Kylee Ann Photography Team and a full-time brand photographer based in Northern Utah. I'm the momma of three kids and two pups. Over ten years of running a business and raising a family has taught me a lot, and I use that experience to coach other moms in business on balance, systems, mindset and marketing. I love Supermix because it allows me to share a brand our family loves with others.<\/p>",
+        "text_block_2": "<p><strong>FOLLOW THESE 3 SIMPLE STEPS: <\/strong><\/p><p><\/p><p><strong>STEP 1 - Sign Up below to receive 50 FREE Patch Points.<br\/><br\/>STEP 2 - After you have your account, get another 70  FREE Patch Points by coming back to this page, and entering code 'KYLEE70' in same place.<br\/><br\/>STEP 3 - Design away. No one will have anything like it!<br\/><br\/>Happy Supermixing!<br\/><br\/>KYLEE<\/strong><\/p><p><\/p>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1664563562e1087127": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "b7b7ec7f-4c60-4ba2-925b-c92c62e2345a": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"226233\"><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "b7b7ec7f-4c60-4ba2-925b-c92c62e2345a"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1664563691538222f0": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "16584980020167f3a8": {
+      "type": "image--gallery",
+      "blocks": {
+        "1658498002a47af847-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3U6A5830.jpg",
+            "link": "shopify:\/\/products\/dino-checklg",
+            "title": "<p><strong>Checkerboard T-Rex<\/strong><\/p>",
+            "description": "<p><strong>This hoodie is 100% Ro.  His favorite colors are blue and green.  He is dino-obsessed and thinks the melty smiley was the coolest ever.  Bonus that it's made from BCI cotton, supporting sustainable farming.<\/strong><\/p>"
+          }
+        },
+        "1658498002a47af847-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3U6A5720.jpg",
+            "link": "shopify:\/\/products\/recycled-backpack",
+            "title": "<p><a href=\"https:\/\/supermix-studios.myshopify.com\/products\/heart-bfflgleft\" title=\"https:\/\/supermix-studios.myshopify.com\/products\/heart-bfflgleft\">Recycled Backpack<\/a><\/p>",
+            "description": "<p><strong>Piper is all about pink.  She had so much fun picking all her favorite patches. I love the functionality and sustainability built into the backpack. It's made of from recycled plastic bottles for the most kid-proof fabric around.  <\/strong><\/p>"
+          }
+        },
+        "1658498002a47af847-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3U6A5788.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p><a href=\"\/products\/kids-zip-hoodie\" title=\"Kids Zip Hoodie\">Kids Pullover Hoodie<\/a><\/p>",
+            "description": "<p><strong>The perfect blank canvas for your customization skills, the pullover hoodie has plenty of places to patch it up. The Supersize patches work on the front or the back giving you soooo many options to design.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658498002a47af847-0",
+        "1658498002a47af847-1",
+        "1658498002a47af847-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "165849839097b90399": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbg"
+          }
+        },
+        "21dc3157-8062-4a22-b04e-068021b15bd0": {
+          "type": "product",
+          "settings": {
+            "product": "heart-rbg"
+          }
+        }
+      },
+      "block_order": [
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857",
+        "21dc3157-8062-4a22-b04e-068021b15bd0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Stylist Exclusive Patches",
+        "title_mobile": "<p>Stylist Exclusive Patches<\/p>",
+        "image": "shopify:\/\/shop_images\/Rylan_Lt-Denim_instagram.gif",
+        "image_background_color": "#93dde2",
+        "button_link": "shopify:\/\/collections\/sequin-multi",
+        "button_text": "Shop Exclusives"
+      }
+    },
+    "16646507319967bd7d": {
+      "type": "image--slideshow",
+      "blocks": {
+        "166465073188aea077-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unboxing-14_dfa8e05a-29c9-4690-b505-e36ef95091ca.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "166465073188aea077-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unboxing-22_493cecc9-7020-486d-9f1b-2d41544ee968.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "cf7e5d62-1841-45bd-a66b-9a556f5a3907": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00801_1500x800_9bfb4f7c-d1a8-47b7-9bd3-cf5478078132.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "70cd24c9-218c-4b3f-b27f-91ea6dcda293": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00968_1500x800_ad02996e-57d5-4e21-bdda-d3e462adce2a.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "b8254956-abbb-4ab0-8da8-cf23e2fa3f15": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01277_1500X800_6ea31642-511b-4818-be05-4e9934333b39.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "166465073188aea077-0",
+        "166465073188aea077-1",
+        "cf7e5d62-1841-45bd-a66b-9a556f5a3907",
+        "70cd24c9-218c-4b3f-b27f-91ea6dcda293",
+        "b8254956-abbb-4ab0-8da8-cf23e2fa3f15"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    }
+  },
+  "order": [
+    "1655486041452a8d68",
+    "main",
+    "1664563562e1087127",
+    "1664563691538222f0",
+    "16584980020167f3a8",
+    "165849839097b90399",
+    "16646507319967bd7d"
+  ]
+}

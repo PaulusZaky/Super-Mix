@@ -1,122 +1,712 @@
 {
   "sections": {
-    "image_with_text_w6JjBw": {
-      "type": "image-with-text",
+    "image_gallery_VKnFDi": {
+      "type": "image--gallery",
       "blocks": {
-        "heading_mnhk7H": {
-          "type": "heading",
+        "image_86XhWp": {
+          "type": "image",
           "settings": {
-            "heading": "Designer One Day.Fashionista the Next.",
-            "heading_size": "h1"
-          }
-        },
-        "text_RKwaR8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Supermix Gift Card is 2-Gifts-in-1. Let your child explore their creativity by designing their own clothes. And then watch them show off their creation to family and friends.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_xdDy9i": {
-          "type": "button",
-          "settings": {
-            "button_label": "20% Off Supermix Gift Card",
-            "button_link": "",
-            "button_style_secondary": false
+            "image": "shopify:\/\/shop_images\/Shark_Tank_Web_Banner_Gift_Card_v4_4.png",
+            "link": "https:\/\/supermixstudio.com\/collections\/gift-cards?srsltid=AfmBOorpFLIDXMTCnZPkbYFaUJ0nJgKbnUMYkOtPOOBDQoR9XButDh8a",
+            "title": "",
+            "description": ""
           }
         }
       },
       "block_order": [
-        "heading_mnhk7H",
-        "text_RKwaR8",
-        "button_xdDy9i"
+        "image_86XhWp"
       ],
+      "disabled": true,
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "colors": "white"
       }
     },
-    "image_banner": {
-      "type": "image-banner",
+    "image_gallery_Fe9DDE": {
+      "type": "image--gallery",
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "387f921f-c2f0-4226-82ad-a9b66968710a": {
+      "type": "video--video-with-text-overlay-acdc",
+      "settings": {
+        "video_tap_url": "https:\/\/vimeo.com\/904524491",
+        "enable_time_setting": true,
+        "start_time_ampm": "am",
+        "start_time_hours": 7,
+        "start_time_mins": 30,
+        "end_time_ampm": "pm",
+        "end_time_hours": 9,
+        "end_time_mins": 30,
+        "url": "https:\/\/vimeo.com\/904524491",
+        "kiosk_video": "shopify:\/\/files\/videos\/KIOSK VIDEO_April Update_No Button_v2 (2).mp4",
+        "desktopHeight": "fullscreen",
+        "tabletHeight": "450",
+        "mobileHeight": "250",
+        "subheading": "",
+        "title": "",
+        "text": "",
+        "textAlignment": "center",
+        "textColor": "#000000",
+        "textShadow": false,
+        "subheading--text-size": 14,
+        "heading--text-size": 50,
+        "button_link": "shopify:\/\/pages\/ds-denim-sweats",
+        "button_label": ""
+      }
+    },
+    "3983f071-73fb-442c-8382-6a5c1885df7f": {
+      "type": "image--gallery",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--15058112970775__3983f071-73fb-442c-8382-6a5c1885df7f-image-1": {
+          "type": "image",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/Black_Friday_Email_2.png",
+            "link": "shopify:\/\/collections\/gift-cards",
+            "title": "",
+            "description": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "template--15058112970775__3983f071-73fb-442c-8382-6a5c1885df7f-image-1"
       ],
+      "disabled": true,
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "colors": "white"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "redeem_points_Ftf44z": {
+      "type": "redeem-points",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "heading": "Be Your Own Designer",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/choose-your-style-2",
+        "button_text": "Start Now"
+      }
+    },
+    "3eba83d0-2d52-4569-8821-a04fdea37b02": {
+      "type": "redeem-points",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "button_url": "",
+        "button_text": "Gift Card Sale"
+      }
+    },
+    "545211a5-4716-4286-8584-68eca65e3745": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112970775__545211a5-4716-4286-8584-68eca65e3745-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/On_Sale_1x1-02.png",
+            "link": "shopify:\/\/collections\/gift-cards",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112970775__545211a5-4716-4286-8584-68eca65e3745-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Black_Friday_GC1x1_-01.png",
+            "link": "shopify:\/\/products\/gift-card-physical-card",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112970775__545211a5-4716-4286-8584-68eca65e3745-image-1",
+        "template--15058112970775__545211a5-4716-4286-8584-68eca65e3745-image-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "ffe597ad-8428-4704-80cb-b12dc183faa1": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112970775__ffe597ad-8428-4704-80cb-b12dc183faa1-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Black_Friday_Email_3.png",
+            "link": "shopify:\/\/collections\/gift-cards",
+            "title": "",
+            "description": ""
+          }
+        },
+        "61c65202-e89b-43d3-a80b-699b16af8f96": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112970775__ffe597ad-8428-4704-80cb-b12dc183faa1-image-1",
+        "61c65202-e89b-43d3-a80b-699b16af8f96"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "52d8b78e-877b-424a-93ff-5adc99d6485a": {
+      "type": "redeem-points",
+      "disabled": true,
+      "settings": {
+        "heading": "More Shark Tank Deals!",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/shark-tank-deals",
+        "button_text": "Shop Now"
+      }
+    },
+    "c0dfe805-227d-41e4-95d0-419d0f3825db": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112970775__c0dfe805-227d-41e4-95d0-419d0f3825db-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shark_Tank_Web_Banner_Watch_Now.png",
+            "link": "http:\/\/abc.go.com\/shows\/shark-tank",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112970775__c0dfe805-227d-41e4-95d0-419d0f3825db-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1662169215f93304ca": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "a8aebf72-ce47-4d37-bad4-79788f33ec03": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004822142999__a8aebf72-ce47-4d37-bad4-79788f33ec03-1673310329f96c71f4-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Static-Block-1_Ver06.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822142999__a8aebf72-ce47-4d37-bad4-79788f33ec03-1673310329f96c71f4-0"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "ba98c367-5c9c-4b2f-91d8-edccc4796100": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004822142999__ba98c367-5c9c-4b2f-91d8-edccc4796100-1669229230a6d6d0fd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEP1_Static_Ver03.png",
+            "link": "shopify:\/\/pages\/ds-denim-sweats",
+            "title": "",
+            "description": ""
+          }
+        },
+        "2f14a39c-8fa7-4238-acae-639f86a9a7cc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEP2_Static_Ver01.png",
+            "link": "shopify:\/\/pages\/dspatches",
+            "title": "",
+            "description": ""
+          }
+        },
+        "2de478a9-e61a-4c9e-9eda-37850ba0617b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEP3_Static_Ver01.png",
+            "link": "shopify:\/\/pages\/ds-denim-sweats",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822142999__ba98c367-5c9c-4b2f-91d8-edccc4796100-1669229230a6d6d0fd-0",
+        "2f14a39c-8fa7-4238-acae-639f86a9a7cc",
+        "2de478a9-e61a-4c9e-9eda-37850ba0617b"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "10ca67c0-1418-44a7-87e4-b4a751d9e132": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dfa3e1444af54defb85fcf3420334751.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "cbf15676-8d0f-4c85-b2f9-920ffd337ccc": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "94417631-4f1e-46b0-bc6d-b1b7f2e7133d": {
+      "type": "redeem-points",
+      "disabled": true,
+      "settings": {
+        "heading": "How to Supermix",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/how-to-supermix",
+        "button_text": "Watch Video"
+      }
+    },
+    "e9320561-d895-4f13-975e-eb0d5313a8b5": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15004822142999__e9320561-d895-4f13-975e-eb0d5313a8b5-1669147788e5de55b6-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Choose Your Style Below<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822142999__e9320561-d895-4f13-975e-eb0d5313a8b5-1669147788e5de55b6-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "a6426e34-ced1-4b3a-af90-2fa08631049b": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004822142999__a6426e34-ced1-4b3a-af90-2fa08631049b-1669148117fff26857-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_IG_3.jpg",
+            "link": "shopify:\/\/pages\/choose-your-sweats",
+            "title": "<p>Custom <strong>Sweats<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15004822142999__a6426e34-ced1-4b3a-af90-2fa08631049b-1669148117fff26857-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00547_copy_3.jpg",
+            "link": "shopify:\/\/collections\/kids-denim",
+            "title": "<p>Custom <strong>Denim<\/strong><\/p>",
+            "description": "<p><\/p>"
+          }
+        },
+        "template--15004822142999__a6426e34-ced1-4b3a-af90-2fa08631049b-1669148117fff26857-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03970-2_copy_1.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Custom <strong>Backpacks<\/strong><\/p>",
+            "description": "<p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822142999__a6426e34-ced1-4b3a-af90-2fa08631049b-1669148117fff26857-0",
+        "template--15004822142999__a6426e34-ced1-4b3a-af90-2fa08631049b-1669148117fff26857-1",
+        "template--15004822142999__a6426e34-ced1-4b3a-af90-2fa08631049b-1669148117fff26857-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "08dbf154-3884-4fb2-9b5a-363855a0b909": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112970775__08dbf154-3884-4fb2-9b5a-363855a0b909-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03809_IG.jpg",
+            "link": "shopify:\/\/collections\/baby",
+            "title": "<p>Custom<strong> Baby<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15058112970775__08dbf154-3884-4fb2-9b5a-363855a0b909-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06844_EDIT_PATCH_1-1.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Custom<strong> Backpacks<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112970775__08dbf154-3884-4fb2-9b5a-363855a0b909-image-3",
+        "template--15058112970775__08dbf154-3884-4fb2-9b5a-363855a0b909-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "aec247ae-9e60-46d8-a90f-8434ed96e774": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "75f9a62c-5f1a-42af-9877-238e3ca9ca55": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Reviews<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "75f9a62c-5f1a-42af-9877-238e3ca9ca55"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "16742411299ed412c7": {
+      "type": "apps",
+      "blocks": {
+        "49f15a3e-596a-4cd5-8cd8-69326d036823": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": ""
+          }
+        },
+        "c17c727e-84f2-4604-b96d-818b69c5061b": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1440,
+            "borderRadius": 0,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "1.25",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "kids-zip-hoodie"
+          }
+        },
+        "fa400104-5c60-4d52-aa39-5c6242fc3487": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-gallery-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1400,
+            "borderRadius": 0,
+            "itemsPerView": 5,
+            "mobileItemsPerView": 1,
+            "imageRatio": "1",
+            "reviewerNameColor": "#ffffff",
+            "starsColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "none",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "49f15a3e-596a-4cd5-8cd8-69326d036823",
+        "c17c727e-84f2-4604-b96d-818b69c5061b",
+        "fa400104-5c60-4d52-aa39-5c6242fc3487"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16595646277a31b7b2": {
+      "type": "apps",
+      "blocks": {
+        "f1743f12-cfcb-4b6d-af37-33ab57393f23": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1743f12-cfcb-4b6d-af37-33ab57393f23"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "5f94ab42-1e34-4d6e-aa69-9d791cfed1e0": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15004822142999__5f94ab42-1e34-4d6e-aa69-9d791cfed1e0-1671238276b34bff41-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Supermix Squad<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15004822142999__5f94ab42-1e34-4d6e-aa69-9d791cfed1e0-1671238276b34bff41-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "fcd3e9e8-d677-4790-861d-359475197f43": {
+      "type": "acdc-inspiration-section",
+      "blocks": {
+        "510c03aa-307a-4949-9b6f-126f7450820c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BCEECDC3-8C6E-4D05-BA5A-F7A01E001B61.jpg"
+          }
+        },
+        "8a6885ce-554a-45e5-92e2-7a2edf799cfe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-30_at_12.12.43_PM.png"
+          }
+        },
+        "5ee5fbb1-30be-4d58-bfcb-a0646d094e34": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/33C7E11E-AD58-4C8E-8A22-292713AAB147.jpg"
+          }
+        },
+        "ee79e691-e92d-483c-b008-a4a2364f8976": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/55CD4D29-F653-4B75-81E9-DABD9F05CCAC_cba2b4e3-3624-4690-a81e-75a4866a9ea7.jpg"
+          }
+        },
+        "b5f549ac-3c2a-4433-ad62-a263a4dce66e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C49E825F-C854-4D4A-86B6-D15F214A2C05_970cb87e-598d-4bc8-8fbb-32c572498fff.jpg"
+          }
+        },
+        "972e6a56-1ec9-4fe1-ab3c-fec2d9ca4f24": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1742.jpg"
+          }
+        },
+        "77d65cfa-b8e7-4a33-a15d-e34ee641cf82": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/34C435DD-C4A9-4DD2-90C5-4047874EA434_2e1861a6-c409-4018-89f0-f02c4cb8369c.jpg"
+          }
+        },
+        "509e5404-e129-40d5-bcff-60ae91716192": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4032_528f7795-f4ff-4368-b04a-be0b645249e2.jpg"
+          }
+        },
+        "b79d69f4-e54a-48a9-99ff-353a5e00298d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10D9A961-E557-4FC4-AD95-4C1063258F64_ce667fde-5fd9-42b0-ba80-2d9350848280.jpg"
+          }
+        },
+        "b99ffd02-0b96-443c-bef3-8212619691f9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/318772596_674961984417803_6843215194176165335_n.jpg"
+          }
+        },
+        "f03a02ef-e769-4997-9b93-b9df6669edfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0057_d835a9c4-d7d6-4608-88b5-c4769af28a53.jpg"
+          }
+        },
+        "5e6567a4-25c7-4470-b3bc-a7d97d4b9df1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-30_at_11.52.33_AM.png"
+          }
+        },
+        "0d1f7c8f-f3dd-4c52-80af-1c5afc7d19fc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/285D972E-5E7A-4CDD-938E-CAC00FBF8BE6_6e48af22-1092-4ed0-bbd6-d67281ef3f6f.jpg"
+          }
+        },
+        "9c70758a-aa0b-4e6b-bb0f-f8dac426c7cd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F2E24794-0C8A-40A4-B3BD-7FD71D01DBCB.jpg"
+          }
+        },
+        "01f57211-ae63-416f-8c6c-65041bad8469": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F7E4B536-91B5-43E1-B2C4-0FCE2DCBA692.jpg"
+          }
+        },
+        "20dc8962-3a01-424c-b39d-ca5a4b827712": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C90BE02B-4F71-47CB-9256-8FE6EED4245A.jpg"
+          }
+        },
+        "13216f42-2d71-4cab-b782-96a0848ad533": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8FD44C2C-AF98-4B37-AFBC-0B7638859ACC.jpg"
+          }
+        },
+        "eb1f9fe9-9acc-4010-8488-7cd2fbdb4e3b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/46034F7D-706F-4257-9AA8-F93D262E0920.jpg"
+          }
+        },
+        "bee1daf8-e18a-4d67-8d83-eabd4e461382": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D4E399F1-1675-43B4-B685-7EACCC11F9DE_436af58f-beb9-456b-85d7-2680c94650c1.jpg"
+          }
+        },
+        "5bc1262b-c7b5-4f11-985b-7e0b25568e8c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B2801C9C-6107-4434-9027-302A062992D1.jpg"
+          }
+        },
+        "41962063-97c3-467a-add1-b45407cf5f06": {
+          "type": "image",
+          "disabled": true,
+          "settings": {}
+        },
+        "b7f5037e-5736-4107-b9e8-0fbf8105ee7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20706DD6-5EA9-436C-9A32-5D66924C22A4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "510c03aa-307a-4949-9b6f-126f7450820c",
+        "8a6885ce-554a-45e5-92e2-7a2edf799cfe",
+        "5ee5fbb1-30be-4d58-bfcb-a0646d094e34",
+        "ee79e691-e92d-483c-b008-a4a2364f8976",
+        "b5f549ac-3c2a-4433-ad62-a263a4dce66e",
+        "972e6a56-1ec9-4fe1-ab3c-fec2d9ca4f24",
+        "77d65cfa-b8e7-4a33-a15d-e34ee641cf82",
+        "509e5404-e129-40d5-bcff-60ae91716192",
+        "b79d69f4-e54a-48a9-99ff-353a5e00298d",
+        "b99ffd02-0b96-443c-bef3-8212619691f9",
+        "f03a02ef-e769-4997-9b93-b9df6669edfd",
+        "5e6567a4-25c7-4470-b3bc-a7d97d4b9df1",
+        "0d1f7c8f-f3dd-4c52-80af-1c5afc7d19fc",
+        "9c70758a-aa0b-4e6b-bb0f-f8dac426c7cd",
+        "01f57211-ae63-416f-8c6c-65041bad8469",
+        "20dc8962-3a01-424c-b39d-ca5a4b827712",
+        "13216f42-2d71-4cab-b782-96a0848ad533",
+        "eb1f9fe9-9acc-4010-8488-7cd2fbdb4e3b",
+        "bee1daf8-e18a-4d67-8d83-eabd4e461382",
+        "5bc1262b-c7b5-4f11-985b-7e0b25568e8c",
+        "41962063-97c3-467a-add1-b45407cf5f06",
+        "b7f5037e-5736-4107-b9e8-0fbf8105ee7b"
+      ],
+      "settings": {
+        "title_text": "",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "16565992964d572c45": {
+      "type": "apps",
+      "blocks": {
+        "5daac673-87a8-49f2-950e-2b391c63cbcf": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "5daac673-87a8-49f2-950e-2b391c63cbcf"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
-    "image_with_text_w6JjBw",
-    "image_banner",
-    "featured_collection"
+    "image_gallery_VKnFDi",
+    "image_gallery_Fe9DDE",
+    "387f921f-c2f0-4226-82ad-a9b66968710a",
+    "3983f071-73fb-442c-8382-6a5c1885df7f",
+    "redeem_points_Ftf44z",
+    "3eba83d0-2d52-4569-8821-a04fdea37b02",
+    "545211a5-4716-4286-8584-68eca65e3745",
+    "ffe597ad-8428-4704-80cb-b12dc183faa1",
+    "52d8b78e-877b-424a-93ff-5adc99d6485a",
+    "c0dfe805-227d-41e4-95d0-419d0f3825db",
+    "1662169215f93304ca",
+    "a8aebf72-ce47-4d37-bad4-79788f33ec03",
+    "ba98c367-5c9c-4b2f-91d8-edccc4796100",
+    "10ca67c0-1418-44a7-87e4-b4a751d9e132",
+    "cbf15676-8d0f-4c85-b2f9-920ffd337ccc",
+    "94417631-4f1e-46b0-bc6d-b1b7f2e7133d",
+    "e9320561-d895-4f13-975e-eb0d5313a8b5",
+    "a6426e34-ced1-4b3a-af90-2fa08631049b",
+    "08dbf154-3884-4fb2-9b5a-363855a0b909",
+    "aec247ae-9e60-46d8-a90f-8434ed96e774",
+    "16742411299ed412c7",
+    "16595646277a31b7b2",
+    "5f94ab42-1e34-4d6e-aa69-9d791cfed1e0",
+    "fcd3e9e8-d677-4790-861d-359475197f43",
+    "16565992964d572c45"
   ]
 }

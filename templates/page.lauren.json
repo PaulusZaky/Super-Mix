@@ -1,0 +1,264 @@
+{
+  "sections": {
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "large",
+        "image": "shopify:\/\/shop_images\/IMG_1688.jpg",
+        "layout": "left",
+        "subheading": "",
+        "title": "Hi I'm Lauren and these are my kids.",
+        "text_block": "<p>Lauren Pace is a behavior coach and child development specialist. She’s owns the company Rising Motherhood that does coaching, courses and retreats for parents . She’s a mom of three young children with her masters degree in child development. She’s fully immersed in the world of young children and loves helping parents with behavior help, support for big emotions and of course, shopping help— anything to make motherhood a little bit easier and more enjoyable.<br\/><br\/><\/p>",
+        "text_block_2": "<p><strong>FOLLOW THESE 3 SIMPLE STEPS:<br\/><br\/>STEP 1 - Sign Up below to receive 50 FREE Patch Points.<br\/><br\/>STEP 2 - After you have your account, get another 70  FREE Patch Points by coming back to this page, and entering code 'LAUREN70' in same place.<br\/><br\/>STEP 3 - Design away. No one will have anything like it! <br\/><br\/>Happy Supermixing!<br\/><br\/>LAUREN PACE<\/strong><\/p><p><\/p>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1664563485fa5c6c27": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "b982bd60-21c4-4bb8-99d4-cd30c5a7e4e1": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"226233\"><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "b982bd60-21c4-4bb8-99d4-cd30c5a7e4e1"
+      ],
+      "settings": {
+        "section_id": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1664563653b8a6fa52": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "16584980020167f3a8": {
+      "type": "image--gallery",
+      "blocks": {
+        "1658498002a47af847-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1683.jpg",
+            "link": "shopify:\/\/products\/hoodie-and-jogger-set-baby",
+            "title": "<p><a href=\"\/products\/kids-classic-denim-jacket\" title=\"Kids Classic Oversized Denim Jacket\">Baby Hoodie and Jogger Set<\/a><\/p>",
+            "description": "<p><strong>This comfy sweat set is Lola's new favorite. It's super soft and we patched it up with all her favorite things...hearts, butterflies and rainbows. What's even better? Twinning!  I have the matching hoodie.  <\/strong><\/p>"
+          }
+        },
+        "1658498002a47af847-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1686.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p><a href=\"https:\/\/supermix-studios.myshopify.com\/products\/heart-bfflgleft\" title=\"https:\/\/supermix-studios.myshopify.com\/products\/heart-bfflgleft\">Kids' Zip Hoodie<\/a><\/p>",
+            "description": "<p><strong>Available in a rainbow of colors, the zip hoodie is a Supermix essential. Personalize it with your favorites to make it one of a kind. We use BCI cotton supporting more sustainable cotton farming. Charlie loved the flames and Supersize Tiger.<\/strong>​<\/p>"
+          }
+        },
+        "1658498002a47af847-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1695_jpg.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p><a href=\"\/products\/kids-zip-hoodie\" title=\"Kids Zip Hoodie\">Supermix Essential Zip Hoodie<\/a><\/p>",
+            "description": "<p><strong>We combined style and sustainability to make our recycled poly backpack complete with tons of functional details.  It's made of kid-proof fabric from recycled plastic bottles. Maelie gets complements all around school.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658498002a47af847-0",
+        "1658498002a47af847-1",
+        "1658498002a47af847-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "165849839097b90399": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbg"
+          }
+        },
+        "21dc3157-8062-4a22-b04e-068021b15bd0": {
+          "type": "product",
+          "settings": {
+            "product": "heart-rbg"
+          }
+        }
+      },
+      "block_order": [
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857",
+        "21dc3157-8062-4a22-b04e-068021b15bd0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Stylist Exclusive Patches",
+        "title_mobile": "<p>Stylist Exclusive Patches<\/p>",
+        "image": "shopify:\/\/shop_images\/Rylan_Lt-Denim_instagram.gif",
+        "image_background_color": "#93dde2",
+        "button_link": "shopify:\/\/collections\/sequin-multi",
+        "button_text": "Shop Exclusives"
+      }
+    },
+    "1664650576a9b31f50": {
+      "type": "image--slideshow",
+      "blocks": {
+        "166465057609cc5cef-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unboxing-14.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "166465057609cc5cef-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unboxing-22_bbd501d4-2f21-4a4d-a88c-267a07fb042b.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "e55fda08-56e9-4330-bac8-1e58a7dcca57": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00801_1500x800_2127fc93-5909-4627-8c2c-835c8d57a8ab.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "35906c6d-0cd9-46c4-b966-b87b5a802914": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01277_1500X800_9ce0c7d5-e26f-4609-b24a-03ab83d5b43b.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "b6f67968-ba0d-4224-8777-4bc92f660ff0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00968_1500x800_e8b194ee-2289-476a-bde5-fdd8943ed1e4.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "166465057609cc5cef-0",
+        "166465057609cc5cef-1",
+        "e55fda08-56e9-4330-bac8-1e58a7dcca57",
+        "35906c6d-0cd9-46c4-b966-b87b5a802914",
+        "b6f67968-ba0d-4224-8777-4bc92f660ff0"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    }
+  },
+  "order": [
+    "1655486041452a8d68",
+    "1664563485fa5c6c27",
+    "main",
+    "1664563653b8a6fa52",
+    "16584980020167f3a8",
+    "165849839097b90399",
+    "1664650576a9b31f50"
+  ]
+}

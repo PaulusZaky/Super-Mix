@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--product",
+      "blocks": {
+        "product-title": {
+          "type": "product-title",
+          "settings": {}
+        },
+        "product-price": {
+          "type": "product-price",
+          "settings": {
+            "show_discount": "hide",
+            "tax_included": true,
+            "shipping_policy": false
+          }
+        },
+        "product-options": {
+          "type": "product-options",
+          "settings": {
+            "show_variant_labels": true,
+            "hide_out_of_stock": false,
+            "pick_an_option": false
+          }
+        },
+        "customize-button": {
+          "type": "customize-button",
+          "settings": {
+            "customizer_base_url": "https:\/\/customizer.supermixstudio.com",
+            "customizer_button_text": "Customize Now"
+          }
+        },
+        "payment-buttons": {
+          "type": "payment-buttons",
+          "disabled": true,
+          "settings": {
+            "show_smart_checkout": true
+          }
+        },
+        "47315e8d-0b40-4bde-873a-4bbe6f1cfd8f": {
+          "type": "product-description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product-title",
+        "product-price",
+        "product-options",
+        "customize-button",
+        "payment-buttons",
+        "47315e8d-0b40-4bde-873a-4bbe6f1cfd8f"
+      ],
+      "settings": {
+        "show_out_of_stock_email": false,
+        "form_position": "below-details",
+        "size_guide_link": "",
+        "size_guide_message": "",
+        "size_guide_variant": "Size",
+        "image_size": "small",
+        "thumbnail_position": "below",
+        "enable_zoom": true,
+        "enable_video_loop": true
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "settings": {
+        "show_product_recommendations": false,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "loox-product-reviews-app-section"
+  ]
+}

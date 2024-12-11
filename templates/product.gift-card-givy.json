@@ -1,0 +1,153 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--product-gift-card",
+      "blocks": {
+        "product-title": {
+          "type": "product-title",
+          "settings": {}
+        },
+        "product-price": {
+          "type": "product-price",
+          "settings": {
+            "show_discount": "hide",
+            "tax_included": true,
+            "shipping_policy": false
+          }
+        },
+        "product_options_UXPre3": {
+          "type": "product-options",
+          "settings": {
+            "show_variant_labels": true,
+            "hide_out_of_stock": false,
+            "pick_an_option": false
+          }
+        },
+        "customize-button": {
+          "type": "customize-button",
+          "disabled": true,
+          "settings": {}
+        },
+        "payment-buttons": {
+          "type": "payment-buttons",
+          "settings": {
+            "show_smart_checkout": false
+          }
+        },
+        "47315e8d-0b40-4bde-873a-4bbe6f1cfd8f": {
+          "type": "product-description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product-title",
+        "product-price",
+        "product_options_UXPre3",
+        "customize-button",
+        "payment-buttons",
+        "47315e8d-0b40-4bde-873a-4bbe6f1cfd8f"
+      ],
+      "settings": {
+        "show_out_of_stock_email": false,
+        "form_position": "below-details",
+        "size_guide_link": "",
+        "size_guide_message": "",
+        "size_guide_variant": "Size",
+        "image_size": "small",
+        "thumbnail_position": "below",
+        "enable_zoom": true,
+        "enable_video_loop": true
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "settings": {
+        "show_product_recommendations": false,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "7c3bba4d-85ad-460b-90fa-388bf93b4656": {
+      "type": "accordion",
+      "blocks": {
+        "template--15058113101847__7c3bba4d-85ad-460b-90fa-388bf93b4656-tab_content-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "template--15058113101847__7c3bba4d-85ad-460b-90fa-388bf93b4656-tab_content-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "template--15058113101847__7c3bba4d-85ad-460b-90fa-388bf93b4656-tab_content-3": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058113101847__7c3bba4d-85ad-460b-90fa-388bf93b4656-tab_content-1",
+        "template--15058113101847__7c3bba4d-85ad-460b-90fa-388bf93b4656-tab_content-2",
+        "template--15058113101847__7c3bba4d-85ad-460b-90fa-388bf93b4656-tab_content-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "170055940335613d67": {
+      "type": "apps",
+      "blocks": {
+        "givy_location_wb4NXp": {
+          "type": "shopify:\/\/apps\/givy\/blocks\/location\/7e8263d6-6c9a-4d94-9b94-612e9cb257e3",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "givy_location_wb4NXp"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1700561441d5cec00c": {
+      "type": "apps",
+      "blocks": {
+        "468ac7c0-957e-4935-a74e-ed47bff92c4a": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "468ac7c0-957e-4935-a74e-ed47bff92c4a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "7c3bba4d-85ad-460b-90fa-388bf93b4656",
+    "170055940335613d67",
+    "1700561441d5cec00c"
+  ]
+}

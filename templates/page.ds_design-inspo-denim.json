@@ -1,0 +1,333 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "166264920661c898a9": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "1662649205bce37811-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00012.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p>Love all the blush pink patches!<\/p>"
+          }
+        },
+        "1662649205bce37811-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00014.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p>All the patches are designed to coordinate, so whatever you choose will look amazing!<\/p>"
+          }
+        },
+        "1662649205bce37811-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00035.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p>These siblings are too cute!<\/p>"
+          }
+        },
+        "527a840a-524b-47fd-9d30-13f35866fe72": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00038.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p>Share what you love!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1662649205bce37811-0",
+        "1662649205bce37811-1",
+        "1662649205bce37811-2",
+        "527a840a-524b-47fd-9d30-13f35866fe72"
+      ],
+      "settings": {}
+    },
+    "1662032661dbb4a879": {
+      "type": "image--gallery",
+      "blocks": {
+        "1662032661a14fd0b7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9132D3BB-744E-41AC-9C50-D24906B497BA.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1662032661a14fd0b7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/404FF55D-1FF8-48B1-9548-A3670CF48C44.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1662032661a14fd0b7-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/62551F1F-F2CC-4FDF-BA37-E44E5BF15B25.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "",
+            "description": ""
+          }
+        },
+        "f59778a2-7e1d-4e8f-9f1e-a72b47ee7e89": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BE970D2D-47F4-4DE8-ACAA-24F8535D1DB8.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662032661a14fd0b7-0",
+        "1662032661a14fd0b7-1",
+        "1662032661a14fd0b7-2",
+        "f59778a2-7e1d-4e8f-9f1e-a72b47ee7e89"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "16614571308c8235bf": {
+      "type": "image--gallery",
+      "blocks": {
+        "1661457130247d1c02-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02486AB5-4E6C-49A4-8959-DC4B66BD91A0.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1661457130247d1c02-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C69682C0-12A2-4CB6-98C7-D12A780FF9F0.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "",
+            "description": ""
+          }
+        },
+        "1661457130247d1c02-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D7F383ED-8240-4DC5-BD3F-220D421CD772.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "",
+            "description": ""
+          }
+        },
+        "a9b275f4-6975-4408-86b1-8111a31bbf1d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E8107694-D871-42D5-9AE1-B822631A300B.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661457130247d1c02-0",
+        "1661457130247d1c02-1",
+        "1661457130247d1c02-2",
+        "a9b275f4-6975-4408-86b1-8111a31bbf1d"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1661519831b46a428f": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "16615198316fcc737d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/39EE9445-8A05-40B6-9FBE-3DA0B276CF77.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p>Super Soft Rib Denim Jacket with Glitter Prancing Unicorn, Glitter Chenille Hearts, and Bright Glitter Ombre Heart.<\/p>"
+          }
+        },
+        "16615198316fcc737d-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F4B133D7-CAFA-492D-B6C8-452F463806C5.jpg",
+            "link": "shopify:\/\/products\/copy-of-super-soft-denim-jacket-baby",
+            "title": "<p>Out supersoft baby jacket is a gift they won't forget!<\/p>"
+          }
+        },
+        "16615198316fcc737d-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3F1B66F6-0A5B-4CEC-9248-34F11AE68287_6f7af5cb-e6c3-4b33-8b1c-3c63bba62a78.jpg",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p>So many Supersize patches! Why just choose one?<\/p>"
+          }
+        },
+        "5b44718c-b27a-44e1-8ad9-4bc75c41dd43": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5E25A59F-FAFA-4D88-9756-807AF0E4E982.jpg",
+            "link": "shopify:\/\/products\/copy-of-super-soft-denim-jacket-baby",
+            "title": "<p>Love is Love!!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16615198316fcc737d-0",
+        "16615198316fcc737d-1",
+        "16615198316fcc737d-2",
+        "5b44718c-b27a-44e1-8ad9-4bc75c41dd43"
+      ],
+      "settings": {}
+    },
+    "1661521386d5cd77eb": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "b3b90be1-1a59-410a-940f-c18625106065": {
+          "type": "product",
+          "settings": {
+            "product": "abc-glitterretromulti-m"
+          }
+        },
+        "485634cd-f735-4ff2-a628-a7c405d588a1": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbowlg"
+          }
+        },
+        "68dd9c1d-1291-4cf6-b203-3915e826f15f": {
+          "type": "product",
+          "settings": {
+            "product": "heart-gltrchenille-blushpink"
+          }
+        },
+        "0b02fbe8-87fd-4d2f-87d4-fb131365c6a1": {
+          "type": "product",
+          "settings": {
+            "product": "star-sequin-electricpink"
+          }
+        }
+      },
+      "block_order": [
+        "b3b90be1-1a59-410a-940f-c18625106065",
+        "485634cd-f735-4ff2-a628-a7c405d588a1",
+        "68dd9c1d-1291-4cf6-b203-3915e826f15f",
+        "0b02fbe8-87fd-4d2f-87d4-fb131365c6a1"
+      ],
+      "settings": {
+        "title": "",
+        "title_mobile": "",
+        "image": "shopify:\/\/shop_images\/Maya-Jacket_1.gif",
+        "image_background_color": "#ffffff",
+        "button_link": "shopify:\/\/products\/kids-classic-denim-jacket",
+        "button_text": "Design Your Own"
+      }
+    },
+    "1662475883bca2d668": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "16624758839b52927b-0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00020.jpg",
+            "patch_link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "patch_title": ""
+          }
+        },
+        "16624758839b52927b-1": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00031.jpg",
+            "patch_link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "patch_title": ""
+          }
+        },
+        "16624758839b52927b-2": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00042.jpg",
+            "patch_link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "patch_title": ""
+          }
+        },
+        "16624758839b52927b-3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00034.jpg",
+            "patch_link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "patch_title": ""
+          }
+        },
+        "f3ce2b8d-640e-4c91-9ea5-86a5b3288244": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00052.jpg",
+            "patch_link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "patch_title": ""
+          }
+        },
+        "650232a3-179f-44e5-ab4e-a55fe8c26cb4": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/image00043.jpg",
+            "patch_link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "patch_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "16624758839b52927b-0",
+        "16624758839b52927b-1",
+        "16624758839b52927b-2",
+        "16624758839b52927b-3",
+        "f3ce2b8d-640e-4c91-9ea5-86a5b3288244",
+        "650232a3-179f-44e5-ab4e-a55fe8c26cb4"
+      ],
+      "settings": {
+        "patch_heading": "Soooo Many Patches, Sooo Little Time",
+        "grid_number": "3"
+      }
+    },
+    "advanced_layout_custom_html_XbD3WC": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "html_gYxkd3": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Check Out the Jackets Kids are Designing!<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "html_gYxkd3"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_layout_custom_html_XbD3WC",
+    "166264920661c898a9",
+    "1662032661dbb4a879",
+    "16614571308c8235bf",
+    "1661519831b46a428f",
+    "1661521386d5cd77eb",
+    "1662475883bca2d668"
+  ]
+}

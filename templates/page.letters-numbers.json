@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16521970811bad5fe7": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "1652197081bfd0be9a-2": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RETMULABC.png",
+            "patch_link": "shopify:\/\/collections\/glitter-retro-multi",
+            "patch_title": "Glitter Retro Multi"
+          }
+        },
+        "1652197081bfd0be9a-1": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RETPNK1ABC_1_2d79889e-9b28-4013-b15e-c4d4bda29ad4.png",
+            "patch_link": "shopify:\/\/collections\/glitter-chenille-blush-pink",
+            "patch_title": "Glitter Retro Blush Pink"
+          }
+        },
+        "c69010be-8f58-455a-9e62-6ac3fb6772f0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/VARSWHTABC.png",
+            "patch_link": "shopify:\/\/collections\/varsity-white",
+            "patch_title": "Varsity White"
+          }
+        },
+        "c3631477-6f83-4ba8-8ce6-be33f96a0cfb": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/VARSBLUABC_1.png",
+            "patch_link": "shopify:\/\/collections\/varsity-super-blue",
+            "patch_title": "Varsity Super Blue"
+          }
+        },
+        "b7a4b3ee-7f77-4ab5-8137-6b0b44c83e5f": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RAINBOW_ABC.png",
+            "patch_link": "shopify:\/\/collections\/rainbow-stripe",
+            "patch_title": "Rainbow Stripe"
+          }
+        },
+        "1652197081bfd0be9a-3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RETRMU1ABC.png",
+            "patch_link": "shopify:\/\/collections\/mini-retro-multi",
+            "patch_title": "Mini Retro Multi"
+          }
+        },
+        "0a865408-f5c2-4f09-a3ed-01bfbe41f92b": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RETRWH1ABC.png",
+            "patch_link": "shopify:\/\/collections\/mini-retro-white",
+            "patch_title": "Mini Retro White"
+          }
+        },
+        "9ca0a627-fa4d-4bc7-987d-31ea752e2e77": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/ABCRBG1ABC.png",
+            "patch_link": "shopify:\/\/collections\/sequin-multi",
+            "patch_title": "Sequin Multi"
+          }
+        },
+        "1652197081bfd0be9a-0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/BDAYNUM5.png",
+            "patch_link": "shopify:\/\/collections\/birthday-numbers",
+            "patch_title": "Birthday Numbers"
+          }
+        }
+      },
+      "block_order": [
+        "1652197081bfd0be9a-2",
+        "1652197081bfd0be9a-1",
+        "c69010be-8f58-455a-9e62-6ac3fb6772f0",
+        "c3631477-6f83-4ba8-8ce6-be33f96a0cfb",
+        "b7a4b3ee-7f77-4ab5-8137-6b0b44c83e5f",
+        "1652197081bfd0be9a-3",
+        "0a865408-f5c2-4f09-a3ed-01bfbe41f92b",
+        "9ca0a627-fa4d-4bc7-987d-31ea752e2e77",
+        "1652197081bfd0be9a-0"
+      ],
+      "settings": {
+        "patch_heading": "Letters & Numbers"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16521970811bad5fe7"
+  ]
+}

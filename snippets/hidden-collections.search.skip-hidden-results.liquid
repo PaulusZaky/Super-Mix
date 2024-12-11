@@ -1,0 +1,22 @@
+{% comment %}
+======================================================
+Managed by Hidden Collections app - Do not modify.
+To remove please click "Remove from store" in our app.
+======================================================
+{% endcomment %}
+
+
+{% if item.object_type == 'product' %}
+  {% assign string_id = item.id | append: "" %}
+  {% if forbidden_results contains string_id %}
+    {% continue %}
+  {% endif %}
+{% endif %}
+
+
+{% comment %}
+======================================================
+End of managed code.
+To remove please click "Remove from store" in our app.
+======================================================
+{% endcomment %}

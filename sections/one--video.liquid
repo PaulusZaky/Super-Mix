@@ -1,0 +1,250 @@
+<style>
+  .homepage-section--video-wrapper .homepage-sections-wrapper,
+  .homepage-section--video-wrapper .homepage-sections-wrapper--accent,
+  .homepage-section--video-wrapper .homepage-sections-wrapper--dark,
+  .homepage-section--video-wrapper .homepage-sections-wrapper--light,
+  .homepage-section--video-wrapper .homepage-sections-wrapper--white {
+    padding: 0 0 50px 0;
+  }
+  @media screen and (min-width: 992px) {
+    .video-section .wrapper {
+      margin: 0 auto;
+    }
+  }
+  
+  .video-section .embed-container {
+    z-index: 1;
+  }
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .embed-container embed,
+  .embed-container iframe,
+  .embed-container object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (max-width: 767px) {
+    .video-overlay {
+      display: none;
+    }
+  }
+
+  .image-bar--single-image {
+    text-align: center;
+  }
+  
+  .image-bar--single-image .img-responsive {
+    display: inline-block;
+  }
+  
+  .image-bar--title {
+    text-align: center;
+  }
+  
+  .image-bar--description p {
+    text-align: justify;
+    padding: 0 1rem;
+    font-size: 30px !important;
+  }
+  
+  .show-mobile {
+    display: none;
+  }
+  .show-desktop {
+    display: block;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .show-mobile {
+      display: block;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .show-desktop {
+      display: none;
+    }
+  }
+  
+  .homepage-section--image-gallery-wrapper .icon--placeholder {
+    max-height: 200px;
+  }
+  .image__content img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .image__content {
+    width: 100% !important;
+  }
+  
+  .type-subheading p {
+    font-weight: bold !important;
+    font-size: 36px !important;
+  } 
+
+  .type-subheading {
+    max-width: 95%;
+    align-items: center;
+  }
+
+  .homepage-sections-wrapper-pad40 {
+    padding: 0 !important;
+  }
+
+  .section-container.one-video {
+    max-width: 100% !important;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .instruction_container {
+    width: 60%;
+  }
+
+  .video_container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+  }
+
+  .desktop-video-wrapper {
+    position: relative;
+    width: 80% !important;
+    height: 80% !important;
+  }
+  .desktop-video-wrapper video {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+  
+</style>
+
+<section class="homepage-sections-wrapper-pad40 {% if template == 'index' %}btm-pad10{% endif %}">
+  <div class="section-container one-video">
+    <div class="instruction_container">
+      <div class="row image-bar">
+        {%- assign column_size = 'col-sm-12 col-md-12 image-bar--single-image image-bar--single-column-mobile' -%}
+  
+        <div
+          class="
+            grid__item {{ column_size }}
+  
+            wow fadeInUp {% cycle 'animDelay': '', 'delay-1', 'delay-2', 'delay-3' %}
+          "
+          {{ section.shopify_attributes }}
+        >
+          <div class="image__content">
+            {% if section.settings.image == blank %}
+              {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+            {% elsif section.settings.image != blank and section.settings.mobile != blank %}
+              <div class="show-desktop">
+                {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
+              </div>
+              <div class="show-mobile">
+                {% render 'responsive-mobile-image' with section.settings.mobile, alt: section.settings.mobile.alt %}
+              </div>
+            {% elsif section.settings.mobile == blank %}
+              {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video_container">
+      <div class="desktop-video-wrapper" style="cursor:pointer">
+        <video playsinline autoplay muted loop class="acdc-video" style="pointer-events:none">
+          <source src="{{ section.settings.video_url }}">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": {
+    "en": "Video With Instruction",
+    "de": "Galerie",
+    "es": "Galería",
+    "fr": "Galerie",
+    "pt-PT": "Galeria"
+  },
+  "class": "homepage-section--image-gallery-wrapper",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": {
+        "en": "Desktop Image",
+        "de": "Desktop-Bild",
+        "es": "Imagen de escritorio",
+        "fr": "Image de bureau",
+        "pt-PT": "Imagem de desktop"
+      },
+      "info": {
+        "en": "1000 x 525px recommended",
+        "de": "1000 x 525 px empfohlen",
+        "es": "Recomendado 1000 x 525 px",
+        "fr": "1000 x 525 px recommandé",
+        "pt-PT": "1000 x 525px, recomendado"
+      }
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile",
+      "label": {
+        "en": "Mobile Image",
+        "de": "Mobiles Bild",
+        "es": "Imagen móvil",
+        "fr": "Image mobile",
+        "pt-PT": "Imagem móvel"
+      }
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video URL",
+      "default": "https://cdn.shopify.com/videos/c/o/v/3f2e14282d4c499da37a8fac75a740e7.mp4"
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "en": "Video With Instruction",
+        "de": "Galerie",
+        "es": "Galería",
+        "fr": "Galerie",
+        "pt-PT": "Galeria"
+      }
+    }
+  ],
+  "templates": [
+    "index",
+    "collection",
+    "list-collections",
+    "blog",
+    "article",
+    "page",
+    "password",
+    "404",
+    "cart",
+    "search",
+    "product"
+  ]
+}
+{% endschema %}

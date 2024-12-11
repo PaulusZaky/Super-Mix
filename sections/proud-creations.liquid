@@ -1,0 +1,164 @@
+{% capture plus_icon %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x plus-icon" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+{% endcapture %}
+
+{% capture minus_icon %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x minus-icon" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line></svg>
+{% endcapture %}
+
+{% capture chevron_down %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+{% endcapture %}
+
+{% capture chevron_up %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down chevron-up"><polyline points="6 9 12 15 18 9"></polyline></svg>
+{% endcapture %}
+
+<style>
+  .creations-faq--{{ section.id }} {
+    color: {{ section.settings.text-color }};
+    background-color: {{ section.settings.background-color }};
+  }
+  .creations-container .creations-wrapper {
+    display: grid;
+    column-gap: 24px;
+    row-gap: 24px;
+    grid-template-columns: auto auto;
+  }
+  .heading-wrapper {
+    margin-bottom: 48px;
+  }
+
+  @media screen and (min-width:768px) {
+    .creations-container .creations-wrapper {
+      column-gap: 32px;
+      row-gap: 80px;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto;
+    }
+    .heading-wrapper {
+      max-width: 768px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 80px;
+    }
+  }
+</style>
+
+<section
+  class="homepage-sections-wrapper creations--faq-wrapper creations-faq--{{ section.id }}"
+  data-wetheme-section-type="creations--faq"
+  data-wetheme-section-id="{{ section.id }}"
+>
+  <div class="creations-container container">
+    <div class="heading-wrapper">
+      {% unless section.settings.title == blank %}
+        <div class="title-bar">
+          <h2 class="heading">{{ section.settings.title }}</h2>
+        </div>
+      {% endunless %}
+      {% unless section.settings.title == blank %}
+        <div class="title-bar text-body">
+          <p>{{ section.settings.subtitle }}</p>
+        </div>
+      {% endunless %}
+    </div>
+
+    <div class="creations-wrapper">
+      {% for block in section.blocks %}
+        {% unless block.settings.image == blank %}
+          <div class="creations-content">
+            {% render 'responsive-image' with block.settings.image, alt: '' %}
+          </div>
+        {% endunless %}
+
+        <style>
+          {% if section.settings.title == blank %}
+            .creations-faq--{{ section.id }} details:first-of-type summary {
+              padding-top: 0;
+            }
+          {% endif %}
+        </style>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": {
+    "en": "Proud Creations"
+  },
+  "class": "main-creations--wrapper",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+        "en": "Heading"
+      }
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": {
+        "en": "SubHeading"
+      }
+    },
+    {
+      "type": "range",
+      "id": "mobile_count",
+      "min": 2,
+      "max": 10,
+      "default": 8,
+      "label": "Select the count of products displayed on the mobile screen."
+    },
+    {
+      "type": "range",
+      "id": "desktop_count",
+      "min": 2,
+      "max": 6,
+      "default": 4,
+      "label": "Select the count of products displayed on the desktop screen."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "proud_creation",
+      "name": {
+        "en": "Proud Creation"
+      },
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": {
+            "en": "Image"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "en": "Proud Creations"
+      },
+      "category": {
+        "en": "Store information"
+      },
+      "blocks": [
+        {
+          "type": "proud_creation"
+        },
+        {
+          "type": "proud_creation"
+        },
+        {
+          "type": "proud_creation"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

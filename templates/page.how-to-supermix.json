@@ -1,0 +1,264 @@
+{
+  "sections": {
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">How to Supermix<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "6144bbd8-4cf6-470b-9d24-25009444f41e": {
+      "type": "video-acdc-fullwidth",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f0dccb29a7e7452db0a3421fa0f0fc96.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "45fa2647-20f8-4fde-a6aa-3c068863d886": {
+      "type": "video--video-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f0dccb29a7e7452db0a3421fa0f0fc96.mp4",
+        "desktopHeight": "550",
+        "mobileHeight": "fit",
+        "subheading": "",
+        "title": "",
+        "text": "",
+        "textAlignment": "center",
+        "textColor": "#000000",
+        "textShadow": false,
+        "subheading--text-size": 14,
+        "heading--text-size": 50,
+        "button_link": "shopify:\/\/pages\/choose-your-style",
+        "button_label": ""
+      }
+    },
+    "0a036b9d-f1b4-4024-90ad-2db80679b44d": {
+      "type": "video--video-with-text-overlay-acdc",
+      "disabled": true,
+      "settings": {
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f0dccb29a7e7452db0a3421fa0f0fc96.mp4",
+        "desktopHeight": "fullscreen",
+        "mobileHeight": "250",
+        "subheading": "",
+        "title": "",
+        "text": "",
+        "textAlignment": "center",
+        "textColor": "#000000",
+        "textShadow": false,
+        "subheading--text-size": 14,
+        "heading--text-size": 50,
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "4e968cd8-4366-44e4-8346-a4348d4b40a9": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15017055387671__4e968cd8-4366-44e4-8346-a4348d4b40a9-1669242467ee48a7b4-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Choose Your Style Below<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15017055387671__4e968cd8-4366-44e4-8346-a4348d4b40a9-1669242467ee48a7b4-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "d9701aaa-e7eb-4dba-a69a-b712e6218d8d": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15017055387671__d9701aaa-e7eb-4dba-a69a-b712e6218d8d-1669242467c40a44fe-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_IG_3.jpg",
+            "link": "shopify:\/\/pages\/choose-your-sweats",
+            "title": "<p><strong>Custom Sweats<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15017055387671__d9701aaa-e7eb-4dba-a69a-b712e6218d8d-1669242467c40a44fe-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00547_copy_3.jpg",
+            "link": "shopify:\/\/collections\/kids-denim",
+            "title": "<p><strong>Custom Denim<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15017055387671__d9701aaa-e7eb-4dba-a69a-b712e6218d8d-1669242467c40a44fe-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03970-2_copy_1.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p><strong>Custom Backpacks<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15017055387671__d9701aaa-e7eb-4dba-a69a-b712e6218d8d-1669242467c40a44fe-0",
+        "template--15017055387671__d9701aaa-e7eb-4dba-a69a-b712e6218d8d-1669242467c40a44fe-1",
+        "template--15017055387671__d9701aaa-e7eb-4dba-a69a-b712e6218d8d-1669242467c40a44fe-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "2b1d3e83-e94a-43f0-93a0-2eaf8da9a113": {
+      "type": "video--video-with-text-overlay-acdc",
+      "disabled": true,
+      "settings": {
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aa1bbf5af6544570bb8b3701ceae24f2.mp4",
+        "desktopHeight": "750",
+        "mobileHeight": "fullscreen",
+        "subheading": "Subheading",
+        "title": "Share your story",
+        "text": "Here's your chance to make a great first impression",
+        "textAlignment": "center",
+        "textColor": "#000000",
+        "textShadow": false,
+        "subheading--text-size": 14,
+        "heading--text-size": 50,
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "f05b765f-8fab-4500-bee9-72cb3e3f5ea6": {
+      "type": "info-block-acdc",
+      "disabled": true,
+      "settings": {
+        "mobile_bg_color": "transparent",
+        "txt_color": "#000000",
+        "horizontal_alignment": "left",
+        "header": "",
+        "subheading_text": "",
+        "main_text": "",
+        "button_link": "",
+        "button_label": "",
+        "btn_bg_color": "#000000",
+        "btn_txt_color": "#ffffff",
+        "hover_btn_bg_color": "#666666",
+        "hover_btn_txt_color": "#ffffff"
+      }
+    },
+    "8333bb19-aa9d-47d6-971e-a6dd6d6e2864": {
+      "type": "ambassador-section-acdc",
+      "disabled": true,
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/DSC05710_IG_2.jpg",
+        "mobile_bg_color": "#deb4b5",
+        "txt_color": "#000000",
+        "horizontal_alignment": "right",
+        "header": "Super Mom, meet Supermix.",
+        "main_text": "",
+        "button_link": "",
+        "button_label": "",
+        "btn_bg_color": "#000000",
+        "btn_txt_color": "#ffffff",
+        "btn_txt_color_hover": "#ffffff",
+        "btn_bg_color_hover": "#666666"
+      }
+    },
+    "ea80608e-7620-455d-9fcf-d7332da66bb9": {
+      "type": "acdc-slideshow",
+      "blocks": {
+        "template--15017055387671__ea80608e-7620-455d-9fcf-d7332da66bb9-1669297380830f3bb3-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05710_IG_2_7b46ddbd-4194-4f8c-85cb-ced0fdd8b8d6.jpg",
+            "title": "#1 Non-Toy Gift of the 2022!",
+            "subheading": "- Romper",
+            "plus_symbol": "",
+            "subheading2": "Black Friday Sale!",
+            "price": "50% off clothing and accessories",
+            "retail_value": "Use Code: OMG50",
+            "button_link": "",
+            "button_label": "Get Started"
+          }
+        },
+        "template--15017055387671__ea80608e-7620-455d-9fcf-d7332da66bb9-1669297380830f3bb3-1": {
+          "type": "slide",
+          "settings": {
+            "title": "Supermix Sleepover Party Pack",
+            "subheading": "4 Hoodies",
+            "plus_symbol": "+",
+            "subheading2": "200 bonus patch points",
+            "price": "$199",
+            "retail_value": "RETAIL VALUE $262",
+            "button_link": "",
+            "button_label": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "template--15017055387671__ea80608e-7620-455d-9fcf-d7332da66bb9-1669297380830f3bb3-0",
+        "template--15017055387671__ea80608e-7620-455d-9fcf-d7332da66bb9-1669297380830f3bb3-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-slide-time": 8,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "1663953168c5f33ca1",
+    "6144bbd8-4cf6-470b-9d24-25009444f41e",
+    "45fa2647-20f8-4fde-a6aa-3c068863d886",
+    "0a036b9d-f1b4-4024-90ad-2db80679b44d",
+    "main",
+    "1655837578319b3390",
+    "4e968cd8-4366-44e4-8346-a4348d4b40a9",
+    "d9701aaa-e7eb-4dba-a69a-b712e6218d8d",
+    "2b1d3e83-e94a-43f0-93a0-2eaf8da9a113",
+    "f05b765f-8fab-4500-bee9-72cb3e3f5ea6",
+    "8333bb19-aa9d-47d6-971e-a6dd6d6e2864",
+    "ea80608e-7620-455d-9fcf-d7332da66bb9"
+  ]
+}

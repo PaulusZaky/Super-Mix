@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "0da1a3a3-673f-4e0c-8bd6-0c3586d2ee14": {
+      "type": "video-acdc-fullwidth",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9616466df264868a70afb49441731d0.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Just Add-Your-Name<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_SITE_d151fbd1-da7d-42c0-b7e1-e3abc2feb042.jpg",
+            "link": "shopify:\/\/collections\/custom-sweats",
+            "title": "<p>Custom <strong>Sweats<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00547_copy.jpg",
+            "link": "shopify:\/\/collections\/custom-denim",
+            "title": "<p>Custom <strong>Denim<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-0"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "16691450957a878546": {
+      "type": "apps",
+      "blocks": {
+        "3d9704fc-86e1-4573-8e8b-1721348a1cc1": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-WeYFE3\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "3d9704fc-86e1-4573-8e8b-1721348a1cc1"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "48694d5e-99c3-4b31-a42f-df0ea39975c0": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15016227143703__48694d5e-99c3-4b31-a42f-df0ea39975c0-1669144716422b2754-0": {
+          "type": "html",
+          "settings": {
+            "code": "<br>\n<br>\n<br>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15016227143703__48694d5e-99c3-4b31-a42f-df0ea39975c0-1669144716422b2754-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    }
+  },
+  "order": [
+    "0da1a3a3-673f-4e0c-8bd6-0c3586d2ee14",
+    "1663953168c5f33ca1",
+    "1663889671ddd533ac",
+    "main",
+    "1655837578319b3390",
+    "16691450957a878546",
+    "48694d5e-99c3-4b31-a42f-df0ea39975c0"
+  ]
+}

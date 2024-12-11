@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "47c2797e-ee46-4458-8cab-ab8f8f3b3d4b": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15006833213463__47c2797e-ee46-4458-8cab-ab8f8f3b3d4b-1667878666c17dfcba-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div id=\"vsscript_124420_297275\"><\/div><script async=\"\" type=\"text\/javascript\" src=\"https:\/\/app.viralsweep.com\/vsa-widget-5fd011-124420.js?sid=124420_297275\"><\/script>",
+            "width": "66%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15006833213463__47c2797e-ee46-4458-8cab-ab8f8f3b3d4b-1667878666c17dfcba-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Choose Your Style<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_SITE_d151fbd1-da7d-42c0-b7e1-e3abc2feb042.jpg",
+            "link": "shopify:\/\/collections\/kids-sweats",
+            "title": "<p>Custom <strong>Sweats<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00547_copy.jpg",
+            "link": "shopify:\/\/collections\/kids-denim",
+            "title": "<p>Custom <strong>Denim<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03934-2_copy_88cf6731-31fe-42de-ab48-0182e1f0d025.jpg",
+            "link": "",
+            "title": "<p>Custom <strong>Backpacks<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC04318_copy_d8e14268-1f0c-424f-a564-24e6e34ed52f.jpg",
+            "link": "",
+            "title": "<p>Custom <strong>Hats<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-0",
+        "1663889670f9ac60af-1",
+        "1663889670f9ac60af-2"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    }
+  },
+  "order": [
+    "47c2797e-ee46-4458-8cab-ab8f8f3b3d4b",
+    "1663953168c5f33ca1",
+    "1663889671ddd533ac",
+    "main",
+    "1655837578319b3390"
+  ]
+}

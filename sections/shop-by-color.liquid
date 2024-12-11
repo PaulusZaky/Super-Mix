@@ -1,0 +1,182 @@
+{% style %}
+.sbc-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sbc-header {
+  margin-bottom: 20px;
+}
+ul.sbc-color-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  margin: 0;
+}
+li.sbc-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+  max-width: 100px;
+}
+label.sbc-label {
+  text-align: center;
+  margin: 0;
+}
+input.sbc-input {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  margin: 0 20px;
+}
+input.sbc-input:checked:after {
+  content: '';
+  height: calc(100% + 10px);
+  width: calc(100% + 10px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('https://cdn.shopify.com/s/files/1/0563/2737/2823/files/sup-rainbow-border.png?v=1648051536');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+.collection-title-wrapper {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  input.sbc-input {
+    height: 8vw;
+    width: 8vw;
+    margin: 0;
+  }
+  input.sbc-input:checked:after {
+    height: calc(100% + 6px);
+  width: calc(100% + 6px);
+  }
+  label.sbc-label {
+    font-size: 0;
+  }
+  .collection-title-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  .collection-title-h2 {
+    text-align: center;
+  }
+  li.sbc-list-item {
+    margin: 0 5px;
+  }
+  .collection-image-wrapper {
+    display: none;
+  }
+}
+{% endstyle %}
+
+{% if section.settings.show_filter != false and collection.metafields.my_fields.product_colors != blank and products.size != 0 %}
+
+  <div class="homepage-sections-wrapper-pad20">
+    <div class="section-container">
+      <div class="collection-title-wrapper">
+        <h2 class="collection-title-h2">{{ collection.title }}</h2>
+      </div>
+      <div class="sbc-flex-wrapper">
+        <h5 class="sbc-header">Shop by Color</h5>
+        <div class="sbc-color-wrapper">
+          <ul class="sbc-color-list">
+            {% assign colormap = collection.metafields.my_fields.product_colors.value %}
+            {% for value in colormap %}
+              {% assign name = value.Name %}
+              {% assign code = value.Code %}
+              {% if value.Image %}
+                {% assign imgurl = value.Image %}
+              {% endif %}
+              <li class="sbc-list-item">
+                <input 
+                type="checkbox" 
+                class="sbc-input" 
+                data-filter-value="{{ name | handleize }}" 
+                id="Filter-{{ filter.label | escape }}-{{ forloop.index }}"
+                {% unless imgurl %}
+                style="background:{{code}}"
+                {% else %}
+                style="background:url('{{imgurl}}')">
+                {% endunless %}
+              </input>
+              <label class="sbc-label" for="Filter-{{ filter.label | escape }}-{{ forloop.index }}" value="{{name}}">{{name}}</label>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endif %}
+
+{% schema %}
+{
+  "name": "Shop by Color ACDC",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_filter",
+      "label": "Show Shop By Color Filter",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shop by Color ACDC"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const inputs = document.querySelectorAll('input.sbc-input')
+    const listItems = document.querySelectorAll('li.list-item')
+    let colorListArray = []
+
+    inputs.forEach( input => {
+      input.addEventListener('change', () => {
+        inputs.forEach( value => {
+          let colorValue = value.dataset.filterValue
+          if (value.checked == true) {
+            colorListArray.push(colorValue)
+          } else {
+            colorListArray = colorListArray.filter(e => e !== colorValue)
+          }
+        })
+        let colorList = [...new Set(colorListArray)]
+
+        listItems.forEach( item => {
+          let itemValue = item.dataset.filterValue
+        
+          if (colorList.includes(itemValue)) {
+            item.style.display = "block"
+          } else if (colorList.length === 0) {
+            item.style.display = "block"
+          } else {
+            item.style.display = "none"
+          }
+        })
+      })
+    })
+  });
+</script>

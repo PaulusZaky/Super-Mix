@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "16594762807fdc0e5c": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-14_dbb9b694-ef1a-4d45-a01e-421e1e37d600.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "Congratulations",
+        "text_block": "<p><strong>We will review promptly and send you registration link if you are approved.<\/strong><\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1660587721562a957a": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-09_e3aaf0d2-d184-4492-81cd-1c2e4277c617.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "Why Partner With Us?",
+        "text_block": "<p><strong>Once your kids start wearing Supermix, they'll become walking billboards. Everyone will want to know where they got it. Just wait until they learn who designed it.<\/strong><\/p><p><\/p>",
+        "text_block_2": "<p>• Simply Share Supermix using our professional assets. <br\/><br\/>• Eco-friendly, custom basics you can comfortably & affordably wear daily.<br\/><br\/>• Earn 10% Commissions on all sales or 20% in product credit.<br\/><br\/>• Network with our Supermix Squad community, both online and offline. <\/p>",
+        "text_block_3": "<p><strong>It’s like a Supermix mini-franchise without any of the risk.<\/strong><\/p>",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1655841012804fc4a2": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-16_at_9.10.17_AM.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "How much can I earn?",
+        "text_block": "<p><strong>You decide. <\/strong>Enough to get your kids new Supermix outfits every month, to take more frequent family vacations, or even build up a significant, part-time monthly income you can depend on. It's totally up to you.<\/p>",
+        "text_block_2": "<p>• Up to 20% commissions on all orders through your personalized website.<br\/><br\/>• Up to 20% commission on all repeat customer orders.<br\/><br\/>• Up to 3 Additional Supermix Bonuses every month.<br\/><br\/>• Work on your own schedule, as much, or as little as you like.<br\/><br\/>• Exclusive Supermix Incentive Trips & more…<\/p>",
+        "text_block_3": "<p><strong>Get paid over & over for simply sharing a brand your kids love to wear.<\/strong><\/p>",
+        "text_block_4": "",
+        "button_link": "https:\/\/calendly.com\/supermix\/20min",
+        "button_label": "Schedule Stylist Interview Now"
+      }
+    },
+    "166145129184891639": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-05_307d0488-d465-45ff-bde7-d21f0fe781ea.png",
+        "layout": "right",
+        "subheading": "",
+        "title": "Do I need to recruit?",
+        "text_block": "<p>Recruiting is not required. Our stylists focus solely on selling and helping people design cool stuff. We provide you with training and support both online and off, to help you succeed. Supermix Studio is not an MLM.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "https:\/\/calendly.com\/supermix\/20min",
+        "button_label": "Schedule Stylist Interview Now"
+      }
+    },
+    "16558411511f5a8fe3": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/ROUND_IMAGES-49_1.jpg",
+        "layout": "left",
+        "subheading": "",
+        "title": "How do I get started?",
+        "text_block": "<p><strong>Purchase our Supermix Stylist Launch Kit. Everything you need to get started and be on your way to becoming our next success story.<\/strong><\/p>",
+        "text_block_2": "<p>• Jacket Design Session w\/ Unlimited Patches ($99+ Value) <br\/>• Branded Binder Filled with Supermix’s Top Patches ($99+ Value)<br\/>• Personalized Supermix Website ($99+ Value)<\/p><p>• Give Away FREE Supersize Patch to All Your Customers.<br\/>• Exclusive Stylist Patch Drops to Keep Customers Coming Back.<br\/>• 500 extra patch points to go crazy with ($60 Value)<br\/>• Up to 20% Discount on personal purchases ($50+ Value\/ month)<br\/>• Supermix community of like-minded mompreneurs.<\/p><p><\/p><p><\/p><p><br\/><\/p><p><strong> Total Value = $400<\/strong><\/p>",
+        "text_block_3": "<p><strong>Supermix Launch Special: Just $99 (Normally $199)<br\/><\/strong><\/p>",
+        "text_block_4": "<p><br\/><\/p>",
+        "button_link": "https:\/\/calendly.com\/supermix\/20min",
+        "button_label": "Schedule Stylist Interview Now"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1655837578319b3390",
+    "16594762807fdc0e5c",
+    "1660587721562a957a",
+    "1655841012804fc4a2",
+    "166145129184891639",
+    "16558411511f5a8fe3"
+  ]
+}

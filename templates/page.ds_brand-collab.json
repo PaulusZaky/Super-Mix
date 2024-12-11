@@ -1,0 +1,405 @@
+{
+  "sections": {
+    "e97bbe6b-0b7b-4eb1-95e0-861569b6b268": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15158202630167__e97bbe6b-0b7b-4eb1-95e0-861569b6b268-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lucky_in_Love_x_Supermix_1920x1080_45481648-2876-47d7-9943-c3e4259b961f.png",
+            "link": "shopify:\/\/pages\/lucky-in-love-x-supermix-collab",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15158202630167__e97bbe6b-0b7b-4eb1-95e0-861569b6b268-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "redeem_points_WtXmye": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "Shop Lucky in Love Collab",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/lucky-in-love-x-supermix-collab",
+        "button_text": "Customize Now"
+      }
+    },
+    "5e043e17-1424-4d41-ade1-6668f35bf43b": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15155051855895__5e043e17-1424-4d41-ade1-6668f35bf43b-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WebBanner_Brand-Collabs_v2_88ab622c-766c-44e9-82bb-c43e462f6a90.png",
+            "link": "https:\/\/supermixstudio.com?bg_ref=3vaZYcIHSo",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15155051855895__5e043e17-1424-4d41-ade1-6668f35bf43b-image-3"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "b7199e65-23f2-4d68-87b2-558d75b1fb19": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15155051855895__b7199e65-23f2-4d68-87b2-558d75b1fb19-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Want to see your logo on Supermix? \n We'll create a premium custom patch of your artwork and manage every detail of your project. Leave it to us to bring your vision to life!<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15155051855895__b7199e65-23f2-4d68-87b2-558d75b1fb19-html-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "4cba2d01-b44f-4cd8-bf9b-2228a660b58f": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15155051855895__4cba2d01-b44f-4cd8-bf9b-2228a660b58f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NewSlide_Custom-Patches_671d5e5d-b4d9-4ac5-88bb-33e6a9edc88c.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15155051855895__4cba2d01-b44f-4cd8-bf9b-2228a660b58f-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design.png",
+            "link": "shopify:\/\/pages\/dragonwing",
+            "title": "<p><strong>Dragonwing Collab <\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hat_blue_0d83e81f-fbde-4b7f-9761-ea1379a2c53d.jpg",
+            "link": "",
+            "title": "<p><strong>Zigazoo Celebrates their 3rd Birthday!<\/strong><\/p>"
+          }
+        },
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03489_47f58e81-5cec-401e-9309-31343dfa60f3.jpg",
+            "link": "shopify:\/\/pages\/nola-art-fair",
+            "title": "<p><strong>Limited Edition Custom Swag <\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kids_3.png",
+            "link": "",
+            "title": "<p><strong>Exclusive Zigazoo Creator Club Hoodies<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663889670f9ac60af-0",
+        "1663889670f9ac60af-2",
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-1"
+      ],
+      "settings": {}
+    },
+    "1d4cfba6-a328-4c7b-810c-0b64814bf1e1": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/Kids_4.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "We'll create a custom landing page  for you!",
+        "text_block": "<p>We're excited to announce the development of a personalized landing page exclusively for your group. This page will feature your logo, photos, and any specific text you want. Everyone in your group will have the freedom to customize their selections and make individual purchases directly from this page. We'll handle the fulfillment and shipping process, ensuring a hassle-free experience. It's an excellent way to promote your upcoming event or outfit your group. Just share the link!<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "shopify:\/\/pages\/dragonwing",
+        "button_label": "Custom Landing Page"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COLLAGE-BLOCK-1500X800-BLKBG-v2b_1_f030472e-5eb8-40c8-bc73-ff90ac0d2771.gif",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "54783cd6-b3df-400b-9974-0a493bc00480": {
+      "type": "video--video",
+      "settings": {
+        "subheading": "",
+        "title": "Dragonwing Ambassador Jackets are 🔥",
+        "url": "https:\/\/vimeo.com\/873104586",
+        "autoplay": true,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--100"
+      }
+    },
+    "5ea74028-04db-4f84-9a12-400660408134": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15155051855895__5ea74028-04db-4f84-9a12-400660408134-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slide_35.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15155051855895__5ea74028-04db-4f84-9a12-400660408134-image-3"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "03c73ab3-7345-4936-8add-1805f5680761": {
+      "type": "accordion",
+      "blocks": {
+        "template--15155051855895__03c73ab3-7345-4936-8add-1805f5680761-tab_content-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What are the minimums?",
+            "text": "<p>We have a 50 piece minimum on all custom patch development. <\/p>"
+          }
+        },
+        "template--15155051855895__03c73ab3-7345-4936-8add-1805f5680761-tab_content-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is the leadtime?",
+            "text": "<p>Custom patch development is 3 weeks including sampling and delivery. Completed product turn-around time varies based on scope.<\/p>"
+          }
+        },
+        "template--15155051855895__03c73ab3-7345-4936-8add-1805f5680761-tab_content-3": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How much does it cost?",
+            "text": "<p>Custom patch fee varies based on quantity and size of the patches. Starting at $250.<\/p>"
+          }
+        },
+        "cff70c19-b96e-4a4f-8eaf-d8ccb44f8019": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is a custom landing page?",
+            "text": "<p>We will create a branded website page where you can direct your group to purchase the product. Your group can choose their size and add their name to your piece.<\/p>"
+          }
+        },
+        "7c1a4cc4-d3b8-4224-8417-39ede162cb6d": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I order just the patches?",
+            "text": "<p>No. We create our premium custom patches to be applied to our product only.<\/p>"
+          }
+        },
+        "cb58d31e-69ad-45f3-a5ea-61f9902740c2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do you ship the product?",
+            "text": "<p>We can ship the product individually to your group for a flat fee of $10 per address, or we can ship the complete order. Whatever is easiest for you!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15155051855895__03c73ab3-7345-4936-8add-1805f5680761-tab_content-1",
+        "template--15155051855895__03c73ab3-7345-4936-8add-1805f5680761-tab_content-2",
+        "template--15155051855895__03c73ab3-7345-4936-8add-1805f5680761-tab_content-3",
+        "cff70c19-b96e-4a4f-8eaf-d8ccb44f8019",
+        "7c1a4cc4-d3b8-4224-8417-39ede162cb6d",
+        "cb58d31e-69ad-45f3-a5ea-61f9902740c2"
+      ],
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "89d0ddc8-335a-435f-b92c-98732ffce9d8": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15155051855895__89d0ddc8-335a-435f-b92c-98732ffce9d8-image-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15155051855895__89d0ddc8-335a-435f-b92c-98732ffce9d8-image-2": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15155051855895__89d0ddc8-335a-435f-b92c-98732ffce9d8-image-3": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15155051855895__89d0ddc8-335a-435f-b92c-98732ffce9d8-image-1",
+        "template--15155051855895__89d0ddc8-335a-435f-b92c-98732ffce9d8-image-2",
+        "template--15155051855895__89d0ddc8-335a-435f-b92c-98732ffce9d8-image-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "8d3dba5e-5331-44f5-adf1-512a3ad9f25e": {
+      "type": "supermix-how-it-works",
+      "disabled": true,
+      "settings": {
+        "step_1_heading": "🔥We create a premium custom patch of your artwork.",
+        "step_1_description": "",
+        "step_2_heading": "🔥We manage every detail of your project for you.",
+        "step_2_description": "",
+        "step_3_heading": "🔥We bring your vision to life.",
+        "step_3_description": "",
+        "main_image": "shopify:\/\/shop_images\/16.png",
+        "button_link": "",
+        "button_text": "Watch",
+        "button_icon_check": true
+      }
+    }
+  },
+  "order": [
+    "e97bbe6b-0b7b-4eb1-95e0-861569b6b268",
+    "redeem_points_WtXmye",
+    "5e043e17-1424-4d41-ade1-6668f35bf43b",
+    "1663953168c5f33ca1",
+    "b7199e65-23f2-4d68-87b2-558d75b1fb19",
+    "4cba2d01-b44f-4cd8-bf9b-2228a660b58f",
+    "1663889671ddd533ac",
+    "1d4cfba6-a328-4c7b-810c-0b64814bf1e1",
+    "main",
+    "1655837578319b3390",
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4",
+    "1687536272c0a363d0",
+    "54783cd6-b3df-400b-9974-0a493bc00480",
+    "5ea74028-04db-4f84-9a12-400660408134",
+    "03c73ab3-7345-4936-8add-1805f5680761",
+    "89d0ddc8-335a-435f-b92c-98732ffce9d8",
+    "8d3dba5e-5331-44f5-adf1-512a3ad9f25e"
+  ]
+}

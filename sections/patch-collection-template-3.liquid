@@ -1,0 +1,325 @@
+{{ 'patch-collection.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  .patch-hero-wrapper {
+    margin-bottom: 40px;
+  }
+  .patch-hero-container {
+    background: url('{{ collection.image | img_url: 'master' }}');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    {% if section.settings.hero_position == 'right' %}
+      justify-content: flex-end;
+    {% endif %}
+    {% if section.settings.hero_position == 'center' %}
+      justify-content: center;
+    {% endif %}
+    {% if section.settings.hero_position == 'left' %}
+      justify-content: flex-start;
+    {% endif %}
+
+    padding: 40px;
+    height: 45vw;
+  }
+  .patch-hero-text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .patch-hero-text-container-mobile {
+    display: none;
+  }
+  h1.patch-hero-header {
+    color: {{ section.settings.text_color }} !important;
+    font-size: 6.5vw !important;
+  }
+  p.patch-hero-text {
+    color: {{ section.settings.text_color }} !important;
+    max-width: 70%;
+  }
+  .patch-block-wrapper-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 80px;
+    grid-column: span 2;
+    gap: 10px;
+  }
+  .patch-block-container, .patch-block-container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+  }
+  .patch-block-container, .patch-block-container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+  }
+  @media screen and (max-width: 968px) {
+    .patch-block-wrapper-footer {
+      grid-template-rows: 1fr;
+      grid-column: span 2;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .patch-hero-text-container {
+      display: none;
+    }
+    .patch-hero-text-container-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 10px;
+    }
+    .patch-hero-container {
+      background: url('{{ collection.image | img_url: 'master' }}');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 20px;
+      height: 400px;
+    }
+    h1.patch-hero-header {
+      color: {{ section.settings.mobile_text_color }} !important;
+      font-size: 34px !important;
+    }
+    p.patch-hero-text {
+      color: {{ section.settings.mobile_text_color }} !important;
+      max-width: none;
+    }
+  }
+
+  /* Footer Styles */
+  .patch-block-container-footer {
+    background: {{ section.settings.footer_background_color }};
+  }
+  h4.patch-block-footer-header {
+    color: {{ section.settings.footer_text_color }} !important;
+  }
+{% endstyle %}
+
+{% capture footerBlock %}
+  <div class="patch-block-wrapper-footer">
+    <div class="patch-block-container-footer">
+      {% if section.settings.use_image == false %}
+        {% if section.settings.footer_block_text != blank %}
+          <h4 class="patch-block-footer-header">{{ section.settings.footer_block_text }}</h4>
+          {% if section.settings.button_text != blank and section.settings.button_url != blank %}
+            <a href="{{ section.settings.button_url }}" class="button-rainbow">
+              <span>{{ section.settings.button_text }}</span>
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+
+      {% if section.settings.use_image == true %}
+        <img src="{{ section.settings.footer_block_image | img_url: 'master' }}" alt="{{ section.settings.footer_block_image.alt }}" data-popup-trigger onclick="openPopup()">
+      {% endif %}
+    </div>
+  </div>
+{% endcapture %}
+
+{% paginate collection.products by 50 %}
+
+<div id="CollectionProductGrid" data-wetheme-section-type="template--collection">
+  <section class="homepage-sections-wrapper-pad20 rem-top-padding">
+    <div class="patch-hero-wrapper">
+      <div class="patch-hero-container">
+        <div class="patch-hero-text-container">
+          {% if collection.title != blank %}
+            <h1 class="patch-hero-header">{{ collection.title }}</h1>
+          {% endif %}
+          {% if collection.description != blank %}
+            <p class="patch-hero-text">{{ collection.description }}</p>
+          {% endif %}
+          {% if section.settings.hero_url != blank and section.settings.hero_text != blank %}
+            <a href="{{ section.settings.hero_url }}" class="button-solid">{{ section.settings.hero_text }}</a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="patch-hero-text-container-mobile">
+        {% if collection.title != blank %}
+          <h1 class="patch-hero-header">{{ collection.title }}</h1>
+        {% endif %}
+        {% if collection.description != blank %}
+          <p class="patch-hero-text">{{ collection.description }}</p>
+        {% endif %}
+        {% if section.settings.hero_url != blank and section.settings.hero_text != blank %}
+          <a href="{{ section.settings.hero_url }}" class="button-solid">{{ section.settings.hero_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="section-container-grid">
+      <div id="AjaxinateContainer" class="clearfix">
+        <ul class="patch-grid-wrapper">
+          {% for product in collection.products %}
+            <a href="{{ product.url | within: collection }}" class="rem-decoration">
+              <li class="patch-grid-item {% if product.images.size > 1 %}has-second-img{% endif %}">
+                <div class="patch-img-container">
+                  <img src="{{ product.featured_image | img_url: 'master' }}" data-prodid="{{ product.id }}" alt="{{ product.featured_image.alt }}" loading="lazy" class="patch-first-img
+                  {% if product.metafields.my_fields.patch_width.value.value != blank %}
+                    {% assign patchSize = product.metafields.my_fields.patch_width.value.value %}
+                  {% else %}
+                    {% assign patchSize = product.metafields.my_fields.patch_height.value.value %}
+                  {% endif %}
+                  {% if product.metafields.my_fields.patch_height.value.value >= product.metafields.my_fields.patch_width.value.value %}
+                    {% assign patchSize = product.metafields.my_fields.patch_height.value.value %}
+                  {% endif %}
+                  {%- if patchSize <= 1.75 -%}
+                  {{ " ppad-100" }}">
+                  {%- elsif patchSize > 1.76 and patchSize <= 2.49 -%}
+                  {{ " ppad-80" }}">
+                  {%- elsif patchSize > 2.41 and patchSize <= 3.5 -%}
+                  {{ " ppad-60" }}">
+                  {%- elsif patchSize > 3.51 and patchSize <= 5.5 -%}
+                  {{ " ppad-40" }}">
+                  {%- elsif patchSize > 5.51 and patchSize <= 6.4 -%}
+                  {{ " ppad-20" }}">
+                  {%- elsif patchSize > 6.41 -%}
+                  {{ " ppad-0" }}">
+                  {%- endif -%}
+                  {% if patchSize == blank %}">{% endif %}
+                </div>
+                {% comment %}
+                {% if product.images.size > 1 %}
+                  <img src="{{ product.images.last | img_url: 'master' }}" alt="{{ product.images.last.alt | escape }}" class="patch-secondary-img" loading="lazy">
+                {% endif %}
+                {% endcomment %}
+                <div class="patch-details-wrapper">
+                  <p class="patch-title">{{ product.title }}</p>
+                  <p class="patch-details">{{ product.metafields.my_fields.patch_material }} - {{ product.metafields.my_fields.patch_width.value | remove: ' ' }} x {{ product.metafields.my_fields.patch_height.value | remove: ' '}}</p>
+                  <p class="patch-points-price">{{ product.metafields.my_fields.patch_points }} Patch Points</p>
+                </div>
+              </li>
+            </a>
+            {% if paginate.current_page == 1 %}
+              {% if forloop.index == 6 %}
+                {{ footerBlock }}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+  {% if paginate.pages > 1 %}
+    <div class="collection-pagination justify-content-center">
+      <div id="AjaxinateInfiniteScrolling">
+        {% if paginate.next %}
+          <a href="{{ paginate.next.url }}">{{ 'collections.paginate.infinite_scrolling' | t }}</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+{% endpaginate %}
+
+{% render 'patch-modal' %}
+{% render 'popup-modal-js' %}
+
+{% schema %}
+  {
+    "name": "Patch Template 3 ACDC",
+    "settings": [
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Collection Text Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "mobile_text_color",
+        "label": "Collection Text Color MOBILE",
+        "default": "#ffffff"
+      },
+      {
+        "type": "url",
+        "id": "hero_url",
+        "label": "Hero Button URL"
+      },
+      {
+        "type": "text",
+        "id": "hero_text",
+        "label": "Hero Button Text",
+        "default": "Lorem Ipsum Dolor"
+      },
+      {
+        "type": "select",
+        "id": "hero_position",
+        "label": "Hero Text Position",
+        "options": [
+          {
+            "value": "right",
+            "label": "Right"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },{
+            "value": "left",
+            "label": "Left"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_image",
+        "label": "Use Image",
+        "info": "If Use Image is Selected it will hide the text and button, and only display the uploaded image.",
+        "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "footer_block_image",
+        "label": "Block Image",
+        "info": "This Image will hide the text and button."
+      },
+      {
+        "type": "color",
+        "id": "footer_background_color",
+        "label": "Block Background Color",
+        "default": "#000000"
+      },
+      {
+        "type": "text",
+        "id": "footer_block_text",
+        "label": "Block Text",
+        "default": "How Patch Points Work"
+      },
+      {
+        "type": "color",
+        "id": "footer_text_color",
+        "label": "Text Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Learn More"
+      }
+    ]
+  }
+{% endschema %}
+<div id="loox-default-carousel"><div class="loox-v2-carousel-container" id="LOOX-V2_CAROUSEL-card" data-slide-type="card" > </div></div>

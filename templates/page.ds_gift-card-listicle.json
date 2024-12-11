@@ -1,0 +1,309 @@
+{
+  "sections": {
+    "one_image_3JRtPf": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Supermix_Gift_Card_Black_Friday_Sale_Web-01.png",
+        "mobile": "shopify:\/\/shop_images\/Supermix_Gift_Card_Black_Friday_Sale_Mobile-04.png",
+        "link": "https:\/\/supermixstudio.com\/pages\/ds-gift-card"
+      }
+    },
+    "one_image_top_4_WifB98": {
+      "type": "one--image-top-4",
+      "blocks": {
+        "tab_content_rhJbcr": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How does Supermix work?",
+            "text": "<p>It's so easy to design with Supermix! It's like a video game. Simply choose your style, drag-n-drop 500+ patches and place them anywhere you like on sweats, denim and accessories. Then, we bring your style to life. It will look just like you designed it on screen, but even better! <\/p>"
+          }
+        },
+        "tab_content_LdkmUC": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is Supermix Eco-Friendly?",
+            "text": "<p>Yes! We make responsible decisions at each point of our manufacturing process. We use BCI cotton, the most sustainably farmed cotton in the world. Our backpacks are made of recycled plastic bottles and are super strong and kid-proof. Our packaging is made of 100% recovered trash, but you'd never know it by how beautiful it is! We are working hard to continue to find ways to build a brand that's kind to our kids and our planet.<\/p>"
+          }
+        },
+        "tab_content_UXDJeb": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long to receive my order?",
+            "text": "<p>We bring your vision to life in just 5 business days...or less! Sit back and wait for your happy mail coming directly from our studio in upstate, New York.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_rhJbcr",
+        "tab_content_LdkmUC",
+        "tab_content_UXDJeb"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Girl-01.png",
+        "mobile": "shopify:\/\/shop_images\/New_Mobile_v2-landing_page_New__Headlines-03.png",
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "accordion_ds_listicle_F9GJLi": {
+      "type": "accordion-ds-listicle",
+      "blocks": {
+        "tab_content_xUBExY": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How does Supermix work?",
+            "text": "<p>It's so easy to design with Supermix! It's like a video game. Simply choose your style, drag-n-drop 500+ patches and place them anywhere you like on sweats, denim and accessories. Then, we bring your style to life. It will look just like you designed it on screen, but even better! <\/p>"
+          }
+        },
+        "tab_content_cNJ39b": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is Supermix Eco-Friendly?",
+            "text": "<p>Yes! We make responsible decisions at each point of our manufacturing process. We use BCI cotton, the most sustainably farmed cotton in the world. Our backpacks are made of recycled plastic bottles and are super strong and kid-proof. Our packaging is made of 100% recovered trash, but you'd never know it by how beautiful it is! We are working hard to continue to find ways to build a brand that's kind to our kids and our planet. <\/p>"
+          }
+        },
+        "tab_content_CgGgwN": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long to receive my order?",
+            "text": "<p>We bring your vision to life in just 5 business days...or less! Sit back and wait for your happy mail coming directly from our studio in New York.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_xUBExY",
+        "tab_content_cNJ39b",
+        "tab_content_CgGgwN"
+      ],
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "video_video_UTMTcr": {
+      "type": "video--video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "We got a deal from 🦈 🦈's on \"Shark Tank\"!",
+        "url": "https:\/\/vimeo.com\/926355937",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--75"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "text_rich_text_8GbDxe": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "width": "medium",
+        "subheading": "",
+        "title": "5 Reasons Why Children Need Supermix Studio Now",
+        "text": "<h5>Discover the fashion maven behind Supermix Studio and unlock a world of creativity for your child.<\/h5>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "one_image_RHz6qR": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Supermix_Creative_Experience_Web-01.png",
+        "mobile": "shopify:\/\/shop_images\/Supermix_Creative_Experience_Mobile-04.png",
+        "link": ""
+      }
+    },
+    "two_product_card_JMgytc": {
+      "type": "two-product-card",
+      "blocks": {
+        "image_ypfp9p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Digital_Gift_Cards_Artboard_2.png",
+            "link": "shopify:\/\/products\/gift-card",
+            "button_text": "Shop Digital Gift Cards",
+            "button_color": "pink"
+          }
+        },
+        "image_tMiYfk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Physical_Gift_Cards-Green03.png",
+            "link": "shopify:\/\/products\/supermix-physical-gift-card",
+            "button_text": "Shop Physical Gift Cards",
+            "button_color": "pink"
+          }
+        }
+      },
+      "block_order": [
+        "image_ypfp9p",
+        "image_tMiYfk"
+      ],
+      "custom_css": [
+        ".two-product-card-section-template--21050140098583__two_product_card_JMgytc {margin-bottom: 5rem;}"
+      ],
+      "settings": {
+        "heading-text": "Let your child explore their creativity by designing their own clothes. And then watch them show off their creation to family and friends!",
+        "image_size": 70
+      }
+    },
+    "one_video_AiYiUr": {
+      "type": "one--video",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Proud_Creations_-01.png",
+        "mobile": "shopify:\/\/shop_images\/Proud_Creations_-01.png",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3f2e14282d4c499da37a8fac75a740e7.mp4"
+      }
+    },
+    "one_image_PpharJ": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Supermix_Creative_Experience_Web-02.png",
+        "mobile": "shopify:\/\/shop_images\/Supermix_Creative_Experience_Mobile-03.png",
+        "link": ""
+      }
+    },
+    "one_image_RJCWbM": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Be_Your_Own_Designer_Web-02.png",
+        "mobile": "shopify:\/\/shop_images\/Be_Your_Own_Designer_Mobile-01.png",
+        "link": ""
+      }
+    },
+    "one_image_JBQkmi": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Check_Out_Web-01_c0f8bbef-bf4e-4f0f-9fea-cf23c2a35031.png",
+        "mobile": "shopify:\/\/shop_images\/New_Mobile_v2-08_7a0a1a89-f522-4f33-8ba2-c9b2fba7cd43.png",
+        "link": ""
+      }
+    },
+    "two_product_card_ErByDG": {
+      "type": "two-product-card",
+      "blocks": {
+        "image_qcTBV6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Digital_Gift_Cards_Artboard_2.png",
+            "link": "shopify:\/\/products\/gift-card",
+            "button_text": "Shop Digital Gift Cards",
+            "button_color": "pink"
+          }
+        },
+        "image_zVAHan": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Physical_Gift_Cards-Green03.png",
+            "link": "shopify:\/\/products\/supermix-physical-gift-card",
+            "button_text": "Shop Physical Gift Cards",
+            "button_color": "pink"
+          }
+        }
+      },
+      "block_order": [
+        "image_qcTBV6",
+        "image_zVAHan"
+      ],
+      "settings": {
+        "heading-text": "Let your child's imagination run wild. From hoodies to hats, they'll design something uniquely theirs. It's fun, easy, and builds confidence.",
+        "image_size": 70
+      }
+    },
+    "one_image_KEUFmW": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Customer_Review_Web-01.png",
+        "mobile": "shopify:\/\/shop_images\/Customer_Review_Mobile-02.png",
+        "link": ""
+      }
+    },
+    "text_rich_text_8EVnTj": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "width": "small",
+        "subheading": "",
+        "title": "What Our Customers are Saying.",
+        "text": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "kids-zip-hoodie"
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "one_image_Pndxkr": {
+      "type": "one--image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Footer_Icons_Web-01.png",
+        "mobile": "shopify:\/\/shop_images\/Footer_Icons_Web-01.png",
+        "link": ""
+      }
+    }
+  },
+  "order": [
+    "one_image_3JRtPf",
+    "one_image_top_4_WifB98",
+    "accordion_ds_listicle_F9GJLi",
+    "video_video_UTMTcr",
+    "main",
+    "text_rich_text_8GbDxe",
+    "one_image_RHz6qR",
+    "two_product_card_JMgytc",
+    "one_video_AiYiUr",
+    "one_image_PpharJ",
+    "one_image_RJCWbM",
+    "one_image_JBQkmi",
+    "two_product_card_ErByDG",
+    "one_image_KEUFmW",
+    "text_rich_text_8EVnTj",
+    "1687536272c0a363d0",
+    "one_image_Pndxkr"
+  ]
+}

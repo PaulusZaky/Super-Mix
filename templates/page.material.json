@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16521970811bad5fe7": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "7dc507d0-95b4-4e0f-882e-ea5effbadaa5": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/SMIL0009P.png",
+            "patch_link": "shopify:\/\/collections\/chenille",
+            "patch_title": "Chenille"
+          }
+        },
+        "fb961c47-651b-4e0f-88f2-c993e6a8c238": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RBOW0002.png",
+            "patch_link": "shopify:\/\/collections\/glitter-chenille",
+            "patch_title": "Glitter Chenille"
+          }
+        },
+        "ccc2d565-2f96-41d9-a032-52b84f6764da": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/FOOD0015.png",
+            "patch_link": "shopify:\/\/collections\/sequins",
+            "patch_title": "Sequins"
+          }
+        },
+        "1652197081bfd0be9a-0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/HRTS008R_F.png",
+            "patch_link": "shopify:\/\/collections\/flip-sequin",
+            "patch_title": "Flip Sequin"
+          }
+        },
+        "c3631477-6f83-4ba8-8ce6-be33f96a0cfb": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/PEAC005K.png",
+            "patch_link": "shopify:\/\/collections\/ombre-glitter",
+            "patch_title": "Ombre Glitter"
+          }
+        },
+        "b8c405ab-a945-4da1-9fbc-c916d4f32574": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/UNIC0002.png",
+            "patch_link": "shopify:\/\/collections\/embroidery-1",
+            "patch_title": "Embroidery"
+          }
+        },
+        "3672ab20-2c9d-4f33-b8d4-5807e57fe2a3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/DINO0006.png",
+            "patch_link": "shopify:\/\/collections\/3d-embroidery",
+            "patch_title": "3D Embroidery"
+          }
+        },
+        "1652197081bfd0be9a-3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/FOOD0005_1.png",
+            "patch_link": "shopify:\/\/collections\/chainstitch",
+            "patch_title": "Chainstitch"
+          }
+        },
+        "0568b4b2-6514-45e9-b376-0fe00222062a": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/ANML0016.png",
+            "patch_link": "shopify:\/\/collections\/glitter",
+            "patch_title": "Glitter"
+          }
+        },
+        "b7a4b3ee-7f77-4ab5-8137-6b0b44c83e5f": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/SPTS0008_40145957-458a-4f56-b491-75bf6e3e462d.png",
+            "patch_link": "shopify:\/\/collections\/pu",
+            "patch_title": "Pleather"
+          }
+        },
+        "3b899a82-7490-43dd-9ccf-38808f57e2ea": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/LOGO0001.png",
+            "patch_link": "shopify:\/\/collections\/supermix",
+            "patch_title": "Supermix"
+          }
+        }
+      },
+      "block_order": [
+        "7dc507d0-95b4-4e0f-882e-ea5effbadaa5",
+        "fb961c47-651b-4e0f-88f2-c993e6a8c238",
+        "ccc2d565-2f96-41d9-a032-52b84f6764da",
+        "1652197081bfd0be9a-0",
+        "c3631477-6f83-4ba8-8ce6-be33f96a0cfb",
+        "b8c405ab-a945-4da1-9fbc-c916d4f32574",
+        "3672ab20-2c9d-4f33-b8d4-5807e57fe2a3",
+        "1652197081bfd0be9a-3",
+        "0568b4b2-6514-45e9-b376-0fe00222062a",
+        "b7a4b3ee-7f77-4ab5-8137-6b0b44c83e5f",
+        "3b899a82-7490-43dd-9ccf-38808f57e2ea"
+      ],
+      "settings": {
+        "patch_heading": "Materials",
+        "grid_number": "3"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16521970811bad5fe7"
+  ]
+}

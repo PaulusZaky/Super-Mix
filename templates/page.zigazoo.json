@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a9308d41d0284108897afe2b06ecf1fb.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "15878dea-f50a-41ca-8b25-8b7906f023a0": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9616466df264868a70afb49441731d0.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "be33e74a-6ff4-4a2c-b68a-08b691888f1c": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15151072477207__be33e74a-6ff4-4a2c-b68a-08b691888f1c-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Thank you for helping us celebrate Zigazoo's Third Birthday!<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15151072477207__be33e74a-6ff4-4a2c-b68a-08b691888f1c-html-1"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "e427fc38-cfa9-41c1-b277-aa024bab5e3b": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15151072477207__e427fc38-cfa9-41c1-b277-aa024bab5e3b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-09-12_at_10.00.37_PM.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "3274b42c-f0de-4e87-9f15-8c4381f380ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-09-18_at_3.53.54_PM.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15151072477207__e427fc38-cfa9-41c1-b277-aa024bab5e3b-image-1",
+        "3274b42c-f0de-4e87-9f15-8c4381f380ab"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "445f8d13-8152-4cbd-9123-26c9db9a76ec": {
+      "type": "acdc-inspiration-section",
+      "settings": {
+        "title_text": "Select Your Exclusive Gift Below",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "96c83e38-9127-45d5-bb7d-1013d396c37b": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15151072477207__96c83e38-9127-45d5-bb7d-1013d396c37b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hat_black.jpg",
+            "link": "shopify:\/\/products\/zigazoo-hat",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15151072477207__96c83e38-9127-45d5-bb7d-1013d396c37b-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hat_pink.jpg",
+            "link": "shopify:\/\/products\/zigazoo-hat",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15151072477207__96c83e38-9127-45d5-bb7d-1013d396c37b-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hat_blue_8bee180e-ac41-4d81-823b-33d15a61b331.jpg",
+            "link": "shopify:\/\/products\/zigazoo-hat",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15151072477207__96c83e38-9127-45d5-bb7d-1013d396c37b-image-1",
+        "template--15151072477207__96c83e38-9127-45d5-bb7d-1013d396c37b-image-2",
+        "template--15151072477207__96c83e38-9127-45d5-bb7d-1013d396c37b-image-3"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7",
+    "15878dea-f50a-41ca-8b25-8b7906f023a0",
+    "1663953168c5f33ca1",
+    "main",
+    "1655837578319b3390",
+    "1687536272c0a363d0",
+    "be33e74a-6ff4-4a2c-b68a-08b691888f1c",
+    "e427fc38-cfa9-41c1-b277-aa024bab5e3b",
+    "445f8d13-8152-4cbd-9123-26c9db9a76ec",
+    "96c83e38-9127-45d5-bb7d-1013d396c37b"
+  ]
+}

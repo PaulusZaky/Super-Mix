@@ -1,0 +1,175 @@
+{
+  "sections": {
+    "602dfe1f-8d56-4c4a-8631-0b9b3a9aaa5e": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15058112348183__602dfe1f-8d56-4c4a-8631-0b9b3a9aaa5e-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\">\n<h2>NOLA Art Fest x Supermix Collab<\/h2>Supermix celebrates the First Annual NOLA ART FEST with Limited Edition Custom Swag.<\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112348183__602dfe1f-8d56-4c4a-8631-0b9b3a9aaa5e-html-1"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "9ff5457b-6bd5-4d99-a3d7-b252b7e2059b": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112348183__9ff5457b-6bd5-4d99-a3d7-b252b7e2059b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HOLI2_REEL_7b6f1ad5-3638-45c9-bd2d-75670d7c867c.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112348183__9ff5457b-6bd5-4d99-a3d7-b252b7e2059b-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CUSTOM_TOTE-1_53d44bb3-c00d-4cb2-9947-04d533571bdd.jpg",
+            "link": "",
+            "title": "<p><strong>LIMITED EDITION NOLA ART FAIR SWAG<\/strong><\/p>",
+            "description": "<p><strong>Pre-Order While They Last<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112348183__9ff5457b-6bd5-4d99-a3d7-b252b7e2059b-image-1",
+        "template--15058112348183__9ff5457b-6bd5-4d99-a3d7-b252b7e2059b-image-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "large",
+        "image": "shopify:\/\/shop_images\/DSC06554_v2_REV_2-3.jpg",
+        "layout": "left",
+        "subheading": "",
+        "title": "Welcome to Tueller School of Dance.",
+        "text_block": "<p>Thanks for visiting. We are super excited to be amongst the first to offer Supermix Studio's interactive custom kid's clothes. 10% of all purchases go towards the upcoming dance competition in Sacramento. Please contact us with any questions we are happy to help.<\/p><p><br\/><strong>FOLLOW THESE 3 SIMPLE STEPS: <br\/><br\/>STEP 1 - Set up a FREE Supermix account.<br\/><br\/>STEP 2 -  We will give you a FREE Supermix Supersize Patch just for setting up your account.<br\/><br\/>STEP 3 - Add your name to Tueller's custom hoodie.<\/strong><\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "https:\/\/supermixstudio.com\/account\/register",
+        "button_label": "Create Account"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1663248832f0cd9e3a": {
+      "type": "image--gallery",
+      "blocks": {
+        "16632488328126c6cf-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BLACK_HOODIE_bella_front_2-3_2b9a732e-80c6-44f7-a6c9-8782f741cecf.jpg",
+            "link": "shopify:\/\/products\/tuellers-dance-studio",
+            "title": "<p><strong>The Zip Hooodie<\/strong><\/p>",
+            "description": "<p><strong>The zip hoodie is a Supermix essential it's made with BCI cotton supporting more sustainable cotton farming. <\/strong><\/p>"
+          }
+        },
+        "16632488328126c6cf-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BLACK_HOODIE_bella_2-3.jpg",
+            "link": "shopify:\/\/products\/tuellers-dance-studio",
+            "title": "<p><strong>Customize with your name.<\/strong><\/p>",
+            "description": "<p><strong>Exclusive sequin letters are rainbow bright with just the right amount of bling.<\/strong><\/p>"
+          }
+        },
+        "16632488328126c6cf-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HRTS009A.png",
+            "link": "shopify:\/\/products\/heart-rbg",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "16632488328126c6cf-0",
+        "16632488328126c6cf-1",
+        "16632488328126c6cf-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "e6c72aa6-444f-4cac-af63-2f3e49dd5ddd": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112348183__e6c72aa6-444f-4cac-af63-2f3e49dd5ddd-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03489_47f58e81-5cec-401e-9309-31343dfa60f3.jpg",
+            "link": "shopify:\/\/products\/nola-art-fest-hoodie",
+            "title": "<p><strong>LIMITED EDITION<\/strong><\/p>",
+            "description": "<p><strong>NOLA Art Fest Hoodie<\/strong><\/p>"
+          }
+        },
+        "template--15058112348183__e6c72aa6-444f-4cac-af63-2f3e49dd5ddd-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CUSTOM_BACKPACK_BLUE_BG_4f3b1254-33bc-47d9-8cec-7bc8665dbb66.jpg",
+            "link": "shopify:\/\/products\/nola-art-fair-backpack",
+            "title": "<p><strong>LIMITED EDITION<\/strong><\/p>",
+            "description": "<p><strong>NOLA Art Fest Backpack<\/strong><\/p>"
+          }
+        },
+        "template--15058112348183__e6c72aa6-444f-4cac-af63-2f3e49dd5ddd-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CUSTOM_PENCIL_09b0e219-6ac9-4f58-955f-c973c967830b.jpg",
+            "link": "shopify:\/\/products\/nola-art-fair-case",
+            "title": "<p><strong>LIMITED EDITION<\/strong><\/p>",
+            "description": "<p><strong>NOLA Art Fest Case<\/strong><\/p>"
+          }
+        },
+        "457f6b46-5d1b-4f4e-9437-2da798d53a1d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CUSTOM_TOTE-1_cc6be0b7-82c3-4b0e-b7e9-dfdd4b342eb3.jpg",
+            "link": "shopify:\/\/products\/copy-of-nola-art-fest-hoodie",
+            "title": "<p><strong>LIMITED EDITION<\/strong><\/p>",
+            "description": "<p><strong>Nola Art Fest Tote<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112348183__e6c72aa6-444f-4cac-af63-2f3e49dd5ddd-image-1",
+        "template--15058112348183__e6c72aa6-444f-4cac-af63-2f3e49dd5ddd-image-2",
+        "template--15058112348183__e6c72aa6-444f-4cac-af63-2f3e49dd5ddd-image-3",
+        "457f6b46-5d1b-4f4e-9437-2da798d53a1d"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "602dfe1f-8d56-4c4a-8631-0b9b3a9aaa5e",
+    "9ff5457b-6bd5-4d99-a3d7-b252b7e2059b",
+    "1655486041452a8d68",
+    "main",
+    "1663248832f0cd9e3a",
+    "e6c72aa6-444f-4cac-af63-2f3e49dd5ddd"
+  ]
+}

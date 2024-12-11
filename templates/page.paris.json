@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "large",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-20_at_6.40.13_PM.png",
+        "layout": "left",
+        "subheading": "",
+        "title": "Hi!  I'm Paris.",
+        "text_block": "<p>I'm a Senior at Port Jervis High School.  After school, you can find me at Supermix Studio!  I'm assistant to the Founder and I might just be customizing your gear. When I'm not at Supermix, you can find me with my besties, Riley and Jenna or hanging with my other bestie, my dog Colt. I'm a Supermix pro, working here from day 1. I'm happy to help you design something FABULOUS!<\/p>",
+        "text_block_2": "<p><strong>FOLLOW THESE 3 SIMPLE STEPS:<br\/><br\/>STEP 1 - Sign Up below to receive 50 FREE Patch Points.<br\/><br\/>STEP 2 - After you have your account, get another 70  FREE Patch Points by coming back to this page, and entering code 'PARIS70' in same place.<br\/><br\/>STEP 3 - Design away. No one will have anything like it!<br\/><br\/>Happy Supermixing!<br\/><br\/>Paris Khan<\/strong><\/p><p><strong><br\/>PS I also have Stylist exclusive patches (see below) and am happy to help in any way.<\/strong><\/p>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1664563720bc965fd4": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1664563720a805e009-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"226233\"><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1664563720a805e009-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16584980020167f3a8": {
+      "type": "image--gallery",
+      "blocks": {
+        "1658498002a47af847-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-20_at_6.51.08_PM.png",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p><strong>Classic Denim Jacket<\/strong><\/p>",
+            "description": "<p><strong>The perfect classic denim jean jacket.  It's oversized and slouchy which means that we can fit into a kids' size XL<\/strong><\/p>"
+          }
+        },
+        "1658498002a47af847-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-20_at_6.50.40_PM.png",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p><strong>Classic Denim Jacket<\/strong><\/p>",
+            "description": "<p><strong>I had so much fun customizing these for my friends. It's the perfect way to celebrate our Senior year and we get alllll the complements at the game. I can help you personalize one too!<\/strong><\/p>"
+          }
+        },
+        "1658498002a47af847-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-20_at_6.50.52_PM.png",
+            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "title": "<p><strong>Classic Denim Jacket<\/strong><\/p>",
+            "description": "<p><strong>The Jacket is made of BCI cotton.  It's the most sustainably sourced cotton in the world, so it's fab and eco-friendly.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658498002a47af847-0",
+        "1658498002a47af847-1",
+        "1658498002a47af847-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "165849839097b90399": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbg"
+          }
+        },
+        "21dc3157-8062-4a22-b04e-068021b15bd0": {
+          "type": "product",
+          "settings": {
+            "product": "heart-rbg"
+          }
+        }
+      },
+      "block_order": [
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857",
+        "21dc3157-8062-4a22-b04e-068021b15bd0"
+      ],
+      "settings": {
+        "title": "Stylist Exclusive Patches",
+        "title_mobile": "<p>Stylist Exclusive Patches<\/p>",
+        "image": "shopify:\/\/shop_images\/Rylan_Lt-Denim_instagram.gif",
+        "image_background_color": "#93dde2",
+        "button_link": "shopify:\/\/collections\/sequin-multi",
+        "button_text": "Shop Exclusives"
+      }
+    },
+    "166465079460b4046d": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1664650794911a47bc-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unboxing-14_10459afe-2d19-4b72-8320-1782f88844db.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "1664650794911a47bc-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unboxing-22_568640a7-2899-4f09-bfd9-179cc9269162.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "799b693b-3b30-417b-b6e5-bc1f379f7e72": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00968_1500x800_124873ba-c170-4231-9628-f606c7a986ae.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "5784c017-cb25-4379-b692-6548d33d6c7a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00801_1500x800_c7a5e932-20f5-491f-97d9-2defc4df4120.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "064266da-5cea-4e9b-946d-ac8b10db31ed": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01277_1500X800_fac0a199-a31e-40bd-a4e5-8145c215ef31.jpg",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "1664650794911a47bc-0",
+        "1664650794911a47bc-1",
+        "799b693b-3b30-417b-b6e5-bc1f379f7e72",
+        "5784c017-cb25-4379-b692-6548d33d6c7a",
+        "064266da-5cea-4e9b-946d-ac8b10db31ed"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    }
+  },
+  "order": [
+    "1655486041452a8d68",
+    "1664563720bc965fd4",
+    "main",
+    "16584980020167f3a8",
+    "165849839097b90399",
+    "166465079460b4046d"
+  ]
+}

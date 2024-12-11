@@ -1,0 +1,146 @@
+{
+  "sections": {
+    "96d1c249-c7c7-4184-8955-c4cc2f7b1fdb": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--20571429994519__96d1c249-c7c7-4184-8955-c4cc2f7b1fdb-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Shark Tank Specials! This week only!<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--20571429994519__96d1c249-c7c7-4184-8955-c4cc2f7b1fdb-html-1"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "ec12be5f-cefb-48b3-b552-4aca0b54d98e": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058109693975__ec12be5f-cefb-48b3-b552-4aca0b54d98e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shark_Tank_Web_Banner_Gift_Card_v4_aa6e3117-a1cd-47f9-8664-59af852cecf3.png",
+            "link": "shopify:\/\/products\/gift-card-shark-tank-special",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058109693975__ec12be5f-cefb-48b3-b552-4aca0b54d98e-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "148ced7c-e232-424c-8b07-040704eab795": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--20571429994519__148ced7c-e232-424c-8b07-040704eab795-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/100_bonus.jpg",
+            "link": "shopify:\/\/pages\/kids-styles",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20571429994519__148ced7c-e232-424c-8b07-040704eab795-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Shark Tank Deals<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "96d1c249-c7c7-4184-8955-c4cc2f7b1fdb",
+    "ec12be5f-cefb-48b3-b552-4aca0b54d98e",
+    "148ced7c-e232-424c-8b07-040704eab795",
+    "1663953168c5f33ca1",
+    "main",
+    "1655837578319b3390",
+    "1687536272c0a363d0"
+  ]
+}

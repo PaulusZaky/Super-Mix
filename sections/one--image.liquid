@@ -1,0 +1,184 @@
+<style>
+  .image-bar--single-image {
+    text-align: center;
+  }
+  
+  .image-bar--single-image .img-responsive {
+    display: inline-block;
+  }
+  
+  .image-bar--title {
+    text-align: center;
+  }
+  
+  .image-bar--description p {
+    text-align: justify;
+    padding: 0 1rem;
+    font-size: 30px !important;
+  }
+  
+  .show-mobile {
+    display: none;
+  }
+  .show-desktop {
+    display: block;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .show-mobile {
+      display: block;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .show-desktop {
+      display: none;
+    }
+  }
+  
+  .homepage-section--image-gallery-wrapper .icon--placeholder {
+    max-height: 200px;
+  }
+  .image__content img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .image__content {
+    width: 100% !important;
+  }
+  
+  .type-subheading p {
+    font-weight: bold !important;
+    font-size: 36px !important;
+  } 
+
+  .type-subheading {
+    max-width: 95%;
+    align-items: center;
+  }
+
+  .homepage-sections-wrapper-pad40 {
+    padding: 0 !important;
+  }
+
+  .section-container {
+    max-width: 100% !important;
+    padding: 0;
+  }
+
+  .one--image-link {
+    width: 100%;
+  }
+</style>
+
+<section class="homepage-sections-wrapper-pad40 {% if template == 'index' %}btm-pad10{% endif %}">
+  <div class="section-container">
+    <div class="row image-bar">
+      {%- assign column_size = 'col-sm-12 col-md-12 image-bar--single-image image-bar--single-column-mobile' -%}
+
+      <div
+        class="
+          grid__item {{ column_size }}
+
+          wow fadeInUp {% cycle 'animDelay': '', 'delay-1', 'delay-2', 'delay-3' %}
+        "
+        {{ section.shopify_attributes }}
+      >
+        {% if section.settings.link != blank %}
+          <a href="{{ section.settings.link }}" class="one--image-link">
+        {% endif %}
+          <div class="image__content">
+            {% if section.settings.image == blank %}
+              {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+            {% elsif section.settings.image != blank and section.settings.mobile != blank %}
+              <div class="show-desktop">
+                {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
+              </div>
+              <div class="show-mobile">
+                {% render 'responsive-mobile-image' with section.settings.mobile, alt: section.settings.mobile.alt %}
+              </div>
+            {% elsif section.settings.mobile == blank %}
+              {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
+            {% endif %}
+          </div>
+        {% if section.settings.link != blank %}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": {
+    "en": "One Image",
+    "de": "Galerie",
+    "es": "Galería",
+    "fr": "Galerie",
+    "pt-PT": "Galeria"
+  },
+  "class": "homepage-section--image-gallery-wrapper",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": {
+        "en": "Desktop Image",
+        "de": "Desktop-Bild",
+        "es": "Imagen de escritorio",
+        "fr": "Image de bureau",
+        "pt-PT": "Imagem de desktop"
+      },
+      "info": {
+        "en": "1000 x 525px recommended",
+        "de": "1000 x 525 px empfohlen",
+        "es": "Recomendado 1000 x 525 px",
+        "fr": "1000 x 525 px recommandé",
+        "pt-PT": "1000 x 525px, recomendado"
+      }
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile",
+      "label": {
+        "en": "Mobile Image",
+        "de": "Mobiles Bild",
+        "es": "Imagen móvil",
+        "fr": "Image mobile",
+        "pt-PT": "Imagem móvel"
+      }
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Destination Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "en": "One Image",
+        "de": "Galerie",
+        "es": "Galería",
+        "fr": "Galerie",
+        "pt-PT": "Galeria"
+      }
+    }
+  ],
+  "templates": [
+    "index",
+    "collection",
+    "list-collections",
+    "blog",
+    "article",
+    "page",
+    "password",
+    "404",
+    "cart",
+    "search",
+    "product"
+  ]
+}
+{% endschema %}

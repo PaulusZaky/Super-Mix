@@ -1,0 +1,122 @@
+{% style %}
+  section.fullwidth-video-section {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+  .desktop-video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .desktop-video-wrapper video {
+    height: 100%;
+    width: 100%;
+    margin-top: -1px;
+  }
+  .acdc-video-button-container {
+    position: absolute;
+    bottom: 0;
+    {% case section.settings.button_location %}
+      {% when 'right' %}
+        left: auto;
+        right: 0;
+      {% when 'center' %}
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+      {% when 'left' %}
+        left: 0;
+        right: auto;
+    {% endcase %}
+    padding: 60px;
+  }
+  /*
+  @media screen and (min-width: 1441px) {
+    .desktop-video-wrapper video {
+      max-height: 800px;
+      object-fit: cover;
+    }
+    section.fullwidth-video-section {
+      max-height: 800px;
+    }
+  }*/
+
+  @media screen and (max-width: 768px) {
+    .acdc-video-button-container {
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%);
+      padding: 20px;
+    }
+    .acdc-video-button-container a {
+      margin: 0;
+    }
+  }
+{% endstyle %}
+
+<section class="fullwidth-video-section acdc-section-{{ section.id }}">
+  <div class="desktop-video-wrapper" style="cursor:pointer">
+    <video playsinline autoplay muted loop class="acdc-video" style="pointer-events:none">
+      <source src="{{ section.settings.video_url }}">
+    </video>
+    {% if section.settings.button_link and section.settings.button_label %}
+      <div class="acdc-video-button-container">
+        <a class="button-solid" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% render 'patch-modal' %}
+{% render 'popup-modal-js' %}
+
+{% schema %}
+{
+  "name": "Video ACDC Fullwidth",
+  "settings": [
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video URL",
+      "default": "https://cdn.shopify.com/videos/c/o/v/5675973fde634196aa1ab307699cf695.mp4"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Text",
+      "default": "Design Now"
+    },
+    {
+      "type": "select",
+      "id": "button_location",
+      "label": "Button Location",
+      "options": [
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        }
+      ],
+      "default": "right"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video ACDC Fullwidth"
+    }
+  ]
+}
+{% endschema %}

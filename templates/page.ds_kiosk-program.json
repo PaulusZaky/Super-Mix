@@ -1,0 +1,352 @@
+{
+  "sections": {
+    "image_gallery_D66Vjx": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_yDiwAf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kiosk_Have_Arrived_New_with_Stores3-04.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_yDiwAf"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "image_gallery_qJ6N3Y": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_aMbj9P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_for_1_Slide.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aMbj9P"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "image_gallery_afB3FP": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_6h7JTy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GWP_Slide.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6h7JTy"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "image_gallery_hhR994": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_aPJDMM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_In_Store_New_EMAIL-06.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aPJDMM"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "c106b25a-fa65-4076-a31f-e42b2f27cbdb": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--20555800543255__c106b25a-fa65-4076-a31f-e42b2f27cbdb-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slide_Kiosk-Exp.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "image_HecYYR": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20555800543255__c106b25a-fa65-4076-a31f-e42b2f27cbdb-image-1",
+        "image_HecYYR"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "f5f3ef1e-4b79-48da-87f4-8adbb8a34247": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058109693975__f5f3ef1e-4b79-48da-87f4-8adbb8a34247-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shark_Tank_Web_Banner_V3_01.png",
+            "link": "shopify:\/\/products\/mrs-bench-x-supermix-fidget-case",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058109693975__f5f3ef1e-4b79-48da-87f4-8adbb8a34247-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "7ffffcee-b0be-4f77-b1f2-3f0b7452e48c": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--20555800543255__7ffffcee-b0be-4f77-b1f2-3f0b7452e48c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kiosk_2_1.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20555800543255__7ffffcee-b0be-4f77-b1f2-3f0b7452e48c-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a9308d41d0284108897afe2b06ecf1fb.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "15878dea-f50a-41ca-8b25-8b7906f023a0": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9616466df264868a70afb49441731d0.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Supermix IRL<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Denim-Jacket_1x1_Jasmine_v2_d13000e2-9c74-4151-a868-b77b5f9095b8.png",
+            "link": "shopify:\/\/collections\/custom-denim",
+            "title": "<p><strong>Add-Your-Name Denim<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06844_EDIT_PATCH_1-1.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-backpacks",
+            "title": "<p><strong>Add-Your-Name Backpacks<\/strong><\/p>"
+          }
+        },
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_SITE_d151fbd1-da7d-42c0-b7e1-e3abc2feb042.jpg",
+            "link": "shopify:\/\/collections\/add-your-name-hoodie",
+            "title": "<p><strong>Add-Your-Name Hoodie<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03134_copy_e14ffcc0-ba6b-4129-9b8b-e5459d430c36.jpg",
+            "link": "shopify:\/\/collections\/sweat-sets",
+            "title": "<p><strong>Add-Your-Name Sweat Set<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663889670f9ac60af-0",
+        "1663889670f9ac60af-2",
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-1"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "53e99b48-179d-4b23-887b-119cf303b1a2": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "Want a Supermix Kiosk at your location?",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/kiosk-application-ds",
+        "button_text": "Apply Now"
+      }
+    },
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4": {
+      "type": "image--gallery",
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "b49e2a70-110d-4fb7-b3ca-57b8e6082ff6": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--20555800543255__b49e2a70-110d-4fb7-b3ca-57b8e6082ff6-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_Slides_Oct30.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20555800543255__b49e2a70-110d-4fb7-b3ca-57b8e6082ff6-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "kids-zip-hoodie"
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_gallery_D66Vjx",
+    "image_gallery_qJ6N3Y",
+    "image_gallery_afB3FP",
+    "image_gallery_hhR994",
+    "c106b25a-fa65-4076-a31f-e42b2f27cbdb",
+    "f5f3ef1e-4b79-48da-87f4-8adbb8a34247",
+    "7ffffcee-b0be-4f77-b1f2-3f0b7452e48c",
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7",
+    "15878dea-f50a-41ca-8b25-8b7906f023a0",
+    "1663953168c5f33ca1",
+    "1663889671ddd533ac",
+    "main",
+    "1655837578319b3390",
+    "53e99b48-179d-4b23-887b-119cf303b1a2",
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4",
+    "b49e2a70-110d-4fb7-b3ca-57b8e6082ff6",
+    "1687536272c0a363d0"
+  ]
+}

@@ -1,0 +1,79 @@
+{% style %}
+.rp-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.rp-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+  text-align: center;
+}
+h4.rp-heading {
+  margin-bottom: 20px;
+}
+p.rp-subheading {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .rp-content {
+    max-width: 100%;
+  }
+}
+{% endstyle %}
+
+<section class="homepage-sections-wrapper-pad40">
+  <div class="rp-wrapper">
+    <div class="rp-content">
+      {% if section.settings.heading != blank %}
+        <h4 class="rp-heading">{{ section.settings.heading }}</h4>
+      {% endif %}
+      {% if section.settings.subheading != blank %}
+        <p class="rp-subheading">{{ section.settings.subheading }}</p>
+      {% endif %}
+      {% if section.settings.button_text != blank %}
+        <a type="button" class="button-solid" href="{{ section.settings.button_url }}">{{ section.settings.button_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Redeem Points ACDC",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Redeem your Patch Points"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Use my Points"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Redeem Points ACDC"
+    }
+  ]
+}
+{% endschema %}

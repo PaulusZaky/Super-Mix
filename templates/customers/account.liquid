@@ -1,0 +1,424 @@
+{% capture decodedObj %}
+  {{ customer.metafields.integration.customizer_designs | url_decode }}
+{% endcapture %}
+
+<div style="display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin: 20px;">
+
+  <a
+    href="{{ routes.account_logout_url }}"
+    class="btn envy-logout-link"
+    style="padding: 21px 30px !important;">{{ 'layout.customer.log_out' | t }}</a>
+
+
+  {% if customer.metafields.integration.last_customizer_checkout_url %}
+    <a
+      href="{{ customer.metafields.integration.last_customizer_checkout_url }}"
+      class="btn"
+      style="font-size: 16px !important;"
+      id="design-btn">Checkout with<br/>Finished Design(s)</a>
+  {% endif %}
+</div>
+<div id="account-page" class="content clearfix container">
+  <div class="title-bar custom-font">
+    <h2 class="main-heading">{{ 'customer.account.title' | t }}</h2>
+    <div>
+      <div class="patch-points_inner">
+        <p class="patch-points_title" style="font-family: 'TT Commons' !important;">My Account</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="display: flex; justify-content: space-around; align-items: center;">
+    <div style="display: flex; flex: 1;">
+      <div class="customer_designs" style="width: 100%;">
+        <div class="content-container">
+          <div class="content-container_table-wrapper">
+            {% if customer.metafields.integration.customizer_designs %}
+              <h3>Saved Designs</h3>
+              <table class="customer_designs-table">
+                <thead class="designs-table_header">
+                  <tr class="designs-table_headers-row">
+                    <td>
+                      <p class="header-text cell-text">Project Name</p>
+                    </td>
+                    <td>
+                      <p class="header-text design-date">Date</p>
+                    </td>
+                  </tr>
+                </thead>
+                <tbody class="designs-table_body"></tbody>
+              </table>
+            {% endif %}
+          </div>
+
+          <div style="content-conteiner_info_wrapper">
+            <div class="row" style="gap: 6px; align-items: center;">
+              {% if customer.first_name or customer.last_name > 0 %}
+                <p class="header-text" style="margin-right: 13px;">Name</p>
+              {% endif %}
+              {% if customer.first_name.length != 0 %}
+                <p style="">{{ customer.first_name }}</p>
+              {% endif %}
+              {% if customer.last_name.length != 0 %}
+                <p>{{ customer.last_name }}</p>
+              {% endif %}
+            </div>
+            <div class="row" style="gap: 20px; align-items: center;">
+              <p class="header-text">Email</p>
+              <p>{{ customer.email }}</p>
+            </div>
+            <div class="row" style="gap: 20px; align-items: center;">
+              <p class="header-text">
+                Address Book
+              </p>
+              <p class="header-text">
+                <a style="margin-bottom: 10px;" href="{{ routes.account_addresses_url }}">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a>
+              </p>
+            </div>
+            <div class="row" style="gap: 20px; align-items: center;">
+              <p class="header-text">Patch Points</p>
+              {% if customer.metafields.integration.patch_points > 0 %}
+                <p class="header-text">You Have {{ customer.metafields.integration.patch_points }} Patch Points</p>
+              {% else %}
+                <p class="header-text">You Have 0 Patch Points</p>
+              {% endif %}
+            </div>
+            <div class="row" style="gap: 20px; align-items: center;">
+              <p class="header-text">Orders</p>
+              {% if customer.orders.size != 0 %}
+                <p>{{ customer.orders.size }}</p>
+              {% else %}
+                <p>{{ 'customer.orders.none' | t }}</p>
+              {% endif %}
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row" style="margin-top: 40px;">
+    <div id="customer_orders" class="col-md-12">
+      <div class="hide">
+        <h2>{{ 'customer.orders.title' | t }}</h2>
+      </div>
+
+      {% if customer.orders.size != 0 %}
+        <table class="table table-responsive-md">
+          <thead>
+            <tr>
+              <th class="order_number">{{ 'customer.orders.order_number' | t }}</th>
+              <th class="date">{{ 'customer.orders.date' | t }}</th>
+              <th class="payment_status">{{ 'customer.orders.payment_status' | t }}</th>
+              <th class="fulfillment_status">{{ 'customer.orders.fulfillment_status' | t }}</th>
+              <th class="total">{{ 'customer.orders.total' | t }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for order in customer.orders %}
+              <tr class="{% cycle 'odd', 'even' %} {% if order.cancelled %}cancelled_order{% endif %}">
+                <td class="order_number__value">{{ order.name | link_to: order.customer_url }}</td>
+                <td>
+                  <span class="note">{{ order.created_at | date: format: 'long' }}</span>
+                </td>
+                <td>
+                  <span class="status_{{ order.financial_status_label }}">{{ order.financial_status_label }}</span>
+                </td>
+                <td>
+                  <span class="status_{{ order.fulfillment_status_label }}">{{ order.fulfillment_status_label }}</span>
+                </td>
+                <td>
+                  <span class="total money">{{ order.total_price | money }}</span>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<script>
+  let customerID = {{customer.id}}
+  {% if decodedObj != blank %}
+    let test = {{ decodedObj }};
+  {% else %}
+    let test = {};{% endif %}let testArray = Object.entries(test);
+  let table = document.getElementsByClassName("designs-table_body");
+  const btn = document.getElementById("design-btn");
+
+  for (let i of testArray) {
+    let productID = i[1].pro;
+    let variantID = i[1].var;
+    let designID = i[0];
+    let miliseconds = parseInt(designID);
+    let date = new Date(miliseconds).toLocaleDateString('en-us', {
+      year: "numeric",
+      month: "short",
+      day: "numeric"
+    });
+
+    let designRow = document.createElement('tr');
+    let designNameCell = document.createElement('td');
+    let designDateCell = document.createElement('td');
+    let designName = document.createElement('a');
+    let designDate = document.createElement('p');
+    designName.innerHTML = i[1].name;
+    designName.href = "https://customizer.supermixstudio.com/" + productID + "/" + variantID + "?design=" + customerID + "-" + designID;
+    designDate.innerHTML = date;
+    designRow.classList.add("design-row");
+    designName.classList.add("design-name", "cell-text");
+    designDate.classList.add("design-date");
+
+    table[0].appendChild(designRow);
+    designRow.appendChild(designNameCell);
+    designRow.appendChild(designDateCell);
+    designNameCell.appendChild(designName);
+    designDateCell.appendChild(designDate);
+  }
+
+// If Kiosk Mode change Checkout with Finished Design(s) btn href
+  if (localStorage.getItem('scaaf_aid') !== null && btn) {
+    const url = btn.href
+    const newUrl = new URL(url);
+
+    newUrl.hostname = "supermixstudio.com";
+
+    btn.setAttribute('href', newUrl.toString());
+  }
+</script>
+
+<!-- BSK SUP-197 -->
+<style>
+  #main {
+    flex: 1;
+  }
+
+  .title-bar .main-heading {
+    display: none;
+  }
+
+  #customer_sidebar {
+    padding-top: 25px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    #customer_sidebar {
+      padding-top: 0;
+    }
+  }
+
+  #customer_orders {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 769px) {
+    #customer_orders p {
+      text-align: center;
+    }
+  }
+
+  .customer_designs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer_designs h3 {
+    font-family: "KansanNew" !important;
+    padding: 25px 0;
+    font-size: 48px !important;
+  }
+
+  .customer_designs-table {
+    width: 75%;
+    border: solid 1px rgb(163, 163, 163) !important;
+  }
+
+  .design-date {
+    text-align: center;
+    min-width: 100px;
+  }
+
+  .customer_designs-table td {
+    border: solid 1px rgb(163, 163, 163) !important;
+  }
+
+  .designs-table_headers-row td {
+    background: #f0f0f0;
+  }
+
+  .header-text {
+    font-weight: bold !important;
+    font-size: 18px !important;
+  }
+
+  .cell-text {
+    padding-left: 10px;
+  }
+
+  .design-name {
+    text-decoration: underline;
+  }
+</style>
+
+<!-- 01.11.2023 make adaptive for mobile -->
+<style>
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    width: 100%;
+  }
+  .content-container_table-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content-conteiner_info_wrapper {
+    margin-top: 20px;
+    position: relative;
+    left: 50px;
+  }
+
+
+
+  @media screen and (max-width: 770px) {
+    .content-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .content-container_table-wrapper {
+      width:100%;
+    }
+
+    .content-conteiner_info_wrapper {
+      left: auto;
+    }
+    
+    .customer_designs-table {
+      width: 85%;
+    }
+  }
+</style>
+
+<script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/fVT_aqLm4_i1_3EBHBlRjg" async></script>
+<!--<div class="yotpo-widget-instance" data-yotpo-instance-id="168289"></div>
+<div class="yotpo-widget-instance" data-yotpo-instance-id="168291"></div>--><style>
+  /* custom styles - JNO acdc - 09/06/22 */
+
+  .yotpo-widget-override-css .yotpo-widget-my-rewards-widget .yotpo-step-icon {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css:focus {
+    box-shadow: none !important;
+  }
+
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-capsule-btn-type:focus {
+    background-color: white !important;
+    color: black !important;
+
+  }
+
+
+
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-tile,
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-container-action-tile,
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-message-tile,
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-widget-campaign-widget-container:not(.yotpo-is-mobile) .yotpo-logged-out-tile.yotpo-overlay-tile {
+    border-radius: 50%;
+  }
+  .template-customers-account .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-widget-campaign-widget-container .yotpo-outer-tile {
+    margin-bottom: 70px;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-headline-center-element {
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-description-text {
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    width: 100%;
+    color: #000 !important;
+    font-size: 20px !important;
+    font-family: KansanNew !important;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-tile {
+    justify-content: end;
+    bottom: -50px;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-title-text {
+    font-size: 20px !important;
+    color: #000 !important;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-completed-icon {
+    display: none !important;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-action-tile {
+    padding: 20px !important;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .yotpo-widget-campaign-widget-container .flexified-wrapper:not(.flexified-mobile).flexified-items-odd .flexified-child {
+      max-width: calc(33.33333% - var(--flexified-padding) * 0.66);
+    }
+  }
+  @media screen and (max-width:500px) {
+    .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-description-text,
+    .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-title-text {
+      width: 200px;
+      font-size: 16.5px !important;
+    }
+    .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-action-tile {
+      padding: 30px !important;
+    }
+    .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-logged-out-tile {
+      justify-content: flex-end;
+      padding: 30px;
+    }
+  }
+
+  /* hover */
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-campaign-switcher-wrapper:hover {
+    justify-content: center;
+    bottom: unset;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-campaign-switcher-wrapper:hover .yotpo-headline-center-element,
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-campaign-switcher-wrapper:hover .yotpo-description-text {
+    visibility: hidden;
+    position: relative;
+    bottom: unset;
+    transform: none;
+    left: unset;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-campaign-switcher-wrapper:hover .yotpo-title-text {
+    color: #fff !important;
+  }
+  /* completed */
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-tile-completed .yotpo-description-text {
+    display: none;
+  }
+  .yotpo-widget-campaign-widget.yotpo-widget-override-css .yotpo-tile-wrapper-completed {
+    background-image: url('https://cdn.shopify.com/s/files/1/0563/2737/2823/files/sup_rainbow-smiley.png') !important;
+  }
+</style>

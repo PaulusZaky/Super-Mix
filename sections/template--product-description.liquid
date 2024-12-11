@@ -1,0 +1,26 @@
+<div class="product-description-section-wrapper">
+  {{ product.description }}
+</div>
+
+{% schema %}
+  {
+    "name": {
+      "en": "Product description"
+    },
+    "class": "container",
+    "settings": [
+
+    ],
+    "presets": [
+      {
+        "name": {
+            "en": "Product description"
+        },
+        "category": {
+            "en": "Product"
+        }
+      }
+    ],
+    "templates": ["product"]
+  }
+{% endschema %}

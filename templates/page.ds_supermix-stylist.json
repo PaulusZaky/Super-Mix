@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "settings": {
+        "colors": "white",
+        "image-width": "large",
+        "image": "shopify:\/\/shop_images\/IMG_1519.jpg",
+        "layout": "left",
+        "subheading": "",
+        "title": "Hi I'm Maggie and these are my minimes, Coco and Belle",
+        "text_block": "<p>Recently I was introduced to Supermix by a close friend and fell in love with the brand. It was so orignal and unlike anything else I had ever seen. My girls had a blast designing their matching outfits and are so happy wearing it everywhere they go. They look so darn cute that everyone asks me where I got it from. So I decided to become a Supermix Stylist. Please let me know if there's any way I can help you.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": "Global Button"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16584980020167f3a8": {
+      "type": "image--gallery",
+      "blocks": {
+        "1658498002a47af847-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-15_at_8.40.51_AM.png",
+            "link": "",
+            "title": "<p><a href=\"\/products\/kids-classic-denim-jacket\" title=\"Kids Classic Oversized Denim Jacket\">Classic Oversized Denim Jacket<\/a><\/p>",
+            "description": "<p>Coco and Belle's favorite jacket. They chose the super size rainbow for the back and retro glitter letters. It goes with literally everything.<\/p>"
+          }
+        },
+        "1658498002a47af847-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-15_at_8.40.59_AM_b543fefa-6609-4da3-9d4f-6f51bab5f0a1.png",
+            "link": "shopify:\/\/products\/heart-bfflgleft",
+            "title": "<p><a href=\"https:\/\/supermix-studios.myshopify.com\/products\/heart-bfflgleft\" title=\"https:\/\/supermix-studios.myshopify.com\/products\/heart-bfflgleft\">Best Friends for Life!<\/a><\/p>",
+            "description": "<p>These two hold hands everywhere they go and are truly best friends. These Super Size patches are a perfect way to celebrate those special friendships.<\/p>"
+          }
+        },
+        "1658498002a47af847-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1539.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p><a href=\"\/products\/kids-zip-hoodie\" title=\"Kids Zip Hoodie\">Supermix Essential Zip Hoodie<\/a><\/p>",
+            "description": "<p>If you ask my girls what their favorite color is, they'll scream, \"PINK!\" They added heir names down the sleeve and patched it up with stars, a Supermix smiley, and more pink hearts.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658498002a47af847-0",
+        "1658498002a47af847-1",
+        "1658498002a47af847-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "165849839097b90399": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbg"
+          }
+        },
+        "21dc3157-8062-4a22-b04e-068021b15bd0": {
+          "type": "product",
+          "settings": {
+            "product": "heart-rbg"
+          }
+        }
+      },
+      "block_order": [
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857",
+        "21dc3157-8062-4a22-b04e-068021b15bd0"
+      ],
+      "settings": {
+        "title": "Stylist Exclusive Patches",
+        "title_mobile": "<p>Stylist Exclusive Patches<\/p>",
+        "image": "shopify:\/\/shop_images\/Rylan_Lt-Denim_instagram.gif",
+        "image_background_color": "#93dde2",
+        "button_link": "shopify:\/\/collections\/sequin-multi",
+        "button_text": "Shop Exclusives"
+      }
+    }
+  },
+  "order": [
+    "1655486041452a8d68",
+    "main",
+    "16584980020167f3a8",
+    "165849839097b90399"
+  ]
+}

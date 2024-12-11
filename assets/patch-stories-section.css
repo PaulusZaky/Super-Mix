@@ -1,0 +1,153 @@
+/* CSS for Patch Stories Section ACDC[MR] */
+
+.patch-stories-overlay--right {
+  position: absolute;
+  right: 5%;
+  top: 6%;
+}
+
+.patch-stories-overlay--center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.patch-stories-overlay--left {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.relative-pos {
+  position: relative;
+}
+
+.overlay-content-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  background: #000;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  z-index: 2;
+}
+
+.overlay-content-container:before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-bottom: 80px solid transparent;
+  border-left: 120px solid #000;
+  bottom: -40px;
+  left: 60px;
+  z-index: 1;
+}
+
+.overlay-header-img {
+  background: url('https://cdn.shopify.com/s/files/1/0563/2737/2823/files/patchstoriesheader.png?v=1647551963');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.overlay-footer {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  z-index: 3;
+}
+
+p.overlay-small-text {
+  color: #fff !important;
+  margin: 0;
+}
+
+a.overlay-button {
+  background: #fff;
+  color: #000;
+  padding: 8px 15px;
+  border-radius: 100px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 120px;
+  font-size: 18px;
+  font-family: 'KansasNew', serif;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.patch-stories-mobile-img {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .overlay-header-img {
+    width: 300px;
+    height: 300px;
+  }
+  .overlay-footer {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  p.overlay-small-text {
+    font-size: 12px;
+  }
+  a.overlay-button {
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+  }
+  .patch-stories-button-icon {
+    height: 12px;
+    width: 12px;
+  }
+  .overlay-header-img {
+    width: 250px;
+    height: 250px;
+  }
+  .overlay-footer {
+    width: 250px;
+  }
+}
+
+/* Mobile CSS */
+
+@media screen and (max-width: 768px) {
+  .patch-stories-overlay--right, .patch-stories-overlay--center, .patch-stories-overlay--left {
+    position: static;
+  }
+  .overlay-content-container {
+    padding: 10px;
+  }
+  .overlay-header-img {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+  .overlay-footer {
+    width: 300px;
+  }
+  .patch-stories-desktop-img {
+    display: none;
+  }
+  .patch-stories-mobile-img {
+    display: block;
+  }
+}

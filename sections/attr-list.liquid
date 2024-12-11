@@ -1,0 +1,182 @@
+{% capture plus_icon %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x plus-icon" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+{% endcapture %}
+
+{% capture minus_icon %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x minus-icon" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line></svg>
+{% endcapture %}
+
+{% capture chevron_down %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+{% endcapture %}
+
+{% capture chevron_up %}
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down chevron-up"><polyline points="6 9 12 15 18 9"></polyline></svg>
+{% endcapture %}
+
+<style>
+  .attributes-faq--{{ section.id }} {
+    color: {{ section.settings.text-color }};
+    background-color: {{ section.settings.background-color }};
+  }
+  .attributes-container .attributes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+    justify-content: center;
+  }
+  .attributes-container .attributes-wrapper>div {
+    width: 47%;
+  }
+  .heading-wrapper {
+    margin-bottom: 48px;
+  }
+  .attributes-content {
+    text-align: center;
+  }
+  .attributes-faq--{{ section.id }} .heading {
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    line-height: 38.4px !important;
+  }
+
+  @media screen and (min-width:768px) {
+    .attributes-faq--{{ section.id }} .heading {
+      font-family: var(--subheading-font-stack) !important;
+      font-size: 40px !important;
+      line-height: 48px !important;
+    }
+    .attributes-container .attributes-wrapper {
+      column-gap: 32px;
+      flex-wrap: nowrap;
+    }
+    .attributes-container .attributes-wrapper>div {
+      width: 22%;
+    }
+    .heading-wrapper {
+      max-width: 768px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 80px;
+    }
+  }
+  @media screen and (max-width:375px) {
+    .attributes-container .attributes-wrapper {
+      row-gap: 48px;
+    }
+    .attributes-container .attributes-wrapper>div {
+      width: 100%;
+    }
+  }
+</style>
+
+<section
+  class="homepage-sections-wrapper attributes--faq-wrapper attributes-faq--{{ section.id }}"
+  data-wetheme-section-type="attributes--faq"
+  data-wetheme-section-id="{{ section.id }}"
+>
+  <div class="attributes-container container">
+    <div class="heading-wrapper">
+      {% unless section.settings.title == blank %}
+        <div class="title-bar">
+          <h2 class="heading">{{ section.settings.title }}</h2>
+        </div>
+      {% endunless %}
+      {% unless section.settings.title == blank %}
+        <div class="title-bar text-body">
+          <p>{{ section.settings.subtitle }}</p>
+        </div>
+      {% endunless %}
+    </div>
+
+    <div class="attributes-wrapper">
+      {% for block in section.blocks %}
+        {% unless block.settings.image == blank %}
+          <div class="attributes-content">
+            {% render 'responsive-image' with block.settings.image, alt: '' %}
+            <p class="text-body">{{ block.settings.text }}</p>
+          </div>
+        {% endunless %}
+
+        <style>
+          {% if section.settings.title == blank %}
+            .attributes-faq--{{ section.id }} details:first-of-type summary {
+              padding-top: 0;
+            }
+          {% endif %}
+        </style>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": {
+    "en": "Attrubutes List"
+  },
+  "class": "main-attributes--wrapper",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+        "en": "Heading"
+      }
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": {
+        "en": "SubHeading"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "attribute",
+      "name": {
+        "en": "Attribute"
+      },
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": {
+            "en": "Image"
+          }
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": {
+            "en": "Text"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "en": "Attrubutes List"
+      },
+      "category": {
+        "en": "Store information"
+      },
+      "blocks": [
+        {
+          "type": "attribute"
+        },
+        {
+          "type": "attribute"
+        },
+        {
+          "type": "attribute"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

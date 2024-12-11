@@ -1,0 +1,144 @@
+{% comment %} Custom Block for Patch Stories ACDC[MR] {% endcomment %}
+
+{{ 'patch-stories-section.css' | asset_url | stylesheet_tag }}
+{% style %}
+
+  .patch-stories-button-icon {
+    background-image: url('{{ section.settings.patch_stories_button_icon | img_url: "master" }}');
+    height: 16px;
+    width: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+{% endstyle %}
+
+<div class="homepage-sections-wrapper-pad10">
+  <section class="patch-stories-block--content patch-stories-block--{{ section.id }}">
+    <div class="section-container relative-pos">
+
+      <div class="patch-stories-overlay--{{ section.settings.overlay_location }}">
+        <div class="overlay-content-container">
+          <div class="overlay-header-img"></div>
+          <div class="overlay-footer">
+            <p class="overlay-small-text">{{ section.settings.overlay_name }}</p>
+            <a href="{{ section.settings.overlay_button_link }}" class="overlay-button">
+              {{ section.settings.overlay_button_text }}
+              {% if section.settings.button_icon_check == true and section.settings.patch_stories_button_icon %}
+              <div class="patch-stories-button-icon"></div>
+              {% endif %}
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="patch-stories-background-wrapper">
+        {% if section.settings.desktop_background_image != blank %}
+          <div class="patch-stories-desktop">
+            {% render 'responsive-image' with section.settings.desktop_background_image, alt: section.settings.desktop_background_image.alt, class: 'patch-stories-desktop-img' %}
+          </div>
+        {% else %}
+          <div class="homepage-image--text-block--placeholder">
+              {{ 'lifestyle-1' | placeholder_svg_tag: 'icon--placeholder' }}
+          </div>
+        {% endif %}
+        {% if section.settings.mobile_background_image != blank %}
+          <div class="patch-stories-mobile">
+            {% render 'responsive-image' with section.settings.mobile_background_image, alt: section.settings.mobile_background_image.alt, class: 'patch-stories-mobile-img' %}
+          </div>
+          {% else %}
+          <div class="homepage-image--text-block--placeholder">
+              {{ 'lifestyle-1' | placeholder_svg_tag: 'icon--placeholder' }}
+          </div>
+        {% endif %}
+      </div>
+    
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+    "name": "Patch Stories Block",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "desktop_background_image",
+            "label": "Desktop Background Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_background_image",
+          "label": "Mobile Background Image"
+        },
+        {
+            "type": "textarea",
+            "id": "overlay_name",
+            "label": "Overlay Name & Location",
+            "default": "Amparo Josephine<br>- Bozeman, MT"
+        },
+        {
+            "type": "select",
+            "id": "overlay_location",
+            "label": "Overlay Location",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "Left"
+                },
+                {
+                    "value": "center",
+                    "label": "Center"
+                },
+                {
+                    "value": "right",
+                    "label": "Right"
+                }
+            ],
+            "default": "center"
+        },
+        {
+            "type": "text",
+            "id": "overlay_button_text",
+            "label": "Overlay Button Text",
+            "default": "Watch"
+        },
+        {
+            "type": "checkbox",
+            "id": "button_icon_check",
+            "label": "Hide or Show Icon in Button",
+            "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "patch_stories_button_icon",
+          "label": "Choose the icon"
+        },
+        {
+            "type": "url",
+            "id": "overlay_button_link",
+            "label": "Overlay Button Link",
+            "info": "Required to show the button"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Patch Stories Block"
+        }
+    ],
+    "templates": [
+        "index",
+        "collection",
+        "list-collections",
+        "blog",
+        "article",
+        "page",
+        "password",
+        "404",
+        "cart",
+        "search",
+        "product"
+    ]
+}
+{% endschema %}

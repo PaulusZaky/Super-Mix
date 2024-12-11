@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--product-custom-name",
+      "blocks": {
+        "4a728226-5bc0-4b58-b172-dcd04428de18": {
+          "type": "custom-product-message",
+          "settings": {
+            "custom_message": "The perfect custom gift with just a click!"
+          }
+        },
+        "product-title": {
+          "type": "product-title",
+          "settings": {}
+        },
+        "5c5e84f7-76c5-4279-be4e-4bca8f6e8251": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 14,
+            "pattern": "Selling Fast",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false
+          }
+        },
+        "product-price": {
+          "type": "product-price",
+          "settings": {
+            "show_discount": "hide",
+            "tax_included": true,
+            "shipping_policy": false
+          }
+        },
+        "47315e8d-0b40-4bde-873a-4bbe6f1cfd8f": {
+          "type": "product-description",
+          "settings": {}
+        },
+        "product-options": {
+          "type": "product-options",
+          "settings": {
+            "show_variant_labels": true,
+            "hide_out_of_stock": false,
+            "pick_an_option": false
+          }
+        },
+        "customize-button": {
+          "type": "customize-button",
+          "disabled": true,
+          "settings": {}
+        },
+        "payment-buttons": {
+          "type": "payment-buttons",
+          "settings": {
+            "show_smart_checkout": false
+          }
+        },
+        "ec427c36-42a7-49c0-8f2b-d3000c421b99": {
+          "type": "text-with-icon",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Free shipping",
+            "link": ""
+          }
+        },
+        "4f3ea7ad-2cfa-4b43-8ab3-e80dcf9f89aa": {
+          "type": "custom-liquid",
+          "disabled": true,
+          "settings": {
+            "custom-liquid": "<p>Add app snippets or other Liquid code to create advanced customizations.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4a728226-5bc0-4b58-b172-dcd04428de18",
+        "product-title",
+        "5c5e84f7-76c5-4279-be4e-4bca8f6e8251",
+        "product-price",
+        "47315e8d-0b40-4bde-873a-4bbe6f1cfd8f",
+        "product-options",
+        "customize-button",
+        "payment-buttons",
+        "ec427c36-42a7-49c0-8f2b-d3000c421b99",
+        "4f3ea7ad-2cfa-4b43-8ab3-e80dcf9f89aa"
+      ],
+      "settings": {
+        "show_out_of_stock_email": false,
+        "form_position": "below-details",
+        "size_guide_link": "",
+        "size_guide_message": "",
+        "size_guide_variant": "Size",
+        "image_size": "small",
+        "thumbnail_position": "below",
+        "enable_zoom": true,
+        "enable_video_loop": true
+      }
+    },
+    "86865c61-74fa-4113-a6c5-6eac29796a5c": {
+      "type": "accordion",
+      "blocks": {
+        "template--15118352908311__86865c61-74fa-4113-a6c5-6eac29796a5c-168677736614b53e12-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Materials & Care",
+            "text": "<ul><li>100% Cotton. ​<\/li><li>We use BCI cotton. ​<\/li><li>Our products support more sustainable cotton farming. ​<\/li><li>Close all fasteners before washing. ​<\/li><li>Machine wash cold, gentle cycle. ​<\/li><li>Wash with like colors. ​<\/li><li>Only non-chlorine bleach when needed. ​<\/li><li>Tumble dry low. ​<\/li><li>Remove promptly. ​<\/li><li>Do not iron.<\/li><\/ul>"
+          }
+        },
+        "template--15118352908311__86865c61-74fa-4113-a6c5-6eac29796a5c-168677736614b53e12-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long does it take to arrive?",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "template--15118352908311__86865c61-74fa-4113-a6c5-6eac29796a5c-168677736614b53e12-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Other common questions people ask before buying?",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15118352908311__86865c61-74fa-4113-a6c5-6eac29796a5c-168677736614b53e12-0",
+        "template--15118352908311__86865c61-74fa-4113-a6c5-6eac29796a5c-168677736614b53e12-1",
+        "template--15118352908311__86865c61-74fa-4113-a6c5-6eac29796a5c-168677736614b53e12-2"
+      ],
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": false,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "1686695241ee27ba07": {
+      "type": "apps",
+      "blocks": {
+        "1394b31b-41dc-4c57-bbc7-a4f32200a352": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "desktopFontSize": 32,
+            "mobileFontSize": 20,
+            "maxNumberOfCharacters": 100,
+            "quoteMarkIcon": "style-3",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "starsColor": "",
+            "quotesIconColor": "#eaeaea",
+            "arrows_iconColor": "#000000",
+            "arrows_hideOnMobile": true,
+            "pagination_active": true,
+            "pagination_selectedDotColor": "#000000",
+            "pagination_dotColor": "#000000",
+            "autoplay_active": false,
+            "autoplay_duration": 2,
+            "productIds": ""
+          }
+        },
+        "7f54c508-dcea-45fc-9103-95546fecb08c": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "1",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "basic",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "1394b31b-41dc-4c57-bbc7-a4f32200a352",
+        "7f54c508-dcea-45fc-9103-95546fecb08c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "86865c61-74fa-4113-a6c5-6eac29796a5c",
+    "product-recommendations",
+    "1686695241ee27ba07"
+  ]
+}

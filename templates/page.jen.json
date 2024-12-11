@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "large",
+        "image": "shopify:\/\/shop_images\/IMG_4187.jpg",
+        "layout": "left",
+        "subheading": "",
+        "title": "Welcome to Supermix",
+        "text_block": "<p>I started Supermix because I believe every child has a unique voice. Supermix gives them a platform to be whomever they choose. We invented a way to put you in the design chair in a way never before possible: we empower kids, teens, and moms, to hyper-personalize the basics you already love to wear. We make it easy to design something that lets you wear your heart and originality on your sleeve, or wherever you want to place a patch of your favorite thing.<\/p>",
+        "text_block_2": "<p><strong>FOLLOW THESE 3 SIMPLE STEPS:<\/strong><\/p><p><strong><br\/>STEP 1 - Sign Up below to receive 50 FREE Patch Points.<br\/><br\/>STEP 2 - After you have your account, get another 70 FREE Patch Points by coming back to this page, and entering code 'JEN70' in same place.<br\/><br\/>STEP 3 - Design away. No one will have anything like it!<br\/><br\/>Happy Supermixing!<br\/><br\/>Jen<\/strong><\/p>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1663726952b8463fd4": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "16637269523242cbcd-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"226233\"><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "16637269523242cbcd-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "16584980020167f3a8": {
+      "type": "image--gallery",
+      "blocks": {
+        "1658498002a47af847-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-19_at_4.36.47_PM.png",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p><strong>Kid's Zip Hoodie - Midnight Black<\/strong><\/p>",
+            "description": "<p><strong>Griffin knows exactly what he wants when it comes to fashion. From the patch placement, getting a cool vibe, and making sure all his sports were represented...he is all about the Supermix experience.<\/strong><\/p>"
+          }
+        },
+        "1658498002a47af847-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-19_at_4.38.54_PM.png",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p><strong>Kids' Zip Hoodie - Blush Pink<\/strong><\/p>",
+            "description": "<p><strong>\"My favorite colors are rainbow and pink!\" Miss Reagan spends her spare time drawing rainbows and unicorns. Supermix is such a fun personalized option for her to wear on the daily and throw over her dance and gymnastics leotards!<\/strong><\/p>"
+          }
+        },
+        "1658498002a47af847-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-19_at_4.37.55_PM.png",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p><strong>Kids' Zip Hoodie - Avocado Green<\/strong><\/p>",
+            "description": "<p><strong>Kason is the master of building Legos and using his creative mind to draw and write! He loves how he can piece together his favorite patches for his own personal Supermix masterpiece.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658498002a47af847-0",
+        "1658498002a47af847-1",
+        "1658498002a47af847-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "165849839097b90399": {
+      "type": "product--shop-the-look-acdc",
+      "blocks": {
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-rbg"
+          }
+        },
+        "21dc3157-8062-4a22-b04e-068021b15bd0": {
+          "type": "product",
+          "settings": {
+            "product": "heart-rbg"
+          }
+        }
+      },
+      "block_order": [
+        "ea3949d3-9702-424e-b4ce-17c7ecc84857",
+        "21dc3157-8062-4a22-b04e-068021b15bd0"
+      ],
+      "settings": {
+        "title": "Stylist Exclusive Patches",
+        "title_mobile": "<p>Stylist Exclusive Patches<\/p>",
+        "image": "shopify:\/\/shop_images\/Rylan_Lt-Denim_instagram.gif",
+        "image_background_color": "#93dde2",
+        "button_link": "shopify:\/\/collections\/sequin-multi",
+        "button_text": "Shop Exclusives"
+      }
+    },
+    "166362107494731e4c": {
+      "type": "image--slideshow",
+      "blocks": {
+        "166362107424e38922-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-19_at_4.55.39_PM.png",
+            "subheading": "",
+            "title": "Share your story",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "Here's your chance to make a great first impression",
+            "button_text": "",
+            "link": "",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "bottom"
+          }
+        },
+        "166362107424e38922-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-19_at_4.55.51_PM.png",
+            "subheading": "",
+            "title": "Calling All Mompreneurs",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Be First to Rep the Kids' Brand.<br>\n• Like a Supermix Micro-Franchise.<br>\n• Limited Positions Available.",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "bottom"
+          }
+        },
+        "f747b883-3225-46ec-9807-8eb7e4901aae": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-19_at_6.52.14_PM.png",
+            "subheading": "",
+            "title": "Super Simple",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• No Inventory Requirements.<br>\n• Customers Design On-site.<br> • We Ship Direct & Handle Everything.<br>",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "166362107424e38922-0",
+        "166362107424e38922-1",
+        "f747b883-3225-46ec-9807-8eb7e4901aae"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 5,
+        "show-slide-dots": true,
+        "show-slide-arrows": true,
+        "show-slide-controls": false,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    }
+  },
+  "order": [
+    "1655486041452a8d68",
+    "main",
+    "1663726952b8463fd4",
+    "16584980020167f3a8",
+    "165849839097b90399",
+    "166362107494731e4c"
+  ]
+}

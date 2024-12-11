@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "d41393fa-6587-4ed5-801c-766fc3b10b16": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--20547540090903__d41393fa-6587-4ed5-801c-766fc3b10b16-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\">\n<h2>CCHS x Supermix Collab<\/h2>Limited Edition CCHS Sweats you can customize!<\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--20547540090903__d41393fa-6587-4ed5-801c-766fc3b10b16-html-1"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "ed10eeb1-331d-4ba8-902a-f26c9ec7f39c": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--20547540090903__ed10eeb1-331d-4ba8-902a-f26c9ec7f39c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01673_TRACKv2_ZOOM.jpg",
+            "link": "shopify:\/\/products\/cchs-hoodie",
+            "title": "<p><strong>CCHS Zip Hoodie<\/strong><\/p>",
+            "description": "<p>Customize Now<\/p>"
+          }
+        },
+        "template--20547540090903__ed10eeb1-331d-4ba8-902a-f26c9ec7f39c-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01245_TRACK.jpg",
+            "link": "shopify:\/\/products\/copy-of-add-your-name-jogger-varsity-rock",
+            "title": "<p><strong>CCHS Jogger<\/strong><\/p>",
+            "description": "<p>Customize Now<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20547540090903__ed10eeb1-331d-4ba8-902a-f26c9ec7f39c-image-1",
+        "template--20547540090903__ed10eeb1-331d-4ba8-902a-f26c9ec7f39c-image-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "d41393fa-6587-4ed5-801c-766fc3b10b16",
+    "main",
+    "ed10eeb1-331d-4ba8-902a-f26c9ec7f39c"
+  ]
+}

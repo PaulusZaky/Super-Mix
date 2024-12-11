@@ -1,0 +1,227 @@
+{
+  "sections": {
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a9308d41d0284108897afe2b06ecf1fb.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "15878dea-f50a-41ca-8b25-8b7906f023a0": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9616466df264868a70afb49441731d0.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "f5f3ef1e-4b79-48da-87f4-8adbb8a34247": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058109693975__f5f3ef1e-4b79-48da-87f4-8adbb8a34247-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unicorn_Custom_Jackets_2024-18.png",
+            "mobile": "shopify:\/\/shop_images\/Holiday_2024_Graphics_Artboard_5_copy_7.png",
+            "link": "shopify:\/\/collections\/custom-denim",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058109693975__f5f3ef1e-4b79-48da-87f4-8adbb8a34247-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "image_gallery_yCqMaG": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_aP4PEJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_ffb2270e-602c-4bd1-99d8-59e4fee41c8f.png",
+            "mobile": "shopify:\/\/shop_images\/5_f4b7154b-84f6-41d2-8b84-7f6cf253973f.png",
+            "link": "shopify:\/\/products\/unicorns-are-real-best-seller",
+            "title": "<p>Unicorns Are Real<\/p>",
+            "description": ""
+          }
+        },
+        "image_TUUe96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_6095d307-a8a8-4f0d-a41f-1c5d7f24793f.png",
+            "mobile": "shopify:\/\/shop_images\/6_428e22c7-aa1a-4365-810e-cf406eacf607.png",
+            "link": "shopify:\/\/products\/unicorn-university-best-seller",
+            "title": "<p>Unicorn University<\/p>",
+            "description": ""
+          }
+        },
+        "image_YfYPhd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_cd54d4b9-28cc-43d4-8a61-d74e3a6410d7.png",
+            "mobile": "shopify:\/\/shop_images\/4_db750bf7-ac96-49b0-8d97-4f58ba6cd98a.png",
+            "link": "shopify:\/\/products\/unicorn-rainbow-best-seller",
+            "title": "<p>Unicorn Rainbow<\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aP4PEJ",
+        "image_TUUe96",
+        "image_YfYPhd"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Just Add-Your-Name<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "image_gallery_JEQikG": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_myQHe4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unicorn_Black_Friday_Sale2_20241x1-08_9ded9d8e-1ffa-43d6-a9bc-bf55eb1e9b7e.png",
+            "mobile": "shopify:\/\/shop_images\/Unicorn_Black_Friday_Sale2_20241x1-08_1a478e8e-bb73-49d0-8780-ce7e8203b429.png",
+            "link": "shopify:\/\/products\/unicorns-are-real-best-seller",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_myQHe4"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COLLAGE-BLOCK-1500X800-BLKBG-v2b_1_f030472e-5eb8-40c8-bc73-ff90ac0d2771.gif",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "image_tNWyy6": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0",
+        "image_tNWyy6"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "kids-classic-denim-jacket"
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7",
+    "15878dea-f50a-41ca-8b25-8b7906f023a0",
+    "f5f3ef1e-4b79-48da-87f4-8adbb8a34247",
+    "image_gallery_yCqMaG",
+    "1663953168c5f33ca1",
+    "main",
+    "1655837578319b3390",
+    "image_gallery_JEQikG",
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4",
+    "1687536272c0a363d0"
+  ]
+}

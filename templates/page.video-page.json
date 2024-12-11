@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "16618725567d7023a8": {
+      "type": "video--video",
+      "settings": {
+        "subheading": "Patch Stories",
+        "title": "",
+        "url": "https:\/\/vimeo.com\/744392769",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--100"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1655837578319b3390",
+    "16618725567d7023a8"
+  ]
+}

@@ -1,0 +1,227 @@
+{% style %}
+.section-img-wrap {
+  position: relative;
+  background-image: url("{{ section.settings.background_image | img_url: 'master' }}");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+}
+.section-content-wrap-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  padding: 60px 20px;
+  text-align: center;
+  {% if section.settings.horizontal_alignment == 'right' %}
+  margin-left: auto;
+  {% endif %}
+  {% if section.settings.horizontal_alignment == 'center' %}
+  margin: auto;
+  {% endif %}
+  {% if section.settings.horizontal_alignment == 'left' %}
+  margin-right: auto;
+  {% endif %}
+}
+h1.ambassador-title {
+  margin-bottom: 40px;
+  color: {{ section.settings.txt_color }} !important;
+}
+.main-text-container p {
+  max-width: 50%;
+  color: {{ section.settings.txt_color }} !important;
+  font-size: 22px !important;
+}
+.main-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a.amb {
+  background-color: {{ section.settings.btn_bg_color }} !important;
+  color: {{ section.settings.btn_txt_color }} !important;
+}
+a.amb:hover {
+  background-color: {{ section.settings.btn_bg_color_hover }} !important;
+  color: {{ section.settings.btn_txt_color_hover }} !important;
+}
+.section-content-wrap-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 952px) {
+  .section-content-wrap-desktop {
+    display: none;
+  }
+  .section-content-wrap-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: {{ section.settings.mobile_bg_color }};
+  }
+  .section-img-wrap {
+    height: 500px;
+    background-image: url("{{ section.settings.mobile_background | img_url: 'master' }}");
+    background-size: cover;
+  }
+  .main-text-container p {
+    color: {{ section.settings.txt_color }} !important;
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1.ambassador-title {
+    font-size: 65px !important;
+    line-height: 50px !important;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-text-container p {
+    max-width: 100%;
+  }
+}
+{% endstyle %}
+
+<section class="homepage-sections-wrapper-pad10">
+  <div class="section-container">
+
+    <div class="section-content-wrap-mobile">
+      {% if section.settings.header %}
+          <h1 class="ambassador-title">{{ section.settings.header }}</h1>
+        {% endif %}
+        {% if section.settings.main_text %}
+          <div class="main-text-container">
+            {{ section.settings.main_text }}
+          </div>
+        {% endif %}
+        {% if section.settings.button_link %}
+          <a class="button-solid amb" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+        {% endif %}
+    </div>
+
+    <div class="section-img-wrap">
+      <div class="section-content-wrap-desktop">
+        {% if section.settings.header %}
+          <h1 class="ambassador-title">{{ section.settings.header }}</h1>
+        {% endif %}
+        {% if section.settings.main_text %}
+          <div class="main-text-container">
+            {{ section.settings.main_text }}
+          </div>
+        {% endif %}
+        {% if section.settings.button_link %}
+          <a class="button-solid amb" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+        {% endif %}
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Ambassador Section ACDC",
+    "class": "homepage-section-ambassador-block--wrapper",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Desktop Image",
+        "info": "2000 x 500px recommended"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_background",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "color",
+        "id": "mobile_bg_color",
+        "label": "Mobile Background Color",
+        "default": "#deb4b5"
+      },
+      {
+        "type": "color",
+        "id": "txt_color",
+        "label": "Text Color",
+        "default": "#000000"
+      },
+      {
+        "type": "select",
+        "id": "horizontal_alignment",
+        "label": "Content position",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Title Heading",
+        "default": "Super Mom, meet Supermix."
+      },
+      {
+        "type": "richtext",
+        "id": "main_text",
+        "label": "Main Text"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link",
+        "info": "Required to show the button"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Text"
+      },
+      {
+        "type": "color",
+        "id": "btn_bg_color",
+        "label": "Button Background Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "btn_txt_color",
+        "label": "Button Text Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "btn_txt_color_hover",
+        "label": "Button Text Color on Hover",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "btn_bg_color_hover",
+        "label": "Button Background Color on Hover",
+        "default": "#666666"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Ambassador Section ACDC"
+      }
+    ]
+  }
+{% endschema %}

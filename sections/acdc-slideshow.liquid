@@ -1,0 +1,408 @@
+{{ 'section-slideshow.min.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+.newslider-flex-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+.newslider-img-wrapper {
+  width: 50%;
+  background: #000;
+  border: 20px solid #000;
+  border-bottom: 5px solid #000;
+}
+.newslider-img-wrapper img {
+  height: 100%;
+  object-fit: cover;
+}
+.newslider-content-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+h1.partytitle {
+  text-align: center;
+  line-height: 100px;
+}
+h4.subhead, h2.subhead {
+  text-align: center;
+  line-height: normal;
+  text-transform: none;
+  margin-bottom: 0;
+}
+h4.plus-symbol {
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+h4.rainbow-text {
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, hsla(331, 87%, 64%, 1) 4.63%, hsla(6, 74%, 79%, 1) 16.2%, hsla(53, 92%, 70%, 1) 29.22%, hsla(122, 64%, 64%, 1) 44.17%, hsla(209, 69%, 57%, 1) 62.02%, hsla(177, 72%, 78%, 1) 77.93%, hsla(330, 85%, 63%, 1) 97.22%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  white-space: nowrap;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2.subhead {
+  margin-bottom: 20px;
+}
+.eyebrow {
+  text-align: center;
+  margin-bottom: 80px;
+}
+img.newslider-img-mobile {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .newslider-flex-wrapper {
+    flex-direction: column;
+  }
+  .newslider-img-wrapper, .newslider-content-wrapper {
+    width: 100%;
+  }
+  .newslider-img-wrapper {
+    border: 10px solid #000;
+    border-bottom: 5px solid #000;
+  }
+  img.newslider-img-desktop {
+    display: none !important;
+  }
+  img.newslider-img-mobile {
+    display: block !important;
+    aspect-ratio: 1 / 1;
+  }
+  .newslider-content-wrapper {
+    padding: 10px 20px;
+  }
+  .eyebrow {
+    margin-bottom: 40px;
+  }
+}
+{% endstyle %}
+
+<div class="homepage-sections-wrapper-pad20">
+  <div class="section-container">
+    <section class="container-fluid homepage-slider-container slider-section--{{ section.id }}{% if section.settings.show-slide-dots %} slider-dots--caption-padding{% endif %}" data-wetheme-section-type="image--slideshow" data-wetheme-section-id="{{ section.id }}">
+      <div class="row">
+        <div class="page-width col-md-12">
+
+        {% if section.blocks.size > 0 %}
+
+              {% assign has_caption = false %}
+
+          <div class="row">
+            <div class="flexslider-container col-md-12">
+              <div class="flexslider flexslider-homepage" data-slider-id="{{ section.id }}" data-slider-slide-time="{{ section.settings.slider-slide-time }}000" data-slider-animation="{{ section.settings.slider-animation }}" data-slider-controls="{{ section.settings.show-slide-controls }}" data-slider-dots="{{ section.settings.show-slide-dots }}" data-slider-arrows="{{ section.settings.show-slide-arrows }}">
+                <ul class="slides" style="width: {{ section.blocks | size | times:100 }}%;">
+                  {% assign number_of_slides_float = section.blocks | size | times:1.0 %}
+
+                  {% for block in section.blocks %}
+                    <li {{ block.shopify_attributes }} data-slide-index="{{ forloop.index0 }}" class="slider-block--{{ block.id }}" style="display: block; float: left; width: {{ 100 | divided_by: number_of_slides_float }}%">
+                      <div class="newslider-flex-wrapper">
+
+                        <div class="newslider-img-wrapper">
+                          {% if block.settings.image != blank %}
+                            <img class="newslider-img-desktop" src="{{ block.settings.image | img_url: 'master' }}">
+                            {% if block.settings.mobile_image != blank %}
+                            <img class="newslider-img-mobile" src="{{ block.settings.mobile_image | img_url: 'master' }}">
+                            {% endif %}
+                          {% else %}
+                            {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+                          {% endif %}
+                        </div>
+
+                        <div class="newslider-content-wrapper">
+                          {% if block.settings.title != blank %}
+                            <h1 class="partytitle">{{ block.settings.title | escape }}</h1>
+                          {% endif %}
+                          {% if block.settings.subheading != blank %}
+                            <h4 class="subhead">{{ block.settings.subheading | escape }}</h4>
+                          {% endif %}
+                          {% if block.settings.plus_symbol != blank %}
+                            <h4 class="plus-symbol">{{ block.settings.plus_symbol | escape }}</h4>
+                          {% endif %}
+                          {% if block.settings.subheading2 != blank %}
+                            <h4 class="rainbow-text">{{ block.settings.subheading2 | escape }}</h4>
+                          {% endif %}
+                          {% if block.settings.price != blank %}
+                            <h2 class="subhead">{{ block.settings.price | escape }}</h2>
+                          {% endif %}
+                          {% if block.settings.retail_value != blank %}
+                            <h3 class="eyebrow">{{ block.settings.retail_value | escape }}</h3>
+                          {% endif %}
+                          {% if block.settings.button_label != blank and block.settings.button_link != blank %}
+                            <a href="{{ block.settings.button_link }}" class="button-solid">{{ block.settings.button_label }}</a>
+                          {% endif %}
+                        </div>
+
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+
+                {% if section.blocks.size > 1 %}
+                  <ul class="flex-direction-nav slider--{{ section.id }}">
+                    <li class="flex-nav-prev">
+                      <button class="flex-direction-nav__button alt-focus flex-prev" aria-label="{{ 'general.slider.previous' | t }}" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                      </button>
+                    </li>
+
+                    <li class="flex-nav-next">
+                      <button class="flex-direction-nav__button alt-focus flex-next" aria-label="{{ 'general.slider.next' | t }}" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                      </button>
+                    </li>
+                  </ul>
+                {% endif %}
+
+              </div>
+            </div>
+          </div>
+
+        {% endif %}
+
+        {% if section.blocks.size == 0 %}
+          <div class="placeholder-noblocks">
+            {{ 'general.onboarding.no_content' | t }}
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </section>
+  </div>
+</div>
+
+{% if section.blocks.size > 0 %}
+    <div class="slider-pagination-container slider--{{ section.id }}"></div>
+{% endif %}
+
+{% style %}
+	{% unless section.settings.show-slide-arrows %}
+  .slider-section--{{ section.id }} .flex-direction-nav {
+    display:none;
+  }
+	{% endunless %}
+	.flex-direction-nav.slider--{{ section.id }} svg {
+		stroke: {{ section.settings.slider-navigation--color }};
+	}
+  .section--slideshow-wrapper {
+    position: relative;
+  }
+  .section--slideshow-wrapper .flexslider {
+    margin-bottom: 0;
+  }
+	.section--slideshow-wrapper .slider-pagination-container {
+    display: flex;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    color: {{ section.settings.slider-navigation--color }};
+    }
+  .section--slideshow-wrapper .slider-pagination-container .flex-control-nav {
+    position: static;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+	.slider-pagination-container.slider--{{ section.id }} .flex-control-nav li {
+    padding: 5px;
+  }
+  .section--slideshow-wrapper .flex-pauseplay {
+    margin: 0 6px;
+  }
+  .section--slideshow-wrapper .flex-pauseplay,
+  .section--slideshow-wrapper .flex-pause,
+  .section--slideshow-wrapper .flex-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-control-nav + .flex-pauseplay {
+    margin-left: 10px;
+  }
+  .section--slideshow-wrapper .flex-pauseplay a {
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    transition: 100ms all ease;
+    cursor: pointer;
+  }
+  .section--slideshow-wrapper .flex-pauseplay a.flex-play {
+    border-style: solid;
+    border-width: 8px 0 8px 17px;
+  }
+  .section--slideshow-wrapper .flex-pauseplay a.flex-pause {
+    border-style: double;
+    border-width: 0px 0 0px 17px;
+  }
+	.slider-pagination-container.slider--{{ section.id }} .flex-pauseplay a {
+    border-color: transparent transparent transparent {{ section.settings.slider-navigation--color }};
+  }
+	.slider-pagination-container.slider--{{ section.id }} .flex-pauseplay a:hover {
+    border-color: transparent transparent transparent {{ section.settings.slider-navigation--color | color_modify: 'alpha', 0.5 }};
+  }
+	.slider-pagination-container.slider--{{ section.id }} .flex-control-nav li a {
+    background: {{ section.settings.slider-navigation--color | color_modify: 'alpha', 0.5 }}
+	}
+	.slider-pagination-container.slider--{{ section.id }} .flex-control-nav li a.flex-active {
+		background: {{ section.settings.slider-navigation--color }}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.flex-direction-nav.slider--{{ section.id }} {
+			display: none;
+		}
+	}
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "ACDC Slideshow",
+    "class": "section--slideshow-wrapper",
+    "max_blocks": 12,
+    "settings": [
+      {
+        "type": "radio",
+        "id": "slider-animation",
+        "label": "Transition effect",
+        "options": [
+          {
+            "value": "slide",
+            "label": "Slide"
+          },
+          {
+            "value": "fade",
+            "label": "Fade"
+          }
+        ],
+        "default": "slide"
+      },
+      {
+        "type": "range",
+        "id": "slider-slide-time",
+        "min": 3,
+        "max": 8,
+        "step": 1,
+        "unit": "sec",
+        "label": "Rotation interval",
+        "default": 8
+      },
+      {
+        "type": "checkbox",
+        "id": "show-slide-dots",
+        "label": "Show slide dots",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show-slide-arrows",
+        "label": "Show slide arrows",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show-slide-controls",
+        "label": "Show play/pause button",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "slider-navigation--color",
+        "label": "Slider Controls Color",
+        "default": "#ffffff"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "600w x 900h recommended"
+          },
+          {
+            "type": "image_picker",
+            "id": "mobile_image",
+            "label": "Mobile Image",
+            "info": "600w x 500h recommended"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title Heading",
+            "default": "Supermix Sleepover Party Pack"
+          },
+          {
+            "type": "text",
+            "id": "subheading",
+            "label": "Subheading",
+            "default": "4 Hoodies"
+          },
+          {
+            "type": "text",
+            "id": "plus_symbol",
+            "label": "Plus Symbol",
+            "default": "+"
+          },
+          {
+            "type": "text",
+            "id": "subheading2",
+            "label": "Subheading 2",
+            "default": "200 bonus patch points"
+          },
+          {
+            "type": "text",
+            "id": "price",
+            "label": "Price",
+            "default": "$199"
+          },
+          {
+            "type": "text",
+            "id": "retail_value",
+            "label": "Retail Value Text",
+            "default": "RETAIL VALUE $262"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link",
+            "info": "Required to show the button"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button label",
+            "default": "Get Started"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "ACDC Slideshow",
+        "blocks": [
+          {
+            "type": "slide"
+          },
+          {
+            "type": "slide"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

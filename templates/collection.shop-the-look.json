@@ -1,0 +1,67 @@
+{
+  "wrapper": "div.collection-main--wrapper",
+  "sections": {
+    "collection_header": {
+      "type": "template--collection-header",
+      "blocks": {
+        "collection-title": {
+          "type": "collection-title",
+          "settings": {}
+        },
+        "3c2920f3-53ca-4192-a2df-8ffd24aee486": {
+          "type": "collection-image",
+          "settings": {
+            "collection_image_size": "original"
+          }
+        }
+      },
+      "block_order": [
+        "collection-title",
+        "3c2920f3-53ca-4192-a2df-8ffd24aee486"
+      ],
+      "settings": {}
+    },
+    "collection_filtering": {
+      "type": "template--collection-filter-sort",
+      "settings": {
+        "desktop_position": "topbar",
+        "enable_filtering": false,
+        "enable_sorting": false
+      }
+    },
+    "main": {
+      "type": "template--collection",
+      "blocks": {
+        "grid-card-title": {
+          "type": "grid-card-title",
+          "settings": {}
+        },
+        "grid-card-price": {
+          "type": "grid-card-price",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "grid-card-title",
+        "grid-card-price"
+      ],
+      "settings": {
+        "grid": 4,
+        "rows": 3,
+        "pagination_type": "paged_navigation"
+      }
+    },
+    "a4dcbdf1-f74c-4419-a10b-8b816790b3ec": {
+      "type": "advanced-layout--custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"loox-default-carousel\"><div class=\"loox-v2-carousel-container\" id=\"LOOX-V2_CAROUSEL-card\" data-slide-type=\"card\" > <\/div><\/div>"
+      }
+    }
+  },
+  "order": [
+    "collection_header",
+    "collection_filtering",
+    "main",
+    "a4dcbdf1-f74c-4419-a10b-8b816790b3ec"
+  ]
+}

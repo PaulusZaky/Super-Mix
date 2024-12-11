@@ -1,0 +1,187 @@
+{% style %}
+
+#stl-header-title {
+  margin: 0;
+  margin-bottom: 60px;
+  text-align: center;
+}
+#stl-header-title-mobile p {
+  font-family: 'KansasNew', serif !important;
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  color: #000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#stl-header-title-mobile {
+  display: none;
+}
+.stl-section-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.stl-product-grid-container, .stl-main-img-container {
+  width: 50%;
+}
+.stl-product-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 80px;
+}
+.stl-section-grid-img img {
+  aspect-ratio: 1 / 1;
+}
+.stl-main-img-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: {{ section.settings.image_background_color }};
+}
+#stl-btn {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+h3.stl-section-product-name {
+  font-size: 18px !important;
+  margin: 0;
+  padding: 20px 0 0;
+  line-height: normal;
+}
+p.pts-value {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #stl-header-title-mobile {
+    display: block;
+  }
+  #stl-header-title {
+    display: none;
+  }
+  .stl-section-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stl-product-grid-container, .stl-main-img-container {
+    width: 100%;
+  }
+  .stl-product-grid-container {
+    padding: 20px 10px;
+    gap: 40px;
+  }
+}
+{% endstyle %}
+
+<div class="homepage-sections-wrapper-pad40">
+  <div class="section-container">
+    {% if section.settings.title %}
+      <h4 id="stl-header-title">{{ section.settings.title | escape }}</h4>
+    {% endif %}
+    {% if section.settings.title_mobile %}
+      <h4 id="stl-header-title-mobile">{{ section.settings.title_mobile }}</h4>
+    {% endif %}
+    <div class="stl-section-wrapper">
+
+      <div class="stl-product-grid-container">
+        {% for block in section.blocks %}
+          <a href="{{ block.settings.product.url }}">
+            <div class="stl-section-grid-item">
+              <div class="stl-section-grid-img">
+                {% for image in block.settings.product.images %}
+                  {% if image %}
+                    <img src="{{ image | img_url: 'master' }}">
+                  {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+                  {% endif %}
+                {% endfor %}
+              </div>
+              {% if block.settings.product.title %}
+                <h3 class="stl-section-product-name">{{ block.settings.product.title | escape }}</h3>
+              {% endif %}
+              {% if block.settings.product.metafields.my_fields.patch_points %}
+                <p class="pts-value">{{ block.settings.product.metafields.my_fields.patch_points }}pts</p>
+              {% else %}
+                0pts
+              {% endif %}
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+
+      <div class="stl-main-img-container">
+        {% if section.settings.image %}
+          <img class="stl-main-img" src="{{ section.settings.image | img_url: 'master' }}">
+        {% else %}
+          {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+        {% endif %}
+        {% if section.settings.button_link and section.settings.button_text %}
+        <a href="{{ section.settings.button_link }}" id="stl-btn" class="button-solid">{{ section.settings.button_text | escape }}</a>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Shop the look ACDC",
+    "max_blocks": 4,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "title_mobile",
+        "label": "Mobile Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "color",
+        "id": "image_background_color",
+        "label": "Image Container Background Color",
+        "default": "#93dde2"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link",
+        "default": "/collections/all"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button text",
+        "default": "Shop the look"
+      }
+    ],
+	  "blocks": [
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+          {
+            "id": "product",
+            "type": "product",
+            "label": "Product"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+      "name": "Shop the look ACDC"
+      }
+    ]
+  }
+{% endschema %}

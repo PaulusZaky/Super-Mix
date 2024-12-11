@@ -1,0 +1,280 @@
+{% style %}
+  .info-section-img-wrap {
+    position: relative;
+    background-image: url("{{ section.settings.background_image | img_url: 'master' }}");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+  .info-section-content-wrap-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    padding: 100px 20px;
+    text-align: center;
+    {% if section.settings.horizontal_alignment == 'right' %}
+      margin-left: auto;
+    {% endif %}
+    {% if section.settings.horizontal_alignment == 'center' %}
+      margin: auto;
+    {% endif %}
+    {% if section.settings.horizontal_alignment == 'left' %}
+      margin-right: auto;
+    {% endif %}
+  }
+  h1.info-block-title {
+    color: {{ section.settings.txt_color }} !important;
+  }
+  .main-copy-container p {
+    color: {{ section.settings.txt_color }} !important;
+    font-size: 18px !important;
+    max-width: 60%;
+  }
+  .info-bigbold p, .info-bigbold {
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    line-height: 0.9em !important;
+    margin-bottom: 0;
+  }
+  .main-title-container, .main-copy-container, .info-bigbold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  a.blk {
+    background-color: {{ section.settings.btn_bg_color }} !important;
+    color: {{ section.settings.btn_txt_color }} !important;
+    margin: auto;
+  }
+  a.blk:hover {
+    background-color: {{ section.settings.hover_btn_bg_color }} !important;
+    color: {{ section.settings.hover_btn_txt_color }} !important;
+    margin: auto;
+  }
+  .info-section-content-wrap-mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 1174px) {
+    .info-section-content-wrap-desktop {
+      max-width: 70%;
+    }
+    .info-section-img-wrap {
+      padding: 60px 20px;
+    }
+  }
+  @media screen and (max-width: 952px) {
+    .info-section-content-wrap-desktop {
+      display: none;
+    }
+    .info-section-content-wrap-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px;
+      text-align: center;
+      background-color: {{ section.settings.mobile_bg_color }};
+    }
+    .info-bigbold p, .info-bigbold {
+      font-size: 42px !important;
+      line-height: 40px;
+    }
+    .info-section-img-wrap {
+      background-image: url("{{ section.settings.mobile_background | img_url: 'master' }}");
+      background-size: cover;
+      padding: 0;
+      padding-bottom: 56.25%;
+      margin: 0;
+    }
+    h1.info-block-title {
+      font-size: 100px !important;
+      line-height: 80px !important;
+    }
+    .info-section-content-wrap-mobile p {
+      color: {{ section.settings.txt_color }} !important;
+      max-width: 60%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    h1.info-block-title {
+      font-size: 65px !important;
+      line-height: 50px !important;
+    }
+    .main-title-container {
+      margin-bottom: 10px;
+    }
+    .info-section-content-wrap-mobile p {
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 680px) {
+    .info-section-img-wrap {
+      background-size: cover;
+    }
+  }
+{% endstyle %}
+
+<div class="homepage-sections-wrapper-pad20">
+  <div class="section-container">
+    <section id="section-info-block-{{ section.id }}">
+
+        <div class="info-section-content-wrap-mobile">
+          {% if section.settings.header %}
+              <div class="main-title-container">
+                <h1 class="info-block-title">{{ section.settings.header }}</h1>
+              </div>
+            {% endif %}
+            {% if section.settings.subheading_text %}
+              <div class="info-bigbold">
+                {{ section.settings.subheading_text }}
+              </div>
+            {% endif %}
+            {% if section.settings.main_text %}
+              <div class="main-copy-container">
+                {{ section.settings.main_text }}
+              </div>
+            {% endif %}
+          {% if section.settings.button_link %}
+            <a class="button-solid blk" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+          {% endif %}
+        </div>
+
+        <div class="info-section-img-wrap">
+          <div class="info-section-content-wrap-desktop">
+            {% if section.settings.header %}
+              <div class="main-title-container">
+                <h1 class="info-block-title">{{ section.settings.header }}</h1>
+              </div>
+            {% endif %}
+            {% if section.settings.subheading_text %}
+              <div class="info-bigbold">
+                {{ section.settings.subheading_text }}
+              </div>
+            {% endif %}
+            {% if section.settings.main_text %}
+              <div class="main-copy-container">
+                {{ section.settings.main_text }}
+              </div>
+            {% endif %}
+            {% if section.settings.button_link %}
+              <a class="button-solid blk" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+            {% endif %}
+          </div>
+        </div>
+
+    </section>
+    <div class="rainbow-border"></div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Info Block Section ACDC",
+    "class": "homepage-section-info-block--wrapper",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Desktop Image",
+        "info": "2000 x 500px recommended"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_background",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "color",
+        "id": "mobile_bg_color",
+        "label": "Mobile Background Color",
+        "default": "transparent"
+      },
+      {
+        "type": "color",
+        "id": "txt_color",
+        "label": "Text Color",
+        "default": "#000000"
+      },
+      {
+        "type": "select",
+        "id": "horizontal_alignment",
+        "label": "Content position",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Title Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "subheading_text",
+        "label": "Subheading Text"
+      },
+      {
+        "type": "richtext",
+        "id": "main_text",
+        "label": "Main Text"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link",
+        "info": "Required to show the button"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Text"
+      },
+      {
+        "type": "color",
+        "id": "btn_bg_color",
+        "label": "Button Background Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "btn_txt_color",
+        "label": "Button Text Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "hover_btn_bg_color",
+        "label": "Button Background Color on Hover",
+        "default": "#666666"
+      },
+      {
+        "type": "color",
+        "id": "hover_btn_txt_color",
+        "label": "Button Text Color on Hover",
+        "default": "#ffffff"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Info Block Section ACDC"
+      }
+    ]
+  }
+{% endschema %}

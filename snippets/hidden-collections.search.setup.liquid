@@ -1,0 +1,67 @@
+{% comment %}
+======================================================
+Managed by Hidden Collections app - Do not modify.
+To remove please click "Remove from store" in our app.
+======================================================
+
+This file exports the "search_results_count" variable,
+updated to remove filtered items. Use it instead of
+"search.results_count" in search.liquid.
+
+======================================================
+{% endcomment %}
+
+{% include 'hidden-collections.settings' %}
+
+{% assign search_results_count = search.results_count %}
+{% assign forbidden_results    = "" | split: "," %}
+
+<!-- iterating search results, protected collection ids: {{ protected_collection_ids | json }} -->
+{% for result in search.results %}
+  {% if result.object_type == 'product' %}
+    {% assign is_protected = false %}
+    {% for collection in result.collections %}
+      {% assign _collection_id = collection.id | append: "" %}
+      {% if protected_collection_ids contains _collection_id %}
+        {% assign is_protected = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% if is_protected %}
+      <!-- item is protected. Checking for permission to access ... -->
+      {% assign should_render = false %}
+
+      {% for collection in result.collections %}
+        {% assign _collection_id = collection.id | append: "" %}
+        {% for _collection_entry in protected_collection_db %}
+          {% if _collection_entry contains _collection_id %}
+            {% assign _id_and_token = _collection_entry | split: ":" %}
+            {% assign _token = _id_and_token[1] %}
+            {% if cart.attributes[_token] %}
+              {% assign should_render = true %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      {% unless should_render %}
+        <!-- do not have access. adding to forbidden_results array -->
+        {% assign search_results_count = search_results_count | minus: 1 %}
+        {% assign forbidden_id_cast_to_array = result.id | append: "" | split: "," %}
+        {% assign forbidden_results = forbidden_results | concat: forbidden_id_cast_to_array %}
+      {% endunless %}
+    {% else %}
+      <!-- item is NOT protected -->
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Alias for replacements of search.results.size {% endcomment %}
+{% assign search_results_size = search_results_count %}
+
+{% comment %}
+======================================================
+End of managed code.
+To remove please click "Remove from store" in our app.
+======================================================
+{% endcomment %}

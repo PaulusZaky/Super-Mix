@@ -1,0 +1,40 @@
+/* CSS for Nav */
+
+.nav>li.mega-menu {
+  position: relative;
+}
+.nav>li.mega-menu .dropdown-menu {
+  width: auto;
+  height: auto;
+    left: unset !important;
+    right: unset !important;
+}
+.nav>li.mega-menu .dropdown-menu .mega-menu-block {
+  min-width: 700px;
+  width: 100%;
+  background: #000;
+  flex-wrap: nowrap;
+  padding: 25px;
+  justify-content: space-between;
+}
+.nav>li.mega-menu .dropdown-submenu {
+  border: none !important;
+  padding: 0;
+  margin: 8px;
+}
+.nav>li.mega-menu .dropdown-menu .mega-menu-block .h4 {
+  text-align: left;
+  margin: 0;
+  margin-top: 20px;
+  line-height: .8em !important;
+}
+.nav>li.mega-menu .dropdown-menu .mega-menu-block .h4 a {
+  color: #fff;
+  font-family: 'KansasNew', sans-serif !important;
+  font-size: 24px !important;
+}
+.header-wrapper .header-link, .header-wrapper a, .header-wrapper button {
+  color: #000;
+  font-size: 15px;
+  letter-spacing: .12em;
+}

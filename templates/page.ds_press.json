@@ -1,0 +1,222 @@
+{
+  "sections": {
+    "d107de67-90ba-4101-b907-39bd395087c9": {
+      "type": "acdc-inspiration-section",
+      "settings": {
+        "title_text": "Press",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "3075b263-e616-4c92-a4d1-53d64d79543c": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--20597635973143__3075b263-e616-4c92-a4d1-53d64d79543c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shark_Tank_Got_a_Deal_600x300_rev.png",
+            "link": "https:\/\/www.prnewswire.com\/news-releases\/supermix-studio-featured-on-abcs-shark-tank-301978470.html",
+            "title": "<h5>Read all about it!<\/h5>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20597635973143__3075b263-e616-4c92-a4d1-53d64d79543c-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "a0b1af76-c501-4d5b-894a-acae61b429ab": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058109693975__a0b1af76-c501-4d5b-894a-acae61b429ab-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_Slides_Oct30.png",
+            "link": "https:\/\/www.nappaawards.com\/product\/design-your-own-hoodie\/",
+            "title": "<h5>Thank you, NAPPA for this prestegious award!<\/h5>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058109693975__a0b1af76-c501-4d5b-894a-acae61b429ab-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "ec12be5f-cefb-48b3-b552-4aca0b54d98e": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058109693975__ec12be5f-cefb-48b3-b552-4aca0b54d98e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shark_Tank_Got_a_Deal_600x300_rev.png",
+            "link": "shopify:\/\/products\/rise-ai-giftcard",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058109693975__ec12be5f-cefb-48b3-b552-4aca0b54d98e-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "8e0fba4c-3bc8-46f5-9638-f6a7d32fc81a": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--20597635973143__8e0fba4c-3bc8-46f5-9638-f6a7d32fc81a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_d497a681-e0b6-4e11-8613-31a6781a7010.jpg",
+            "link": "https:\/\/sourcingjournal.com\/denim\/denim-business\/shark-tank-supermix-studio-customize-childrens-denim-jackets-jennifer-stein-bischoff-465513\/",
+            "title": "<h5>Kids' Custom denim brand says sales up 2,000% since 'Shark Tank' splash.<\/h5>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20597635973143__8e0fba4c-3bc8-46f5-9638-f6a7d32fc81a-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a9308d41d0284108897afe2b06ecf1fb.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "15878dea-f50a-41ca-8b25-8b7906f023a0": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9616466df264868a70afb49441731d0.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Just Add-Your-Name<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trend_Hunter_Article_Email.png",
+            "link": "https:\/\/www.trendhunter.com\/trends\/supermix-studio",
+            "title": "<h5>Gamified Custom Kidswear<\/h5>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15004820209687__fefbb46d-6a66-4c15-886a-c7a6c21e35d4-16692289910b8abdf6-0"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1687536272c0a363d0": {
+      "type": "apps",
+      "blocks": {
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1696c9c-abb7-4de0-9f9c-3cd22f699416"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "d107de67-90ba-4101-b907-39bd395087c9",
+    "3075b263-e616-4c92-a4d1-53d64d79543c",
+    "a0b1af76-c501-4d5b-894a-acae61b429ab",
+    "ec12be5f-cefb-48b3-b552-4aca0b54d98e",
+    "8e0fba4c-3bc8-46f5-9638-f6a7d32fc81a",
+    "34f38d24-2cfb-4adc-9e32-13fe211c11e7",
+    "15878dea-f50a-41ca-8b25-8b7906f023a0",
+    "1663953168c5f33ca1",
+    "main",
+    "1655837578319b3390",
+    "fefbb46d-6a66-4c15-886a-c7a6c21e35d4",
+    "1687536272c0a363d0"
+  ]
+}

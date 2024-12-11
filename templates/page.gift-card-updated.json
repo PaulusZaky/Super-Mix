@@ -1,0 +1,637 @@
+{
+  "sections": {
+    "custom_header": {
+      "type": "header-custom",
+      "blocks": {
+        "26a8a26c-b793-4e13-93ba-509837b05c35": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Design",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03814_350x250_1.jpg",
+            "mega_image_header_1": "How to Supermix",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/pages\/design",
+            "mega_image_2": "shopify:\/\/shop_images\/Screen_Shot_2022-07-18_at_4.02.11_PM.png",
+            "mega_image_header_2": "Design Party",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/pages\/party",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        },
+        "8f90baea-c375-485c-90af-31ac6142a036": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Baby",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03404_2-3.jpg",
+            "mega_image_header_1": "Baby Sweats",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/collections\/baby-sweats",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC03991_2-3.jpg",
+            "mega_image_header_2": "Baby Denim",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/collections\/baby-denim",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        },
+        "7943a7c1-a57c-4bbf-bace-9874faf35e17": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Kids",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC05710-2_350x250_44a73439-58d5-47fe-8475-c255089cca8b.jpg",
+            "mega_image_header_1": "Kids' Sweats",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/pages\/sweat-styles",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC02316_350x250_f8abc678-2fe3-43d2-9924-b081b9c954d9.jpg",
+            "mega_image_header_2": "Kids' Denim",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/collections\/kids-denim",
+            "mega_image_header_3": "Team Sweats",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        },
+        "40080dcd-595a-4f7f-911f-95b2db70fb18": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Women",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03460_2-3.jpg",
+            "mega_image_header_1": "Women's Sweats",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/collections\/womens-sweats",
+            "mega_image_2": "shopify:\/\/shop_images\/Screen_Shot_2022-07-18_at_3.48.02_PM_d86bd7ea-fd5b-45e7-99a7-0211c22adf5d.png",
+            "mega_image_header_2": "Mom + Me Sweats",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/collections\/mom-me-sweats",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        },
+        "e633e8a0-90ac-48da-aa1b-de70a60ea37a": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Accessories",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC06844_350x250_701d8915-40ea-4d7c-af7e-53d0615a99ad.jpg",
+            "mega_image_header_1": "Backpacks",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/collections\/backpacks",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC01956_350X250_a5d23098-cac7-4886-b33d-8b622e27844d.jpg",
+            "mega_image_header_2": "Hats",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/collections\/hats",
+            "mega_image_3": "shopify:\/\/shop_images\/IMG_8808_BLUEBG.jpg",
+            "mega_image_header_3": "Pencil Cases",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": "shopify:\/\/products\/recycled-pencil-case"
+          }
+        },
+        "5b9f651f-1fd4-4b8f-80fd-af6b39701132": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "Patches",
+            "mega_image_1": "shopify:\/\/shop_images\/FULL_COLLAGE_350X250_d4ff7366-0e62-419f-a4db-38208ecdcad4.jpg",
+            "mega_image_header_1": "Patch Points",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "shopify:\/\/pages\/patch-landing",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC00444_350x250_a769fac4-3fb2-43b6-beea-d9d14395bf16.jpg",
+            "mega_image_header_2": "Rewards",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": "shopify:\/\/pages\/my-rewards",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "mega_image_link_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "26a8a26c-b793-4e13-93ba-509837b05c35",
+        "8f90baea-c375-485c-90af-31ac6142a036",
+        "7943a7c1-a57c-4bbf-bace-9874faf35e17",
+        "40080dcd-595a-4f7f-911f-95b2db70fb18",
+        "e633e8a0-90ac-48da-aa1b-de70a60ea37a",
+        "5b9f651f-1fd4-4b8f-80fd-af6b39701132"
+      ],
+      "custom_css": [],
+      "settings": {
+        "sticky_header": true,
+        "overlay_header": false,
+        "logo": "shopify:\/\/shop_images\/supermix-logo.png",
+        "design_logo": "shopify:\/\/shop_images\/supermix-logo_1.png",
+        "button_label": "$130 Gift Card Only $99",
+        "mobile_button_label": "Buy Gift Card",
+        "button_link": "shopify:\/\/products\/130-gift-card-copy",
+        "logo_max_width": 220,
+        "logo-placement": "within-header",
+        "sticky_header_logo": true,
+        "search-enable": false,
+        "label-enable": false,
+        "icon-size": "20",
+        "cart-style": "shopping-cart",
+        "cart-number": "none",
+        "enable_country_selector": true,
+        "enable_locale_selector": true,
+        "main_linklist": "supermix-custom-shop",
+        "design_linklist": "supermix-design-studio-navigation",
+        "top_bar_linklist": ""
+      }
+    },
+    "custom-announcement_bar": {
+      "type": "announcement-bar-custom",
+      "settings": {
+        "enable": true,
+        "message_text": "Supermix Holiday Sale is Happening now",
+        "message_link": "",
+        "notification-bar--background-color": "#000000",
+        "notification-bar--text-color": "#ffffff",
+        "social-enable": true
+      }
+    },
+    "image_gallery_Fe9DDE": {
+      "type": "image--gallery",
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "387f921f-c2f0-4226-82ad-a9b66968710a": {
+      "type": "video--video-with-text-overlay-divide",
+      "blocks": {
+        "heading_TVbTVk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designer One Day. Fashionista the Next."
+          }
+        },
+        "text_DcLp9z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Supermix Gift Card is 2-Gifts-in-1. Let your child explore their creativity by designing their own clothes. And then watch them show off their creation to family and friends.<\/p>"
+          }
+        },
+        "button_M3MnkL": {
+          "type": "button",
+          "settings": {
+            "button_label": "$130 Gift Card Only $99",
+            "button_link": "shopify:\/\/products\/130-gift-card-copy",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TVbTVk",
+        "text_DcLp9z",
+        "button_M3MnkL"
+      ],
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 34px !important; line-height: 48px !important; letter-spacing: -1px; }}"
+      ],
+      "settings": {
+        "video_tap_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7b38658827e4489b98214de86a36f803.mp4",
+        "enable_time_setting": true,
+        "start_time_ampm": "am",
+        "start_time_hours": 7,
+        "start_time_mins": 37,
+        "end_time_ampm": "pm",
+        "end_time_hours": 9,
+        "end_time_mins": 30,
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/294054fa86624492916f1a264c1737a9.mp4",
+        "kiosk_video": "shopify:\/\/files\/videos\/KIOSK VIDEO_April Update_No Button_v2 (2).mp4",
+        "mobile_banner": "shopify:\/\/shop_images\/homepage_mobile_banner.png",
+        "desktop_banner": "shopify:\/\/shop_images\/hompage_banner.png",
+        "desktopHeight": "fullscreen",
+        "tabletHeight": "450",
+        "mobileHeight": "250",
+        "subheading": "",
+        "title": "",
+        "text": "",
+        "textAlignment": "center",
+        "textColor": "#000000",
+        "textShadow": false,
+        "subheading--text-size": 14,
+        "heading--text-size": 50,
+        "button_link": "shopify:\/\/pages\/ds-denim-sweats",
+        "button_label": ""
+      }
+    },
+    "featured_gift_card_WnFda4": {
+      "type": "featured-gift-card",
+      "settings": {
+        "colors": "white",
+        "subheading": "",
+        "title": "",
+        "featured_product": "130-gift-card-copy",
+        "image": "shopify:\/\/shop_images\/Gift_Card_1660x1050-29.png",
+        "background": "#017db9",
+        "mark_background": "#ecda6e",
+        "text_color": "#ffffff",
+        "mark_color": "#130606",
+        "show_discount": "hide",
+        "show_quantity_selector": false,
+        "show_smart_checkout": false,
+        "show_product_description": false,
+        "pick_an_option": false,
+        "hide_out_of_stock": false,
+        "enable_video_loop": false,
+        "size_guide_link": "",
+        "size_guide_message": "What's my size?",
+        "size_guide_variant": "Size"
+      }
+    },
+    "proud_creations_pAJcPY": {
+      "type": "proud-creations",
+      "blocks": {
+        "proud_creation_YKQ4Wn": {
+          "type": "proud_creation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/106.png"
+          }
+        },
+        "proud_creation_CnbWfa": {
+          "type": "proud_creation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/104.png"
+          }
+        },
+        "proud_creation_e3Umcn": {
+          "type": "proud_creation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/102.png"
+          }
+        },
+        "proud_creation_U36nKX": {
+          "type": "proud_creation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/99.png"
+          }
+        },
+        "proud_creation_6trHDB": {
+          "type": "proud_creation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/103.png"
+          }
+        },
+        "proud_creation_UNRcQ8": {
+          "type": "proud_creation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/101.png"
+          }
+        },
+        "proud_creation_LbD3xQ": {
+          "type": "proud_creation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/98.png"
+          }
+        },
+        "proud_creation_hJATFa": {
+          "type": "proud_creation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/100.png"
+          }
+        }
+      },
+      "block_order": [
+        "proud_creation_YKQ4Wn",
+        "proud_creation_CnbWfa",
+        "proud_creation_e3Umcn",
+        "proud_creation_U36nKX",
+        "proud_creation_6trHDB",
+        "proud_creation_UNRcQ8",
+        "proud_creation_LbD3xQ",
+        "proud_creation_hJATFa"
+      ],
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; }}"
+      ],
+      "settings": {
+        "title": "Proud Creations by Supermixers",
+        "subtitle": "Join thousands of parents who trust SuperMix to make gift-giving memorable. Featured on Shark Tank and loved by creative kids nationwide.",
+        "mobile_count": 8,
+        "desktop_count": 4
+      }
+    },
+    "text_rich_text_xwqqRF": {
+      "type": "text--rich-text",
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
+      ],
+      "settings": {
+        "colors": "white",
+        "width": "medium",
+        "subheading": "",
+        "title": "3 Reasons Why Supermix Gift Card is the Best Gift For Your Kid",
+        "text": "<p>Give the gift of creativity, self-expression, and unforgettable memories! <\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "text_image_with_text_ijc7QF": {
+      "type": "text--image-with-text",
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
+      ],
+      "settings": {
+        "section_id": "reason_1",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/2AB4B14C-1061-476E-85AE-A330C9AEFBEC.jpg",
+        "layout": "left",
+        "subheading": "Reason #1",
+        "title": "Spark Their Creativity",
+        "text_block": "<p>Let your child’s imagination run wild! From hoodies to caps, they’ll design something uniquely theirs. It’s fun, easy, and builds confidence.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "shopify:\/\/products\/130-gift-card-copy",
+        "button_label": "$130 Gift Card Only $99",
+        "container_padding": true,
+        "background": "#21a95d"
+      }
+    },
+    "text_image_with_text_Tnj4gE": {
+      "type": "text--image-with-text",
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
+      ],
+      "settings": {
+        "section_id": "reason_2",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/6_5eac9235-f48a-413d-8a08-2c138a1720e2.jpg",
+        "layout": "right",
+        "subheading": "Reason #2",
+        "title": "Build Confidence, Create Memories",
+        "text_block": "<p>They’ll always remember the joy of designing their own clothes and wearing their creations proudly. It's a gift with lasting emotional value.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "shopify:\/\/products\/130-gift-card-copy",
+        "button_label": "$130 Gift Card Only $99",
+        "container_padding": true,
+        "background": "#ecda6e"
+      }
+    },
+    "text_image_with_text_3kyF4F": {
+      "type": "text--image-with-text",
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
+      ],
+      "settings": {
+        "section_id": "reason_3",
+        "colors": "white",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/35A75A6A-5771-44BB-9FA5-03CA1C92E59A.jpg",
+        "layout": "left",
+        "subheading": "Reason #3",
+        "title": "Watch Them Shine!",
+        "text_block": "<p>SuperMix combines a fun activity with a tangible, personalized product. No more boring toys—this is a creative journey with a keepsake they’ll love.<\/p>",
+        "text_block_2": "",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "shopify:\/\/products\/130-gift-card-copy",
+        "button_label": "$130 Gift Card Only $99",
+        "container_padding": true,
+        "background": "#017db9"
+      }
+    },
+    "featured_gift_card_7ABx3q": {
+      "type": "featured-gift-card",
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
+      ],
+      "settings": {
+        "colors": "white",
+        "subheading": "",
+        "title": "",
+        "featured_product": "130-gift-card-copy",
+        "image": "shopify:\/\/shop_images\/Gift_Card_1660x1050-29.png",
+        "background": "#ecda6e",
+        "mark_background": "#21a95d",
+        "text_color": "#130606",
+        "mark_color": "#ffffff",
+        "show_discount": "hide",
+        "show_quantity_selector": false,
+        "show_smart_checkout": false,
+        "show_product_description": false,
+        "pick_an_option": false,
+        "hide_out_of_stock": false,
+        "enable_video_loop": false,
+        "size_guide_link": "",
+        "size_guide_message": "What's my size?",
+        "size_guide_variant": "Size"
+      }
+    },
+    "attr_list_EaTgdB": {
+      "type": "attr-list",
+      "blocks": {
+        "attribute_cVDwCP": {
+          "type": "attribute",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer_Icons_1x1-02.png",
+            "text": "Boutique Quality"
+          }
+        },
+        "attribute_Eythxy": {
+          "type": "attribute",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer_Icons_1x1-03.png",
+            "text": "Earth-Friendly"
+          }
+        },
+        "attribute_gUEnmx": {
+          "type": "attribute",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer_Icons_1x1-04.png",
+            "text": "Ships in 5 Days"
+          }
+        },
+        "attribute_iVRQjA": {
+          "type": "attribute",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer_Icons_1x1-05.png",
+            "text": "Surprising Swag"
+          }
+        }
+      },
+      "block_order": [
+        "attribute_cVDwCP",
+        "attribute_Eythxy",
+        "attribute_gUEnmx",
+        "attribute_iVRQjA"
+      ],
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; letter-spacing: -1.4px; }}"
+      ],
+      "settings": {
+        "title": "An Experience That Turns Into a Keepsake",
+        "subtitle": ""
+      }
+    },
+    "text_testimonials_gKGUHf": {
+      "type": "text--testimonials",
+      "blocks": {
+        "textarea_ftVrYE": {
+          "type": "textarea",
+          "settings": {
+            "stars": "5",
+            "testimonial": "\"My Granddaughter asked if her present was an experience or a physical gift and I told her it was both!\"",
+            "author": "Irene",
+            "link": "",
+            "position": ""
+          }
+        },
+        "textarea_7ajjnm": {
+          "type": "textarea",
+          "settings": {
+            "stars": "5",
+            "testimonial": "\"The kids spent over an hour designing and had the best time ever!\"",
+            "author": "Molly",
+            "link": "",
+            "position": ""
+          }
+        },
+        "textarea_ykq4hP": {
+          "type": "textarea",
+          "settings": {
+            "stars": "5",
+            "testimonial": "\"I bought my kids gift cards for Christmas so they could create their own designs. They counted the days until the box arrived! Huge hit!\"",
+            "author": "Carol",
+            "link": "",
+            "position": ""
+          }
+        }
+      },
+      "block_order": [
+        "textarea_ftVrYE",
+        "textarea_7ajjnm",
+        "textarea_ykq4hP"
+      ],
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
+      ],
+      "settings": {
+        "colors": "white",
+        "subheading": "Who needs Sharks when SuperMix is mom-approved!",
+        "title": "Moms Love Supermix",
+        "slider-animation": "fade",
+        "slider-slide-time": 4,
+        "show-slide-dots": false,
+        "show-slide-arrows": false,
+        "show-slide-controls": false
+      }
+    },
+    "collection_featured_collection_EaJ4QG": {
+      "type": "collection--featured-collection",
+      "blocks": {
+        "grid_card_title_mAWGcW": {
+          "type": "grid-card-title",
+          "settings": {}
+        },
+        "grid_card_price_biJqY4": {
+          "type": "grid-card-price",
+          "settings": {}
+        },
+        "grid_card_cta_AMRqqa": {
+          "type": "grid-card-cta",
+          "settings": {
+            "cta_text": "Add to cart"
+          }
+        }
+      },
+      "block_order": [
+        "grid_card_title_mAWGcW",
+        "grid_card_price_biJqY4",
+        "grid_card_cta_AMRqqa"
+      ],
+      "custom_css": [
+        "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
+      ],
+      "settings": {
+        "colors": "white",
+        "subheading": "A gift that sparks imagination and fits in a stocking!",
+        "title": "Supermix Gift Cards",
+        "collection": "gift-card-holiday-sale",
+        "grid": 3,
+        "rows": 1,
+        "show_view_all": false
+      }
+    },
+    "16595646277a31b7b2": {
+      "type": "apps",
+      "blocks": {
+        "f1743f12-cfcb-4b6d-af37-33ab57393f23": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1743f12-cfcb-4b6d-af37-33ab57393f23"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16565992964d572c45": {
+      "type": "apps",
+      "blocks": {
+        "5daac673-87a8-49f2-950e-2b391c63cbcf": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "5daac673-87a8-49f2-950e-2b391c63cbcf"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "custom_footer": {
+      "type": "image--gallery",
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "custom_header",
+    "custom-announcement_bar",
+    "image_gallery_Fe9DDE",
+    "387f921f-c2f0-4226-82ad-a9b66968710a",
+    "featured_gift_card_WnFda4",
+    "proud_creations_pAJcPY",
+    "text_rich_text_xwqqRF",
+    "text_image_with_text_ijc7QF",
+    "text_image_with_text_Tnj4gE",
+    "text_image_with_text_3kyF4F",
+    "featured_gift_card_7ABx3q",
+    "attr_list_EaTgdB",
+    "text_testimonials_gKGUHf",
+    "collection_featured_collection_EaJ4QG",
+    "16595646277a31b7b2",
+    "16565992964d572c45",
+    "custom_footer"
+  ]
+}

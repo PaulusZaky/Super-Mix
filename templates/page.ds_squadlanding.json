@@ -1,0 +1,348 @@
+{
+  "sections": {
+    "c5ac4787-67ec-40ae-bfe9-76d94d496dcd": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15046266519575__c5ac4787-67ec-40ae-bfe9-76d94d496dcd-16736625726908557f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Supermix-Squad_Static_1500x800_Ver01_1.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15046266519575__c5ac4787-67ec-40ae-bfe9-76d94d496dcd-16736625726908557f-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15046266519575__c5ac4787-67ec-40ae-bfe9-76d94d496dcd-16736625726908557f-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15046266519575__c5ac4787-67ec-40ae-bfe9-76d94d496dcd-16736625726908557f-0",
+        "template--15046266519575__c5ac4787-67ec-40ae-bfe9-76d94d496dcd-16736625726908557f-1",
+        "template--15046266519575__c5ac4787-67ec-40ae-bfe9-76d94d496dcd-16736625726908557f-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "ebca4010-5bad-49c0-9f31-ffd5f3dcb27c": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15046266519575__ebca4010-5bad-49c0-9f31-ffd5f3dcb27c-16736630215ee25c38-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>\nWelcome to the Supermix Squad! You are a part of our Founding Team! It means so much to us that you were amongst the first to discover Supermix. We’re so excited to launch our affiliate program with you!  <\/h2><\/div>",
+            "width": "100%"
+          }
+        },
+        "05840e76-e373-4192-b850-d290ca3bae92": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Bonus: this is going to be so much fun! We’ll have special contests, promos, and activities just for our Squad. Take part in as much or as little as you like. This is a no pressure zone.<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15046266519575__ebca4010-5bad-49c0-9f31-ffd5f3dcb27c-16736630215ee25c38-0",
+        "05840e76-e373-4192-b850-d290ca3bae92"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "4337ad2d-8c3b-4757-b287-5d722cd6d1e5": {
+      "type": "image--slideshow",
+      "blocks": {
+        "template--15041840414743__4337ad2d-8c3b-4757-b287-5d722cd6d1e5-1673016242865bd072-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-27_at_8.14.24_PM.png",
+            "subheading": "",
+            "title": "Awesome Marketing",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Promote a Brand Your Kids Love.<br>\n• We provide weekly reels and promos. <br>\n• Participate in giveaways and contests.",
+            "button_text": "",
+            "link": "",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "b37d6818-cd16-4b13-a70c-4a32b274360a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-01-13_at_10.55.36_PM.png",
+            "subheading": "",
+            "title": "Share & Earn",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Easy to Share Online & IRL.<br>• Earn 10% Commissions or 20% brand credit.<br>• Squad bonus to earn free product.",
+            "button_text": "",
+            "link": "",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "template--15041840414743__4337ad2d-8c3b-4757-b287-5d722cd6d1e5-1673016242865bd072-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/318772596_674961984417803_6843215194176165335_n.jpg",
+            "subheading": "",
+            "title": "On Your Time",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Participate as much or as little as you like.<br>\n• Group chat or private DM.<br>\n• No commitment. Make this work for you.<br>",
+            "button_text": "",
+            "link": "",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--15041840414743__4337ad2d-8c3b-4757-b287-5d722cd6d1e5-1673016242865bd072-0",
+        "b37d6818-cd16-4b13-a70c-4a32b274360a",
+        "template--15041840414743__4337ad2d-8c3b-4757-b287-5d722cd6d1e5-1673016242865bd072-1"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    },
+    "12547be9-8ad7-4e8b-8d11-1795871a19a2": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "Weekly Design Contest",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/design-contest",
+        "button_text": "Learn More"
+      }
+    },
+    "e9f9993f-80df-40d6-b036-27b618833578": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15046266519575__e9f9993f-80df-40d6-b036-27b618833578-1673662968dd2a67a9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-01-13_at_10.32.45_PM.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15046266519575__e9f9993f-80df-40d6-b036-27b618833578-1673662968dd2a67a9-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-01-13_at_10.37.00_PM.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15046266519575__e9f9993f-80df-40d6-b036-27b618833578-1673662968dd2a67a9-0",
+        "template--15046266519575__e9f9993f-80df-40d6-b036-27b618833578-1673662968dd2a67a9-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "4eebfde5-c9d0-4ee8-8f15-a0d863e3a561": {
+      "type": "acdc-inspiration-section",
+      "blocks": {
+        "23f9ba8b-dd84-4da2-a42e-7bebd4fa84a3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4A9A6D12-482E-4CF9-A8DE-6DFB41E1B402.jpg"
+          }
+        },
+        "3f3f3a95-62e0-4d64-90e8-180e216c1fbb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0005B7BE-D02F-4FFB-AC85-1D8F52C87B47.jpg"
+          }
+        },
+        "1293a8b3-293a-492b-835d-7dcfe8174997": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2869DFA8-FA6A-437F-9B1A-A25A58E7A2B2.jpg"
+          }
+        },
+        "ff0e2a70-83ee-4515-b1b1-672dd041335d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DEEBFC9D-552C-43FD-8247-94F218A66722.jpg"
+          }
+        },
+        "fcee6045-a13a-41df-9308-43c6cb308024": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/032E5286-9AB5-4EE1-95CD-A5A72C13C1F0_a7385d8f-f852-4f3e-a7c5-896ef1219d34.jpg"
+          }
+        },
+        "bef5c320-61fa-49c5-b33e-f5b64f64d883": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/67256E33-F965-4118-8869-0BAE9D6127DA.jpg"
+          }
+        },
+        "5e589ecf-dee8-4298-9c0f-adae26946ebe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DF221A57-1841-4F34-B173-B01ABBA8433C.jpg"
+          }
+        },
+        "e3798752-21d9-4103-9e8b-28180857207b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6887.jpg"
+          }
+        },
+        "6c093284-4c52-4eac-89b0-f87da71dc79e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6999.jpg"
+          }
+        },
+        "5b06eeb7-2f85-4c27-b9e5-bf889bd7fe05": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7026.jpg"
+          }
+        },
+        "e4b67bab-da96-4c38-aa67-70d71c151958": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7043.jpg"
+          }
+        },
+        "927f9fc8-c76f-4a3a-92fd-a762442b8d94": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7044.jpg"
+          }
+        },
+        "9af441d1-73ab-48eb-b0de-4fcee96ac385": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3F1B66F6-0A5B-4CEC-9248-34F11AE68287.jpg"
+          }
+        },
+        "d9c20fb3-f437-418b-b368-8721832c7c2a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9D6AA52C-84C1-49D7-ABEB-5C50D0BFF42E.jpg"
+          }
+        },
+        "f1f4d6e6-9377-4e8c-af02-a0ba90f930f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/55C471F8-6EF4-4352-8147-ACEE7B6E7516.jpg"
+          }
+        },
+        "b4ef2dab-db3a-40da-83bd-925fc2dff004": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61FFD262-072A-4E9B-9090-E755F1308D84.jpg"
+          }
+        },
+        "497988a3-d584-480e-ab82-0524a766caee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/45D2ECB5-2FC4-402B-8DBE-D870552E0944.jpg"
+          }
+        },
+        "3b8035ef-e914-4aa9-90c2-5e488b6b6414": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A39A14BF-12E2-4A0A-B948-391ECA0E3B4D.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "23f9ba8b-dd84-4da2-a42e-7bebd4fa84a3",
+        "3f3f3a95-62e0-4d64-90e8-180e216c1fbb",
+        "1293a8b3-293a-492b-835d-7dcfe8174997",
+        "ff0e2a70-83ee-4515-b1b1-672dd041335d",
+        "fcee6045-a13a-41df-9308-43c6cb308024",
+        "bef5c320-61fa-49c5-b33e-f5b64f64d883",
+        "5e589ecf-dee8-4298-9c0f-adae26946ebe",
+        "e3798752-21d9-4103-9e8b-28180857207b",
+        "6c093284-4c52-4eac-89b0-f87da71dc79e",
+        "5b06eeb7-2f85-4c27-b9e5-bf889bd7fe05",
+        "e4b67bab-da96-4c38-aa67-70d71c151958",
+        "927f9fc8-c76f-4a3a-92fd-a762442b8d94",
+        "9af441d1-73ab-48eb-b0de-4fcee96ac385",
+        "d9c20fb3-f437-418b-b368-8721832c7c2a",
+        "f1f4d6e6-9377-4e8c-af02-a0ba90f930f2",
+        "b4ef2dab-db3a-40da-83bd-925fc2dff004",
+        "497988a3-d584-480e-ab82-0524a766caee",
+        "3b8035ef-e914-4aa9-90c2-5e488b6b6414"
+      ],
+      "settings": {
+        "title_text": "How do you Supermix?",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "c5ac4787-67ec-40ae-bfe9-76d94d496dcd",
+    "main",
+    "ebca4010-5bad-49c0-9f31-ffd5f3dcb27c",
+    "4337ad2d-8c3b-4757-b287-5d722cd6d1e5",
+    "12547be9-8ad7-4e8b-8d11-1795871a19a2",
+    "e9f9993f-80df-40d6-b036-27b618833578",
+    "4eebfde5-c9d0-4ee8-8f15-a0d863e3a561"
+  ]
+}

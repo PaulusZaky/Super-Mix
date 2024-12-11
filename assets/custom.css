@@ -1,0 +1,1036 @@
+/*
+
+Please add any custom CSS code in here, it will be easier to transfer if updating themes.
+
+We highly recommend labelling changes, or App installs, so these can also be updated or removed as needed.
+
+*/
+
+/* FONTS ADDED ACDC[MR] */
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("TTCommons-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("TTCommons-DemiBold.woff") format("woff");
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("TTCommons-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "TT Commons Italic";
+  src: url("TTCommons-Italic.woff") format("woff");
+  font-display: swap;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "TT Commons", sans-serif !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  line-height: 0.9em !important;
+}
+
+h1,
+.h1 {
+  font-size: 80px !important;
+}
+
+h2,
+.h2 {
+  font-size: 55px !important;
+}
+
+h3,
+.h3 {
+  font-size: 6vw !important;
+}
+
+.h1,
+.h2,
+.h3 {
+  font-family: "TT Commons", sans-serif !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+
+h4,
+h5 {
+  font-family: "KansasNew", sans-serif !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+
+h4,
+.h4 {
+  font-size: 36px !important;
+}
+
+h5,
+.h5 {
+  font-size: 24px !important;
+}
+
+.h4,
+.h5 {
+  font-family: "KansasNew", sans-serif !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+
+.eyebrow {
+  font-family: "TT-Commons", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: #000 !important;
+}
+
+a.btn,
+a,
+.btn,
+.btn:not(.btn--password-submit) {
+  font-family: "KansasNew", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+body,
+p {
+  font-family: "TT Commons", sans-serif !important;
+  font-weight: 300 !important;
+  color: #000 !important;
+  font-size: 16px !important;
+  line-height: normal !important;
+}
+
+.body-1 {
+  font-size: 15px !important;
+}
+
+.body-2 {
+  font-size: 18px !important;
+}
+
+.body-3 {
+  font-size: 22px !important;
+}
+
+.nav-pills>li {
+  padding: 0;
+}
+
+.nav-pills li a {
+  font-family: "TT Commons", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+
+.mobile-menu-link {
+  font-family: "KansasNew", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 13px;
+}
+
+.mobile-menu,
+.mobile-menu-close,
+.mobile-menu-link:focus {
+  background-color: #000;
+}
+
+/* Buttons */
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: none !important;
+}
+
+.button-rainbow {
+  background-image: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/sup-rainbow-border.png?v=1648051536");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: padding-box;
+  border: none;
+  border-radius: 32px;
+  padding: 0;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+  max-height: 62px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.button-rainbow span {
+  background: #000;
+  height: -webkit-calc(100% - 8px);
+  height: calc(100% - 8px);
+  width: -webkit-calc(100% - 8px);
+  width: calc(100% - 8px);
+  font-family: "KansasNew", serif !important;
+  text-align: center;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  letter-spacing: 1px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  padding: 19px 40px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-rainbow span:hover {
+  background: #333;
+  text-decoration: none !important;
+}
+
+@media screen and (min-width: 1440px) {
+  .button-rainbow span {
+    font-size: 16px !important;
+  }
+}
+
+a.button-solid,
+a.btn,
+input.btn,
+button.btn,
+span.btn {
+  -webkit-appearance: none !important;
+  background: #000 !important;
+  border: none !important;
+  border-radius: 32px !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: KansasNew, serif !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  letter-spacing: 1px !important;
+  line-height: normal !important;
+  max-width: fit-content !important;
+  max-height: 64px !important;
+  padding: 1vw 1.6vw !important;
+  font-size: 16px !important;
+  white-space: nowrap !important;
+  text-transform: none !important;
+}
+
+.btn:not(.btn--password-submit):not([type="submit"]) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+a.button-outline {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 32px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "KansasNew", serif !important;
+  text-align: center;
+  font-weight: 700 !important;
+  color: #000 !important;
+  letter-spacing: 1px;
+}
+
+a.button-solid:hover,
+a.btn:hover,
+a.button-solid:focus,
+a.btn:focus {
+  background: #666 !important;
+  background-color: #666 !important;
+  text-decoration: none !important;
+}
+
+a.button-solid:disabled,
+a.btn:disabled {
+  background: #999 !important;
+  color: #e6e6e6 !important;
+}
+
+a.button-outline:hover {
+  border-color: #999;
+  text-decoration: none !important;
+}
+
+a.button-outline:disabled {
+  border-color: #e6e6e6;
+  color: #999;
+}
+
+body button:not([id^="wetheme-dropdown"]):not(.secondary-button):not(.slick-arrow):not(.alt-focus):focus,
+body .btn:not(.secondary-button):focus {
+  /* background-color: #666 !important;
+  color: #fff !important; */
+}
+
+a.button-solid,
+a.button-outline,
+a.btn,
+input.btn,
+button.btn,
+span.btn {
+  max-width: fit-content !important;
+  max-height: 64px !important;
+  font-size: 16px !important;
+  white-space: nowrap !important;
+  text-transform: none !important;
+}
+
+@media screen and (max-width: 968px) {
+
+  a.button-solid,
+  a.button-outline,
+  a.btn,
+  input.btn,
+  button.btn,
+  span.btn {
+    max-height: 48px !important;
+    font-size: 16px !important;
+    padding: 12px 20px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  h1,
+  .h1 {
+    font-size: 80px !important;
+  }
+
+  h2,
+  .h2 {
+    font-size: 55px !important;
+  }
+
+  h3,
+  .h3 {
+    font-size: 64px !important;
+  }
+
+  h4,
+  .h4 {
+    font-size: 36px !important;
+  }
+
+  h5,
+  .h5 {
+    font-size: 20px !important;
+  }
+
+  body,
+  p {
+    font-size: 16px !important;
+  }
+
+  .eyebrow {
+    font-size: 18px !important;
+  }
+
+  a.button-solid,
+  a.button-outline {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 968px) {
+
+  h2,
+  .h2 {
+    font-size: 45px !important;
+  }
+
+  h3,
+  .h3 {
+    font-size: 48px !important;
+  }
+
+  h4,
+  .h4 {
+    font-size: 24px !important;
+  }
+
+  h5,
+  .h5 {
+    font-size: 20px !important;
+  }
+
+  body,
+  p {
+    font-size: 20px !important;
+  }
+
+  .eyebrow {
+    font-size: 20px !important;
+  }
+}
+
+.shopify-policy__container {
+  padding: 60px 20px;
+  max-width: 800px;
+}
+
+.shopify-policy__container h1 {
+  text-align: left !important;
+  line-height: 0.9em !important;
+  margin-top: 60px;
+}
+
+.shopify-policy__container h2 {
+  text-align: left !important;
+  line-height: 0.9em !important;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .shopify-policy__container h1 {
+    font-size: 60px !important;
+  }
+}
+
+/* Custom CSS */
+.rainbow-border {
+  position: relative;
+  width: 100%;
+  height: 12px;
+  background: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/sup-rainbow-border.png?v=1648051536");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -2px;
+}
+
+.flex-header {
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 40px 0 60px;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.flex-top-nav {
+  background: #f0f0f0;
+  padding: 10px 0;
+}
+
+.nav-pills>li {
+  height: 100%;
+}
+
+.main-navigation-wrapper .nav {
+  align-items: center;
+  margin: 0;
+  justify-content: flex-start;
+  gap: 2vw;
+}
+
+.main-navigation-wrapper-main {
+  padding: 20px 0;
+}
+
+.logo-nav-wrapper {
+  height: 100%;
+}
+
+.mega-menu--dropdown-wrapper {
+  height: 100%;
+}
+
+a.header-link.mainlink.active-link {
+  color: #0085bc !important;
+}
+
+#logo-menu-wrap {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  height: 100%;
+}
+
+.top-nav-pills {
+  padding-right: 32.5px;
+  justify-content: flex-end;
+  gap: 20px;
+  line-height: normal;
+}
+
+.icons-header {
+  width: auto;
+  margin-left: auto;
+  display: -webkit-flex;
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .header-wrapper .main-icons-with-locale {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
+
+.header-wrapper .header-icons ul {
+  gap: 10px;
+}
+
+.header-wrapper .header-icons ul li {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.user-icon-wrapper {
+  background-image: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/user-icon-svg.svg?v=1647964723");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cart-icon-wrapper {
+  background-image: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/cart-icon-svg-sup.svg?v=1647964709");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.search-icon-wrapper {
+  background-image: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/magny-svg.svg?v=1648071569");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.user-icon-wrapper,
+.user-icon-wrapper-cart,
+.search-icon-wrapper {
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .user-icon-wrapper,
+  .user-icon-wrapper-cart,
+  .search-icon-wrapper {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-header--wrapper .mobile-side-column .header-link {
+    width: 25px;
+    height: 25px;
+    flex: 0 0 45px;
+    padding: 0 !important;
+  }
+
+  .mobile-header--wrapper .mobile-side-column {
+    width: 25%;
+  }
+
+  .mobile-header--wrapper .mobile-logo-column {
+    width: 50%;
+  }
+
+  .top-search #search-wrapper {
+    width: 100%;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+  }
+
+  .feather {
+    height: 30px !important;
+    width: 30px !important;
+  }
+}
+
+.mobile-menu-wrapper .mobile-menu-back {
+  align-items: center !important;
+}
+
+h3.image-bar--title p {
+  font-family: "KansasNew", serif !important;
+  color: #000;
+  text-transform: none;
+}
+
+/* FOOTER */
+h3.f-link-header a {
+  font-family: "TT Commons", sans-serif !important;
+  font-size: 20px !important;
+}
+
+.links-footer ul li a {
+  font-family: "TT Commons", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .links-footer ul li a {
+    font-size: 16px !important;
+  }
+}
+
+h2.titleh2 {
+  font-family: "KansasNew", serif !important;
+  color: #000;
+  font-size: 36px !important;
+  text-align: center;
+  margin: 0;
+  padding: 40px 0;
+  white-space: nowrap;
+}
+
+h2.titleh2:before {
+  content: "";
+  height: 32px;
+  width: 32px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/pinkstar.svg?v=1649179037");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+h2.titleh2:after {
+  content: "";
+  height: 32px;
+  width: 32px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/yellowstar.svg?v=1649179032");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+h2.titleh2.insta {
+  font-family: "KansasNew", serif !important;
+  color: #000;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+h2.titleh2.insta:before,
+h2.titleh2.insta:after {
+  content: "";
+  height: 32px;
+  width: 32px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/balckstar.svg?v=1649179032");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+p.instatext {
+  text-align: center;
+  font-size: 1.25vw !important;
+  color: #000 !important;
+  margin-bottom: 60px;
+}
+
+h2.titleh2.insta span.insta-icon {
+  height: 45px;
+  width: 45px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0563/2737/2823/files/insta-icon.svg?v=1649256351");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 968px) {
+  h2.titleh2 {
+    font-size: 36px !important;
+  }
+
+  h2.titleh2:before {
+    width: 28px;
+    height: 28px;
+    margin-right: 20px;
+  }
+
+  h2.titleh2:after {
+    width: 28px;
+    height: 28px;
+    margin-left: 20px;
+  }
+
+  h2.titleh2.insta {
+    font-size: 36px !important;
+  }
+
+  h2.titleh2.insta:before,
+  h2.titleh2.insta:after {
+    height: 28px;
+    width: 28px;
+  }
+
+  h2.titleh2.insta span.insta-icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  p.instatext {
+    font-size: 16px !important;
+    max-width: 80%;
+    margin: auto;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2.titleh2 {
+    font-size: 24px !important;
+    padding-bottom: 0;
+  }
+
+  h2.titleh2:before {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+
+  h2.titleh2:after {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+  }
+
+  h2.titleh2.insta {
+    font-size: 18px !important;
+  }
+
+  h2.titleh2.insta:before,
+  h2.titleh2.insta:after {
+    height: 18px;
+    width: 18px;
+  }
+
+  h2.titleh2.insta span.insta-icon {
+    height: 18px;
+    width: 18px;
+    margin: 0;
+  }
+
+  p.instatext {
+    font-size: 14px !important;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+    line-height: normal;
+  }
+}
+
+.homepage-sections-wrapper-pad40 {
+  padding: 40px 0 !important;
+}
+
+.homepage-sections-wrapper-pad20 {
+  padding: 20px 0 !important;
+}
+
+.homepage-sections-wrapper-pad10 {
+  padding: 10px 0 !important;
+}
+
+.section-container {
+  max-width: 1200px !important;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.section-container-grid {
+  max-width: 1440px !important;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.rem-top-padding {
+  padding-top: 0 !important;
+}
+
+.btm-pad10 {
+  padding-bottom: 10px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .homepage-sections-wrapper-pad40 {
+    padding: 20px 0 !important;
+  }
+
+  .section-container {
+    padding: 0;
+  }
+
+  .section-container-grid {
+    padding: 0 10px;
+  }
+
+  .rem-top-padding-mobile {
+    padding-top: 0 !important;
+  }
+}
+
+/* @media screen and (max-width: 480px) {
+  .loox-carousel-button-next.hide-on-mobile, .loox-carousel-button-prev.hide-on-mobile {
+      display: flex !important;
+  }
+  .hide-on-mobile {
+    display: flex !important;
+  }
+} */
+
+/* .loox-carousel-button-next.hide-on-mobile, .loox-carousel-button-prev.hide-on-mobile {
+      display: flex !important;
+  } */
+
+.flex-viewport {
+  max-height: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+#customer-accounts {
+  padding: 60px 15px;
+}
+
+#create-customer,
+#account-page,
+#address-wrapper {
+  padding: 60px 0;
+}
+
+#view-address {
+  margin-bottom: 20px;
+}
+
+span.default_address {
+  background-color: #000 !important;
+}
+
+h4.type-subheading.type-subheading--1 {
+  line-height: normal;
+  font-family: TT-Commons, sans-serif !important;
+  font-size: 24px !important;
+}
+
+.mobile-menu-close {
+  position: relative !important;
+}
+
+button {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+/* .mobile-header--wrapper .mobile-side-column {
+  justify-content: center !important;
+} */
+
+#recover-password a,
+#view_address {
+  text-decoration: none !important;
+  margin-bottom: 40px;
+}
+
+h2.type-subheading.type-subheading--1 {
+  font-size: 32px !important;
+}
+
+.predictive-search-group {
+  margin-top: 60px;
+}
+
+.address_actions {
+  display: -webkit-flex;
+  display: flex;
+  gap: 15px;
+}
+
+input[type="checkbox"]:checked:after {
+  height: 0;
+  width: 0;
+}
+
+.customer_address {
+  padding: 50px 20px;
+}
+
+.address.note p,
+.view_address p {
+  margin-bottom: 0;
+}
+
+.view_address {
+  margin-bottom: 30px;
+}
+
+.yotpo-container .yotpo-label-container {
+  border: 0 !important;
+}
+
+.yotpo-wrapper {
+  width: 100%;
+  border-top: 1px solid #e3e3e3;
+}
+
+@media screen and (max-width: 768px) {
+  .yotpo-container {
+    padding: 20px;
+  }
+}
+
+/* home page galgrid */
+@media only screen and (min-width: 1025px) {
+  .template-index .galgrid {
+    gap: 0px;
+    row-gap: 0;
+  }
+
+  .template-index .gal-grid-item {
+    justify-content: center;
+    display: flex;
+  }
+
+  .template-index .gal-grid-item:nth-child(odd) {
+    padding-left: 80px;
+  }
+
+  .template-index .gal-grid-item:nth-child(even) {
+    padding-right: 80px;
+  }
+
+  .template-index .gal-grid-item img {
+    max-width: 485px;
+  }
+
+  .template-index h4.gal-title p {
+    padding: 20px 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .template-index .galgrid {
+    grid-template-columns: 49% 49%;
+    padding-top: 20px;
+    gap: 10px;
+    padding: 20px 15px 0 10px;
+  }
+
+  .template-index h4.gal-title p {
+    padding: 20px 0 20px 0;
+  }
+}
+
+/*  Account Page - SUP-204 BK  */
+.customer_patch-points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 0px;
+}
+
+.patch-points_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.patch-points_title {
+  color: rgb(0, 0, 0);
+  font-size: 40px !important;
+  font-family: "KansanNew" !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+
+.patch-points_body {
+  color: rgb(0, 0, 0);
+  font-size: 34px !important;
+  font-family: "KansanNew" !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+
+.yotpo p {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+  color: #6b6d76 !important;
+  line-height: 17px !important;
+}
+
+a.hero-video--cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+video-acdc-section {
+  display: block;
+}
+
+.stockist-powered-by-link {
+  display: none;
+}
+
+.swatch .soldout label {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.swatch .soldout .crossed-out {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

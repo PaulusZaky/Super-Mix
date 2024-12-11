@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--product-patches-packs-email",
+      "blocks": {
+        "product-title": {
+          "type": "product-title",
+          "settings": {}
+        },
+        "product-price": {
+          "type": "product-price",
+          "settings": {
+            "show_discount": "hide",
+            "tax_included": true,
+            "shipping_policy": false
+          }
+        },
+        "1fc3f597-0c5e-4a9e-bc1c-cf4037257979": {
+          "type": "product-options",
+          "settings": {
+            "show_variant_labels": false,
+            "hide_out_of_stock": false,
+            "pick_an_option": false
+          }
+        },
+        "4827c2c5-6385-43a0-8406-24740f62ce8f": {
+          "type": "payment-buttons",
+          "settings": {
+            "show_smart_checkout": false
+          }
+        },
+        "0ce0c6ee-37fa-423a-b8a0-224aab721c67": {
+          "type": "product-description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product-title",
+        "product-price",
+        "1fc3f597-0c5e-4a9e-bc1c-cf4037257979",
+        "4827c2c5-6385-43a0-8406-24740f62ce8f",
+        "0ce0c6ee-37fa-423a-b8a0-224aab721c67"
+      ],
+      "settings": {
+        "show_out_of_stock_email": true,
+        "form_position": "below-details",
+        "size_guide_link": "",
+        "size_guide_message": "What's my size?",
+        "size_guide_variant": "Size",
+        "image_size": "medium",
+        "thumbnail_position": "below",
+        "enable_zoom": false,
+        "enable_video_loop": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

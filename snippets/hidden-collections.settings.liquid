@@ -1,0 +1,24 @@
+{% comment %}
+======================================================
+Managed by Hidden Collections app - Do not modify.
+To remove please click "Remove from store" in our app.
+======================================================
+{% endcomment %}{%comment%}HC_EMBED_VERSION_1{%endcomment%}
+
+
+{% assign protected_collection_ids = "" | split: "," %}
+{% assign protected_collection_db = "266103881751:43ace795" | split: "," %}
+
+{% for _collection in protected_collection_db %}
+  {% assign _id = _collection | split: ":" %}
+  {% assign _id = _id[0] | split: "~" %}
+  {% assign protected_collection_ids = protected_collection_ids | concat: _id %}
+{% endfor %}
+
+
+{% comment %}
+======================================================
+End of managed code.
+To remove please click "Remove from store" in our app.
+======================================================
+{% endcomment %}

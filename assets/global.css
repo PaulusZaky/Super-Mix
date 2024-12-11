@@ -1,33 +1,93 @@
-.heading {
-  font-family: var(--font-mobile-family);
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 48px;
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: none !important;
+  padding: 0 !important;
 }
 
-.body-text {
-  font-family: var(--font-mobile-family);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+.section-container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important
+}
+
+.homepage-sections-wrapper {
+  padding: 32px 20px !important;
+}
+
+.btn {
+  margin: 0 !important;
+  text-transform: none !important;
+}
+
+.heading {
+  font-family: var(--header-font-stack) !important;
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  line-height: 43.2px !important;
+  margin-bottom: 20px !important;
+  color: #000 !important;
+}
+
+.heading-wrapper {
+  margin-bottom: 48px;
+}
+
+.text-body {
+  font-family: var(--body-font-stack) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+
+.text-body p {
+  margin-bottom: 24px !important;
 }
 
 .button--primary,
 .button--secondary {
-  font-family: var(--font-mobile-family);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  background-color: var(--buttons-background-secondary) !important;
+  font-family: var(--subheading-font-stack) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  background-color: var(--button-background-secondary) !important;
   opacity: 1 !important;
   border: none !important;
-  padding: 12px 24px;
-  border-radius: 0;
+  padding: 12px 24px !important;
+  border-radius: 0 !important;
 }
 
 .button--primary {
-  border-radius: 30px;
-  background-color: var(--buttons-background-secondary) !important;
+  background-color: var(--button-background-primary) !important;
+  border-radius: 30px !important;
+  border: none !important;
+}
+
+.button--secondary:hover {
+  background-color: var(--button-background-hover-color) !important;
+  color: #FFF !important;
+  transition: .3s;
+}
+
+.button--primary.outlined:hover,
+.button--primary:hover {
+  background-color: #A52C6D !important;
+  color: #FFF !important;
+  transition: 0.3s;
+}
+
+.button--primary.outlined {
+  background: #FFF !important;
+  border: 1px solid #000 !important;
+  color: #000 !important;
+}
+
+.button--primary.outlined:hover {
+  background: #FFF !important;
+  columns: #000 !important;
+  transition: 0s;
 }
 
 .button--primary::after,
@@ -35,29 +95,62 @@
   display: none;
 }
 
-@media screen and (min-width: 750px) {
+.link {
+  font-family: var(--subheading-font-stack) !important;
+  color: #000 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .homepage-sections-wrapper {
+    padding: 36px 30px !important;
+  }
+
+  .heading-wrapper {
+    margin-bottom: 80px;
+  }
+
   .heading {
-    font-family: var(--font-heading-family);
-    font-size: 56px;
-    font-weight: 900;
-    line-height: 67.2px;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    line-height: 57.2px !important;
+    margin-bottom: 24px !important;
+    color: #000 !important;
   }
 
-  .body-text {
-    font-family: var(--font-body-family);
-    font-size: 18px;
-    line-height: 27px;
+  .text-body {
+    font-family: var(--body-font-stack);
+    font-size: 18px !important;
+    line-height: 27px !important;
+    color: #000 !important;
   }
 
-  .button--primary {
-    background-color: var(--buttons-background-primary) !important;
+  .text-body p {
+    margin-bottom: 32px !important;
   }
 
   .button--secondary {
-    background-color: var(--buttons-background-secondary) !important;
+    background-color: var(--button-background-secondary) !important;
+  }
+
+  .btn {
+    height: 48px !important;
   }
 }
 
-@media screen and (min-width: 750px) {}
+@media screen and (min-width: 992px) {
+  .homepage-sections-wrapper {
+    padding: 40px 48px !important;
+  }
+}
 
-@media screen and (min-width: 750px) {}
+@media screen and (min-width: 1200px) {
+  .homepage-sections-wrapper {
+    padding: 50px 54px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .homepage-sections-wrapper {
+    padding: 56px 64px !important;
+  }
+}

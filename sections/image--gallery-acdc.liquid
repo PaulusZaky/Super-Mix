@@ -1,0 +1,140 @@
+{{ 'section-image-gallery.min.css' | asset_url | stylesheet_tag }}
+{% style %}
+.galgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  row-gap: 0;
+  padding-top: 60px;
+}
+.gal-grid-item {
+  height: 100%;
+  width: 100%;
+}
+.gal-grid-item img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+h4.gal-title {
+  margin: 0;
+}
+h4.gal-title p {
+  font-family: 'KansasNew', serif !important;
+  font-size: 20px !important;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 60px 0;
+  line-height: normal;
+}
+@media screen and (max-width: 768px) {
+  .galgrid {
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+  }
+  .image-bar>div {
+    margin: 0 !important;
+  }
+}
+{% endstyle %}
+  <div class="homepage-sections-wrapper-pad20 rem-top-padding">
+    <div class="section-container">
+      <div class="galgrid">
+        {% for block in section.blocks %}
+          <div class="gal-grid-item">
+        
+            {% if block.settings.link != blank %}
+              <a href="{{ block.settings.link }}" aria-label="{{ block.settings.link | split: '/' | last | replace: '-', ' ' | capitalize }}">
+            {% else %}
+              <div class="image-bar__item">
+            {% endif %}
+
+            <div class="image-bar__content square">
+              {% if block.settings.image == blank %}
+                {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+              {% else %}
+                {% render 'responsive-image' with block.settings.image, alt: block.settings.image.alt %}
+              {% endif %}
+            </div>
+
+            {% if block.settings.title %}
+                <h4 class="gal-title">{{ block.settings.title }}</h4>
+            {% endif %}
+
+            {% if block.settings.link != blank %}
+              </a>
+            {% else %}
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+
+        {% if section.blocks.size == 0 %}
+          <div class="placeholder-noblocks">
+            {{ 'general.onboarding.no_content' | t }}
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{% schema %}
+{
+    "name": "Gallery ACDC",
+    "max_blocks": 4,
+    "blocks": [
+        {
+            "type": "image",
+            "name": "Image",
+            "settings": [
+                {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Image"
+                },
+                {
+                  "type": "url",
+                  "id": "link",
+                  "label": "Link"
+                },
+                {
+                  "type": "richtext",
+                  "id": "title",
+                  "label": "Heading"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Gallery ACDC",
+            "blocks": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "image"
+                }
+            ]
+        }
+    ],
+    "templates": [
+        "index",
+        "collection",
+        "list-collections",
+        "blog",
+        "article",
+        "page",
+        "password",
+        "404",
+        "cart",
+        "search",
+        "product"
+    ]
+}
+{% endschema %}

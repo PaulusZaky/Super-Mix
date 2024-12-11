@@ -1,0 +1,75 @@
+/* Styles for the Custom Collection Grids ACDC */
+
+.collection-image-wrapper {
+  padding: 0;
+  position: relative;
+  max-height: 500px;
+}
+.collection-image-wrapper img {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.collection-header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.collection-header-text h2 {
+  color: #fff;
+  line-height: 73.5px !important;
+  letter-spacing: -3px !important;
+}
+.titlecolor {
+  color: #94DEE2;
+}
+.indiv-product .hp-title {
+  justify-content: flex-start;
+  text-align: left;
+  padding-top: 10px;
+}
+.indiv-product .indiv-product-title-text {
+  text-align: left;
+}
+span.money-styling {
+  text-align: left;
+}
+.span-two {
+  grid-column: span 2;
+}
+.indiv-product-title-text {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  color: #000;
+}
+p.color-name, p.points-value {
+  margin: 0;
+  line-height: normal;
+  font-size: 18px !important;
+  color: #000;
+}
+p.money {
+  color: #6D9FA8;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+a.card-link-wrapper:hover {
+  text-decoration: none;
+}
+.variant-image {
+  max-height: 500px !important;
+  object-fit: cover;
+}
+.collection-apparel-wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .collection-image-wrapper {
+    height: 500px;
+  }
+}

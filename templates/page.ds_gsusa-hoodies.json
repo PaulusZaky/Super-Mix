@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "1663953168c5f33ca1": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1663953168875a3655-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Choose Your Hoodie<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1663953168875a3655-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "1663889671ddd533ac": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "01091c85-05d9-47c5-b054-32cd85d70739": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC05792_gs_1x1_e1133e9a-26b8-4107-a43b-a54d6210f93f.jpg",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p>Custom<strong> Zip Hoodie<\/strong><\/p>"
+          }
+        },
+        "1663889670f9ac60af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09692_b_1x1_a11b544b-07bf-4f5e-ad61-02995f4cf49c.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
+            "title": "<p>Custom <strong>Pullover<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "01091c85-05d9-47c5-b054-32cd85d70739",
+        "1663889670f9ac60af-0"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655837578319b3390": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique-id",
+        "colors": "white",
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Supermix is super eco-friendly.",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_2": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "04ff7eeb-1f8c-4a62-b09e-15e0984217f6": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15058110677015__04ff7eeb-1f8c-4a62-b09e-15e0984217f6-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\"><h2>Custom Team Sweats<\/h2><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058110677015__04ff7eeb-1f8c-4a62-b09e-15e0984217f6-html-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "ba6e8436-8ec9-45fa-b985-e07d677431e1": {
+      "type": "acdc-inspiration-section",
+      "disabled": true,
+      "settings": {
+        "title_text": "Team Sweats",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "1663953168c5f33ca1",
+    "1663889671ddd533ac",
+    "main",
+    "1655837578319b3390",
+    "04ff7eeb-1f8c-4a62-b09e-15e0984217f6",
+    "ba6e8436-8ec9-45fa-b985-e07d677431e1"
+  ]
+}

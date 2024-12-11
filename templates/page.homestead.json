@@ -1,0 +1,566 @@
+{
+  "sections": {
+    "cd5f633a-aa88-4259-8bc0-02d083aa5501": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15058112315415__cd5f633a-aa88-4259-8bc0-02d083aa5501-html-1": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 50px 0;\">\n<h2>Dragonwing x Supermix Collab<\/h2>\n<\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__cd5f633a-aa88-4259-8bc0-02d083aa5501-html-1"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "6b47755d-58fb-41db-bf48-2eebdc3b9a4f": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112315415__6b47755d-58fb-41db-bf48-2eebdc3b9a4f-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06882_CHLOE_DW23.jpg",
+            "link": "shopify:\/\/products\/dragonwing-girls-dfw-hoodie",
+            "title": "<p><strong>LIMITED EDITION! Denver Fashion Week<\/strong> <\/p>",
+            "description": "<p><strong>Ambassador Hoodie<\/strong><\/p>"
+          }
+        },
+        "template--15058112315415__6b47755d-58fb-41db-bf48-2eebdc3b9a4f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03489_DRAGONFLY_BACK_dfw.jpg",
+            "link": "shopify:\/\/products\/dragonwing-dfw-hoodie",
+            "title": "<p><strong>LIMITED EDITION! Denver Fashion Week<\/strong><\/p>",
+            "description": "<p><strong>Adult Ambassador Hoodie<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__6b47755d-58fb-41db-bf48-2eebdc3b9a4f-image-2",
+        "template--15058112315415__6b47755d-58fb-41db-bf48-2eebdc3b9a4f-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "6eb0ab24-51fe-4dab-ae0c-9d8930ed3d68": {
+      "type": "acdc-slideshow",
+      "blocks": {
+        "template--15058112315415__6eb0ab24-51fe-4dab-ae0c-9d8930ed3d68-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kids_5.png",
+            "mobile_image": "shopify:\/\/shop_images\/Kids_5.png",
+            "title": "",
+            "subheading": "Limited Edition",
+            "plus_symbol": "",
+            "subheading2": "Dragonwing Denim",
+            "price": "",
+            "retail_value": "",
+            "button_link": "shopify:\/\/products\/dragonwing-ambassador-denim-jacket",
+            "button_label": "Customize Now"
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__6eb0ab24-51fe-4dab-ae0c-9d8930ed3d68-slide-1"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-slide-time": 8,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff"
+      }
+    },
+    "video_video_HWtef3": {
+      "type": "video--video",
+      "settings": {
+        "subheading": "",
+        "title": "Dragonwing Ambassador Jackets are 🔥",
+        "url": "https:\/\/vimeo.com\/873104586",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "width_classes": "video-width--100"
+      }
+    },
+    "image_gallery_acdc_XLydUx": {
+      "type": "image--gallery-acdc",
+      "blocks": {
+        "image_zM4Utp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unknown-54.jpg",
+            "link": "shopify:\/\/products\/dragonwing-ambassador-denim-jacket",
+            "title": ""
+          }
+        },
+        "image_jFL8i7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Unknown-56.jpg",
+            "link": "shopify:\/\/products\/dragonwing-ambassador-denim-jacket",
+            "title": ""
+          }
+        },
+        "image_Wj8KFp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00005.jpg",
+            "link": "shopify:\/\/products\/dragonwing-ambassador-denim-jacket",
+            "title": ""
+          }
+        },
+        "image_7y6fXW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00008.jpg",
+            "link": "shopify:\/\/products\/dragonwing-ambassador-denim-jacket",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zM4Utp",
+        "image_jFL8i7",
+        "image_Wj8KFp",
+        "image_7y6fXW"
+      ],
+      "settings": {}
+    },
+    "ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112315415__ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06882_CHLOE_DRAGONFLY_v1_dd7dbd98-f087-4983-943d-5a59036dcd95.jpg",
+            "link": "shopify:\/\/products\/copy-of-dragonwing-nyfw-hoodie",
+            "title": "<p><strong>Limited Edition Custom Swag. Pre-order while they last!<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb-image-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1655486041452a8d68": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id",
+        "colors": "white",
+        "image-width": "large",
+        "image": "shopify:\/\/shop_images\/DSC03489.jpg",
+        "layout": "left",
+        "subheading": "",
+        "title": "NOLA ART FEST x Supermix Collab",
+        "text_block": "<p><strong>Supermix celebrates the First Annual NOLA Art Fest with Limited Edition Custom Swag. Pre-order while they last!<\/strong><\/p><p><br\/><strong><br\/><br\/><br\/><\/strong><\/p>",
+        "text_block_2": "<p><\/p><p><\/p>",
+        "text_block_3": "",
+        "text_block_4": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1663706533ce6c99fc": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "16637065330b703b05-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"226233\"><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "16637065330b703b05-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "8a0a7ff4-2973-451a-8c02-a9e2b384e4b1": {
+      "type": "info-block-acdc",
+      "disabled": true,
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/Screen_Shot_2023-09-17_at_10.52.03_AM.png",
+        "mobile_bg_color": "rgba(0,0,0,0)",
+        "txt_color": "#000000",
+        "horizontal_alignment": "left",
+        "header": "",
+        "subheading_text": "",
+        "main_text": "",
+        "button_link": "",
+        "button_label": "",
+        "btn_bg_color": "#000000",
+        "btn_txt_color": "#ffffff",
+        "hover_btn_bg_color": "#666666",
+        "hover_btn_txt_color": "#ffffff"
+      }
+    },
+    "16584980020167f3a8": {
+      "type": "image--gallery",
+      "blocks": {
+        "4372943c-9c47-4288-bcc8-c31025fb6562": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07161_CHLOE_DRAGONFLY_V2_copy.jpg",
+            "link": "shopify:\/\/products\/copy-of-dragonwing-nyfw-hoodie",
+            "title": "<p><strong>SOLD OUT! NYFW Ambassador Hoodie<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "1658498002a47af847-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03474_DRAGONWING_FRONT.jpg",
+            "link": "shopify:\/\/products\/dragonwing-nyfw-hoodie",
+            "title": "<p><strong>SOLD OUT! NYFW Hoodie for Mom!<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "4372943c-9c47-4288-bcc8-c31025fb6562",
+        "1658498002a47af847-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1707f9be-5c63-4c32-babd-bf27ae4fea20": {
+      "type": "acdc-inspiration-section",
+      "settings": {
+        "title_text": "NYFW PICS!",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "e7ec8457-6179-45a9-a707-1d3693d36f27": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112315415__e7ec8457-6179-45a9-a707-1d3693d36f27-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-09-17_at_10.52.03_AM.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__e7ec8457-6179-45a9-a707-1d3693d36f27-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__e7ec8457-6179-45a9-a707-1d3693d36f27-image-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__e7ec8457-6179-45a9-a707-1d3693d36f27-image-1",
+        "template--15058112315415__e7ec8457-6179-45a9-a707-1d3693d36f27-image-2",
+        "template--15058112315415__e7ec8457-6179-45a9-a707-1d3693d36f27-image-3"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "a19042aa-1892-469d-8d96-162761f9c7ff": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112315415__a19042aa-1892-469d-8d96-162761f9c7ff-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__a19042aa-1892-469d-8d96-162761f9c7ff-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__a19042aa-1892-469d-8d96-162761f9c7ff-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "e0b86edf-9d02-41d2-b722-2961b64f8b91": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__a19042aa-1892-469d-8d96-162761f9c7ff-image-1",
+        "template--15058112315415__a19042aa-1892-469d-8d96-162761f9c7ff-image-2",
+        "template--15058112315415__a19042aa-1892-469d-8d96-162761f9c7ff-image-3",
+        "e0b86edf-9d02-41d2-b722-2961b64f8b91"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "b6839220-7264-4ac3-9d83-56ec3e0cec44": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112315415__b6839220-7264-4ac3-9d83-56ec3e0cec44-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__b6839220-7264-4ac3-9d83-56ec3e0cec44-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__b6839220-7264-4ac3-9d83-56ec3e0cec44-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "f6c7f39f-d5ff-4672-b770-6873d8193076": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__b6839220-7264-4ac3-9d83-56ec3e0cec44-image-3",
+        "template--15058112315415__b6839220-7264-4ac3-9d83-56ec3e0cec44-image-1",
+        "template--15058112315415__b6839220-7264-4ac3-9d83-56ec3e0cec44-image-2",
+        "f6c7f39f-d5ff-4672-b770-6873d8193076"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "12de8823-e3c8-45b7-9fa7-303f6450ad33": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112315415__12de8823-e3c8-45b7-9fa7-303f6450ad33-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__12de8823-e3c8-45b7-9fa7-303f6450ad33-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__12de8823-e3c8-45b7-9fa7-303f6450ad33-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "bd03c79f-85f7-4c8e-b4fe-ba68aa835ba3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__12de8823-e3c8-45b7-9fa7-303f6450ad33-image-1",
+        "template--15058112315415__12de8823-e3c8-45b7-9fa7-303f6450ad33-image-2",
+        "template--15058112315415__12de8823-e3c8-45b7-9fa7-303f6450ad33-image-3",
+        "bd03c79f-85f7-4c8e-b4fe-ba68aa835ba3"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "acdc_slideshow_WxepKg": {
+      "type": "acdc-slideshow",
+      "blocks": {
+        "slide_x7n8Pn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_11.png",
+            "title": "Dragonwing",
+            "subheading": "Denver Fashion Week",
+            "plus_symbol": "",
+            "subheading2": "Limited Edition Hoodie",
+            "price": "",
+            "retail_value": "",
+            "button_link": "shopify:\/\/products\/dragonwing-girls-dfw-hoodie",
+            "button_label": "Customize Now"
+          }
+        },
+        "slide_jPtXLt": {
+          "type": "slide",
+          "settings": {
+            "title": "Supermix Sleepover Party Pack",
+            "subheading": "4 Hoodies",
+            "plus_symbol": "+",
+            "subheading2": "200 bonus patch points",
+            "price": "$199",
+            "retail_value": "RETAIL VALUE $262",
+            "button_link": "",
+            "button_label": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "slide_x7n8Pn",
+        "slide_jPtXLt"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-slide-time": 8,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "show-slide-controls": true,
+        "slider-navigation--color": "#ffffff"
+      }
+    },
+    "251c4309-b5ca-40d6-a1f1-12ac8dc75bde": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112315415__251c4309-b5ca-40d6-a1f1-12ac8dc75bde-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "93cb2cf0-85af-46b8-8024-eae5382bd8a0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__251c4309-b5ca-40d6-a1f1-12ac8dc75bde-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15058112315415__251c4309-b5ca-40d6-a1f1-12ac8dc75bde-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112315415__251c4309-b5ca-40d6-a1f1-12ac8dc75bde-image-1",
+        "93cb2cf0-85af-46b8-8024-eae5382bd8a0",
+        "template--15058112315415__251c4309-b5ca-40d6-a1f1-12ac8dc75bde-image-2",
+        "template--15058112315415__251c4309-b5ca-40d6-a1f1-12ac8dc75bde-image-3"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "cd5f633a-aa88-4259-8bc0-02d083aa5501",
+    "6b47755d-58fb-41db-bf48-2eebdc3b9a4f",
+    "6eb0ab24-51fe-4dab-ae0c-9d8930ed3d68",
+    "video_video_HWtef3",
+    "image_gallery_acdc_XLydUx",
+    "ae8dc144-b91d-40a5-ac5b-1deb6da7d5eb",
+    "1655486041452a8d68",
+    "main",
+    "1663706533ce6c99fc",
+    "8a0a7ff4-2973-451a-8c02-a9e2b384e4b1",
+    "16584980020167f3a8",
+    "1707f9be-5c63-4c32-babd-bf27ae4fea20",
+    "e7ec8457-6179-45a9-a707-1d3693d36f27",
+    "a19042aa-1892-469d-8d96-162761f9c7ff",
+    "b6839220-7264-4ac3-9d83-56ec3e0cec44",
+    "12de8823-e3c8-45b7-9fa7-303f6450ad33",
+    "acdc_slideshow_WxepKg",
+    "251c4309-b5ca-40d6-a1f1-12ac8dc75bde"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "c0d350b8-3a5a-41a4-9216-8dabc0425530": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112151575__c0d350b8-3a5a-41a4-9216-8dabc0425530-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Patch_Points_3.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112151575__c0d350b8-3a5a-41a4-9216-8dabc0425530-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "166134766587545b34": {
+      "type": "video-acdc-fullwidth",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/65c3d872f3b545dc860fc8d28d2bc682.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "e6851cb4-d1fe-4ee7-a89f-32cf8d886d1d": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15058112151575__e6851cb4-d1fe-4ee7-a89f-32cf8d886d1d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slide_17_1.png",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15058112151575__e6851cb4-d1fe-4ee7-a89f-32cf8d886d1d-image-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1649772108f3f4f11a": {
+      "type": "patch-gallery-acdc",
+      "blocks": {
+        "1649772108c44e0fe7-0": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/SMIL0004_2.png",
+            "patch_link": "shopify:\/\/collections\/all-patches",
+            "patch_title": "All Patches"
+          }
+        },
+        "1649772108c44e0fe7-1": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RETMULABC.png",
+            "patch_link": "shopify:\/\/pages\/letters-numbers-patches",
+            "patch_title": "Letters & Numbers"
+          }
+        },
+        "1649772108c44e0fe7-2": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/UNIC006.png",
+            "patch_link": "shopify:\/\/pages\/icon-patches",
+            "patch_title": "Icons"
+          }
+        },
+        "1649772108c44e0fe7-3": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/VOIC0010.png",
+            "patch_link": "shopify:\/\/pages\/messaging-patches",
+            "patch_title": "Messaging"
+          }
+        },
+        "af71b265-72bb-4058-a4cb-ee789a45949e": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/ANML0004.png",
+            "patch_link": "shopify:\/\/collections\/super-size",
+            "patch_title": "Super Size"
+          }
+        },
+        "0a2afda9-6138-40e4-af1d-81c974bd1438": {
+          "type": "image",
+          "settings": {
+            "patch_image": "shopify:\/\/shop_images\/RBOW0001.png",
+            "patch_link": "shopify:\/\/pages\/material",
+            "patch_title": "Material"
+          }
+        }
+      },
+      "block_order": [
+        "1649772108c44e0fe7-0",
+        "1649772108c44e0fe7-1",
+        "1649772108c44e0fe7-2",
+        "1649772108c44e0fe7-3",
+        "af71b265-72bb-4058-a4cb-ee789a45949e",
+        "0a2afda9-6138-40e4-af1d-81c974bd1438"
+      ],
+      "disabled": true,
+      "settings": {
+        "patch_heading": "Explore Patches",
+        "grid_number": "3"
+      }
+    },
+    "16497721237807624c": {
+      "type": "patch-packs-acdc",
+      "disabled": true,
+      "settings": {
+        "section_id": "patch_pack_packs",
+        "header_image": "shopify:\/\/shop_images\/PATCH_POINT_PACKS_HEADER_2.jpg"
+      }
+    },
+    "16504892335a3662e6": {
+      "type": "image--slideshow",
+      "blocks": {
+        "16504892337bfb70bf-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/100patchpoints4ways-2_5ac11928-1f69-4eb4-b04d-201de00e6d64.gif",
+            "mobile_image": "shopify:\/\/shop_images\/100patchpoints4ways-MOBILE_c02d77bd-a141-4a84-899c-cfd81544db38.gif",
+            "subheading": "",
+            "title": "",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "16504892337bfb70bf-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "fixed",
+        "show-slide-full-screen": false,
+        "slider-slide-time": 5,
+        "show-slide-dots": false,
+        "show-slide-arrows": false,
+        "show-slide-controls": false,
+        "slider-navigation--color": "#ffffff",
+        "overlay": false
+      }
+    },
+    "164978099112e8433e": {
+      "type": "supermix-how-it-works",
+      "disabled": true,
+      "settings": {
+        "step_1_icon": "shopify:\/\/shop_images\/icon-1-step.png",
+        "step_1_heading": "Choose a Style",
+        "step_1_description": "<p>Each piece comes with patch points to get you started on your 100% original design.  <strong>Be Yourself<\/strong>.<\/p>",
+        "step_2_icon": "shopify:\/\/shop_images\/icon-2-step.png",
+        "step_2_heading": "Start Designing",
+        "step_2_description": "<p>Choose your favorite patches and add them to your piece.  Each patch has a unique point value.<\/p>",
+        "step_3_icon": "shopify:\/\/shop_images\/icon-3-step.png",
+        "step_3_heading": "Extra Points",
+        "step_3_description": "<p>Add a Patch Point Pack or earn free points. You can also save points for next time.<\/p>",
+        "main_image": "shopify:\/\/shop_images\/11-hiw-img.png",
+        "button_link": "shopify:\/\/collections",
+        "button_text": "Watch",
+        "button_icon_check": true,
+        "button_icon": "shopify:\/\/shop_images\/play-arrow.png"
+      }
+    },
+    "16516035437624f272": {
+      "type": "redeem-points",
+      "disabled": true,
+      "settings": {
+        "heading": "Redeem your Patch Points",
+        "subheading": "Redeeming your points is easy! First log in and head over to the area to redeem your points! There you will be able to redeem all or some of your points.",
+        "button_url": "shopify:\/\/pages\/my-rewards",
+        "button_text": "Use my Points"
+      }
+    }
+  },
+  "order": [
+    "c0d350b8-3a5a-41a4-9216-8dabc0425530",
+    "166134766587545b34",
+    "e6851cb4-d1fe-4ee7-a89f-32cf8d886d1d",
+    "1649772108f3f4f11a",
+    "16497721237807624c",
+    "16504892335a3662e6",
+    "164978099112e8433e",
+    "16516035437624f272"
+  ]
+}

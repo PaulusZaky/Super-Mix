@@ -1,0 +1,314 @@
+{
+  "sections": {
+    "cba9f92b-0000-4251-83b9-e7526cbe25f8": {
+      "type": "video-acdc-fullwidth",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1f5709f2f3874acd82a7f949077d1956.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "00d66585-eb4b-4b76-b3e0-9895e8ff1d90": {
+      "type": "redeem-points",
+      "settings": {
+        "heading": "Ready to Supermix?",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/choose-your-style",
+        "button_text": "Design Now"
+      }
+    },
+    "1662415052e8856e21": {
+      "type": "image--slideshow",
+      "blocks": {
+        "47faa984-5fd7-4166-becb-0dff556c0d64": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00968_1500x800_7d25c630-5ffb-4cd2-a357-42c08eb4e766.jpg",
+            "subheading": "",
+            "title": "Free Patches",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Just Pay for the Jacket<br>• ALL Patches come FREE<br>• Up to $100 Value per item!",
+            "button_text": "Design Now",
+            "link": "https:\/\/supermixstudio.com\/",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "f7666f9f-fecb-4149-a8d4-0f5add09e9f5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00316_1500x800_b2202c2b-dca0-4b9b-9a50-dd991a228b7b.jpg",
+            "subheading": "",
+            "title": "Premium Patches",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• All Designed In-House<br>\n• Tactile & Amazing IRL<br> • Place Anywhere YOU want<br>",
+            "button_text": "Design Now",
+            "link": "https:\/\/supermixstudio.com\/",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "middle"
+          }
+        },
+        "1662415052f1a79038-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00801_1500x800_2b536a89-3749-4703-96d5-84fc32b24f46.jpg",
+            "subheading": "",
+            "title": "Boutique Quality",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#333333",
+            "text": "• Jackets are Eco-Friendly <br>\n• We use Sustainable Cotton <br> • Super Soft, Durable Fabric<br>",
+            "button_text": "Design Now",
+            "link": "https:\/\/supermixstudio.com",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "button-align": "middle",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "middle"
+          }
+        },
+        "f9e9b401-8814-415c-9d8f-39bde1f74f26": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01742_1500x800_v1_dc0764d0-630e-4a6f-9c88-0584509910b7.jpg",
+            "subheading": "",
+            "title": "Stand Out",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Most Original Gift of 2022<br>\n• #1 Non-Gift Toy - Romper<br>\n• Best Stocking Stuffer, Ever",
+            "button_text": "Buy Gift Card",
+            "link": "https:\/\/supermixstudio.com\/products\/rise-ai-giftcard",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "1662415052f1a79038-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01277_1500X800_024f0c25-32f0-4fa1-8765-c01d9b57b016.jpg",
+            "subheading": "",
+            "title": "Three Steps",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Complete Application.<br>\n• Schedule Short Interview.<br>\n• Get Started as Stylist.<br>",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "486e8bdf-b347-4560-9326-a40d507f2f79": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00476_1500x800v3.jpg",
+            "subheading": "",
+            "title": "Have Fun",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Get paid for sharing a brand the family loves to wear.<br>\n• Have fun building a business with your kids.<br>\n• Give back to your community.<br>",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "d27689a1-6482-4b29-bf7f-23d5d71cb59b": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01742_1500x800_v2_6a1b3f21-338e-45ea-b109-fa71dfc7031e.jpg",
+            "subheading": "",
+            "title": "Have Fun",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#0085bc",
+            "text": "• You're a mom: you have the skills for the job.\n• Get paid for sharing a brand the whole family loves to wear.\n• Have fun building a business with your kids.\n• Give back to your community.",
+            "button_text": "Button",
+            "link": "shopify:\/\/pages\/design-inspiration",
+            "caption-background": "#e22120",
+            "caption-text": "#bc00ff",
+            "button-text": "#0085bc",
+            "button-background": "#1af46a",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "47faa984-5fd7-4166-becb-0dff556c0d64",
+        "f7666f9f-fecb-4149-a8d4-0f5add09e9f5",
+        "1662415052f1a79038-0",
+        "f9e9b401-8814-415c-9d8f-39bde1f74f26",
+        "1662415052f1a79038-1",
+        "486e8bdf-b347-4560-9326-a40d507f2f79",
+        "d27689a1-6482-4b29-bf7f-23d5d71cb59b"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 6,
+        "show-slide-dots": true,
+        "show-slide-arrows": true,
+        "show-slide-controls": false,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    },
+    "16624949567898afbb": {
+      "type": "ambassador-section-acdc",
+      "disabled": true,
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/background_REV_copy_1.jpg",
+        "mobile_background": "shopify:\/\/shop_images\/Screen_Shot_2022-07-16_at_9.17.20_AM.png",
+        "mobile_bg_color": "#deb4b5",
+        "txt_color": "#000000",
+        "horizontal_alignment": "right",
+        "header": "Super Mom, meet Supermix.",
+        "main_text": "<p>We know that moms do it all. We're committed to making it a little easier.<\/p><p>Fun, creative, lucrative work is possible while still putting family first.<\/p><p><\/p><p><strong>BONUS: YOUR KIDS WILL LOVE IT!<\/strong><\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn_bg_color": "#000000",
+        "btn_txt_color": "#ffffff",
+        "btn_txt_color_hover": "#ffffff",
+        "btn_bg_color_hover": "#666666"
+      }
+    },
+    "1662415063d73fcd38": {
+      "type": "accordion",
+      "blocks": {
+        "88dfd841-6d3e-4b51-8d6a-720d8da8bc76": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why is Supermix offering such an incredible deal?",
+            "text": "<p>Supermix is a start-up that launched in October by two BFFs. We need your help getting the word out about our brand and the awesome design experience. This is a crazy offer with a patch value of up to $100. This special launch deal won't last long. We know that once you try Supermix and experience how much fun and easy it is to design something 100% original, that it’ll be hard for you to wear anything else. <\/p>"
+          }
+        },
+        "936911b0-bc1d-42f3-863f-0c230394d02d": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What makes our patches so unique?",
+            "text": "<p>All of our patches are designed in-house to coordinate perfectly with our apparel and accessories. We use only the highest quality, novelty materials like embroidery, chenille, sequin, flip sequin, and more. It’s literally impossible for your designs not to look amazing! <\/p>"
+          }
+        },
+        "1662415063626dfe06-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How does the FREE PATCHES offer work?",
+            "text": "<p>Use as many of our premium patches as you'd like. At the end once you're ready to checkout, use code FREEPATCHES. All of the patches you've used will be deducted from the total.<\/p>"
+          }
+        },
+        "1662415063626dfe06-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do I design my jacket?",
+            "text": "<p>Once you choose your style, just drag-n-drop your favorite patches using our super intuitive customizer. Place them exactly where you want, including your jacket hood, sleeves, and even your legs on our super soft, eco-friendly, joggers!<\/p>"
+          }
+        },
+        "1662415063626dfe06-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is there a limit to the number of patches I can use?",
+            "text": "<p>You can use up to $100 in patches for each item. That's a lot of premium patches!!<\/p>"
+          }
+        },
+        "4586af8e-6424-4a4c-b6f5-0316c85e5bc7": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Are you eco-friendly and what is the quality like?",
+            "text": "<p>Our jackets are boutique quality and eco-friendly. We use use BCI cotton, the world's most sustainable cotton, and our cotton is super soft. You won't want to wear anything else.<br\/><\/p>"
+          }
+        },
+        "77d51f81-8ed8-48d9-9411-cfabcc2e5914": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you have Gift Cards?",
+            "text": "<p>Yes we have Supermix gift cards. So easy just write a quick note and send, even pre-program to send any date in the future. We may be biased we think Supermix Gift Cards make the best stocking stuffer ever! Click on Gift Cards in navigation.<\/p>"
+          }
+        },
+        "ee74acfc-fbdd-4cce-9c61-c897c8cec5e9": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long until I receive my order?",
+            "text": "<p>It can take up to 2 weeks to receive your custom design. Once you’ve placed your order, Supermix goes to work bringing your design to life. Everything is customized by our customization specialists by hand, in-house, at our studio in Catskills, New York. For all holidays be sure to order early as it can take up to one week longer than normal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "88dfd841-6d3e-4b51-8d6a-720d8da8bc76",
+        "936911b0-bc1d-42f3-863f-0c230394d02d",
+        "1662415063626dfe06-1",
+        "1662415063626dfe06-0",
+        "1662415063626dfe06-2",
+        "4586af8e-6424-4a4c-b6f5-0316c85e5bc7",
+        "77d51f81-8ed8-48d9-9411-cfabcc2e5914",
+        "ee74acfc-fbdd-4cce-9c61-c897c8cec5e9"
+      ],
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "Frequently Asked Questions",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "cba9f92b-0000-4251-83b9-e7526cbe25f8",
+    "00d66585-eb4b-4b76-b3e0-9895e8ff1d90",
+    "1662415052e8856e21",
+    "16624949567898afbb",
+    "1662415063d73fcd38",
+    "main"
+  ]
+}

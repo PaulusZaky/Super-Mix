@@ -1,0 +1,171 @@
+{{ 'section-image-gallery.min.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+.patch-heading h4 {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #000;
+}
+.patch-subheading h5 {
+  text-align: center;
+  margin-bottom: 1vw;
+  color: #000;
+  font-size: 18px !important;
+  white-space: nowrap;
+}
+.patch-content-wrapper {
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat({{ section.settings.grid_number }}, 1fr);
+  gap: 3.5vw;
+  width: 100%;
+  justify-content: space-between;
+}
+@media screen and (max-width: 968px) {
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
+  }
+  .patch-heading h4 {
+    font-size: 36px !important;
+    margin-bottom: 60px;
+  }
+  .patch-subheading h5 {
+    font-size: 18px !important;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .patch-subheading h5 {
+    font-size: 16px !important;
+  }
+}
+{% endstyle %}
+  <section class="homepage-sections-wrapper-pad40">
+    <div class="section-container">
+      <div class="patch-heading"><h4>{{ section.settings.patch_heading | escape }}</h4></div>
+      <div class="gallery-grid">
+        {% for block in section.blocks %}
+          <div class="patch-grid-item">
+            {% if block.settings.patch_title != '' %}
+              <div class="patch-subheading"><h5>{{ block.settings.patch_title }}</h5></div>
+            {% endif %}
+            {% if block.settings.patch_link != blank %}
+              <a href="{{ block.settings.patch_link }}" aria-label="{{ block.settings.patch_link | split: '/' | last | replace: '-', ' ' | capitalize }}">
+            {% else %}
+              <div class="image-bar__item">
+            {% endif %}
+                <div class="patch-content-wrapper">
+                  {% if block.settings.patch_image == blank %}
+                      {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+                  {% else %}
+                      <img src="{{ block.settings.patch_image | img_url: 'master'}}">
+                  {% endif %}
+                </div>
+            {% if block.settings.patch_link != blank %}
+              </a>
+            {% else %}
+              </div>
+            {% endif %}
+          </div>
+
+        {% endfor %}
+
+        {% if section.blocks.size == 0 %}
+          <div class="placeholder-noblocks">
+            {{ 'general.onboarding.no_content' | t }}
+          </div>
+        {% endif %}
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Patch Gallery ACDC",
+    "settings": [
+      {
+        "type": "text",
+        "id": "patch_heading",
+        "label": "Section Heading",
+        "default": "Explore Patches"
+      },
+      {
+        "type": "select",
+        "id": "grid_number",
+        "label": "Grid Column Size",
+        "options": [
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          }
+        ],
+        "default": "3"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "patch_image",
+            "label": "Image",
+            "info": "1000 x 525px recommended"
+          },
+          {
+            "type": "url",
+            "id": "patch_link",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "patch_title",
+            "label": "Title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Patch Gallery ACDC",
+        "blocks": [
+          {
+            "type": "image"
+          },
+          {
+            "type": "image"
+          },
+          {
+            "type": "image"
+          },
+          {
+            "type": "image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

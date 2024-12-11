@@ -1,0 +1,1015 @@
+{% assign affiliate_items = shop.metaobjects.affiliate_item.values %}
+{{ 'section-video-with-text-overlay.min.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  .homepage-content--{{ section.id }} .hero-video--text {
+      color: {{ section.settings.textColor }};
+  }
+  .hero-video--text h3.type-subheading {
+    font-size: {{ section.settings.subheading--text-size }}px;
+    line-height: normal;
+  }
+  a.button-solid.lg.marg {
+    margin-left: auto;
+  }
+
+  #shopify-section-{{section.id}} .heading {
+    font-size: 40px !important;
+    line-height: 48px !important;
+  }
+  #shopify-section-{{section.id}} .text-body {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  #shopify-section-{{section.id}} .button--primary {
+    background-color: #d9369e !important;
+  }
+  #shopify-section-{{section.id}} .button--primary.outlined:hover,
+  #shopify-section-{{section.id}} .button--primary:hover {
+    background-color: #A52C6D !important;
+    color: #FFF !important;
+    transition: 0.3s;
+  }
+
+  @media screen and (max-width: 768px) {
+    a.button-solid.lg.marg {
+      margin: auto;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    #shopify-section-{{section.id}} .heading {
+      font-size: 56px !important;
+      line-height: 67px !important;
+    }
+    #shopify-section-{{section.id}} .text-body {
+      font-size: 18px !important;
+      line-height: 27px !important;
+    }
+  }
+
+
+  .homepage-content--{{ section.id }}.unavailable-time {
+      position: relative;
+  }
+
+  .homepage-content--{{ section.id }}.unavailable-time::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background: #000;
+  }
+{% endstyle %}
+
+{% capture textalignment %}
+    {% case section.settings.textAlignment %}
+    {% when 'top-left' %}
+        text-align-top-left
+    {% when 'top-center' %}
+        text-align-top-center
+    {% when 'top-right' %}
+        text-align-top-right
+    {% when 'center-left' %}
+        text-align-center-left
+    {% when 'center' %}
+        text-align-center
+    {% when 'center-right' %}
+        text-align-center-right
+    {% when 'bottom-left' %}
+        text-align-bottom-left
+    {% when 'bottom-center' %}
+        text-align-bottom-center
+    {% when 'bottom-right' %}
+        text-align-bottom-right
+    {% endcase %}
+{% endcapture %}
+
+{% capture desktopheight %}
+    {% case section.settings.desktopHeight %}
+    {% when '450' %}
+        desktop-height-450
+    {% when '550' %}
+        desktop-height-550
+    {% when '650' %}
+        desktop-height-650
+    {% when '750' %}
+        desktop-height-750
+    {% when 'fullscreen' %}
+        desktop-height-fullscreen
+    {% endcase %}
+{% endcapture %}
+
+{% capture tabletheight %}
+    {% case section.settings.tabletHeight %}
+    {% when '350' %}
+        tablet-height-350
+    {% when '450' %}
+        tablet-height-650
+    {% when '550' %}
+        tablet-height-550
+    {% when 'fullscreen' %}
+        tablet-height-fullscreen
+    {% endcase %}
+{% endcapture %}
+
+{% capture mobileheight %}
+    {% case section.settings.mobileHeight %}
+    {% when '250' %}
+        mobile-height-250
+    {% when '350' %}
+        mobile-height-375
+    {% when '375' %}
+        mobile-height-375
+    {% when '450' %}
+        mobile-height-450
+    {% when '550' %}
+        mobile-height-550
+    {% when 'fullscreen' %}
+        mobile-height-fullscreen
+    {% when 'fit' %}
+        mobile-height-fit
+    {% endcase %}
+{% endcapture %}
+
+{% capture isplaceholder %}
+    {% if section.settings.url contains "watch?v=_9VUPq3SxOc" %}
+        is-placeholder
+    {% endif %}
+{% endcapture %}
+
+<video-acdc-section
+  class="homepage-sections-wrapper homepage-content--{{ section.id }} hero-video {{ desktopheight | strip }} {{ tabletheight | strip }} {{ mobileheight | strip }} {{ isplaceholder | strip }}"
+  data-wetheme-section-type="video--video-with-text-overlay"
+  data-wetheme-section-id="{{ section.id }}"
+  tabindex="0"
+  id="video-section-acdc-{{ section.id }}"
+  data-enable_time_setting="{{ section.settings.enable_time_setting }}"
+  data-start_time_hours="{{ section.settings.start_time_hours }}"
+  data-start_time_mins="{{ section.settings.start_time_mins }}"
+  data-end_time_hours="{{ section.settings.end_time_hours }}"
+  data-end_time_mins="{{ section.settings.end_time_mins }}"
+  data-start_time_ampm="{{ section.settings.start_time_ampm }}"
+  data-end_time_ampm="{{ section.settings.end_time_ampm }}"
+>
+  <div class="image-with-video__text-item text-container">
+    <div
+      id="ImageWithText--{{ section.id }}"
+      class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
+    >
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {%- when 'heading' -%}
+            <h2
+              class="image-with-text__heading heading inline-richtext"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.heading }}
+            </h2>
+          {%- when 'caption' -%}
+            <p
+              class="image-with-text__text text-body image-with-text__text--caption"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.caption | escape }}
+            </p>
+          {%- when 'text' -%}
+            <div
+              class="image-with-text__text text-body rte"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.text }}
+            </div>
+          {%- when 'button' -%}
+            {%- if block.settings.button_label != blank -%}
+              <a
+                {% if block.settings.button_link == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ block.settings.button_link }}"
+                {% endif %}
+                class="btn{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.button_label | escape }}
+              </a>
+            {%- endif -%}
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+  <div class="image-with-video__text-item grid__item">
+    <div class="hero-video--wrapper">
+      {% assign type = 'mp4' %}
+      {% if section.settings.url contains 'youtube.com' %}
+        {% assign type = 'youtube' %}
+      {% elsif section.settings.url contains 'youtu.be' %}
+        {% assign type = 'youtube' %}
+      {% elsif section.settings.url contains 'vimeo.com' %}
+        {% assign type = 'vimeo' %}
+      {% endif %}
+
+      <div class="hero-video--media hero-video--{{ type }}">
+        <wetheme-video
+          id="non_kiosk_video"
+          hero="true"
+          video-type="{{ type }}"
+          url="{{ section.settings.url }}"
+          autoplay="true"
+          loop="true"
+          mute="true"
+          hide-controls="true"
+        >
+        </wetheme-video>
+
+        {% if section.settings.kiosk_video.id %}
+          {{
+            section.settings.kiosk_video
+            | video_tag: loop: 'loop', muted: true, playsinline: true, autoplay: true, id: 'kiosk_video', class: 'hide'
+          }}
+        {% endif %}
+      </div>
+      <div class="hero-video--text">
+        <div class="hero-video--text-content {{ textalignment | strip }}">
+          <div class="text-content--inner{% if section.settings.textShadow %} text-shadow{% endif %} wow fadeInUp">
+            {% if section.settings.subheading != blank %}
+              <h3 class="type-subheading{% if section.settings.title != blank %} typography--padding-bottom {% endif %}">
+                {{ section.settings.subheading | escape }}
+              </h3>
+            {% endif %}
+            {% if section.settings.title != blank %}
+              <div class="hero-video--text-title">
+                <h1 class="text-size-{{ section.settings.heading--text-size }}px wow fadeInUp">
+                  {{ section.settings.title }}
+                </h1>
+              </div>
+            {% endif %}
+            {% if section.settings.text != blank %}
+              <div class="hero__text textarea rte">{{ section.settings.text }}</div>
+            {% endif %}
+            {% if section.settings.button_label != blank %}
+              <div class="hero-video--button">
+                <a class="button-solid lg marg" href="{{ section.settings.button_link }}" tabindex="0">
+                  {{- section.settings.button_label -}}
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {%- if section.settings.video_tap_url != blank -%}
+      <a class="hero-video--cover" href="{{ section.settings.video_tap_url }}"> </a>
+    {%- endif -%}
+  </div>
+</video-acdc-section>
+<div class="banner-container">
+  <div class="mobile-banner">
+    {% if section.settings.mobile_banner != blank %}
+      {% render 'responsive-image' with section.settings.mobile_banner, alt: '' %}
+    {% endif %}
+  </div>
+  <div class="desktop-banner">
+    {% if section.settings.desktop_banner != blank %}
+      {% render 'responsive-image' with section.settings.desktop_banner, alt: '' %}
+    {% endif %}
+  </div>
+</div>
+<!-- Update the video URL if a video URL is provided -->
+<script defer>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve the current affiliate ID from local storage
+    const currentAffiliateId = localStorage.getItem('scaaf_aid');
+
+    if(!currentAffiliateId) return;
+
+    // Parse affiliate items from Liquid data
+    const items = {{ affiliate_items | json }};
+    // Find the affiliate item that matches the current affiliate ID
+    const item = items?.find(i => i.link.includes(currentAffiliateId));
+
+    if (item) {
+      const regular_kiosk_video = document.getElementById('kiosk_video');
+      const non_kiosk_video = document.getElementById('non_kiosk_video');
+
+      regular_kiosk_video?.remove()
+      non_kiosk_video?.setAttribute('url', item.video_url);
+
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Video with button ACDC",
+  "class": "video-with-text-overlay__wrapper",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Tab URL Setting"
+    },
+    {
+      "type": "url",
+      "id": "video_tap_url",
+      "label": "Redirect to"
+    },
+    {
+      "type": "header",
+      "content": "Availability Time Settings (EST)"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_time_setting",
+      "label": "Enable Time Restrictions",
+      "info": "Toggle to enable or disable time-based restrictions for displaying this section.",
+      "default": true
+    },
+    {
+      "type": "paragraph",
+      "content": "Configure the start and end time during which the section is available. Please note: Time is based on Eastern Standard Time (EST)."
+    },
+    {
+      "type": "paragraph",
+      "content": "To set the section to be available for 24 hours, set the Start Time to 12 AM and the End Time to 11:59 PM. To make the section unavailable for 24 hours, disable this feature or use alternate visibility settings."
+    },
+    {
+      "type": "header",
+      "content": "Start Time"
+    },
+    {
+      "type": "select",
+      "id": "start_time_ampm",
+      "label": "Select AM or PM for Start Time",
+      "info": "For midnight, select 12 AM. For noon, select 12 PM.",
+      "options": [
+        { "value": "am", "label": "AM" },
+        { "value": "pm", "label": "PM" }
+      ],
+      "default": "am"
+    },
+    {
+      "type": "range",
+      "id": "start_time_hours",
+      "label": "Start Hour",
+      "info": "Hour of the day (1-12) when the section starts being available.",
+      "unit": "hr",
+      "min": 1,
+      "max": 12,
+      "step": 1,
+      "default": 9
+    },
+    {
+      "type": "range",
+      "id": "start_time_mins",
+      "label": "Start Minute",
+      "info": "Minute of the hour when the section starts being available.",
+      "unit": "min",
+      "min": 0,
+      "max": 59,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "End Time"
+    },
+    {
+      "type": "select",
+      "id": "end_time_ampm",
+      "label": "Select AM or PM for End Time",
+      "info": "For midnight, select 12 AM. For noon, select 12 PM.",
+      "options": [
+        { "value": "am", "label": "AM" },
+        { "value": "pm", "label": "PM" }
+      ],
+      "default": "pm"
+    },
+    {
+      "type": "range",
+      "id": "end_time_hours",
+      "label": "End Hour",
+      "info": "Hour of the day (1-12) when the section stops being available.",
+      "unit": "hr",
+      "min": 1,
+      "max": 12,
+      "step": 1,
+      "default": 9
+    },
+    {
+      "type": "range",
+      "id": "end_time_mins",
+      "label": "End Minute",
+      "info": "Minute of the hour when the section stops being available. For a full day's availability, set this to 59 minutes of the hour before the start hour.",
+      "unit": "min",
+      "min": 0,
+      "max": 59,
+      "step": 1,
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": {
+        "en": "Video",
+        "de": "Video",
+        "es": "Vídeo",
+        "fr": "Vidéo",
+        "pt-PT": "Vídeo"
+      }
+    },
+    {
+      "id": "url",
+      "type": "text",
+      "label": {
+        "en": "Video URL",
+        "de": "Video-URL",
+        "es": "URL del vídeo",
+        "fr": "URL de la vidéo",
+        "pt-PT": "URL do Vídeo"
+      },
+      "info": {
+        "en": "Accepts YouTube, Vimeo and .mp4 [read more](https://support.weareeight.com/hc/en-us/articles/360020250318-Product-Media#Videos)",
+        "de": "Akzeptiert YouTube, Vimeo und.mp4 [mehr erfahren](https://support.weareeight.com/hc/en-us/articles/360020250318-Product-Media#Videos)",
+        "es": "Acepta YouTube, Vimeo y .mp4 [más información](https://support.weareeight.com/hc/en-us/articles/360020250318-Product-Media#Videos)",
+        "fr": "Accepte YouTube, Vimeo et .mp4 [en savoir plus](https://support.weareeight.com/hc/en-us/articles/360020250318-Product-Media#Videos)",
+        "pt-PT": "Aceita YouTube, Vimeo e .mp4 [ler mais](https://support.weareeight.com/hc/en-us/articles/360020250318-Product-Media#Videos)"
+      },
+      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+    },
+    {
+      "type": "video",
+      "id": "kiosk_video",
+      "label": "Kiosk Video"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_banner",
+      "label": "Mobile Banner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "desktop_banner",
+      "label": "Desktop Banner Image"
+    },
+    {
+      "type": "select",
+      "id": "desktopHeight",
+      "label": {
+        "en": "Section height",
+        "de": "Abschnitthöhe",
+        "es": "Altura de la sección",
+        "fr": "Hauteur de section",
+        "pt-PT": "Altura da secção"
+      },
+      "default": "fullscreen",
+      "options": [
+        {
+          "value": "fullscreen",
+          "label": {
+            "en": "Fullscreen",
+            "de": "Vollbild",
+            "es": "Pantalla completa",
+            "fr": "Plein écran",
+            "pt-PT": "Ecrã inteiro"
+          }
+        },
+        {
+          "value": "450",
+          "label": {
+            "en": "Small",
+            "de": "Klein",
+            "es": "Pequeño",
+            "fr": "Petite",
+            "pt-PT": "Pequeno"
+          }
+        },
+        {
+          "value": "550",
+          "label": {
+            "en": "Medium",
+            "de": "Mittel",
+            "es": "Mediano",
+            "fr": "Moyenne",
+            "pt-PT": "Médio"
+          }
+        },
+        {
+          "value": "650",
+          "label": {
+            "en": "Large",
+            "de": "Groß",
+            "es": "Grande",
+            "fr": "Grande",
+            "pt-PT": "Grande"
+          }
+        },
+        {
+          "value": "750",
+          "label": {
+            "en": "Extra Large",
+            "de": "Extra groß",
+            "es": "Muy grande",
+            "fr": "Extra grande",
+            "pt-PT": "Extra Grande"
+          }
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "tabletHeight",
+      "label": {
+        "en": "Tablet section height"
+      },
+      "default": "fullscreen",
+      "options": [
+        {
+          "value": "fullscreen",
+          "label": {
+            "en": "Fullscreen",
+            "de": "Vollbild",
+            "es": "Pantalla completa",
+            "fr": "Plein écran",
+            "pt-PT": "Ecrã inteiro"
+          }
+        },
+        {
+          "value": "350",
+          "label": {
+            "en": "Medium",
+            "de": "Mittel",
+            "es": "Mediano",
+            "fr": "Moyenne",
+            "pt-PT": "Médio"
+          }
+        },
+        {
+          "value": "450",
+          "label": {
+            "en": "Large",
+            "de": "Groß",
+            "es": "Grande",
+            "fr": "Grande",
+            "pt-PT": "Grande"
+          }
+        },
+        {
+          "value": "550",
+          "label": {
+            "en": "Extra large",
+            "de": "Extra groß",
+            "es": "Muy grande",
+            "fr": "Extra grande",
+            "pt-PT": "Extra Grande"
+          }
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobileHeight",
+      "label": {
+        "en": "Mobile section height",
+        "de": "Höhe des beweglichen Teils",
+        "es": "Altura de la sección móvil",
+        "fr": "Hauteur de la section mobile",
+        "pt-PT": "Altura da secção móvel"
+      },
+      "default": "fullscreen",
+      "options": [
+        {
+          "value": "fullscreen",
+          "label": {
+            "en": "Fullscreen",
+            "de": "Vollbild",
+            "es": "Pantalla completa",
+            "fr": "Plein écran",
+            "pt-PT": "Ecrã inteiro"
+          }
+        },
+        {
+          "value": "fit",
+          "label": {
+            "en": "Fit to screen width",
+            "de": "An Bildschirmbreite anpassen",
+            "es": "Ajustar al ancho de la pantalla",
+            "fr": "Ajuster à la largeur de l'écran",
+            "pt-PT": "Ajustar à largura do ecrã"
+          }
+        },
+        {
+          "value": "250",
+          "label": {
+            "en": "Small",
+            "de": "Klein",
+            "es": "Pequeño",
+            "fr": "Petite",
+            "pt-PT": "Pequeno"
+          }
+        },
+        {
+          "value": "350",
+          "label": {
+            "en": "Medium",
+            "de": "Mittel",
+            "es": "Mediano",
+            "fr": "Moyenne",
+            "pt-PT": "Médio"
+          }
+        },
+        {
+          "value": "450",
+          "label": {
+            "en": "Large",
+            "de": "Groß",
+            "es": "Grande",
+            "fr": "Grande",
+            "pt-PT": "Grande"
+          }
+        },
+        {
+          "value": "550",
+          "label": {
+            "en": "Extra large",
+            "de": "Extra groß",
+            "es": "Muy grande",
+            "fr": "Extra grande",
+            "pt-PT": "Extra Grande"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": {
+        "en": "Text",
+        "de": "Text",
+        "es": "Texto",
+        "fr": "Texte",
+        "pt-PT": "Texto"
+      }
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": {
+        "en": "Subheading",
+        "de": "Unterüberschrift",
+        "es": "Subencabezado",
+        "fr": "Sous-rubrique",
+        "pt-PT": "Subtítulo"
+      },
+      "default": {
+        "en": "Subheading",
+        "de": "Unterüberschrift",
+        "es": "Subencabezado",
+        "fr": "Sous-rubrique",
+        "pt-PT": "Subtítulo"
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": {
+        "en": "Heading",
+        "de": "Überschrift",
+        "es": "Encabezado",
+        "fr": "Rubrique",
+        "pt-PT": "Título"
+      },
+      "default": {
+        "en": "Share your story",
+        "de": "Teilen Sie Ihre Geschichte",
+        "es": "Comparte tu historia",
+        "fr": "Partagez votre histoire",
+        "pt-PT": "Partilhe a sua história"
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": {
+        "en": "Text",
+        "de": "Text",
+        "es": "Texto",
+        "fr": "Texte",
+        "pt-PT": "Texto"
+      },
+      "default": {
+        "en": "Here's your chance to make a great first impression",
+        "de": "Hier ist Ihre Chance, einen großartigen ersten Eindruck zu hinterlassen",
+        "es": "Esta es tu oportunidad de causar una buena primera impresión",
+        "fr": "C'est le moment ou jamais de faire une excellente première impression",
+        "pt-PT": "Aqui está a sua oportunidade de causar uma excelente primeira impressão"
+      }
+    },
+    {
+      "type": "select",
+      "id": "textAlignment",
+      "label": {
+        "en": "Text position",
+        "de": "Textposition",
+        "es": "Posición del texto",
+        "fr": "Position du texte",
+        "pt-PT": "Posição do texto"
+      },
+      "default": "center",
+      "options": [
+        {
+          "value": "top-left",
+          "label": {
+            "en": "Top left",
+            "de": "Oben links",
+            "es": "Esquina superior izquierda",
+            "fr": "En haut à gauche",
+            "pt-PT": "Canto superior esquerdo"
+          }
+        },
+        {
+          "value": "top-center",
+          "label": {
+            "en": "Top center",
+            "de": "Oben Mitte",
+            "es": "Zona superior central",
+            "fr": "En haut au centre",
+            "pt-PT": "Centro superior"
+          }
+        },
+        {
+          "value": "top-right",
+          "label": {
+            "en": "Top right",
+            "de": "Oben rechts",
+            "es": "Esquina superior derecha",
+            "fr": "En haut à droite",
+            "pt-PT": "Canto superior direito"
+          }
+        },
+        {
+          "value": "center-left",
+          "label": {
+            "en": "Center left",
+            "de": "Mitte links",
+            "es": "Zona central izquierda",
+            "fr": "Centre gauche",
+            "pt-PT": "Centrar à esquerda"
+          }
+        },
+        {
+          "value": "center",
+          "label": {
+            "en": "Center",
+            "de": "Mitte",
+            "es": "Zona central",
+            "fr": "Centre",
+            "pt-PT": "Centro"
+          }
+        },
+        {
+          "value": "center-right",
+          "label": {
+            "en": "Center right",
+            "de": "Mitte rechts",
+            "es": "Zona central derecha",
+            "fr": "Centre droit",
+            "pt-PT": "Centrar à direita"
+          }
+        },
+        {
+          "value": "bottom-left",
+          "label": {
+            "en": "Bottom left",
+            "de": "unten links",
+            "es": "esquina inferior izquierda",
+            "fr": "en bas à gauche",
+            "pt-PT": "Canto inferior esquerdo"
+          }
+        },
+        {
+          "value": "bottom-center",
+          "label": {
+            "en": "Bottom center",
+            "de": "unten Mitte",
+            "es": "Zona inferior central",
+            "fr": "en bas au centre",
+            "pt-PT": "Centro inferior"
+          }
+        },
+        {
+          "value": "bottom-right",
+          "label": {
+            "en": "Bottom right",
+            "de": "Unten rechts",
+            "es": "Esquina inferior derecha",
+            "fr": "En bas à droite",
+            "pt-PT": "Canto inferior direito"
+          }
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "textColor",
+      "label": {
+        "en": "Text color",
+        "de": "Textfarbe",
+        "es": "Color del texto",
+        "fr": "Couleur du texte",
+        "pt-PT": "Cor do texto"
+      },
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "textShadow",
+      "label": {
+        "en": "Text shadow",
+        "de": "Textschatten",
+        "es": "Sombra del texto",
+        "fr": "Ombre de texte",
+        "pt-PT": "Sombra do texto"
+      },
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "subheading--text-size",
+      "min": 12,
+      "max": 30,
+      "step": 2,
+      "unit": {
+        "en": "px",
+        "de": "px",
+        "es": "px",
+        "fr": "px",
+        "pt-PT": "px"
+      },
+      "label": {
+        "en": "Subheading size",
+        "de": "Größe der Unterrubrik",
+        "es": "Tamaño del subtítulo",
+        "fr": "Taille du sous-titre",
+        "pt-PT": "Tamanho do subtítulo"
+      },
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "heading--text-size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": {
+        "en": "px",
+        "de": "px",
+        "es": "px",
+        "fr": "px",
+        "pt-PT": "px"
+      },
+      "label": {
+        "en": "Heading size",
+        "de": "Überschift-Größe",
+        "es": "Tamaño del encabezado",
+        "fr": "Taille de la rubrique",
+        "pt-PT": "Tamanho do título"
+      },
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": {
+        "en": "Button",
+        "de": "Button",
+        "es": "Botón",
+        "fr": "Bouton",
+        "pt-PT": "Botão"
+      }
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": {
+        "en": "Button link",
+        "de": "Buttonlink",
+        "es": "Enlace del botón",
+        "fr": "Lien du bouton",
+        "pt-PT": "Ligação do botão"
+      }
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": {
+        "en": "Button text",
+        "de": "Buttontext",
+        "es": "Texto del botón",
+        "fr": "Texte des boutons",
+        "pt-PT": "Texto do botão"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "heading_text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "label": "Heading Text"
+        }
+      ]
+    },
+    {
+      "type": "caption",
+      "name": "caption",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "caption",
+          "label": "Caption"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "button",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "Button Style Secondary"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video with button ACDC",
+      "category": {
+        "en": "Video",
+        "de": "Video",
+        "es": "Vídeo",
+        "fr": "Vidéo",
+        "pt-PT": "Vídeo"
+      }
+    },
+    {
+      "name": "t:sections.image-with-text.presets.name",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    "index",
+    "collection",
+    "list-collections",
+    "blog",
+    "article",
+    "page",
+    "password",
+    "404",
+    "cart",
+    "search",
+    "product"
+  ]
+}
+{% endschema %}

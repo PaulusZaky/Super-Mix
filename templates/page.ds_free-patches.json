@@ -1,0 +1,736 @@
+{
+  "sections": {
+    "cba9f92b-0000-4251-83b9-e7526cbe25f8": {
+      "type": "video-acdc-fullwidth",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bc07b141ad31436f8eb3bf3fd4a9aefa.mp4",
+        "button_link": "",
+        "button_label": "Design Now",
+        "button_location": "right"
+      }
+    },
+    "00b3bb24-04ee-41ab-9be9-34b8c7d231d9": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15031739383831__00b3bb24-04ee-41ab-9be9-34b8c7d231d9-16728840592cccd910-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">Kids' Clothes, Reimagined.<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__00b3bb24-04ee-41ab-9be9-34b8c7d231d9-16728840592cccd910-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "20610588-f399-4ac1-952a-1086d45df093": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15031739383831__20610588-f399-4ac1-952a-1086d45df093-167338903588c23ea5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Static-Block-1_Ver03.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15031739383831__20610588-f399-4ac1-952a-1086d45df093-167338903588c23ea5-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15031739383831__20610588-f399-4ac1-952a-1086d45df093-167338903588c23ea5-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__20610588-f399-4ac1-952a-1086d45df093-167338903588c23ea5-0",
+        "template--15031739383831__20610588-f399-4ac1-952a-1086d45df093-167338903588c23ea5-1",
+        "template--15031739383831__20610588-f399-4ac1-952a-1086d45df093-167338903588c23ea5-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "4f5e14d9-5f80-426d-b937-b04ef3cef644": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15031739383831__4f5e14d9-5f80-426d-b937-b04ef3cef644-16727932506cce56ab-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEP1_Static_Ver03_77ae2dd5-3434-4d35-830f-ea9f619a98bc.png",
+            "link": "shopify:\/\/pages\/ds-denim-sweats",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15031739383831__4f5e14d9-5f80-426d-b937-b04ef3cef644-16727932506cce56ab-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEP2_Static_Ver01.png",
+            "link": "shopify:\/\/pages\/dspatches",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15031739383831__4f5e14d9-5f80-426d-b937-b04ef3cef644-16727932506cce56ab-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STEP3_Static_Ver01.png",
+            "link": "shopify:\/\/pages\/ds-denim-sweats",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__4f5e14d9-5f80-426d-b937-b04ef3cef644-16727932506cce56ab-0",
+        "template--15031739383831__4f5e14d9-5f80-426d-b937-b04ef3cef644-16727932506cce56ab-1",
+        "template--15031739383831__4f5e14d9-5f80-426d-b937-b04ef3cef644-16727932506cce56ab-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "eef83b12-746a-42f0-9e5a-7490fae1e276": {
+      "type": "advanced-layout--custom-html",
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "5bc42ae9-fbf5-45de-8e12-7fe4e8abf3da": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15031739383831__5bc42ae9-fbf5-45de-8e12-7fe4e8abf3da-167338903588c23ea5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Static-Block-2_Ver03.jpg",
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15031739383831__5bc42ae9-fbf5-45de-8e12-7fe4e8abf3da-167338903588c23ea5-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        },
+        "template--15031739383831__5bc42ae9-fbf5-45de-8e12-7fe4e8abf3da-167338903588c23ea5-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__5bc42ae9-fbf5-45de-8e12-7fe4e8abf3da-167338903588c23ea5-0",
+        "template--15031739383831__5bc42ae9-fbf5-45de-8e12-7fe4e8abf3da-167338903588c23ea5-1",
+        "template--15031739383831__5bc42ae9-fbf5-45de-8e12-7fe4e8abf3da-167338903588c23ea5-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "2da60513-d989-47d9-b156-5b59ddb8596b": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15031739383831__2da60513-d989-47d9-b156-5b59ddb8596b-1672884059ce41a308-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07021_IG_3.jpg",
+            "link": "shopify:\/\/pages\/choose-your-sweats",
+            "title": "<p>Custom <strong>Sweats<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15031739383831__2da60513-d989-47d9-b156-5b59ddb8596b-1672884059ce41a308-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00547_copy_3.jpg",
+            "link": "shopify:\/\/collections\/kids-denim",
+            "title": "<p>Custom <strong>Denim<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15031739383831__2da60513-d989-47d9-b156-5b59ddb8596b-1672884059ce41a308-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03970-2_copy_1.jpg",
+            "link": "shopify:\/\/collections\/backpacks",
+            "title": "<p>Recycled <strong>Backpacks<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__2da60513-d989-47d9-b156-5b59ddb8596b-1672884059ce41a308-0",
+        "template--15031739383831__2da60513-d989-47d9-b156-5b59ddb8596b-1672884059ce41a308-1",
+        "template--15031739383831__2da60513-d989-47d9-b156-5b59ddb8596b-1672884059ce41a308-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "00d66585-eb4b-4b76-b3e0-9895e8ff1d90": {
+      "type": "redeem-points",
+      "disabled": true,
+      "settings": {
+        "heading": "Ready to Supermix?",
+        "subheading": "",
+        "button_url": "shopify:\/\/pages\/choose-your-style",
+        "button_text": "Design Now"
+      }
+    },
+    "1662415052e8856e21": {
+      "type": "image--slideshow",
+      "blocks": {
+        "47faa984-5fd7-4166-becb-0dff556c0d64": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00968_1500x800_7d25c630-5ffb-4cd2-a357-42c08eb4e766.jpg",
+            "subheading": "",
+            "title": "Free Patches",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Just Pay for the Jacket<br>• ALL Patches come FREE<br>• Up to $100 Value per item!",
+            "button_text": "Design Now",
+            "link": "https:\/\/supermixstudio.com\/",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "f7666f9f-fecb-4149-a8d4-0f5add09e9f5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00316_1500x800_b2202c2b-dca0-4b9b-9a50-dd991a228b7b.jpg",
+            "subheading": "",
+            "title": "Premium Patches",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• All Designed In-House<br>\n• Tactile & Amazing IRL<br> • Place Anywhere YOU want<br>",
+            "button_text": "Design Now",
+            "link": "https:\/\/supermixstudio.com\/",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "middle"
+          }
+        },
+        "1662415052f1a79038-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00801_1500x800_2b536a89-3749-4703-96d5-84fc32b24f46.jpg",
+            "subheading": "",
+            "title": "Boutique Quality",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#333333",
+            "text": "• Jackets are Eco-Friendly <br>\n• We use Sustainable Cotton <br> • Super Soft, Durable Fabric<br>",
+            "button_text": "Design Now",
+            "link": "https:\/\/supermixstudio.com",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "button-align": "middle",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "middle"
+          }
+        },
+        "f9e9b401-8814-415c-9d8f-39bde1f74f26": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01742_1500x800_v1_dc0764d0-630e-4a6f-9c88-0584509910b7.jpg",
+            "subheading": "",
+            "title": "Stand Out",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Most Original Gift of 2022<br>\n• #1 Non-Gift Toy - Romper<br>\n• Best Stocking Stuffer, Ever",
+            "button_text": "Buy Gift Card",
+            "link": "https:\/\/supermixstudio.com\/products\/rise-ai-giftcard",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "1662415052f1a79038-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01277_1500X800_024f0c25-32f0-4fa1-8765-c01d9b57b016.jpg",
+            "subheading": "",
+            "title": "Three Steps",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Complete Application.<br>\n• Schedule Short Interview.<br>\n• Get Started as Stylist.<br>",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "486e8bdf-b347-4560-9326-a40d507f2f79": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00476_1500x800v3.jpg",
+            "subheading": "",
+            "title": "Have Fun",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#000000",
+            "text": "• Get paid for sharing a brand the family loves to wear.<br>\n• Have fun building a business with your kids.<br>\n• Give back to your community.<br>",
+            "button_text": "Apply Now",
+            "link": "shopify:\/\/pages\/supermix-stylist-application",
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "button-align": "left",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "d27689a1-6482-4b29-bf7f-23d5d71cb59b": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01742_1500x800_v2_6a1b3f21-338e-45ea-b109-fa71dfc7031e.jpg",
+            "subheading": "",
+            "title": "Have Fun",
+            "header_font_size": 55,
+            "header_font_size_mobile": 32,
+            "header_margin": 20,
+            "header_color": "#0085bc",
+            "text": "• You're a mom: you have the skills for the job.\n• Get paid for sharing a brand the whole family loves to wear.\n• Have fun building a business with your kids.\n• Give back to your community.",
+            "button_text": "Button",
+            "link": "shopify:\/\/pages\/design-inspiration",
+            "caption-background": "#e22120",
+            "caption-text": "#bc00ff",
+            "button-text": "#0085bc",
+            "button-background": "#1af46a",
+            "button-align": "middle",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "47faa984-5fd7-4166-becb-0dff556c0d64",
+        "f7666f9f-fecb-4149-a8d4-0f5add09e9f5",
+        "1662415052f1a79038-0",
+        "f9e9b401-8814-415c-9d8f-39bde1f74f26",
+        "1662415052f1a79038-1",
+        "486e8bdf-b347-4560-9326-a40d507f2f79",
+        "d27689a1-6482-4b29-bf7f-23d5d71cb59b"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "show-slide-full-screen": true,
+        "slider-slide-time": 6,
+        "show-slide-dots": true,
+        "show-slide-arrows": true,
+        "show-slide-controls": false,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    },
+    "16624949567898afbb": {
+      "type": "ambassador-section-acdc",
+      "disabled": true,
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/background_REV_copy_1.jpg",
+        "mobile_background": "shopify:\/\/shop_images\/Screen_Shot_2022-07-16_at_9.17.20_AM.png",
+        "mobile_bg_color": "#deb4b5",
+        "txt_color": "#000000",
+        "horizontal_alignment": "right",
+        "header": "Super Mom, meet Supermix.",
+        "main_text": "<p>We know that moms do it all. We're committed to making it a little easier.<\/p><p>Fun, creative, lucrative work is possible while still putting family first.<\/p><p><\/p><p><strong>BONUS: YOUR KIDS WILL LOVE IT!<\/strong><\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn_bg_color": "#000000",
+        "btn_txt_color": "#ffffff",
+        "btn_txt_color_hover": "#ffffff",
+        "btn_bg_color_hover": "#666666"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16742417137b4808f3": {
+      "type": "apps",
+      "blocks": {
+        "167f05d1-43d8-4b58-a9a2-86128933270c": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": "kids-zip-hoodie"
+          }
+        }
+      },
+      "block_order": [
+        "167f05d1-43d8-4b58-a9a2-86128933270c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "dc29348b-0b9a-4107-ad69-3bc2641ad08e": {
+      "type": "acdc-inspiration-section",
+      "blocks": {
+        "241e0abf-36b5-4193-9f78-894f2a041c3b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0053.jpg"
+          }
+        },
+        "7e878905-9cb1-43d0-b1b3-258d88bbea7d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/121D03E7-9DCD-4080-BBB6-735E476BA91C_1.jpg"
+          }
+        },
+        "64aa2116-c117-4a56-8fe2-d437ba09f5c9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2778DCC2-C263-40AE-9BA9-DB5313C523D6_1.jpg"
+          }
+        },
+        "7accb812-b1fc-4420-8111-9f535ff3441a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9EEEF2ED-CE83-412A-A489-82E71060D98B.jpg"
+          }
+        },
+        "720fb365-c48e-4256-ad24-e818dadf0200": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B20064A0-432D-4E85-8C66-4F188A713720.jpg"
+          }
+        },
+        "d17467cb-fc13-43b2-8c99-0b600380993b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-16_at_7.11.38_PM.png"
+          }
+        },
+        "6cdc68a9-fee5-4222-a97e-2c38b6cb60d8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B51E821A-8DAF-46F6-A6C9-535110EFFD6F_479ac9b3-a13f-4a0f-891f-6f8034517380.jpg"
+          }
+        },
+        "cb41ef06-d6c8-47bf-9c37-a6df69aac497": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1742.jpg"
+          }
+        },
+        "5ba3d5c6-5c5f-4023-90cd-b6560fd6f452": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20706DD6-5EA9-436C-9A32-5D66924C22A4.jpg"
+          }
+        },
+        "b549acd0-c9cc-4ebc-a20c-ba9df0fe366c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/46034F7D-706F-4257-9AA8-F93D262E0920.jpg"
+          }
+        },
+        "d6d8cc07-dd3f-4d2f-9d83-450c1bb2013b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4032_528f7795-f4ff-4368-b04a-be0b645249e2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "241e0abf-36b5-4193-9f78-894f2a041c3b",
+        "7e878905-9cb1-43d0-b1b3-258d88bbea7d",
+        "64aa2116-c117-4a56-8fe2-d437ba09f5c9",
+        "7accb812-b1fc-4420-8111-9f535ff3441a",
+        "720fb365-c48e-4256-ad24-e818dadf0200",
+        "d17467cb-fc13-43b2-8c99-0b600380993b",
+        "6cdc68a9-fee5-4222-a97e-2c38b6cb60d8",
+        "cb41ef06-d6c8-47bf-9c37-a6df69aac497",
+        "5ba3d5c6-5c5f-4023-90cd-b6560fd6f452",
+        "b549acd0-c9cc-4ebc-a20c-ba9df0fe366c",
+        "d6d8cc07-dd3f-4d2f-9d83-450c1bb2013b"
+      ],
+      "settings": {
+        "title_text": "Supermix Squad",
+        "title_url": "",
+        "title_color": "#000000"
+      }
+    },
+    "45054011-6bd0-4f45-b9eb-29adeed984f0": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15031739383831__45054011-6bd0-4f45-b9eb-29adeed984f0-16721887249935b684-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-27_at_8.12.17_PM.png",
+            "link": "shopify:\/\/products\/kids-jogger",
+            "title": "<p><strong>Custom Jogger<\/strong><\/p>",
+            "description": "<p>\"Clothing that shows their personality is SO fun!\" - Abby<\/p>"
+          }
+        },
+        "template--15031739383831__45054011-6bd0-4f45-b9eb-29adeed984f0-16721887249935b684-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-27_at_8.14.24_PM.png",
+            "link": "shopify:\/\/products\/kids-zip-hoodie",
+            "title": "<p><strong>Custom Zip Hoodie in Super Blue<\/strong><\/p>",
+            "description": "<p>\"His teachers were so impressed when I told them he designed it himself.\" - Julia<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__45054011-6bd0-4f45-b9eb-29adeed984f0-16721887249935b684-0",
+        "template--15031739383831__45054011-6bd0-4f45-b9eb-29adeed984f0-16721887249935b684-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "0dee0ac6-bff3-4da9-a8cc-d0c1855c883e": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--15031739383831__0dee0ac6-bff3-4da9-a8cc-d0c1855c883e-1671219653cc45aaeb-0": {
+          "type": "html",
+          "settings": {
+            "code": "<h2 class=\"titleh2\">All the Patches!<\/h2>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__0dee0ac6-bff3-4da9-a8cc-d0c1855c883e-1671219653cc45aaeb-0"
+      ],
+      "settings": {
+        "section_id": "unique_id"
+      }
+    },
+    "6614dbaa-c748-47b4-a65a-74826391d24d": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15031739383831__6614dbaa-c748-47b4-a65a-74826391d24d-1671219499ca4ed2f0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RETMUL1ABCDEF.png",
+            "link": "shopify:\/\/pages\/ds-letters-and-numbers",
+            "title": "<p><strong>Letters & Numbers<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15031739383831__6614dbaa-c748-47b4-a65a-74826391d24d-1671219499ca4ed2f0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UNIC0010.png",
+            "link": "shopify:\/\/pages\/ds-icons",
+            "title": "<p><strong>Icons<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__6614dbaa-c748-47b4-a65a-74826391d24d-1671219499ca4ed2f0-0",
+        "template--15031739383831__6614dbaa-c748-47b4-a65a-74826391d24d-1671219499ca4ed2f0-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "dff74e17-9953-4bc5-b790-d567c113771c": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--15031739383831__dff74e17-9953-4bc5-b790-d567c113771c-1671219499ca4ed2f0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SMIL0004.png",
+            "link": "shopify:\/\/collections\/super-size",
+            "title": "<p><strong>Super Size<\/strong><\/p>",
+            "description": ""
+          }
+        },
+        "template--15031739383831__dff74e17-9953-4bc5-b790-d567c113771c-1671219499ca4ed2f0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VOIC0006_82fb60d9-ef27-4298-a464-4e4de6c6e5da.png",
+            "link": "shopify:\/\/pages\/ds-messaging",
+            "title": "<p><strong>Messaging<\/strong><\/p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15031739383831__dff74e17-9953-4bc5-b790-d567c113771c-1671219499ca4ed2f0-1",
+        "template--15031739383831__dff74e17-9953-4bc5-b790-d567c113771c-1671219499ca4ed2f0-0"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "1662415063d73fcd38": {
+      "type": "accordion",
+      "blocks": {
+        "88dfd841-6d3e-4b51-8d6a-720d8da8bc76": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why is Supermix offering such an incredible deal?",
+            "text": "<p>Supermix is a start-up that launched in October by two BFFs. We need your help getting the word out about our brand and the awesome design experience. This is a crazy offer with a patch value of up to $100. This special launch deal won't last long. We know that once you try Supermix and experience how much fun and easy it is to design something 100% original, that it’ll be hard for you to wear anything else. <\/p>"
+          }
+        },
+        "936911b0-bc1d-42f3-863f-0c230394d02d": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What makes our patches so unique?",
+            "text": "<p>All of our patches are designed in-house to coordinate perfectly with our apparel and accessories. We use only the highest quality, novelty materials like embroidery, chenille, sequin, flip sequin, and more. It’s literally impossible for your designs not to look amazing! <\/p>"
+          }
+        },
+        "1662415063626dfe06-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How does the FREE PATCHES offer work?",
+            "text": "<p>Use as many of our premium patches as you'd like. At the end once you're ready to checkout, use code FREEPATCHES. All of the patches you've used will be deducted from the total.<\/p>"
+          }
+        },
+        "1662415063626dfe06-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do I design my jacket?",
+            "text": "<p>Once you choose your style,  drag-n-drop all your favorite patches using our customizer and place exactly where you want. <\/p>"
+          }
+        },
+        "1662415063626dfe06-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is there a limit to the number of patches I can use?",
+            "text": "<p>You can use up to $100 in patches for each item. That's a lot of patches!!<\/p>"
+          }
+        },
+        "4586af8e-6424-4a4c-b6f5-0316c85e5bc7": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Are you eco-friendly and what is the quality like?",
+            "text": "<p>Our jackets are boutique quality and eco-friendly. We use use BCI cotton, the world's most sustainable cotton, and our cotton is super soft. You won't want to wear anything else.<br\/><\/p>"
+          }
+        },
+        "77d51f81-8ed8-48d9-9411-cfabcc2e5914": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you have Gift Cards?",
+            "text": "<p>Yes we have Supermix gift cards. So easy just write a quick note and send, even pre-program to send any date in the future. We may be biased we think Supermix Gift Cards make the best stocking stuffer ever! Click on Gift Cards in navigation.<\/p>"
+          }
+        },
+        "ee74acfc-fbdd-4cce-9c61-c897c8cec5e9": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long until I receive my order?",
+            "text": "<p>It can take up to 2 weeks to receive your custom design. Once you’ve placed your order, Supermix goes to work bringing your design to life. Everything is customized by our customization specialists by hand, in-house, at our studio in Catskills, New York. For all holidays be sure to order early as it can take up to one week longer than normal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "88dfd841-6d3e-4b51-8d6a-720d8da8bc76",
+        "936911b0-bc1d-42f3-863f-0c230394d02d",
+        "1662415063626dfe06-1",
+        "1662415063626dfe06-0",
+        "1662415063626dfe06-2",
+        "4586af8e-6424-4a4c-b6f5-0316c85e5bc7",
+        "77d51f81-8ed8-48d9-9411-cfabcc2e5914",
+        "ee74acfc-fbdd-4cce-9c61-c897c8cec5e9"
+      ],
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "title": "Frequently Asked Questions",
+        "faq_icon": "plus_minus"
+      }
+    }
+  },
+  "order": [
+    "cba9f92b-0000-4251-83b9-e7526cbe25f8",
+    "00b3bb24-04ee-41ab-9be9-34b8c7d231d9",
+    "20610588-f399-4ac1-952a-1086d45df093",
+    "4f5e14d9-5f80-426d-b937-b04ef3cef644",
+    "eef83b12-746a-42f0-9e5a-7490fae1e276",
+    "5bc42ae9-fbf5-45de-8e12-7fe4e8abf3da",
+    "2da60513-d989-47d9-b156-5b59ddb8596b",
+    "00d66585-eb4b-4b76-b3e0-9895e8ff1d90",
+    "1662415052e8856e21",
+    "16624949567898afbb",
+    "main",
+    "16742417137b4808f3",
+    "dc29348b-0b9a-4107-ad69-3bc2641ad08e",
+    "45054011-6bd0-4f45-b9eb-29adeed984f0",
+    "0dee0ac6-bff3-4da9-a8cc-d0c1855c883e",
+    "6614dbaa-c748-47b4-a65a-74826391d24d",
+    "dff74e17-9953-4bc5-b790-d567c113771c",
+    "1662415063d73fcd38"
+  ]
+}

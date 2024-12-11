@@ -1,0 +1,165 @@
+/* *****
+This is a CSS partial, minified file. It is referenced by the theme by default in theme.liquid.
+If you would like to edit this code we recommend swapping to the un-minified version.
+For full details and instructions please see our documentation:
+https://support.weareeight.com/hc/en-us/articles/360020366578-Un-minified-CSS-Javascript
+***** */
+.two-image-bar--single-image {
+    text-align: center
+}
+
+.image-bar--single-image .img-responsive {
+    display: inline-block
+}
+
+@media screen and (max-width:767px) {
+    .image-bar>div {
+        margin-bottom: 3rem
+    }
+
+    .image-bar>div:last-child {
+        margin-bottom: 0
+    }
+}
+
+.homepage-section--image-gallery-wrapper .icon--placeholder {
+    max-height: 200px
+}
+
+.two-image-bar__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two-image-bar__content img {
+    height: auto;
+    width: 100%
+}
+
+.heading {
+    padding: 2rem 0;
+    max-width: 70%;
+}
+
+.two-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.heading-text {
+    font-family: 'KansasNew', serif !important;
+    font-size: 36px !important;
+    text-align: center;
+    line-height: 35px !important;
+}
+
+.card-button {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    height: 3rem;
+    cursor: pointer;
+    padding: 2rem 0;
+    overflow: hidden;
+    box-shadow: -1px 0 10px 0px #111;
+    
+  }
+
+.card-button.yellow {
+    background-color: #FFA500;
+}
+
+.card-button.pink {
+    background-color: #FF40a3;
+}
+
+/* .card-button:hover {
+    box-shadow: -1px 0 10px 0px #0005;
+} */
+
+.button-text {
+    color:#fff;
+    text-align: center;
+    margin: 0;
+    font-family: "KansasNew", serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 24px;
+    max-width: 90%;
+}
+
+.product-link {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.image-bar__item {
+    max-width: 100%;
+    width: 100%;
+}
+
+.two-product-card-section .two-image-bar__content img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.grid__item {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 576px) {
+    .grid__item:first-child {
+        justify-content: end;
+    }
+
+    .grid__item:last-child {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .two-image-bar__content {
+        width: 95% !important;
+    }
+    .heading {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .heading-text {
+        font-size: 30px !important;
+    }
+    .two-image-bar__content {
+        width: 80% !important;
+    }
+    .heading {
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 825px) {
+    .two-image-bar__content {
+        width: 90% !important;
+    }
+    .heading {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .two-image-bar__content {
+        width: 95% !important;
+    }
+}
+
+

@@ -1,0 +1,17 @@
+{
+  "type": "custom.overlay",
+  "name": "Overlay Group",
+  "sections": {
+    "acdc-announcement-bar": {
+      "type": "acdc-announcement-bar",
+      "custom_css": [],
+      "settings": {
+        "left_text": "Custom Shop",
+        "right_text": "Design Studio"
+      }
+    }
+  },
+  "order": [
+    "acdc-announcement-bar"
+  ]
+}
