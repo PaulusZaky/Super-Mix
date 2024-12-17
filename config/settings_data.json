@@ -46,19 +46,19 @@
     "image_swatch_option": "Color",
     "hover-effect": "none",
     "product-grid": "natural",
-    "sm_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=100083580122219",
+    "sm_facebook_link": "https://www.facebook.com/profile.php?id=100083580122219",
     "sm_twitter_link": "",
-    "sm_instagram_link": "https:\/\/www.instagram.com\/p\/CfZGWlVrLZH\/",
+    "sm_instagram_link": "https://www.instagram.com/p/CfZGWlVrLZH/",
     "sm_youtube_link": "",
-    "sm_vimeo_link": "https:\/\/vimeo.com\/user181508314",
-    "sm_tiktok_link": "https:\/\/www.tiktok.com\/@supermixstudio",
+    "sm_vimeo_link": "https://vimeo.com/user181508314",
+    "sm_tiktok_link": "https://www.tiktok.com/@supermixstudio",
     "sm_pinterest_link": "",
     "verification-popup--background-color": "#333333",
     "popup--enable": false,
     "popup--show-social-icons": false,
-    "favicon": "shopify:\/\/shop_images\/supermix-favicon_5fd391c5-a8e6-4ff1-994f-24ad3499620a.png",
+    "favicon": "shopify://shop_images/supermix-favicon_5fd391c5-a8e6-4ff1-994f-24ad3499620a.png",
     "enable-collection-results": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/supermix-logo.png",
+    "checkout_logo_image": "shopify://shop_images/supermix-logo.png",
     "checkout_body_background_color": "#ffffff",
     "checkout_accent_color": "#0085bc",
     "checkout_button_color": "#130606",
@@ -68,7 +68,7 @@
         "settings": {
           "enable": true,
           "message_text": "START EARNING FREE PATCH POINTS",
-          "message_link": "shopify:\/\/pages\/rewards-page",
+          "message_link": "shopify://pages/rewards-page",
           "notification-bar--background-color": "#000000",
           "notification-bar--text-color": "#ffffff",
           "social-enable": true
@@ -81,14 +81,14 @@
             "type": "content",
             "settings": {
               "mega-menu": "Design",
-              "mega_image_1": "shopify:\/\/shop_images\/DSC03814_350x250_1.jpg",
+              "mega_image_1": "shopify://shop_images/DSC03814_350x250_1.jpg",
               "mega_image_header_1": "How to Supermix",
               "mega_image_subheader_1": "",
-              "mega_image_link_1": "shopify:\/\/pages\/design",
-              "mega_image_2": "shopify:\/\/shop_images\/Screen_Shot_2022-07-18_at_4.02.11_PM.png",
+              "mega_image_link_1": "shopify://pages/design",
+              "mega_image_2": "shopify://shop_images/Screen_Shot_2022-07-18_at_4.02.11_PM.png",
               "mega_image_header_2": "Design Party",
               "mega_image_subheader_2": "",
-              "mega_image_link_2": "shopify:\/\/pages\/party",
+              "mega_image_link_2": "shopify://pages/party",
               "mega_image_header_3": "",
               "mega_image_subheader_3": "",
               "mega_image_link_3": ""
@@ -98,14 +98,14 @@
             "type": "content",
             "settings": {
               "mega-menu": "Baby",
-              "mega_image_1": "shopify:\/\/shop_images\/DSC03404_2-3.jpg",
+              "mega_image_1": "shopify://shop_images/DSC03404_2-3.jpg",
               "mega_image_header_1": "Baby Sweats",
               "mega_image_subheader_1": "",
-              "mega_image_link_1": "shopify:\/\/collections\/baby-sweats",
-              "mega_image_2": "shopify:\/\/shop_images\/DSC03991_2-3.jpg",
+              "mega_image_link_1": "shopify://collections/baby-sweats",
+              "mega_image_2": "shopify://shop_images/DSC03991_2-3.jpg",
               "mega_image_header_2": "Baby Denim",
               "mega_image_subheader_2": "",
-              "mega_image_link_2": "shopify:\/\/collections\/baby-denim",
+              "mega_image_link_2": "shopify://collections/baby-denim",
               "mega_image_header_3": "",
               "mega_image_subheader_3": "",
               "mega_image_link_3": ""
@@ -115,14 +115,14 @@
             "type": "content",
             "settings": {
               "mega-menu": "Kids",
-              "mega_image_1": "shopify:\/\/shop_images\/DSC05710-2_350x250_44a73439-58d5-47fe-8475-c255089cca8b.jpg",
+              "mega_image_1": "shopify://shop_images/DSC05710-2_350x250_44a73439-58d5-47fe-8475-c255089cca8b.jpg",
               "mega_image_header_1": "Kids' Sweats",
               "mega_image_subheader_1": "",
-              "mega_image_link_1": "shopify:\/\/pages\/sweat-styles",
-              "mega_image_2": "shopify:\/\/shop_images\/DSC02316_350x250_f8abc678-2fe3-43d2-9924-b081b9c954d9.jpg",
+              "mega_image_link_1": "shopify://pages/sweat-styles",
+              "mega_image_2": "shopify://shop_images/DSC02316_350x250_f8abc678-2fe3-43d2-9924-b081b9c954d9.jpg",
               "mega_image_header_2": "Kids' Denim",
               "mega_image_subheader_2": "",
-              "mega_image_link_2": "shopify:\/\/collections\/kids-denim",
+              "mega_image_link_2": "shopify://collections/kids-denim",
               "mega_image_header_3": "Team Sweats",
               "mega_image_subheader_3": "",
               "mega_image_link_3": ""
@@ -132,14 +132,14 @@
             "type": "content",
             "settings": {
               "mega-menu": "Women",
-              "mega_image_1": "shopify:\/\/shop_images\/DSC03460_2-3.jpg",
+              "mega_image_1": "shopify://shop_images/DSC03460_2-3.jpg",
               "mega_image_header_1": "Women's Sweats",
               "mega_image_subheader_1": "",
-              "mega_image_link_1": "shopify:\/\/collections\/womens-sweats",
-              "mega_image_2": "shopify:\/\/shop_images\/Screen_Shot_2022-07-18_at_3.48.02_PM_d86bd7ea-fd5b-45e7-99a7-0211c22adf5d.png",
+              "mega_image_link_1": "shopify://collections/womens-sweats",
+              "mega_image_2": "shopify://shop_images/Screen_Shot_2022-07-18_at_3.48.02_PM_d86bd7ea-fd5b-45e7-99a7-0211c22adf5d.png",
               "mega_image_header_2": "Mom + Me Sweats",
               "mega_image_subheader_2": "",
-              "mega_image_link_2": "shopify:\/\/collections\/mom-me-sweats",
+              "mega_image_link_2": "shopify://collections/mom-me-sweats",
               "mega_image_header_3": "",
               "mega_image_subheader_3": "",
               "mega_image_link_3": ""
@@ -149,32 +149,32 @@
             "type": "content",
             "settings": {
               "mega-menu": "Accessories",
-              "mega_image_1": "shopify:\/\/shop_images\/DSC06844_350x250_701d8915-40ea-4d7c-af7e-53d0615a99ad.jpg",
+              "mega_image_1": "shopify://shop_images/DSC06844_350x250_701d8915-40ea-4d7c-af7e-53d0615a99ad.jpg",
               "mega_image_header_1": "Backpacks",
               "mega_image_subheader_1": "",
-              "mega_image_link_1": "shopify:\/\/collections\/backpacks",
-              "mega_image_2": "shopify:\/\/shop_images\/DSC01956_350X250_a5d23098-cac7-4886-b33d-8b622e27844d.jpg",
+              "mega_image_link_1": "shopify://collections/backpacks",
+              "mega_image_2": "shopify://shop_images/DSC01956_350X250_a5d23098-cac7-4886-b33d-8b622e27844d.jpg",
               "mega_image_header_2": "Hats",
               "mega_image_subheader_2": "",
-              "mega_image_link_2": "shopify:\/\/collections\/hats",
-              "mega_image_3": "shopify:\/\/shop_images\/IMG_8808_BLUEBG.jpg",
+              "mega_image_link_2": "shopify://collections/hats",
+              "mega_image_3": "shopify://shop_images/IMG_8808_BLUEBG.jpg",
               "mega_image_header_3": "Pencil Cases",
               "mega_image_subheader_3": "",
-              "mega_image_link_3": "shopify:\/\/products\/recycled-pencil-case"
+              "mega_image_link_3": "shopify://products/recycled-pencil-case"
             }
           },
           "5b9f651f-1fd4-4b8f-80fd-af6b39701132": {
             "type": "content",
             "settings": {
               "mega-menu": "Patches",
-              "mega_image_1": "shopify:\/\/shop_images\/FULL_COLLAGE_350X250_d4ff7366-0e62-419f-a4db-38208ecdcad4.jpg",
+              "mega_image_1": "shopify://shop_images/FULL_COLLAGE_350X250_d4ff7366-0e62-419f-a4db-38208ecdcad4.jpg",
               "mega_image_header_1": "Patch Points",
               "mega_image_subheader_1": "",
-              "mega_image_link_1": "shopify:\/\/pages\/patch-landing",
-              "mega_image_2": "shopify:\/\/shop_images\/DSC00444_350x250_a769fac4-3fb2-43b6-beea-d9d14395bf16.jpg",
+              "mega_image_link_1": "shopify://pages/patch-landing",
+              "mega_image_2": "shopify://shop_images/DSC00444_350x250_a769fac4-3fb2-43b6-beea-d9d14395bf16.jpg",
               "mega_image_header_2": "Rewards",
               "mega_image_subheader_2": "",
-              "mega_image_link_2": "shopify:\/\/pages\/my-rewards",
+              "mega_image_link_2": "shopify://pages/my-rewards",
               "mega_image_header_3": "",
               "mega_image_subheader_3": "",
               "mega_image_link_3": ""
@@ -192,8 +192,8 @@
         "settings": {
           "sticky_header": true,
           "overlay_header": false,
-          "logo": "shopify:\/\/shop_images\/supermix-logo.png",
-          "design_logo": "shopify:\/\/shop_images\/supermix-logo_1.png",
+          "logo": "shopify://shop_images/supermix-logo.png",
+          "design_logo": "shopify://shop_images/supermix-logo_1.png",
           "logo_max_width": 220,
           "logo-placement": "within-header",
           "sticky_header_logo": true,
@@ -211,18 +211,6 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "footer-1": {
-            "type": "menu",
-            "settings": {
-              "menu_title": "Links",
-              "footer_linklist": "two-store-footer"
-            }
-          }
-        },
-        "block_order": [
-          "footer-1"
-        ],
         "settings": {
           "show_methods_of_payment": false,
           "alignment": "center",
@@ -235,7 +223,7 @@
         "settings": {
           "text_color": "#ffffff",
           "use_image": true,
-          "footer_block_image": "shopify:\/\/shop_images\/PATCH-POINTS-1_6d44caf2-7b9d-457b-aa93-08e12f25681d.gif",
+          "footer_block_image": "shopify://shop_images/PATCH-POINTS-1_6d44caf2-7b9d-457b-aa93-08e12f25681d.gif",
           "footer_background_color": "#000000",
           "footer_block_text": "How Patch Points Work",
           "footer_text_color": "#ffffff",
@@ -248,7 +236,7 @@
         "settings": {
           "text_color": "#ffffff",
           "use_image": true,
-          "footer_block_image": "shopify:\/\/shop_images\/PATCH-POINTS-1_53173d6d-fb07-4d8d-b1b1-b7a6e6dc493f.gif",
+          "footer_block_image": "shopify://shop_images/PATCH-POINTS-1_53173d6d-fb07-4d8d-b1b1-b7a6e6dc493f.gif",
           "footer_background_color": "#000000",
           "footer_block_text": "How Patch Points Work",
           "footer_text_color": "#ffffff",
@@ -261,11 +249,11 @@
         "settings": {
           "text_color": "#080808",
           "mobile_text_color": "#080808",
-          "hero_url": "shopify:\/\/pages\/icon-patches",
+          "hero_url": "shopify://pages/icon-patches",
           "hero_text": "Lorem Ipsum",
           "hero_position": "right",
           "use_image": true,
-          "footer_block_image": "shopify:\/\/shop_images\/PATCH-POINTS-1_67445864-61ca-49ef-a3e9-3001f8b939cd.gif",
+          "footer_block_image": "shopify://shop_images/PATCH-POINTS-1_67445864-61ca-49ef-a3e9-3001f8b939cd.gif",
           "footer_background_color": "#000000",
           "footer_block_text": "How Patch Points Work",
           "footer_text_color": "#ffffff",
@@ -280,7 +268,7 @@
           "grid_position": "topright",
           "header_position": "bottom",
           "use_image": true,
-          "footer_block_image": "shopify:\/\/shop_images\/PATCH-POINTS-1_b8b06446-b23b-4f5d-8bad-6342cbdd2900.gif",
+          "footer_block_image": "shopify://shop_images/PATCH-POINTS-1_b8b06446-b23b-4f5d-8bad-6342cbdd2900.gif",
           "footer_background_color": "#000000",
           "footer_block_text": "How Patch Points Work",
           "footer_text_color": "#ffffff",
@@ -295,7 +283,7 @@
           "grid_position": "topleft",
           "header_position": "bottom",
           "use_image": true,
-          "footer_block_image": "shopify:\/\/shop_images\/PATCH-POINTS-1_3dd95ca0-2031-4851-9b3b-796e4ba2c07f.gif",
+          "footer_block_image": "shopify://shop_images/PATCH-POINTS-1_3dd95ca0-2031-4851-9b3b-796e4ba2c07f.gif",
           "footer_background_color": "#000000",
           "footer_block_text": "How Patch Points Work",
           "footer_text_color": "#ffffff",
@@ -309,12 +297,22 @@
           "left_text": "Custom Shop",
           "right_text": "Design Studio"
         }
+      },
+      "footer-custom": {
+        "type": "footer-custom",
+        "settings": {
+          "show_methods_of_payment": true,
+          "alignment": "center",
+          "enable_country_selector": true,
+          "enable_locale_selector": true,
+          "blog": "shopify://blogs/supermix-blog"
+        }
       }
     },
     "content_for_index": [],
     "blocks": {
       "8962992520437913685": {
-        "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+        "type": "shopify://apps/yotpo-loyalty-rewards/blocks/loader-app-embed-block/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
         "disabled": false,
         "settings": {
           "inject_modules_loader": true,
@@ -322,17 +320,17 @@
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
       },
       "6143736321357441667": {
-        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
+        "type": "shopify://apps/tidio-live-chat-chatbots/blocks/app-embed/1002274d-fb18-4939-98f6-5f05a8deeadc",
         "disabled": false,
         "settings": {}
       },
       "15885745614559378752": {
-        "type": "shopify:\/\/apps\/accessibly\/blocks\/app-embed\/4b59303e-1141-4c8a-945f-bf4adb516864",
+        "type": "shopify://apps/accessibly/blocks/app-embed/4b59303e-1141-4c8a-945f-bf4adb516864",
         "disabled": false,
         "settings": {
           "themeColor": "#130606",
@@ -346,27 +344,27 @@
         }
       },
       "uppromote-affiliate-referral-customer-referral-67281-64c32457-930d-4cb9-9641-e24c0d9cf1f4": {
-        "type": "shopify:\/\/apps\/uppromote-affiliate-referral\/blocks\/customer-referral\/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "type": "shopify://apps/uppromote-affiliate-referral/blocks/customer-referral/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
         "disabled": true,
         "settings": {}
       },
       "uppromote-affiliate-referral-message-bar-67281-64c32457-930d-4cb9-9641-e24c0d9cf1f4": {
-        "type": "shopify:\/\/apps\/uppromote-affiliate-referral\/blocks\/message-bar\/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "type": "shopify://apps/uppromote-affiliate-referral/blocks/message-bar/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
         "disabled": true,
         "settings": {}
       },
       "1787840288555608609": {
-        "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-embed\/88bfdf40-5e27-4962-a966-70c8d1e87757",
+        "type": "shopify://apps/live-product-options/blocks/app-embed/88bfdf40-5e27-4962-a966-70c8d1e87757",
         "disabled": false,
         "settings": {}
       },
       "11532412952436166569": {
-        "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "type": "shopify://apps/loox-product-reviews-photos/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
         "disabled": false,
         "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#000000",
@@ -376,11 +374,6 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
-      },
-      "12855036574018961682": {
-        "type": "shopify:\/\/apps\/givy\/blocks\/index\/7e8263d6-6c9a-4d94-9b94-612e9cb257e3",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
@@ -533,7 +526,7 @@
       "navigation--capitalize": false,
       "header_font_style": "normal",
       "pop-up-text-header-text": "Sign up today!",
-      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter<\/p>",
+      "pop-up-text-description-text": "<p>Give your customers a reason to sign up to your newsletter</p>",
       "popup--show-social-icons": false,
       "pop-up-background-color": "#fff",
       "pop-up-text-color": "#242424"

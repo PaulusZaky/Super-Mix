@@ -11,7 +11,5 @@
       }
     }
   },
-  "order": [
-    "acdc-announcement-bar"
-  ]
+  "order": ["acdc-announcement-bar"]
 }
