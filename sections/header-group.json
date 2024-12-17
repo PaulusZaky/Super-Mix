@@ -123,6 +123,7 @@
         "e633e8a0-90ac-48da-aa1b-de70a60ea37a",
         "5b9f651f-1fd4-4b8f-80fd-af6b39701132"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "sticky_header": true,

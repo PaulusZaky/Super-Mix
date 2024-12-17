@@ -24,7 +24,7 @@
         "01091c85-05d9-47c5-b054-32cd85d70739": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC05792_gs_1x1_03d5e7e2-9ddf-4967-94e7-384361c90cc9.jpg",
+            "image": "shopify:\/\/shop_images\/DSC05792_gs_1x1_e1133e9a-26b8-4107-a43b-a54d6210f93f.jpg",
             "link": "shopify:\/\/products\/kids-zip-hoodie",
             "title": "<p>Custom<strong> Zip Hoodie<\/strong><\/p>"
           }
@@ -32,8 +32,8 @@
         "1663889670f9ac60af-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC09692_b_1x1_7a474432-d006-4594-ac57-7713f2c17061.jpg",
-            "link": "shopify:\/\/products\/kids-classic-denim-jacket",
+            "image": "shopify:\/\/shop_images\/DSC09692_b_1x1_a11b544b-07bf-4f5e-ad61-02995f4cf49c.jpg",
+            "link": "shopify:\/\/products\/kids-pullover-hoodie",
             "title": "<p>Custom <strong>Pullover<\/strong><\/p>"
           }
         }
@@ -64,9 +64,7 @@
         "text_block_3": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "text_block_4": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "button_link": "",
-        "button_label": "",
-        "container_padding": true,
-        "background": ""
+        "button_label": ""
       }
     },
     "04ff7eeb-1f8c-4a62-b09e-15e0984217f6": {

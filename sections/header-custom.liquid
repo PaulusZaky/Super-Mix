@@ -6,6 +6,9 @@
       top: 0;
       z-index: 10;
     }
+    .custom-header-wapper {
+      padding: 0px 20px !important;
+    }
   {% endstyle %}
 {% endif %}
 
@@ -157,10 +160,6 @@
       width: 110px;
     }
   }
-
-  .custom-header-wapper {
-    padding: 16px 20px !important;
-  }
 {% endstyle %}
 
 {% if isDesignSite %}
@@ -240,7 +239,7 @@
 {% endif %}
 
 <div
-  class="header-wrapper js"
+  class="header-wrapper js custom-header-wapper"
   data-wetheme-section-type="header"
   data-wetheme-section-id="{{ section.id }}"
 >
@@ -407,7 +406,7 @@
     {% if section.settings.main_linklist != '' %}
       <div
         id="main-navigation-wrapper"
-        class="main-navigation-wrapper custom-header-wapper {% if section.blocks.size > 0 %} mega-menu-wrapper{% endif %} flex-header"
+        class="main-navigation-wrapper{% if section.blocks.size > 0 %} mega-menu-wrapper{% endif %} flex-header"
       >
         <div id="logo-menu-wrap">
           <div class="logo-nav-wrapper">

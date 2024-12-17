@@ -8,14 +8,14 @@
           "disabled": true,
           "settings": {
             "mega-menu": "Design",
-            "mega_image_1": "shopify://shop_images/DSC03814_350x250_1.jpg",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03814_350x250_1.jpg",
             "mega_image_header_1": "How to Supermix",
             "mega_image_subheader_1": "",
-            "mega_image_link_1": "shopify://pages/design",
-            "mega_image_2": "shopify://shop_images/Screen_Shot_2022-07-18_at_4.02.11_PM.png",
+            "mega_image_link_1": "shopify:\/\/pages\/design",
+            "mega_image_2": "shopify:\/\/shop_images\/Screen_Shot_2022-07-18_at_4.02.11_PM.png",
             "mega_image_header_2": "Design Party",
             "mega_image_subheader_2": "",
-            "mega_image_link_2": "shopify://pages/party",
+            "mega_image_link_2": "shopify:\/\/pages\/party",
             "mega_image_header_3": "",
             "mega_image_subheader_3": "",
             "mega_image_link_3": ""
@@ -26,14 +26,14 @@
           "disabled": true,
           "settings": {
             "mega-menu": "Baby",
-            "mega_image_1": "shopify://shop_images/DSC03404_2-3.jpg",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03404_2-3.jpg",
             "mega_image_header_1": "Baby Sweats",
             "mega_image_subheader_1": "",
-            "mega_image_link_1": "shopify://collections/baby-sweats",
-            "mega_image_2": "shopify://shop_images/DSC03991_2-3.jpg",
+            "mega_image_link_1": "shopify:\/\/collections\/baby-sweats",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC03991_2-3.jpg",
             "mega_image_header_2": "Baby Denim",
             "mega_image_subheader_2": "",
-            "mega_image_link_2": "shopify://collections/baby-denim",
+            "mega_image_link_2": "shopify:\/\/collections\/baby-denim",
             "mega_image_header_3": "",
             "mega_image_subheader_3": "",
             "mega_image_link_3": ""
@@ -44,14 +44,14 @@
           "disabled": true,
           "settings": {
             "mega-menu": "Kids",
-            "mega_image_1": "shopify://shop_images/DSC05710-2_350x250_44a73439-58d5-47fe-8475-c255089cca8b.jpg",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC05710-2_350x250_44a73439-58d5-47fe-8475-c255089cca8b.jpg",
             "mega_image_header_1": "Kids' Sweats",
             "mega_image_subheader_1": "",
-            "mega_image_link_1": "shopify://pages/sweat-styles",
-            "mega_image_2": "shopify://shop_images/DSC02316_350x250_f8abc678-2fe3-43d2-9924-b081b9c954d9.jpg",
+            "mega_image_link_1": "shopify:\/\/pages\/sweat-styles",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC02316_350x250_f8abc678-2fe3-43d2-9924-b081b9c954d9.jpg",
             "mega_image_header_2": "Kids' Denim",
             "mega_image_subheader_2": "",
-            "mega_image_link_2": "shopify://collections/kids-denim",
+            "mega_image_link_2": "shopify:\/\/collections\/kids-denim",
             "mega_image_header_3": "Team Sweats",
             "mega_image_subheader_3": "",
             "mega_image_link_3": ""
@@ -62,14 +62,14 @@
           "disabled": true,
           "settings": {
             "mega-menu": "Women",
-            "mega_image_1": "shopify://shop_images/DSC03460_2-3.jpg",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC03460_2-3.jpg",
             "mega_image_header_1": "Women's Sweats",
             "mega_image_subheader_1": "",
-            "mega_image_link_1": "shopify://collections/womens-sweats",
-            "mega_image_2": "shopify://shop_images/Screen_Shot_2022-07-18_at_3.48.02_PM_d86bd7ea-fd5b-45e7-99a7-0211c22adf5d.png",
+            "mega_image_link_1": "shopify:\/\/collections\/womens-sweats",
+            "mega_image_2": "shopify:\/\/shop_images\/Screen_Shot_2022-07-18_at_3.48.02_PM_d86bd7ea-fd5b-45e7-99a7-0211c22adf5d.png",
             "mega_image_header_2": "Mom + Me Sweats",
             "mega_image_subheader_2": "",
-            "mega_image_link_2": "shopify://collections/mom-me-sweats",
+            "mega_image_link_2": "shopify:\/\/collections\/mom-me-sweats",
             "mega_image_header_3": "",
             "mega_image_subheader_3": "",
             "mega_image_link_3": ""
@@ -80,18 +80,18 @@
           "disabled": true,
           "settings": {
             "mega-menu": "Accessories",
-            "mega_image_1": "shopify://shop_images/DSC06844_350x250_701d8915-40ea-4d7c-af7e-53d0615a99ad.jpg",
+            "mega_image_1": "shopify:\/\/shop_images\/DSC06844_350x250_701d8915-40ea-4d7c-af7e-53d0615a99ad.jpg",
             "mega_image_header_1": "Backpacks",
             "mega_image_subheader_1": "",
-            "mega_image_link_1": "shopify://collections/backpacks",
-            "mega_image_2": "shopify://shop_images/DSC01956_350X250_a5d23098-cac7-4886-b33d-8b622e27844d.jpg",
+            "mega_image_link_1": "shopify:\/\/collections\/backpacks",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC01956_350X250_a5d23098-cac7-4886-b33d-8b622e27844d.jpg",
             "mega_image_header_2": "Hats",
             "mega_image_subheader_2": "",
-            "mega_image_link_2": "shopify://collections/hats",
-            "mega_image_3": "shopify://shop_images/IMG_8808_BLUEBG.jpg",
+            "mega_image_link_2": "shopify:\/\/collections\/hats",
+            "mega_image_3": "shopify:\/\/shop_images\/IMG_8808_BLUEBG.jpg",
             "mega_image_header_3": "Pencil Cases",
             "mega_image_subheader_3": "",
-            "mega_image_link_3": "shopify://products/recycled-pencil-case"
+            "mega_image_link_3": "shopify:\/\/products\/recycled-pencil-case"
           }
         },
         "5b9f651f-1fd4-4b8f-80fd-af6b39701132": {
@@ -99,14 +99,14 @@
           "disabled": true,
           "settings": {
             "mega-menu": "Patches",
-            "mega_image_1": "shopify://shop_images/FULL_COLLAGE_350X250_d4ff7366-0e62-419f-a4db-38208ecdcad4.jpg",
+            "mega_image_1": "shopify:\/\/shop_images\/FULL_COLLAGE_350X250_d4ff7366-0e62-419f-a4db-38208ecdcad4.jpg",
             "mega_image_header_1": "Patch Points",
             "mega_image_subheader_1": "",
-            "mega_image_link_1": "shopify://pages/patch-landing",
-            "mega_image_2": "shopify://shop_images/DSC00444_350x250_a769fac4-3fb2-43b6-beea-d9d14395bf16.jpg",
+            "mega_image_link_1": "shopify:\/\/pages\/patch-landing",
+            "mega_image_2": "shopify:\/\/shop_images\/DSC00444_350x250_a769fac4-3fb2-43b6-beea-d9d14395bf16.jpg",
             "mega_image_header_2": "Rewards",
             "mega_image_subheader_2": "",
-            "mega_image_link_2": "shopify://pages/my-rewards",
+            "mega_image_link_2": "shopify:\/\/pages\/my-rewards",
             "mega_image_header_3": "",
             "mega_image_subheader_3": "",
             "mega_image_link_3": ""
@@ -125,11 +125,11 @@
       "settings": {
         "sticky_header": true,
         "overlay_header": false,
-        "logo": "shopify://shop_images/supermix-logo.png",
-        "design_logo": "shopify://shop_images/supermix-logo_1.png",
+        "logo": "shopify:\/\/shop_images\/supermix-logo.png",
+        "design_logo": "shopify:\/\/shop_images\/supermix-logo_1.png",
         "button_label": "20% Off Supermix Gift Card",
         "mobile_button_label": "Buy Gift Card",
-        "button_link": "shopify://products/75-gift-card",
+        "button_link": "shopify:\/\/products\/75-gift-card",
         "logo_max_width": 220,
         "logo-placement": "within-header",
         "sticky_header_logo": true,
@@ -175,24 +175,28 @@
         "text_DcLp9z": {
           "type": "text",
           "settings": {
-            "text": "<p>Supermix Gift Card is 2-Gifts-in-1. Let your child explore their creativity by designing their own clothes. And then watch them show off their creation to family and friends.</p>"
+            "text": "<p>Supermix Gift Card is 2-Gifts-in-1. Let your child explore their creativity by designing their own clothes. And then watch them show off their creation to family and friends.<\/p>"
           }
         },
         "button_M3MnkL": {
           "type": "button",
           "settings": {
             "button_label": "20% Off Supermix Gift Card",
-            "button_link": "shopify://products/75-gift-card",
+            "button_link": "shopify:\/\/products\/75-gift-card",
             "button_style_secondary": false
           }
         }
       },
-      "block_order": ["heading_TVbTVk", "text_DcLp9z", "button_M3MnkL"],
+      "block_order": [
+        "heading_TVbTVk",
+        "text_DcLp9z",
+        "button_M3MnkL"
+      ],
       "custom_css": [
         "@media (max-width: 700px) {.heading {font-size: 34px !important; line-height: 48px !important; letter-spacing: -1px; }}"
       ],
       "settings": {
-        "video_tap_url": "https://cdn.shopify.com/videos/c/o/v/7b38658827e4489b98214de86a36f803.mp4",
+        "video_tap_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7b38658827e4489b98214de86a36f803.mp4",
         "enable_time_setting": true,
         "start_time_ampm": "am",
         "start_time_hours": 7,
@@ -200,10 +204,10 @@
         "end_time_ampm": "pm",
         "end_time_hours": 9,
         "end_time_mins": 30,
-        "url": "https://cdn.shopify.com/videos/c/o/v/294054fa86624492916f1a264c1737a9.mp4",
-        "kiosk_video": "shopify://files/videos/KIOSK VIDEO_April Update_No Button_v2 (2).mp4",
-        "mobile_banner": "shopify://shop_images/homepage_mobile_banner.png",
-        "desktop_banner": "shopify://shop_images/hompage_banner.png",
+        "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/294054fa86624492916f1a264c1737a9.mp4",
+        "kiosk_video": "shopify:\/\/files\/videos\/KIOSK VIDEO_April Update_No Button_v2 (2).mp4",
+        "mobile_banner": "shopify:\/\/shop_images\/homepage_mobile_banner.png",
+        "desktop_banner": "shopify:\/\/shop_images\/hompage_banner.png",
         "desktopHeight": "fullscreen",
         "tabletHeight": "450",
         "mobileHeight": "250",
@@ -215,7 +219,7 @@
         "textShadow": false,
         "subheading--text-size": 14,
         "heading--text-size": 50,
-        "button_link": "shopify://pages/ds-denim-sweats",
+        "button_link": "shopify:\/\/pages\/ds-denim-sweats",
         "button_label": ""
       }
     },
@@ -226,7 +230,7 @@
         "subheading": "",
         "title": "",
         "featured_product": "75-gift-card",
-        "image": "shopify://shop_images/Gift_Card_1660x1050-29.png",
+        "image": "shopify:\/\/shop_images\/Gift_Card_1660x1050-29.png",
         "product_title": "20% OFF Supermix Gift Card",
         "discount_percent": "20% OFF",
         "discount_goal": "Black Friday Deal",
@@ -253,49 +257,49 @@
         "proud_creation_YKQ4Wn": {
           "type": "proud_creation",
           "settings": {
-            "image": "shopify://shop_images/106.png"
+            "image": "shopify:\/\/shop_images\/106.png"
           }
         },
         "proud_creation_CnbWfa": {
           "type": "proud_creation",
           "settings": {
-            "image": "shopify://shop_images/104.png"
+            "image": "shopify:\/\/shop_images\/104.png"
           }
         },
         "proud_creation_e3Umcn": {
           "type": "proud_creation",
           "settings": {
-            "image": "shopify://shop_images/102.png"
+            "image": "shopify:\/\/shop_images\/102.png"
           }
         },
         "proud_creation_U36nKX": {
           "type": "proud_creation",
           "settings": {
-            "image": "shopify://shop_images/99.png"
+            "image": "shopify:\/\/shop_images\/99.png"
           }
         },
         "proud_creation_6trHDB": {
           "type": "proud_creation",
           "settings": {
-            "image": "shopify://shop_images/103.png"
+            "image": "shopify:\/\/shop_images\/103.png"
           }
         },
         "proud_creation_UNRcQ8": {
           "type": "proud_creation",
           "settings": {
-            "image": "shopify://shop_images/101.png"
+            "image": "shopify:\/\/shop_images\/101.png"
           }
         },
         "proud_creation_LbD3xQ": {
           "type": "proud_creation",
           "settings": {
-            "image": "shopify://shop_images/98.png"
+            "image": "shopify:\/\/shop_images\/98.png"
           }
         },
         "proud_creation_hJATFa": {
           "type": "proud_creation",
           "settings": {
-            "image": "shopify://shop_images/100.png"
+            "image": "shopify:\/\/shop_images\/100.png"
           }
         }
       },
@@ -329,7 +333,7 @@
         "width": "medium",
         "subheading": "",
         "title": "3 Reasons Why Supermix Gift Card is the Best Gift For Your Kid",
-        "text": "<p>Give the gift of creativity, self-expression, and unforgettable memories! </p>",
+        "text": "<p>Give the gift of creativity, self-expression, and unforgettable memories! <\/p>",
         "button_link": "",
         "button_label": ""
       }
@@ -343,15 +347,15 @@
         "section_id": "reason_1",
         "colors": "white",
         "image-width": "extra-large",
-        "image": "shopify://shop_images/2AB4B14C-1061-476E-85AE-A330C9AEFBEC.jpg",
+        "image": "shopify:\/\/shop_images\/2AB4B14C-1061-476E-85AE-A330C9AEFBEC.jpg",
         "layout": "left",
         "subheading": "Reason #1",
         "title": "Spark Their Creativity",
-        "text_block": "<p>Let your child’s imagination run wild! From hoodies to caps, they’ll design something uniquely theirs. It’s fun, easy, and builds confidence.</p>",
+        "text_block": "<p>Let your child’s imagination run wild! From hoodies to caps, they’ll design something uniquely theirs. It’s fun, easy, and builds confidence.<\/p>",
         "text_block_2": "",
         "text_block_3": "",
         "text_block_4": "",
-        "button_link": "shopify://products/75-gift-card",
+        "button_link": "shopify:\/\/products\/75-gift-card",
         "button_label": "20% Off Supermix Gift Card",
         "container_padding": true,
         "background": "#21a95d"
@@ -366,15 +370,15 @@
         "section_id": "reason_2",
         "colors": "white",
         "image-width": "extra-large",
-        "image": "shopify://shop_images/6_5eac9235-f48a-413d-8a08-2c138a1720e2.jpg",
+        "image": "shopify:\/\/shop_images\/6_5eac9235-f48a-413d-8a08-2c138a1720e2.jpg",
         "layout": "right",
         "subheading": "Reason #2",
         "title": "Build Confidence, Create Memories",
-        "text_block": "<p>They’ll always remember the joy of designing their own clothes and wearing their creations proudly. It's a gift with lasting emotional value.</p>",
+        "text_block": "<p>They’ll always remember the joy of designing their own clothes and wearing their creations proudly. It's a gift with lasting emotional value.<\/p>",
         "text_block_2": "",
         "text_block_3": "",
         "text_block_4": "",
-        "button_link": "shopify://products/75-gift-card",
+        "button_link": "shopify:\/\/products\/75-gift-card",
         "button_label": "20% Off Supermix Gift Card",
         "container_padding": true,
         "background": "#ecda6e"
@@ -389,15 +393,15 @@
         "section_id": "reason_3",
         "colors": "white",
         "image-width": "extra-large",
-        "image": "shopify://shop_images/35A75A6A-5771-44BB-9FA5-03CA1C92E59A.jpg",
+        "image": "shopify:\/\/shop_images\/35A75A6A-5771-44BB-9FA5-03CA1C92E59A.jpg",
         "layout": "left",
         "subheading": "Reason #3",
         "title": "Watch Them Shine!",
-        "text_block": "<p>SuperMix combines a fun activity with a tangible, personalized product. No more boring toys—this is a creative journey with a keepsake they’ll love.</p>",
+        "text_block": "<p>SuperMix combines a fun activity with a tangible, personalized product. No more boring toys—this is a creative journey with a keepsake they’ll love.<\/p>",
         "text_block_2": "",
         "text_block_3": "",
         "text_block_4": "",
-        "button_link": "shopify://products/75-gift-card",
+        "button_link": "shopify:\/\/products\/75-gift-card",
         "button_label": "20% Off Supermix Gift Card",
         "container_padding": true,
         "background": "#017db9"
@@ -413,7 +417,7 @@
         "subheading": "",
         "title": "",
         "featured_product": "75-gift-card",
-        "image": "shopify://shop_images/Gift_Card_1660x1050-29.png",
+        "image": "shopify:\/\/shop_images\/Gift_Card_1660x1050-29.png",
         "product_title": "20% OFF Supermix Gift Card",
         "discount_percent": "20% OFF",
         "discount_goal": "Black Friday Deal",
@@ -440,28 +444,28 @@
         "attribute_cVDwCP": {
           "type": "attribute",
           "settings": {
-            "image": "shopify://shop_images/Footer_Icons_1x1-02.png",
+            "image": "shopify:\/\/shop_images\/Footer_Icons_1x1-02.png",
             "text": "Boutique Quality"
           }
         },
         "attribute_Eythxy": {
           "type": "attribute",
           "settings": {
-            "image": "shopify://shop_images/Footer_Icons_1x1-03.png",
+            "image": "shopify:\/\/shop_images\/Footer_Icons_1x1-03.png",
             "text": "Earth-Friendly"
           }
         },
         "attribute_gUEnmx": {
           "type": "attribute",
           "settings": {
-            "image": "shopify://shop_images/Footer_Icons_1x1-04.png",
+            "image": "shopify:\/\/shop_images\/Footer_Icons_1x1-04.png",
             "text": "Ships in 5 Days"
           }
         },
         "attribute_iVRQjA": {
           "type": "attribute",
           "settings": {
-            "image": "shopify://shop_images/Footer_Icons_1x1-05.png",
+            "image": "shopify:\/\/shop_images\/Footer_Icons_1x1-05.png",
             "text": "Surprising Swag"
           }
         }
@@ -514,7 +518,11 @@
           }
         }
       },
-      "block_order": ["textarea_ftVrYE", "textarea_7ajjnm", "textarea_ykq4hP"],
+      "block_order": [
+        "textarea_ftVrYE",
+        "textarea_7ajjnm",
+        "textarea_ykq4hP"
+      ],
       "custom_css": [
         "@media (max-width: 700px) {.heading {font-size: 30px !important; line-height: 36px !important; }}"
       ],
@@ -569,14 +577,16 @@
       "type": "apps",
       "blocks": {
         "f1743f12-cfcb-4b6d-af37-33ab57393f23": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
           "disabled": true,
           "settings": {
             "formId": ""
           }
         }
       },
-      "block_order": ["f1743f12-cfcb-4b6d-af37-33ab57393f23"],
+      "block_order": [
+        "f1743f12-cfcb-4b6d-af37-33ab57393f23"
+      ],
       "disabled": true,
       "settings": {
         "include_margins": true
@@ -586,7 +596,7 @@
       "type": "apps",
       "blocks": {
         "5daac673-87a8-49f2-950e-2b391c63cbcf": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
@@ -597,7 +607,9 @@
           }
         }
       },
-      "block_order": ["5daac673-87a8-49f2-950e-2b391c63cbcf"],
+      "block_order": [
+        "5daac673-87a8-49f2-950e-2b391c63cbcf"
+      ],
       "disabled": true,
       "settings": {
         "include_margins": true
