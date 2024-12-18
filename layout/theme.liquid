@@ -95,7 +95,10 @@
     {% endif %}
 
     {{ 'custom.css' | asset_url | stylesheet_tag }}
-    {{ 'global.css' | asset_url | stylesheet_tag }}
+
+    {% if page_title == 'Gift Card Black Friday' or page_title == 'Holiday Sale' or page_title == 'Last Minute Gift' %}
+      {{ 'global.css' | asset_url | stylesheet_tag }}
+    {% endif %}
 
     {% if settings.type_base_font contains 'Google' %}
       {%- assign type_body_parts = settings.type_base_font | split: '_' -%}
@@ -140,6 +143,7 @@
       or page_title == 'Listicle4'
       or page_title == 'Gift Card Black Friday'
       or page_title == 'Holiday Sale'
+      or page_title == 'Last Minute Gift'
     %}
       <style>
         .a-bar,
@@ -148,7 +152,7 @@
         }
       </style>
     {% endif %}
-    {% if page_title == 'Gift Card Black Friday' or page_title == 'Holiday Sale' %}
+    {% if page_title == 'Gift Card Black Friday' or page_title == 'Last Minute Gift' %}
       <style>
         .rainbow-border {
           display: none !important;
@@ -231,7 +235,10 @@
         {%- include 'hidden-collections.require-authorization' %}
       </main>
 
-      {% if page_title == 'Gift Card Black Friday' or page_title == 'Holiday Sale' %}
+      {% if page_title == 'Gift Card Black Friday'
+        or page_title == 'Holiday Sale'
+        or page_title == 'Last Minute Gift'
+      %}
         {% section 'footer-custom' %}
       {% else %}
         {% section 'footer' %}

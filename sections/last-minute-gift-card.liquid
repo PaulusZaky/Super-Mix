@@ -13,11 +13,7 @@
     text-wrap: wrap !important;
     background-color: #d9369e !important;
   }
-  #shopify-section-{{section.id}} .button--primary:hover {
-    background-color: #A52C6D !important;
-    color: #FFF !important;
-    transition: 0.3s;
-  }
+  
   #shopify-section-{{section.id}} .heading,
   #shopify-section-{{section.id}} .text-body {
     color: {{ section.settings.text_color }} !important;
@@ -46,11 +42,6 @@
     object-fit: cover !important;
     height: 100% !important;
     max-width: none !important;
-  }
-  #shopify-section-{{section.id}} .compare-at-price-wrapper {
-    font-size: 12px !important;
-    line-height: 24px;
-    font-weight: 400;
   }
   {% comment %} #shopify-section-{{section.id}} .product-single__thumbnail__wrapper {
     padding-top: 0 !important;
@@ -223,24 +214,19 @@
                   <div class="text-body discount-goal">{{ section.settings.discount_goal }}</div>
                 {% endif %}
               </div>
-              
-              <ul class="text-body product-page--pricing{% unless section.settings.show_discount == 'hide' %} discount-badge{% endunless %}">              
-                {% if section.settings.product_price != blank %}
-                  <li class="product-page--pricing--variant-price">
-                    <span>
-                        <span class="money">{{  section.settings.product_price }}</span>
-                    </span>
-                  </li>
-                  <!-- Variant 'compare at' price -->
-                  <li class="product-page--pricing--variant-compare-at-price">
-                    <span class="compare-at-price-wrapper">
-                      <span class="money">{{ section.settings.compare_at_price }}</span>
-                    </span>
-                  </li>
-                {% else %}
-                  {% render 'product-pricing', current_variant: current_variant %}
-                  {% render 'unit-price-measurement-variant', current_variant: current_variant %}
-                {% endif %}
+              <ul class="text-body product-page--pricing{% unless section.settings.show_discount == 'hide' %} discount-badge{% endunless %}">
+                <li class="product-page--pricing--variant-price">
+                  <span class="js" id="price-field">
+                      <span class="money">{{ section.settings.price | money }}</span>
+                  </span>
+                </li>
+                
+                <!-- Variant 'compare at' price -->
+                <li class="product-page--pricing--variant-compare-at-price">
+                  <span class="compare-at-price js{% unless on_sale %} hide{% endunless %}">
+                    <span class="money">{{ section.settings.compare_at_price | money }}</span>
+                  </span>
+                </li>
               </ul>
 
               {%- if section.settings.product_note != blank -%}
@@ -282,6 +268,69 @@
               <div class="row homepage-sections--indiv-product-slider-variants">
 
                   {% if product.variants.size > 0  %}
+
+                    {% if settings.show_swatches %}
+                      {% unless product.has_only_default_variant %}
+                        {% for option in product.options %}
+                          {% render 'swatch' with option, product: product, section: section %}
+                        {% endfor %}
+                      {% endunless %}
+
+                      {% else %}
+
+                      {% for option in product.options_with_values %}
+                        <div class="col-md-6 col-sm-12 col-12{% if hide_default_title == true %} hide{% endif %}">
+                          <div class="input-field product-option-select">
+                            <wetheme-dropdown fit="parent">
+                              <select id="SingleOptionSelector-{{ forloop.index0 }}" class="wetheme-dropdown__select">
+                                {% if section.settings.pick_an_option and option.values.size > 0 %}
+                                  <option value="" selected data-placeholder>Pick a {{ option.name }}</option>
+                                {% endif %}
+                                {% for value in option.values %}
+                                  {% if section.settings.pick_an_option and option.values.size > 0 %}
+                                      {% assign props = '' %}
+                                  {% elsif option.selected_value == value %}
+                                      {% assign props = 'selected' %}
+                                  {% else %}
+                                    {% assign props = '' %}
+                                  {% endif %}
+
+                                  {% comment %}Hide out of stock variants{% endcomment %}
+                                  {% if product.options_with_values.size == 1 and section.settings.hide_out_of_stock %}
+                                    {% assign hide = true %}
+                                    {% for v in product.variants %}
+                                      {% if v.option1 == value and v.available %}
+                                        {% assign hide = false %}
+                                      {% endif %}
+                                    {% endfor %}
+                                  {% else }
+                                    {% assign hide = false %}
+                                  {% endif %}
+
+                                  {% unless hide %}
+                                    <option {{ props }} value="{{ value | escape }}">{{ value }}</option>
+                                  {% endunless %}
+                                {% endfor %}
+                              </select>
+                              <label for="SingleOptionSelector-{{ forloop.index0 }}">{{ option.name }}</label>
+                            </wetheme-dropdown>
+
+                            {% comment %} Size guide link (specific variant - dropdown) {% endcomment %}
+                            {% if section.settings.size_guide_link != blank and section.settings.size_guide_message != blank %}
+                              {% assign option_name = option.name | downcase %}
+                              {% assign  size_guide_variant = section.settings.size_guide_variant | downcase %}
+
+                              {% if option_name == size_guide_variant %}
+                                <a href="{{ section.settings.size_guide_link }}" class="size-guide-link">
+                                  {{ section.settings.size_guide_message }}
+                                </a>
+                              {% endif %}
+
+                            {% endif %}
+                          </div>
+                        </div>
+                      {% endfor %}
+                    {% endif %}
 
                   {% endif %}
 
@@ -328,15 +377,11 @@
       					  {% endif %}
 
                   <div class="col-md-12 col-sm-12 col-12 featured-product--submit-action">
-                    {% if section.settings.button_text != blank %}
-                      <a href="{{ product.url }}" class="button--primary btn {% if section.settings.show_smart_checkout and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}" data-cart-action="{% if template == 'cart' %}cart{% else %}{{ settings.cart-action }}{% endif %}">
-                        {{section.settings.button_text }}
-                      </a>
-                    {% else %}  
-                      <button type="submit" name="add" id="purchase" class="button--primary btn {% if section.settings.show_smart_checkout and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}" data-cart-action="{% if template == 'cart' %}cart{% else %}{{ settings.cart-action }}{% endif %}">
-                        {{ 'products.product.add_to_cart' | t }}
-                      </button>
-                    {% endif %}
+                    <button type="submit" name="add" id="purchase" class="button--primary btn {% if section.settings.show_smart_checkout and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}" data-cart-action="{% if template == 'cart' %}cart{% else %}{{ settings.cart-action }}{% endif %}">
+                      {% if section.settings.button_text != blank %}  
+                        {{ section.settings.button_text }}
+                      {% endif %}
+                    </button>
                     {% if section.settings.show_smart_checkout %}
                       {{ form | payment_button }}
                     {% endif %}
@@ -355,128 +400,7 @@
 
         {% else %}
 
-          <span class="money">$16.99</span>
-          <div class="onboarding--sold-out">
-            <a class="btn" href="#">
-              {{ 'products.product.sold_out' | t }}
-            </a>
-          </div>
-
         {% endunless %}
-
-        {% if section.settings.show_product_description %}
-          {% unless product == empty %}
-            <div class="entry-content product-description-wrapper">
-              {{ product.description }}
-            </div>
-          {% else %}
-            <p>
-              {{ 'general.onboarding.product_description' | t }}
-            </p>
-          {% endunless %}
-        {% endif %}
-
-        {% for block in section.blocks%}
-          {% case block.type %}
-            {% when 'custom-liquid' %}
-              {{ block.settings.custom-liquid }}
-
-            {% when 'product-rating' %}
-
-              {% if block.settings.rating != blank %}
-
-                {% if block.settings.rating-label != blank %}
-                  <p class="rating-label">{{ block.settings.rating-label }}</p>
-                  {% assign rating_aria_label = block.settings.rating-label %}
-                {% else %}
-                  {% assign rating_aria_label = "Rating" %}
-                {% endif %}
-
-                {% if block.settings.rating-icon-full %}
-
-                  {% liquid
-                    assign rating_decimal = 0
-                    assign decimal = block.settings.rating | modulo: 1
-                    if decimal >= 0.3 and decimal <= 0.7
-                      assign rating_decimal = 0.5
-                    elsif decimal > 0.7
-                      assign rating_decimal = 1
-                    endif
-
-                    assign full_icons = block.settings.rating | floor | plus: rating_decimal | floor
-                    assign empty_icons = block.settings.rating-max | round | minus: full_icons
-                    if rating_decimal == 0.5
-                      assign empty_icons = empty_icons | minus: 1
-                    endif
-
-                    assign full_alt = block.settings.rating-icon-full.alt | default: "Full icon"
-                    assign empty_alt = block.setting.rating-icon-empty.alt | default: "Empty icon"
-                  %}
-
-                  <div class="rating-icons" role="img" aria-label="{{ rating_aria_label }} - {{ block.settings.rating }} out of {{ block.settings.rating-max }}">
-                    {% for i in (1..full_icons) %}
-                      <div class="rating-icons__icon" aria-hidden="true">
-                        {% render 'responsive-image' with block.settings.rating-icon-full, alt: full_alt %}
-                      </div>
-                    {% endfor %}
-
-                    {% if block.settings.rating-icon-empty %}
-
-                      {% if rating_decimal == 0.5 %}
-                        <div class="rating-icons__icon rating-icons__icon--half" aria-hidden="true">
-                          <div class="rating-icons__image--full">
-                            {% render 'responsive-image' with block.settings.rating-icon-full, alt: full_alt %}
-                          </div>
-                          <div class="rating-icons__image--empty">
-                            {% render 'responsive-image' with block.settings.rating-icon-empty, alt: empty_alt %}
-                          </div>
-                        </div>
-                      {% endif %}
-
-                      {% for i in (1..empty_icons) %}
-                        <div class="rating-icons__icon" aria-hidden="true">
-                          {% render 'responsive-image' with block.settings.rating-icon-empty, alt: empty_alt %}
-                        </div>
-                      {% endfor %}
-
-                    {% endif %}                          
-                  </div>
-                {% else %}
-                  <p>{{ block.settings.rating }} / {{ block.settings.rating-max }}</p>
-                {% endif %}
-              {% endif %}
-
-            {% when 'image-offer' %}
-
-              <div class="image-offer-container">
-                {% if block.settings.link != blank and block.settings.image != blank %}
-                  <a href="{{ block.settings.link }}" class="image-offer-container--is-link">
-                {% endif %}
-
-                {% if block.settings.image == blank %}
-                    {{ 'lifestyle-1' | placeholder_svg_tag: 'icon--placeholder' }}
-                {% else %}
-                    {% capture alt %}{{ block.settings.image.alt | default: shop.name }}{% endcapture %}
-                    {% render 'responsive-image' with block.settings.image, alt: alt %}
-                {% endif %}
-
-                {% if block.settings.link != blank and block.settings.image != blank %}
-                  </a>
-                {% endif %}
-              </div>
-
-              <style>
-                .image-offer-container--is-link:hover img {
-                  border-color: {{ block.settings.hover_border_color }};
-                }
-              </style>
-
-            {% when 'text-with-icon' %}
-              
-              {% render 'text-with-icon', icon: block.settings.icon, text: block.settings.text, link: block.settings.link  %}
-
-          {% endcase %}
-        {% endfor %}
 
       </section>
 
@@ -493,7 +417,7 @@
 {% schema %}
 {
     "name": {
-      "en": "Featured Gift Card",
+      "en": "Last Minute Gift Card",
     },
     "class": "homepage-section--indiv-product-wrapper",
     "settings": [
@@ -626,36 +550,18 @@
         },
         {
           "type": "text",
-          "id": "product_price",
-          "label": {
-            "en": "Product Price",
-          }
-        },
-        {
-          "type": "text",
-          "id": "compare_at_price",
-          "label": {
-            "en": "Compare Price",
-          }
-        },
-        {
-          "type": "text",
           "id": "product_note",
           "label": "Note"
         },
         {
           "type": "text",
           "id": "button_text",
-          "label": {
-            "en": "Button Text",
-          }
+          "label": "Button"
         },
         {
           "type": "url",
           "id": "button_url",
-          "label": {
-            "en": "Button Link",
-          }
+          "label": "Button URL"
         },
         {
           "type": "color",
@@ -1335,7 +1241,7 @@
     "presets": [
         {
             "name": {
-                "en": "Featured Gift Card",
+                "en": "Last Minute Gift Card",
             },
             "category": {
                 "en": "Product",
