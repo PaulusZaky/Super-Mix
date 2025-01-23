@@ -374,6 +374,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "12855036574018961682": {
+        "type": "shopify:\/\/apps\/givy\/blocks\/index\/7e8263d6-6c9a-4d94-9b94-612e9cb257e3",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
